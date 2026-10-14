@@ -1,0 +1,9 @@
+[Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
+
+# <a id="registro"></a>Registro attività
+
+**Sistema → Registro attività** elenca accessi e operazioni (chi, quando, da quale indirizzo, con quale esito): creazione e modifica di utenti e clienti, caricamenti, revisioni, spostamenti, eliminazioni e cartelle riservate dei [documenti](documenti.md), cambi di impostazioni, backup, ripristini, aggiornamenti e nuove versioni disponibili. Si filtra per periodo e categoria, si cerca nel testo, si esporta in CSV (il pulsante **Esporta CSV** compare a chi ha il permesso **Esportare il registro attività**) e si [stampa](interfaccia.md#stampa). Le voci più vecchie del periodo di conservazione (Impostazioni) vengono eliminate da sole. Dei contatti privati il registro riporta solo il codice; di un'[importazione di clienti](clienti.md#clienti-importa) solo il nome del file e quanti clienti sono stati creati e saltati. Delle [password](password.md#password-storico) riporta creazioni, modifiche, cestino, importazioni, esportazioni e ogni volta che un segreto viene mostrato o copiato, con il nome della voce e mai il valore (categoria **Password**). Dei [progetti](progetti.md) (categoria **Progetti**) riporta creazione, modifica ed eliminazione di progetti e modelli, con quante attività sono state eliminate o lasciate senza progetto, le cartelle create in Documenti e i progetti nati da un modello (e i modelli nati da un progetto); delle [attività](attivita.md) (categoria **Attività**) le eliminazioni e i cambi della condivisione, con numero e titolo: il resto del lavoro sulle attività sta nel loro storico. Degli [appunti](appunti.md#appunti-riservatezza) e dei testi della chat non riporta nulla.
+
+---
+
+[← Gruppi e policy](gruppi-policy.md) · [Indice](README.md) · [Archiviazione →](archiviazione.md)

@@ -1,0 +1,80 @@
+[Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
+
+# <a id="vendite"></a>Vendite
+
+**Commerciale → Vendite** fa i documenti verso i clienti: i **DDT** (documenti di trasporto) che accompagnano la merce, le **fatture** (immediate, differite dai DDT, d'acconto) e le **note di credito**, con gli **incassi**, i **solleciti** e la **fattura elettronica** nel formato ufficiale. Le linguette sono Fatture, DDT, Da fatturare, Incassi, Crediti (il [recupero crediti](#vendite-crediti)), Fattura elettronica e [Andamento](#vendite-andamento); in alto **Nuova fattura**, **Nuovo DDT**, **Impostazioni** e **Stampa**. Fatture e incassi sono dati riservati: li vede chi ha il permesso delle vendite.
+
+## <a id="vendite-ddt"></a>I DDT
+
+**Nuovo DDT** apre il pannello a destra: il **cliente** (dati fiscali, sede ed email si prendono dalla sua scheda), la data, il riferimento, l'ordine del cliente, la commessa e il **magazzino** (o furgone) da cui esce la merce. Le righe si aggiungono dal listino (anche con il codice a barre: accanto c'è la giacenza e l'ultimo prezzo fatto a quel cliente), come riga libera o come testo; per le voci con matricola si scrivono le matricole o si scelgono tra quelle in magazzino con **Scegli**. In **Trasporto** ci sono il luogo di destinazione (vuoto = la sede del cliente; il pulsante accanto propone le sue sedi), la causale, chi trasporta, il vettore, colli, peso, aspetto dei beni, porto e inizio del trasporto. I prezzi del DDT non si stampano: servono alla fattura.
+
+**Emetti** rilegge i dati fiscali del cliente dalla sua scheda (dalla 1.124.5: la partita IVA o il codice SDI scritti dopo aver preparato la bozza valgono senza risalvarla) e, prima di chiedere la conferma, dice se manca qualcosa per la fattura elettronica (dalla 1.125.0): **Completa la scheda** apre quella del cliente (o i dati dell'azienda), poi si torna e si emette. Emettendo dà il numero (i DDT hanno la loro numerazione per anno) e **scarica la merce** dal magazzino con la causale *Vendita*, matricole comprese; se qualche giacenza andrebbe sotto zero lo dice e chiede conferma. Un DDT emesso non si modifica: **Annulla il DDT** (con il motivo) lo tiene numerato e riporta la merce in magazzino; **Riporta in bozza** vale solo per l'ultimo numero. **Stampa** apre l'anteprima del DDT con il [modello di stampa](modelli-stampa.md) delle vendite: i dati del trasporto e, in fondo all'ultimo foglio, gli spazi per le firme; **Manda per email** lo manda al cliente.
+
+## <a id="vendite-fatture"></a>Le fatture
+
+**Nuova fattura** ha gli stessi campi (senza il trasporto) più il **tipo**, il **pagamento**, l'IBAN, il **bollo** e la **scissione dei pagamenti**. Ogni riga ha prezzo, sconto (anche in cascata, 50+10) e **aliquota IVA** (dal [listino](listino.md#listino-iva), con la natura per le operazioni senza IVA); sotto le righe c'è il riepilogo per aliquota e il totale. Il bollo da 2 € si mette da solo quando le operazioni senza IVA (esenti, escluse, non imponibili) superano 77,47 €, oppure si sceglie a mano. Con un magazzino scelto la fattura scarica anche la merce (fattura accompagnatoria); se la merce è uscita con un DDT, il magazzino resta vuoto.
+
+Le fatture nascono anche dal lavoro già fatto, nella linguetta **Da fatturare**:
+
+- **DDT da fatturare**, per cliente: si spuntano e **Fattura i scelti** prepara la **fattura differita** con un testo «DDT n. … del …» davanti alle righe di ogni DDT (la merce non si scarica di nuovo). Anche dal DDT, **Fattura**.
+- **Assistenza da fatturare**: le [richieste](assistenza.md) chiuse con un consuntivo da addebitare; la fattura prende le righe del consuntivo e, all'emissione, la richiesta risulta fatturata con numero e data. Anche dalla richiesta, **Prepara la fattura**.
+- **Preventivi accettati**: **Fattura…** sceglie tra tutte le righe, un **acconto** in percentuale (fattura d'acconto) e il **saldo** (le righe meno gli acconti già fatturati). Anche dal preventivo, nel menu ⋯.
+
+**Emetti** (chi gestisce le vendite) controlla che ci siano i dati per la fattura elettronica (dell'azienda e del cliente: partita IVA o codice fiscale, indirizzo, CAP), dà il numero (fatture e note di credito hanno la stessa numerazione per anno, con il prefisso delle impostazioni) e fa le **rate** dal termine di pagamento. Le fatture vanno in ordine di data: una con una data precedente all'ultima emessa non prende il numero. Una fattura emessa non si modifica (aperta, si legge come un documento, con il lucchetto e il motivo nella fascia in alto): si corregge con una **nota di credito** (dal menu Azioni: tutte le righe o quelle scelte, con la quantità da stornare). **Riporta in bozza** vale solo per l'ultimo numero, prima di mandarla allo SDI e senza incassi. Gli stati: **Bozza**, **Da incassare**, **Incassata in parte**, **Scaduta**, **Incassata**. **Stampa** apre l'anteprima della copia di cortesia con il [modello di stampa](modelli-stampa.md) delle vendite: il riepilogo IVA, le scadenze e l'IBAN; su più fogli le righe hanno il riporto. **Manda la copia di cortesia** la manda per email, con l'XML allegato se si vuole. Le email partono **a nome di chi le manda** (le risposte vanno a lui e ne riceve una copia): serve la propria email nel profilo.
+
+## <a id="vendite-incassi"></a>Incassi e solleciti
+
+La linguetta **Incassi** elenca le rate da incassare, dalla più vecchia, con le scadute in rosso e i totali. **Incassa** registra quanto è arrivato e quando (anche in parte: gli incassi si sommano; **Togli l'incasso** lo annulla). Alle fatture scadute **Sollecito di pagamento** manda al cliente un'email con le rate scadute, quanto resta e l'IBAN; i solleciti si contano. Le rate scadute o in scadenza entro una settimana sono anche nello [scadenzario](scadenze.md) e nei promemoria di chi gestisce le vendite. I **termini di pagamento** (nelle impostazioni) dicono la modalità (bonifico, RIBA, contanti…) e i giorni delle rate dalla data della fattura, separati da virgole (30,60,90), a fine mese se indicato; il totale si divide in parti uguali. Un sollecito mandato dalla fattura vale come primo livello del [recupero crediti](#vendite-crediti).
+
+## <a id="vendite-crediti"></a>Recupero crediti
+
+La linguetta **Crediti** segue i clienti che devono dei soldi: per ognuno quanto è **scaduto** e quanto c'è **da incassare**, l'**anzianità** (la barra: non scaduto, fino a 30, 60, 90 giorni e oltre), il **rischio**, fin dove è arrivato con i solleciti e il **prossimo passo**. I filtri rapidi: **Da sollecitare** (chi ha una lettera da mandare oggi), Scaduti, In scadenza, Promesse, Bloccati, Tutti; in fondo i totali.
+
+- **Iter dei solleciti** (chi gestisce le vendite): i livelli, ognuno con il nome, i giorni, il canale (email a nome di chi la manda, oppure la PEC dell'azienda), l'oggetto, il testo e, se serve, gli **interessi di mora**. Il livello 0 è il **promemoria** qualche giorno prima della scadenza (non per le modalità che incassa la banca da sola, come RIBA e addebito SEPA: si scelgono); gli altri sono i solleciti, dopo i giorni di ritardo indicati. **Proponi l'iter** mette promemoria a 5 giorni, sollecito dopo 7, secondo sollecito dopo 30 e diffida e messa in mora con la PEC dopo 60, con gli interessi: si cambia tutto. Nel testo {cliente}, {totale}, {azienda}, {iban}, {giorni}, {scadenza} e {livello} diventano i dati della lettera; sotto il testo la lettera elenca le fatture con la scadenza, l'importo, i giorni di ritardo e gli interessi. Si sceglie anche la **pausa tra due lettere**, il **tasso degli interessi di mora** (per le transazioni commerciali quello della BCE più 8 punti, aggiornato ogni semestre: lo conferma il commercialista) e dopo quanti giorni di ritardo il rischio è alto.
+- **Prossimo passo**: la lettera del livello raggiunto dal ritardo, ma **un livello alla volta** (dopo 70 giorni senza solleciti si comincia dal primo, non dalla diffida) e solo dopo la pausa dall'ultima lettera; con una promessa di pagamento aperta si aspetta. Scegliendo più clienti con l'icona **Manda le lettere** le spedisce tutte insieme, ognuna al suo livello.
+- **La pratica** (un clic sul cliente): scaduto, esposizione e fido, come paga (ritardo medio e puntualità degli incassi degli ultimi 12 mesi), le rate con il livello raggiunto, il prossimo passo con **Prepara la lettera** (livello, email o PEC, destinatario, testo da ritoccare per questa volta, **Anteprima**), e la storia: le lettere mandate, **Telefonata**, **Visita**, **Nota**, **Promessa di pagamento** (entro quando e quanto: diventa «mantenuta» da sola quando arrivano gli incassi, va nello [scadenzario](scadenze.md) e nei promemoria, e se il giorno passa senza i soldi il rischio sale) e **Pratica al legale**.
+- **Fido e blocco** (chi gestisce le vendite): il fido è l'esposizione massima del cliente; il blocco, con il motivo, finisce nella pratica. Chi prepara una **fattura**, un **DDT** o un **preventivo** per un cliente in ritardo, oltre il fido o bloccato vede un **avviso** sotto il nome del cliente (il documento si può fare lo stesso).
+- **Rischio**: *in regola*, *da seguire* (ha qualcosa di scaduto), *rischio alto* (ritardo oltre la soglia, oltre il fido o una promessa non mantenuta), *bloccato*.
+- La diffida con la PEC parte dalla casella PEC delle impostazioni delle vendite (Fattura elettronica → Con la PEC): la ricevuta di consegna arriva lì e vale come prova dell'invio.
+
+Permessi: chi vede le vendite vede le pratiche; chi prepara i documenti registra telefonate, visite, note e promesse; chi gestisce le vendite manda le lettere, prepara l'iter e decide fido e blocco. L'avviso nei documenti lo vede anche chi fa i preventivi.
+
+## <a id="vendite-sdi"></a>La fattura elettronica
+
+Dalla fattura emessa, **Fattura elettronica** scarica l'XML nel formato **FatturaPA 1.2.2** (verso privati), controllato prima con lo **schema ufficiale** dell'Agenzia delle Entrate: se qualcosa non va lo dice e non lo scarica. Il nome del file (IT, partita IVA, «\_», progressivo) si assegna la prima volta e resta. Nell'XML ci sono il codice destinatario del cliente (o la sua PEC, o 0000000), il regime fiscale, il REA con il capitale e il socio unico, l'ordine del cliente, i DDT con le righe a cui si riferiscono, la fattura collegata (per le note di credito), gli sconti, le nature e i riferimenti normativi dell'IVA, il bollo, le rate con l'IBAN.
+
+La linguetta **Fattura elettronica** mostra lo stato di ogni fattura: **da preparare**, **XML preparato**, **inviata**, **consegnata**, **nel cassetto fiscale** (mancata consegna: il cliente la trova nella sua area dell'Agenzia delle Entrate), **scartata** (con l'errore). Si spuntano le fatture e **Scarica le scelte (ZIP)** le prepara tutte insieme, da caricare sul portale *Fatture e Corrispettivi* o dal proprio intermediario (per esempio quello che si usa già). **Carica le ricevute** legge le ricevute dello SDI (XML, firmate .p7m o in uno ZIP): ognuna trova la sua fattura dal nome del file e ne aggiorna lo stato. Si può anche segnare lo stato a mano con **Stato presso lo SDI**.
+
+Una fattura **scartata** per il fisco non è emessa: si apre, si corregge quello che dice l'errore (righe, IVA, pagamento; i dati del cliente si rileggono dalla sua scheda salvando, quindi prima si corregge la scheda) con lo **stesso numero e la stessa data**, **Salva la correzione** e si rimanda: il file prende un progressivo nuovo e le rate si rifanno. Se la fattura ha scaricato merce dal magazzino, materiale e quantità restano quelli (lo scarico si corregge dal magazzino); con incassi registrati il totale non cambia.
+
+## <a id="vendite-pec"></a>Invio diretto allo SDI con la PEC
+
+Nelle **Impostazioni** delle vendite, **Invio allo SDI** sceglie come partono le fatture: **A mano** (si scaricano gli XML e si caricano sul portale *Fatture e Corrispettivi* o dall'intermediario) oppure **Con la PEC**, uno dei canali ufficiali dello SDI, che non chiede accreditamento. Per la PEC servono l'indirizzo della casella dell'azienda, i server di invio (SMTP) e di lettura (IMAP) del gestore (**Gestore** riempie quelli di Aruba PEC e Legalmail: controllali con quelli che ti ha dato), nome utente e password (salvata cifrata sul server, non si rivede), la cartella dove arrivano le ricevute e ogni quanti minuti leggerle. **Salva e prova la casella** controlla l'accesso a tutti e due i server senza mandare niente.
+
+- **Manda allo SDI** (dalla fattura, oppure **Manda le scelte allo SDI** nella linguetta Fattura elettronica) manda ogni fattura in un messaggio PEC con l'XML in allegato, controllato prima con lo schema ufficiale. Il primo invio va a **sdi01@pec.fatturapa.it**; con la prima risposta lo SDI indica l'indirizzo dedicato da usare dopo, e il programma lo impara da solo.
+- Le **ricevute** (consegna, scarto, mancata consegna) arrivano alla stessa casella: il server le legge da solo ogni tanti minuti, oppure subito con **Controlla le ricevute**, e aggiorna lo stato delle fatture. Legge solo i messaggi dello SDI con le ricevute delle nostre fatture, che diventano letti; il resto della posta resta com'è. Conviene comunque una casella PEC usata solo per le fatture elettroniche.
+- Una fattura già mandata non riparte; una scartata riparte dopo la correzione.
+
+> [!TIP]
+> L'Agenzia delle Entrate prevede quattro modi per mandare le fatture allo SDI: il caricamento dell'XML sul portale (qui: **A mano**), la procedura web e l'app FatturAE (che servono a scrivere la fattura direttamente lì, non a mandare quelle fatte con un programma), la **PEC** (qui: **Con la PEC**) e i canali telematici SFTP e web service, che richiedono un accreditamento con lo SDI.
+
+## <a id="vendite-andamento"></a>L'andamento
+
+La linguetta **Andamento** mette in grafico i numeri delle vendite:
+
+- **Fatturato e incassato** degli ultimi dodici mesi, una coppia di colonne per mese: il fatturato (fatture emesse meno note di credito, IVA inclusa, per data del documento) in blu e l'incassato (gli incassi registrati, per data dell'incasso) in verde; il mese in corso è evidenziato e passando sopra una colonna si leggono i due importi. In alto i totali dei dodici mesi.
+- **Da incassare per anzianità**: quanto resta da incassare, diviso tra non ancora scaduto (verde), scaduto da 1-30 e 31-60 giorni (giallo), da 61-90 e oltre 90 giorni (rosso), con il numero delle rate.
+- **Clienti con più da incassare**: i cinque con l'importo più alto e quanto ne è già scaduto; un clic apre la loro situazione nei [Crediti](#vendite-crediti).
+
+## <a id="vendite-impostazioni"></a>Impostazioni e permessi
+
+Le **Impostazioni** (chi gestisce le vendite) hanno il **regime fiscale** (RF01 ordinario, RF19 forfettario…), socio unico o più soci, la liquidazione, i prefissi dei numeri di fatture e DDT, l'**IBAN** (vuoto = il primo conto dei dati dell'azienda), il termine di pagamento proposto, le note proposte e i **termini di pagamento** (**Aggiungi i più comuni** mette rimessa diretta, bonifico a 30 e 60 giorni, RIBA 30/60 e 30/60/90, contanti). Ragione sociale, partita IVA, sede, REA e capitale sono quelli dei dati dell'azienda (Impostazioni → Generale): se manca qualcosa per la fattura elettronica, la pagina lo dice.
+
+| Vedere le vendite | Riservato: DDT, fatture e note di credito con gli importi, le rate e gli incassi, le fatture elettroniche e il loro stato. |
+| --- | --- |
+| Preparare DDT e fatture | Creare e modificare le bozze (anche dai DDT, dall'assistenza e dai preventivi), emettere, annullare e mandare i DDT. Per scaricare la merce serve anche *Registrare i movimenti* del magazzino. |
+| Gestire le vendite | Emettere fatture e note di credito, la fattura elettronica e il suo stato, gli incassi e i solleciti, i termini di pagamento e le impostazioni. |
+
+---
+
+[← Acquisti](acquisti.md) · [Indice](README.md) · [Fatture dei fornitori →](fatture-fornitori.md)

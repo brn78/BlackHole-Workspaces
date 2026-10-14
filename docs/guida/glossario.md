@@ -1,0 +1,104 @@
+[Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
+
+# <a id="glossario"></a>Glossario
+
+- **Appunto**: Nota di testo o elenco di voci da spuntare, personale oppure condiviso con colleghi e gruppi: lo vedono solo il proprietario e i destinatari.
+- **Archivio (appunti)**: La vista in cui ciascuno mette da parte gli appunti che non gli servono sott'occhio: vale solo per chi archivia.
+- **Aree del menu**: Le sezioni del menu laterale: La mia giornata, Anagrafiche, Commesse, Commerciale, Azienda e Archivio; le pagine di gestione della piattaforma sono nel menu del pulsante Sistema. Vedi [La mia giornata e le aree](area-di-lavoro.md).
+- **Assistente AI**: La chat della barra in alto che risponde con un modello linguistico sul server: domande, attività, rapportini, riassunti, supporto tecnico. Vedi [Assistente AI](assistente-ai.md).
+- **Attività condivisa**: Un'attività che chi può modificarla fa vedere a colleghi e gruppi, in sola lettura o con la modifica: chi la riceve ci lavora comunque (stato, voci, commenti, file, ore).
+- **Avviso**: Messaggio in basso a destra che segnala qualcosa arrivato da altri: un messaggio della chat, un appunto condiviso con te, una notifica di attività e progetti.
+- **Backup `.bhbak`**: File unico con tutti i dati della piattaforma, eventualmente cifrato.
+- **Bot di Telegram**: L'account di Telegram dell'azienda, creato con @BotFather, da cui arrivano le notifiche a chi collega la sua chat. Vedi [Su Telegram](notifiche.md#notifiche-telegram).
+- **Browser di fiducia**: Browser su cui, per un periodo, non viene chiesto il codice della verifica in due passaggi.
+- **Cartella riservata**: Cartella dei documenti visibile, con tutto il suo contenuto, solo agli utenti e ai gruppi scelti, anche in sola lettura.
+- **Catalogo del personale**: L'elenco uguale per tutti dei corsi, dei documenti personali e delle visite, con la validità che propone la scadenza, il preavviso e per chi sono obbligatori. Vedi [Il catalogo](personale.md#personale-catalogo).
+- **Certificazione**: Una dichiarazione del registro (DiCo, DiRi, quadro elettrico…), numerata per modello e anno e legata a un impianto: in bozza si compila, emessa resta com'era all'emissione, annullata resta nel registro. Vedi [Certificazioni](certificazioni.md).
+- **Cestino (appunti)**: Dove finiscono gli appunti eliminati dal proprietario: si ripristinano entro 30 giorni, poi vengono eliminati da soli.
+- **Cestino (clienti)**: Dove finiscono le schede di clienti e fornitori eliminate: si ripristinano entro 30 giorni, poi vengono eliminate da sole; prima, solo chi ha il permesso «Svuotare il cestino dei clienti» le elimina per sempre. Vedi [Cestino](clienti.md#clienti-cestino).
+- **Cestino (documenti)**: Dove finiscono file e cartelle tolti dall'archivio: si ripristinano entro 30 giorni, poi vengono eliminati da soli.
+- **Cestino (password)**: Dove finiscono le password tolte dal proprietario (o da chi gestisce le condivise): si ripristinano entro 30 giorni, poi vengono eliminate da sole.
+- **Codice catastale**: Il codice di quattro caratteri del comune (o dello stato estero) di nascita, parte del codice fiscale.
+- **Codice destinatario SDI**: Il codice a cui il Sistema di Interscambio recapita le fatture elettroniche del cliente.
+- **Contatto privato**: Cliente visibile solo al suo proprietario.
+- **Costo netto**: Il prezzo di un articolo del listino del fornitore meno lo sconto della sua famiglia: è il costo delle voci del listino collegate. Vedi [Listini fornitori](listini-fornitori.md).
+- **CSV**: File di testo con una riga per ogni elemento e i valori separati da punto e virgola (o virgola), apribile con Excel: serve a esportare e a importare i clienti.
+- **Da completare**: Etichetta dei clienti creati al volo da una richiesta di assistenza, con il solo minimo (nome, telefono, indirizzo): la scheda va completata con i dati fiscali. Vedi [Aprire una richiesta](assistenza.md#assistenza-apertura).
+- **Da controllare**: Etichetta dei clienti importati con dati non validi, messi in fondo alle note sotto «Dati del file da controllare»: si cerca come una parola qualsiasi e si toglie quando i dati sono sistemati.
+- **DiCo, DiRi**: Dichiarazione di conformità dell'impianto alla regola dell'arte (D.M. 37/08, Allegato I) e dichiarazione di rispondenza, che la sostituisce per gli impianti eseguiti prima del 27 marzo 2008 (art. 7, comma 6): due dei modelli predefiniti delle [Certificazioni](certificazioni.md).
+- **DXF, DWG**: Formati dei disegni CAD. Il DXF è aperto e il visualizzatore lo mostra con i livelli; il DWG è il formato di AutoCAD, chiuso: il server lo converte in DXF per mostrarlo, oppure se ne vede l'anteprima salvata nel file.
+- **Famiglia di sconto**: Il gruppo di articoli di un listino METEL su cui il fornitore concede uno stesso sconto: lo sconto si scrive famiglia per famiglia. Vedi [Sconti](listini-fornitori.md#listini-fornitori-sconti).
+- **Filtri rapidi**: I pulsanti uniti sotto le linguette di una pagina (Tutti · Miei · Condivisi…) che scelgono con un clic quali elementi vedere.
+- **Firma digitale (di un programma)**: Il certificato con cui il produttore firma un setup: dice chi lo ha pubblicato e che il file non è stato alterato.
+- **Gantt**: Cronoprogramma: ogni attività è una barra dalla data di inizio alla scadenza.
+- **Fornitore**: Una scheda dell'anagrafica con il ruolo Fornitore: sta nella pagina Fornitori e, se è anche cliente, pure tra i clienti. Vedi [Ruoli](clienti.md#clienti-ruoli).
+- **Icona e colore**: La piccola immagine di una scheda (cliente, impianto, controllo del monitoraggio, mezzo, tipo…), scelta tra le icone Material Design Icons con un colore; i tipi la passano a ciò che non ne ha una sua. Vedi [Icone e colori](interfaccia.md#interfaccia-icone).
+- **Impianto**: Ciò che è installato presso un cliente, in una sua sede (antintrusione, videosorveglianza, KNX…): ha la sua pagina con il Leggimi, la cartella in Documenti, gli interventi, le certificazioni e i progetti che lo hanno realizzato. Il progetto finisce, l'impianto resta. Vedi [Impianti](impianti.md).
+- **Intervento**: Un'attività collegata a un impianto (installazione, manutenzione, riparazione, modifica): compare nella pagina dell'impianto, anche dopo la chiusura del suo progetto. Vedi [Interventi](impianti.md#impianti-interventi).
+- **Generatore di password**: Crea nel browser password casuali, da leggere o PIN, con il generatore casuale crittografico: vedi [Password](password.md#password-generatore).
+- **JSON**: File di testo con dati strutturati, scritto da un programma: serve a importare i clienti di un altro gestionale con più indirizzi, recapiti, referenti e banche per cliente.
+- **Kanban**: Vista delle attività in colonne, una per stato, in cui si spostano trascinandole.
+- **La mia giornata**: La prima area del menu laterale: Home, Attività, Appunti e Password, il lavoro di ogni giorno di ciascuno. Vedi [La mia giornata e le aree](area-di-lavoro.md).
+- **Leggimi**: Il testo di un impianto con ciò che serve sapere prima di intervenire: com'è fatto, dove sono centrale e apparati, accorgimenti, contatti sul posto. È la prima linguetta della pagina dell'impianto.
+- **LibreOffice**: Programma di ufficio gratuito; installato sul server, converte in PDF i documenti che il browser non sa leggere (.doc, .ppt, .odt…).
+- **Link di condivisione**: Un indirizzo che fa vedere a chi non ha un account un file, una cartella o la documentazione di un impianto, con scadenza e password facoltative, anche per farsi mandare file. Vedi [Condivisioni](condivisioni.md).
+- **Listino**: Ciò che l'azienda vende (materiali, prestazioni, manodopera) con prezzo di vendita e IVA e, per chi ha il permesso, costo, ricarico e margine. Vedi [Listino](listino.md).
+- **Maiuscole e minuscole automatiche**: La forma che nomi, aziende (con la forma giuridica), indirizzi, città, qualifiche, titoli, note, modelli e codici prendono da soli quando esci dal campo e al salvataggio: *rossi mario* diventa *Rossi Mario*, *acme srl* diventa *Acme S.r.l.*, *cancello bloccato* diventa *Cancello bloccato*. Ciò che scrivi con maiuscole e minuscole volute resta com'è. Vedi [Maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato).
+- **METEL**: Il formato standard dei listini del materiale elettrico: un file di testo con un articolo per riga (marchio, codice, EAN, descrizione, prezzi, famiglia di sconto). Vedi [Listini fornitori](listini-fornitori.md).
+- **Mezzo, attrezzatura**: Un bene dell'azienda con la sua scheda: un'auto, un furgone o un autocarro (targa, km, carta carburante) oppure un'attrezzatura (scala, trapano, giuntatrice, strumento…), con le scadenze, le manutenzioni e a chi è consegnato. Vedi [Mezzi e attrezzature](mezzi.md).
+- **Manutenzione, piano di manutenzione**: Un intervento periodico su un impianto di un cliente (per esempio il controllo semestrale di un antincendio): il piano dell'impianto ne tiene la prossima scadenza, ogni quanto si fa e i controlli; il rapporto ne registra l'esito. Vedi [Manutenzioni](manutenzioni.md).
+- **Pratica**: Un iter con un ente per un cliente e un impianto (connessione alla rete, Gaudì, GSE, ENEA, Comune…): i passi del suo tipo, ognuno con la scadenza nello scadenzario, fino alla conclusione. Vedi [Pratiche](pratiche.md).
+- **Produttore**: La marca dei materiali (chi pubblica il listino METEL), distinta dal fornitore che li vende: ha le sigle METEL, il sito con la scheda dei prodotti, i link e la sua cartella in Documenti. Vedi [Produttori](produttori.md).
+- **Rapporto di assistenza**: La stampa di una richiesta di assistenza, da far firmare al cliente: il problema, gli interventi con i tecnici e il lavoro svolto, la soluzione. In laboratorio è il rapporto di riparazione. Vedi [La scheda della richiesta](assistenza.md#assistenza-scheda).
+- **Rapporto di manutenzione**: Il resoconto di un intervento di manutenzione, numerato per anno (RM 2026-012), con l'esito, i controlli, i lavori e i file, da stampare e far firmare al cliente. Vedi [I rapporti](manutenzioni.md#manutenzioni-rapporti).
+- **Mansione**: Il lavoro che una persona fa in azienda (elettricista, capo cantiere, impiegata amministrativa…), scritto nella sua scheda del personale: decide i corsi, i documenti e le visite obbligatori. Per un utente collegato è anche il suo ruolo aziendale.
+- **Migliora testo**: Il pulsante ✨ nei campi di testo dei moduli: l'assistente AI corregge, chiarisce, accorcia, rende professionale, mette in elenco o traduce il testo, e la proposta si applica solo se la accetti. Vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
+- **Dati riservati**: Costi, prezzi di acquisto, ricarichi, retribuzioni, documenti personali e coordinate bancarie: ci arriva solo chi ha i permessi segnati con il lucchetto nelle policy. Vedi [Dati riservati e policy proposte](gruppi-policy.md#policy-riservati).
+- **Modelli tra server**: L'esportazione e l'importazione dei modelli (tipi di impianto, schede tecniche, certificazioni, schemi dei file, modelli di progetto) in un file che ricorda l'origine e cita per nome dove si usano e per chi: per portarli dal server di prova a quello in uso. Vedi [Modelli tra server](impostazioni.md#impostazioni-modelli).
+- **Modello (assistente AI)**: Il file di qualche GB, in formato GGUF, con cui l'assistente AI scrive le risposte: più è grande, più è preciso ma lento. Lavora a «token», pezzi di parola: il contesto dice quanti ne tiene presenti in una volta.
+- **Modello di certificazione**: Il tipo di una certificazione (DiCo, DiRi, quadro elettrico o uno aggiunto): sigla e numerazione, campi da compilare, allegati previsti, firme e testo di stampa con i segnaposto. Vedi [Modelli](certificazioni.md#certificazioni-modelli).
+- **Modello di progetto**: Progetto tipo con attività le cui date sono giorni dall'inizio: da un modello nasce un progetto già organizzato.
+- **Notifica**: Avviso di ciò che ti riguarda nelle attività e nei progetti, nella campanella in alto e, se vuoi, per email e su Telegram. Il messaggio in alto a destra con l'esito di un'operazione è la *notifica dell'operazione*.
+- **Numero dell'attività**: Il numero `#12` di ogni attività, unico tra tutte e mai riusato: «#12» nella ricerca la trova.
+- **Omocodia**: Due persone con lo stesso codice fiscale calcolato: l'Agenzia delle Entrate ne modifica uno sostituendo cifre con lettere.
+- **otpauth://**: L'indirizzo contenuto nel QR code della verifica in due passaggi di un sito: porta la chiave segreta da cui nascono i codici. Si incolla nella scheda di una password per vederne i codici.
+- **Pagina del progetto**: La pagina di un progetto, aperta da Commesse → Progetti: intestazione con l'avanzamento e le linguette Attività, Impianti, Certificazioni, Documenti e Storico. Vedi [Progetti](progetti.md#progetti-pagina).
+- **Password precedente**: La password che una voce aveva prima dell'ultimo cambio: resta cifrata nel suo storico (le ultime 20).
+- **Password personale, condivisa**: Una voce della gestione password visibile solo a chi l'ha creata, oppure anche a colleghi, gruppi o tutti, in lettura o con la modifica.
+- **Policy**: Permessi e regole di sicurezza applicati agli utenti tramite i gruppi (non agli amministratori).
+- **Potenziale cliente**: Chi non ha ancora comprato: una scheda con il ruolo Potenziale, che diventa cliente con un clic su Cliente. Vedi [Ruoli](clienti.md#clienti-ruoli).
+- **Possibile doppione**: Cliente con lo stesso codice fiscale, la stessa partita IVA o lo stesso nome di un altro: segnalato nella scheda e nell'importazione dei clienti, dove viene saltato se non lo scegli tu.
+- **Progetto riservato**: Progetto visibile solo al responsabile e ai membri; le sue attività restano tra le persone che lo vedono.
+- **Proxy attendibile**: Reverse proxy da cui il server accetta l'indirizzo reale di chi si collega.
+- **Registro delle certificazioni**: La pagina Commesse → Certificazioni: tutte le dichiarazioni degli impianti, numerate per modello e anno, al posto delle cartelle per anno. Vedi [Il registro](certificazioni.md#certificazioni-registro).
+- **Registro ore**: Le ore lavorate sulle attività, per persona e giorno, con i totali per persona, progetto e cliente: scheda Ore della pagina Attività. Vedi [Registro ore](attivita.md#attivita-ore).
+- **Revisione (attività)**: Il controllo del lavoro finito: l'attività resta «In revisione» finché il revisore non la approva o la rimanda.
+- **Revisione (documenti)**: Una versione di un documento: ogni file conserva le precedenti, che si aprono, si scaricano e si ripristinano.
+- **Ricarico e margine**: Il ricarico è la differenza tra prezzo e costo in percentuale del costo (10 € → 13 € = 30 %); il margine è la stessa differenza in percentuale del prezzo (3 € su 13 € = 23 %). Vedi [Costo e prezzo](listino.md#listino-prezzi).
+- **Ricerca generale**: La casella che cerca in tutto ciò che puoi vedere (clienti, documenti, attività, progetti, impianti, certificazioni, appunti, password, colleghi, guida): pulsante Cerca in alto, <kbd>Ctrl</kbd>+<kbd>K</kbd> o la Home. Vedi [Ricerca](ricerca.md).
+- **Ruoli (di una scheda)**: Cliente, Potenziale cliente e Fornitore: dicono che cosa è una scheda dell'anagrafica e in quali pagine compare. Cliente e Potenziale si escludono; Fornitore si aggiunge.
+- **Robustezza (password)**: La stima, su cinque livelli da Molto debole a Molto robusta, di quanto è difficile indovinare una password.
+- **Richiesta di assistenza**: La chiamata di un cliente per un guasto o un problema (AT 2026-012), oppure un pezzo portato in laboratorio (LAB 2026-004): chi, dove, che cosa, la priorità con la scadenza del primo intervento, gli interventi fino alla soluzione. Vedi [Assistenza](assistenza.md).
+- **Scadenza dell'azienda**: Una scadenza che non riguarda una persona: certificazione ISO, attestazione SOA, polizza, DURC, contratto… Può ripetersi: segnata come fatta passa alla successiva. Vedi [Le scadenze dell'azienda](scadenze.md#scadenze-azienda).
+- **Scadenza di una richiesta**: Entro quando fare il primo intervento di una richiesta di assistenza (in laboratorio: entro quando è pronta), dalla priorità: ore di calendario oppure giorni lavorativi, senza sabati, domeniche e festivi. Vedi [Priorità e scadenze](assistenza.md#assistenza-priorita).
+- **Scadenzario**: La pagina Azienda → Scadenze: le scadenze del personale (corsi, documenti, visite, contratti, voci mancanti), dei mezzi e delle attrezzature (anche a km) e quelle dell'azienda in un elenco solo, con i promemoria. Vedi [Scadenze](scadenze.md).
+- **Scheda del personale**: La persona, anche senza accesso alla piattaforma: anagrafica, lavoro e contratto, contatti, foto, corsi, documenti e visite con le loro scadenze. Collegata a un utente, gli passa nome, dati anagrafici, ruolo aziendale e reparto. Vedi [Personale](personale.md).
+- **Scheda tecnica**: I dati tecnici di un impianto, divisi in parti (EVAC, TVCC…) con sezioni singole e tabelle di dispositivi, da un modello. Vedi [La scheda tecnica](impianti.md#impianti-scheda-tecnica).
+- **Segno zodiacale**: Compare sotto la data di nascita di clienti (persone), personale e utenti, e nelle stampe delle schede: un'informazione in più, calcolata dalla data.
+- **Sede**: Un indirizzo della scheda di un cliente con il suo nome (Casa al mare, PV 01, Magazzino): gli impianti stanno in una sede, e in Documenti la loro cartella è dentro quella della sede. Vedi [Sedi e cartelle](impianti.md#impianti-sedi).
+- **Segnaposto**: Una parola tra doppie graffe nel testo di stampa di un modello (`{{cliente.nome}}`, `{{allegati}}`): in stampa diventa il dato della certificazione. Vedi [I segnaposto](certificazioni.md#certificazioni-segnaposto).
+- **Segreto**: Nella gestione password, ciò che è cifrato sul server e si legge uno alla volta, annotandolo nello storico: password, note riservate, chiave della verifica in due passaggi, campi riservati.
+- **Servizio di Windows**: Il modo in cui la piattaforma resta in funzione sul server senza che nessuno sia collegato a Windows.
+- **Suggerimenti**: I valori già scritti nello stesso campo, dal più usato, che compaiono sotto il campo mentre scrivi (o cliccandoci): si sceglie con le frecce e <kbd>Invio</kbd>. Vedi [Suggerimenti mentre scrivi](interfaccia.md#interfaccia-suggerimenti).
+- **Tesserino di riconoscimento**: La tessera con foto, generalità, datore di lavoro e data di assunzione che i lavoratori espongono negli appalti e nei cantieri: si stampa dal personale, anche dieci per foglio. Vedi [Il tesserino di riconoscimento](personale.md#personale-tesserino).
+- **Ticket del cliente**: Il numero che il sistema di assistenza (help desk) di un cliente dà alla sua richiesta: si scrive nella richiesta di assistenza, si ritrova con la ricerca e compare nelle stampe. Vedi [Aprire una richiesta](assistenza.md#assistenza-apertura).
+- **Tipo (impianto)**: La categoria di un impianto (Antintrusione, Videosorveglianza, KNX e domotica… o una aggiunta), con il suo colore e il modello delle cartelle che nascono con l'impianto. Vedi [Tipi di impianto](impianti.md#impianti-tipi).
+- **Tipo (password)**: La classe di una voce della gestione password (Accesso web, Server o dispositivo, Rete Wi-Fi… o uno aggiunto), con il suo colore: l'elenco si cambia dal pulsante «Tipi». Vedi [Cambiare l'elenco dei tipi](password.md#password-tipi).
+- **Verifica in due passaggi**: Oltre alla password, un codice temporaneo generato da un'app sul telefono (TOTP). La gestione password sa mostrare i codici degli account salvati.
+- **Voce obbligatoria mancante**: Un corso, un documento o una visita obbligatori per tutti o per la mansione di una persona e mai registrati nella sua scheda: compare nella scheda e nello scadenzario come «Mancante».
+
+BlackHole Workspaces · guida utente. La licenza d'uso è nel file LICENZA.txt nella cartella del programma; il programma e le novità di ogni versione sono su github.com/brn78/BlackHole-Workspaces.
+
+---
+
+[← Fonti e riconoscimenti](crediti.md) · [Indice](README.md)

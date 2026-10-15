@@ -4,6 +4,28 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.138.0 · 15 ottobre 2026
+
+- **Chi è collegato durante l'aggiornamento**: in *Impostazioni → Aggiornamento del programma* e nelle finestre che
+  avviano il setup l'amministratore vede chi ha la piattaforma aperta (attivo o assente, quante pagine) e gli manda un
+  **avviso** o l'**invito a non operare**; vede chi ha confermato e toglie l'avviso quando vuole.
+- Chi lavora riceve l'avviso in una fascia in alto («Ho capito»); l'invito a non operare apre anche una finestra
+  («Ho salvato, aspetto»). Tolto l'avviso, la piattaforma dice che si può riprendere.
+- Quando il setup parte, l'avviso dell'aggiornamento arriva **da solo** a tutti; al ritorno del server la fascia offre di
+  ricaricare la pagina con la versione nuova.
+- **Durante l'aggiornamento non si entra**: la pagina di accesso mostra l'attesa e si riapre da sola appena il server è
+  di nuovo online. Lo stesso per i **link di condivisione** e il **preventivo online**. Se il setup non parte, l'accesso
+  si riapre da solo.
+
+## 1.137.0 · 15 ottobre 2026
+
+- **Sezioni del menu**: in *Impostazioni → Sezioni* l'amministratore spegne per tutta l'azienda le pagine che non usa
+  (per esempio magazzino, vendite e contabilità per chi lavora solo con personale, assistenza e mezzi). Spariscono dal
+  menu, dalla Home, dalla ricerca, dalle scadenze, dalle schede e dai pulsanti delle altre pagine e dalle notifiche, e i
+  loro automatismi si fermano. I dati restano: riaccesa la sezione, torna tutto com'era.
+- Le sezioni che servono ad altre si spengono e si riaccendono insieme (per esempio Impianti con Manutenzioni e
+  Pratiche); chi ha la piattaforma aperta vede il menu cambiare da solo.
+
 ## 1.136.0 · 14 ottobre 2026 · prima versione pubblica
 
 BlackHole Workspaces diventa **gratis per tutti**: il setup si scarica da questa pagina, senza limiti di utenti,

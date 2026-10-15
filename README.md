@@ -86,7 +86,8 @@ annunci e video, chat interna e notifiche anche su **Telegram**.
 
 **⚙️ Pensato per il server**<br>
 Servizio di Windows con icona di stato, backup automatici cifrati, aggiornamento dalla piattaforma con l'avviso delle
-nuove versioni, verifica in due passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono.
+nuove versioni e l'avviso a chi è collegato, **sezioni del menu** da spegnere se l'azienda non le usa, verifica in due
+passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono.
 
 </td>
 </tr>
@@ -184,7 +185,9 @@ versione pubblicata e, se è più recente, gli amministratori ricevono una notif
 
 In *Sistema → Impostazioni → Aggiornamento del programma* basta **Scarica e installa**: il server scarica il setup da
 questa pagina, controlla che sia proprio quello pubblicato (impronta SHA-256), fa il backup completo dei dati e lo
-installa; dopo circa un minuto la piattaforma si ricarica con la nuova versione. In alternativa il setup si scarica a
+installa; dopo circa un minuto la piattaforma si ricarica con la nuova versione. Prima di confermare si vede chi è
+collegato, lo si può avvisare o invitare a non operare; durante l'aggiornamento nessuno entra e la pagina di accesso si
+riapre da sola appena il server è di nuovo online. In alternativa il setup si scarica a
 mano e si carica nello stesso riquadro, oppure si esegue sul server. Dati, account e impostazioni restano. Nulla si
 installa senza che un amministratore lo chieda e non viene inviato alcun dato dell'azienda; l'avviso si può spegnere.
 

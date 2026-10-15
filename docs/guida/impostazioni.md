@@ -2,7 +2,7 @@
 
 # <a id="impostazioni"></a>Impostazioni
 
-**Sistema → Impostazioni**, riservata agli amministratori. La pagina è divisa in sei **schede**; il pulsante **Salva impostazioni**, in alto, salva tutte le schede insieme, e cambiando pagina con modifiche non salvate la piattaforma lo segnala. Un pallino sulla scheda **Server** avvisa che è uscita una nuova versione.
+**Sistema → Impostazioni**, riservata agli amministratori. La pagina è divisa in sette **schede**; il pulsante **Salva impostazioni**, in alto, salva tutte le schede insieme, e cambiando pagina con modifiche non salvate la piattaforma lo segnala. Un pallino sulla scheda **Server** avvisa che è uscita una nuova versione.
 
 - **Generale**:
    - **Organizzazione**: il nome con cui la piattaforma chiama l'azienda (intestazione, Home, email; la pagina di accesso non lo mostra), l'**indirizzo della piattaforma** usato nei link di inviti e recupero password, i [dati dell'azienda](#impostazioni-azienda) e le [altre aziende del gruppo](#impostazioni-gruppo).
@@ -17,8 +17,22 @@
    - **Disegni DWG**: il convertitore dei disegni AutoCAD in uso (ODA File Converter o LibreDWG); da qui si installano, si aggiornano e si rimuovono tutti e due, e in fondo ci sono i collegamenti alle pagine da cui scaricarli a mano. Vedi [Disegni DWG sul server](documenti.md#documenti-dwg).
    - **Riconoscimento del testo (OCR)**: stato, lingue, cartella dei dati e lavori in corso; da qui si installa e si rimuove. Vedi [Riconoscimento del testo](documenti.md#documenti-ocr).
 - **Assistente AI**: le impostazioni dell'assistente e, accanto, il motore e i modelli. Vedi [Assistente AI](#impostazioni-ai) qui sotto.
+- **Sezioni**: le pagine del menu che l'azienda non usa si spengono per tutti. Vedi [Sezioni del menu](#impostazioni-sezioni) qui sotto.
 
 L'indirizzo della pagina ricorda la scheda aperta (per esempio `#/settings?tab=services`): ricaricando si torna lì, e i collegamenti delle notifiche aprono direttamente la scheda giusta.
+
+## <a id="impostazioni-sezioni"></a>Sezioni del menu
+
+**Impostazioni → Sezioni** (dalla 1.137.0). Non tutte le aziende usano tutto: chi lavora solo con personale, assistenza, mezzi e attrezzature non ha bisogno di magazzino, vendite e contabilità. Qui l'amministratore **spegne le sezioni che l'azienda non usa** e il menu si accorcia per tutti.
+
+- Le sezioni sono divise nelle aree del menu (La mia giornata, Anagrafiche, Commesse, Commerciale, Azienda, Archivio, Strumenti e, in fondo, Sistema con la Privacy), con l'icona, che cosa fanno e un **interruttore** a destra. In alto quante sono spente; **Accendi tutte** le riaccende. Valgono dopo **Salva impostazioni**.
+- Restano **sempre accese** Home, Attività, Appunti, Clienti, Documenti, Archivio di rete, la guida e le pagine di Sistema: sono la base di tutto il resto.
+- **Che cosa succede a una sezione spenta**, per tutti, amministratori compresi: sparisce dal menu e dalla pagina Sistema; spariscono i suoi riquadri e grafici della Home, i suoi risultati nella ricerca, le sue voci nelle Scadenze, le linguette, le colonne, i filtri e i pulsanti che la riguardano nelle altre pagine (per esempio, con Vendite spenta, la linguetta Vendite nella scheda del cliente e «Crea fattura» dall'assistenza); non partono più le sue notifiche, email e messaggi Telegram, e si fermano i suoi automatismi: i controlli del **Monitoraggio**, le scansioni da sole della **Rete locale**, la lettura della **PEC** (quando sono spente sia Vendite sia Fatture dei fornitori), i promemoria delle scadenze. Un collegamento salvato o una notifica vecchia verso una sezione spenta mostra «è spenta» (all'amministratore con il pulsante per tornare qui).
+- **I dati restano**: niente si cancella. Riaccesa la sezione, tutto torna com'era, comprese le policy che ne concedono i permessi.
+- **Sezioni che servono ad altre**: Manutenzioni e Pratiche funzionano solo con gli Impianti, Magazzino e Listini fornitori solo con il Listino. Spegnendo Impianti si spengono anche Manutenzioni e Pratiche (un avviso lo dice); riaccendendo Manutenzioni si riaccende anche Impianti.
+- Alcune sezioni condividono i permessi: Mezzi e Attrezzature, Monitoraggio e Rete locale, Preventivi e Trattative, Impianti e Pratiche, Listino e Listini fornitori. Si spengono anche una alla volta: sparisce la pagina con ciò che la riguarda nelle altre (con il Monitoraggio spento la Rete locale non mostra più la colonna del monitoraggio), mentre i permessi in comune restano finché una delle due è accesa.
+- **Non è un permesso**: serve ad accorciare il menu di tutta l'azienda. Per togliere una sezione solo ad alcune persone si usano i [gruppi e le policy](gruppi-policy.md); nella pagina Policy le aree delle sezioni spente hanno l'etichetta **sezione spenta** e si possono preparare lo stesso.
+- Chi ha la piattaforma aperta vede il menu cambiare da solo, senza ricaricare. Il registro attività annota quali sezioni sono state spente o riaccese.
 
 ## <a id="impostazioni-posta"></a>Le email
 

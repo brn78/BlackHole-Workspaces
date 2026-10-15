@@ -60,6 +60,8 @@ Per l'avviso **Internet assente** il server prova ogni minuto (ogni 20 secondi m
 3. crea il **backup** completo dei dati;
 4. **installa**: il servizio resta fermo per circa un minuto e la pagina si ricarica da sola con la nuova versione.
 
+Prima di confermare, la finestra mostra **chi è collegato**: puoi avvisarlo o invitarlo a non operare e aspettare che confermi (vedi [Chi è collegato durante l'aggiornamento](#server-collegati)).
+
 Valgono le stesse regole del caricamento a mano (amministratori, rete locale, servizio installato dal setup, un aggiornamento alla volta); nel [registro attività](registro.md) restano lo scaricamento, l'aggiornamento avviato «con SHA-256 verificato» oppure il motivo per cui non è riuscito. Se il server non raggiunge GitHub (niente Internet, firewall), scarica il setup dal tuo PC e caricalo come descritto qui sotto.
 
 **Caricando il setup**: **Impostazioni → Aggiornamento del programma**, scegli il nuovo setup (`BlackHoleWorkspaces-<versione>-Setup.exe`) o trascinalo nel riquadro. Il file viene **controllato subito**, prima di chiedere la password e di caricarlo sul server:
@@ -77,6 +79,19 @@ Lascia selezionato **Crea prima un backup completo** e conferma con la tua passw
 **Sul server**: esegui il nuovo setup sopra l'installazione esistente: ferma il servizio, sostituisce i file e lo riavvia. Il pacchetto compresso si aggiorna invece con `Update.ps1`. Anche in questi casi, al riavvio il riquadro mostra come **Ultimo aggiornamento** le due versioni e la data, con **direttamente sul server** al posto del nome di chi l'ha avviato: vale sempre l'aggiornamento più recente, fatto dalla piattaforma o sul server.
 
 A ogni aggiornamento il database viene adeguato da solo, dopo averne fatto una copia in `recovery`; l'esito dell'ultimo aggiornamento resta in Impostazioni e nel registro attività, il log del setup nella cartella `recovery`. Le pagine rimaste aperte nei browser avvisano di ricaricare.
+
+## <a id="server-collegati"></a>Chi è collegato durante l'aggiornamento
+
+Dalla 1.138.0, prima di aggiornare l'amministratore vede **chi sta lavorando** e lo avvisa; chi lavora riceve l'avviso e, mentre il setup aggiorna, nessuno entra.
+
+- **L'elenco**: in **Impostazioni → Server → Aggiornamento del programma**, in fondo, e nelle due finestre che avviano il setup (**Scarica e installa** e il setup caricato dal PC). Per ognuno: nome, mansione, se è attivo adesso o assente da qualche minuto, quante pagine ha aperte e, con un avviso in corso, se lo ha **confermato** (in alto «2 di 3 hanno confermato»). Si aggiorna da solo.
+- **Avvisa**: un messaggio (proposto, da cambiare a piacere) a tutti quelli che hanno la piattaforma aperta. Compare in una **fascia** sotto la barra in alto, con chi lo manda e quando, e si conferma con **Ho capito**.
+- **Invita a non operare**: come l'avviso, ma più deciso; si apre anche una **finestra** (con il richiamo alle modifiche non salvate della pagina) che si chiude con **Ho salvato, aspetto**. Così, prima di avviare il setup, sai chi ha salvato.
+- Un avviso nuovo prende il posto di quello di prima. **Togli l'avviso** (nell'elenco o nella fascia di chi l'ha mandato) lo toglie a tutti: chi lavora legge «puoi riprendere a lavorare». Arriva anche a chi si collega dopo.
+- **Quando il setup parte** (in tutti e due i modi), l'avviso dell'aggiornamento arriva **da solo** a tutti: «la piattaforma si sta aggiornando alla versione…: non operare». Al ritorno del server la fascia dice che è stata installata la versione nuova, con **Ricarica**. Anche quando il servizio si ferma per altri motivi (un setup avviato direttamente sul server, un riavvio) le pagine aperte lo dicono.
+- **Durante l'aggiornamento non si entra**: la pagina di accesso mostra «Aggiornamento in corso» e si riapre da sola appena il server è di nuovo online; il server rifiuta comunque gli accessi (prima di guardare la password). Lo stesso per i [link di condivisione](condivisioni.md) e per il preventivo online: chi li apre aspetta e la pagina si ricarica da sola; caricamenti, accettazioni e messaggi non partono. Se il setup non parte, o il server non si ferma entro 10 minuti, l'accesso si riapre da solo.
+- Con un avviso o un invito in corso, chi è sulla pagina di accesso, su un link di condivisione o sul preventivo online vede una fascia con una frase generica (il testo dell'amministratore lo legge solo chi è entrato); con l'invito a non operare si può comunque entrare.
+- Il registro attività annota avvisi, inviti e avvisi tolti, con il testo e quanti erano collegati.
 
 ## <a id="server-nuove-versioni"></a>Avviso delle nuove versioni
 

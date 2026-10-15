@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.136.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.138.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -399,6 +399,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Ripristinare](backup.md#backup-ripristino)
    - [Ripristino di emergenza](backup.md#backup-emergenza)
 52. [Impostazioni](impostazioni.md)
+   - [Sezioni del menu](impostazioni.md#impostazioni-sezioni)
    - [Le email](impostazioni.md#impostazioni-posta)
    - [Dati dell'azienda](impostazioni.md#impostazioni-azienda)
    - [Altre aziende del gruppo](impostazioni.md#impostazioni-gruppo)
@@ -418,6 +419,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Avvio con doppio clic](server.md#server-icona)
    - [Accesso dagli altri PC](server.md#server-rete)
    - [Aggiornare](server.md#server-aggiornamento)
+   - [Chi è collegato durante l'aggiornamento](server.md#server-collegati)
    - [Avviso delle nuove versioni](server.md#server-nuove-versioni)
    - [Licenza d'uso e responsabilità](server.md#server-licenza)
    - [Disinstallare](server.md#server-disinstallazione)

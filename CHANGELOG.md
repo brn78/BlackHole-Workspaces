@@ -4,6 +4,11 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.138.1 · 15 ottobre 2026
+
+- Pagina **Sistema**: il campo di ricerca resta in vista sotto il titolo mentre si scorrono i riquadri, con il bordo
+  intero.
+
 ## 1.138.0 · 15 ottobre 2026
 
 - **Chi è collegato durante l'aggiornamento**: in *Impostazioni → Aggiornamento del programma* e nelle finestre che

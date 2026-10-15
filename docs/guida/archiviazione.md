@@ -38,10 +38,12 @@ Da un altro computer il pulsante resta visibile, ma al posto della cartella apre
 ## <a id="archiviazione-cambio"></a>Cambiare la cartella di lavoro
 
 1. **Cambia cartella…** e scegli: **Sposta i dati attuali in una nuova cartella** (vuota) oppure **Usa una cartella di lavoro esistente** (per esempio dopo una reinstallazione).
-2. Scrivi il percorso completo sul server e premi **Controlla**: la piattaforma verifica che la cartella sia adatta (vuota, scrivibile, con spazio sufficiente, non dentro quella attuale).
+2. Scrivi il percorso completo sul server, oppure sceglilo con **Sfoglia** tra i dischi del server (anche con **Nuova cartella**), e premi **Controlla** (dopo «Sfoglia» parte da solo): la piattaforma verifica che la cartella sia adatta (vuota, scrivibile, con spazio sufficiente, non dentro quella attuale).
 3. Conferma con la tua password, poi **Riavvia ora**: il cambio avviene al riavvio, prima di aprire il database.
 
 Con **Sposta** ogni file viene copiato e verificato; la cartella precedente resta intatta come copia di sicurezza. Se qualcosa non va, la piattaforma riparte sulla cartella di prima.
+
+La cartella di lavoro deve stare su un **disco del server**: non una cartella di rete né un NAS, perché il database si può rovinare se la rete si interrompe (la piattaforma lo rifiuta, come già il setup). Sul NAS tieni i [backup](backup.md#backup-nas); un disco del NAS collegato al server come disco iSCSI va invece bene, perché il server lo vede come un disco suo.
 
 > [!WARNING]
 > Con molti dati la copia richiede tempo: finché dura, la piattaforma non risponde e l'[icona di stato](server.md#server-icona-stato) sul server resta gialla con la scritta **Spostamento dei dati in corso**. Non riavviare il servizio né il server: la piattaforma torna disponibile da sola quando ha finito. Se il server si spegne durante la copia i dati non si perdono: la piattaforma riparte sulla cartella di prima e lo spostamento va richiesto di nuovo, verso una cartella vuota.

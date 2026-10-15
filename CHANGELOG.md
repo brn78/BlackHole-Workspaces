@@ -4,6 +4,19 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.139.0 · 15 ottobre 2026
+
+- **Sfoglia** per le cartelle del server: in *Backup*, *Archiviazione* e *Archivio di rete* la cartella si sceglie
+  dall'elenco dei dischi del server e delle cartelle condivise dei NAS, come le vede il server, e se serve se ne crea una
+  nuova.
+- **Backup su un NAS**: se il NAS non lascia scrivere il servizio della piattaforma, si salvano utente e password della
+  cartella di rete (cifrata); **Prova** dice se il server scrive nella cartella, con quale utente, e quanto spazio c'è. Il
+  server entra nel NAS prima di ogni backup, anche quelli automatici della notte.
+- Quando una cartella non si raggiunge o non si può scrivere, il messaggio dice con quale account ha provato il server e
+  cosa fare.
+- La cartella di lavoro, che contiene il database, non si sposta più in una cartella di rete: se la rete si interrompe il
+  database si può rovinare. Sul NAS vanno i backup.
+
 ## 1.138.1 · 15 ottobre 2026
 
 - Pagina **Sistema**: il campo di ricerca resta in vista sotto il titolo mentre si scorrono i riquadri, con il bordo

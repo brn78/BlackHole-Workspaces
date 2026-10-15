@@ -204,7 +204,8 @@ modalità *Chiedi alla guida* con l'assistente AI.
 - **Permessi** per area con gruppi e policy, contatti privati, dati riservati (costi, coordinate bancarie) solo a chi
   può vederli.
 - **Registro attività** di accessi e operazioni, esportabile.
-- **Backup** automatici ogni giorno, cifrati e verificati, con ripristino; cestino di 30 giorni per le schede eliminate.
+- **Backup** automatici ogni giorno, cifrati e verificati, con ripristino, anche su un NAS (con il suo utente, scelto
+  con «Sfoglia»); cestino di 30 giorni per le schede eliminate.
 - Password dei servizi e della gestione password **cifrate** sul server; nessun servizio cloud obbligatorio: i dati
   restano in azienda.
 

@@ -116,6 +116,7 @@ La vista **Controllo** raccoglie le voci da sistemare, tra tutte quelle che vedi
 
 | Sezione | Che cosa contiene |
 | --- | --- |
+| **Trafugate** | Compaiono tra le password trafugate nei furti di dati (Have I Been Pwned, dalla 1.140.0), con quante volte: chi prova le password a tappeto le conosce. Il server le controlla in sottofondo, senza che le password escano (vedi [Password trafugate](impostazioni.md#impostazioni-password)); salvando una password trafugata compare subito un avviso. |
 | **Non leggibili** | Segreti cifrati con chiavi che questo server non ha (vedi [Riservatezza e backup](#password-riservatezza)): vanno scritti di nuovo. |
 | **Scadute** | Hanno passato la data **Da cambiare entro**. |
 | **Deboli** | Robustezza **Molto debole** o **Debole**. |
@@ -123,7 +124,7 @@ La vista **Controllo** raccoglie le voci da sistemare, tra tutte quelle che vedi
 | **In scadenza** | Da cambiare entro i prossimi 30 giorni. |
 | **Vecchie** | Non cambiate da più di un anno. |
 
-Il confronto avviene sul server, in memoria: le password non escono e non viene salvato nulla.
+Il confronto avviene sul server, in memoria: le password non escono e non viene salvato nulla. Per le trafugate il server chiede a Have I Been Pwned solo l'inizio dell'impronta di ogni password e salva solo l'esito.
 
 ## <a id="password-clienti"></a>Le password dei clienti
 

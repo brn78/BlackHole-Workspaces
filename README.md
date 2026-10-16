@@ -201,6 +201,9 @@ modalità *Chiedi alla guida* con l'assistente AI.
 
 - Accesso con password e **verifica in due passaggi**, browser di fiducia, blocco dei tentativi errati, sessioni che
   scadono, orari di accesso per gruppo.
+- **Regole delle password** scelte dall'amministratore (lunghezza e complessità) e controllo delle **password
+  trafugate** con Have I Been Pwned, senza che la password esca dal server: per gli utenti, la gestione password e le
+  password dei servizi.
 - **Permessi** per area con gruppi e policy, contatti privati, dati riservati (costi, coordinate bancarie) solo a chi
   può vederli.
 - **Registro attività** di accessi e operazioni, esportabile.

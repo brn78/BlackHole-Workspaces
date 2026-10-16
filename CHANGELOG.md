@@ -4,6 +4,21 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.140.0 · 16 ottobre 2026
+
+- **Regole delle password**: in *Impostazioni → Sicurezza* l'amministratore sceglie la lunghezza minima (da 8 caratteri,
+  12 consigliati con la piattaforma raggiungibile da internet) e la complessità (base, media con maiuscole, minuscole e
+  numeri, alta anche con un simbolo). Valgono per tutte le password nuove; la pagina di accesso e i campi le dicono.
+- **Password trafugate**: come fa Home Assistant, la piattaforma controlla con *Have I Been Pwned* se una password compare
+  nei furti di dati, senza farla uscire dal server (parte solo l'inizio della sua impronta). Una password nuova
+  trafugata viene rifiutata; chi entra con una password trafugata o che non rispetta più le regole riceve un avviso, o
+  deve cambiarla subito se l'amministratore lo sceglie. Nell'elenco degli utenti le etichette *Password trafugata* e
+  *Password debole*.
+- Controllate anche le voci della **gestione password** (sezione *Trafugate* nella vista Controllo e avviso quando se ne
+  salva una) e le **password dei servizi**: posta, PEC, NAS e password dei backup, archivio di rete.
+- Senza internet, o se il servizio non risponde, non si blocca nulla.
+- Le notifiche in alto a destra: la barra del tempo che resta si svuota verso destra, il lato da cui la notifica esce.
+
 ## 1.139.0 · 15 ottobre 2026
 
 - **Sfoglia** per le cartelle del server: in *Backup*, *Archiviazione* e *Archivio di rete* la cartella si sceglie

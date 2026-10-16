@@ -4,6 +4,12 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.141.1 · 16 ottobre 2026
+
+- Scanner della rete locale: le marche dei produttori si cercano a parole intere. Prima alcuni produttori venivano
+  scambiati per altri con un nome simile (per esempio Aztek per ZTE, quindi un apparato di rete, o Minimax per la
+  centrale d'allarme Inim) e il tipo proposto era sbagliato.
+
 ## 1.141.0 · 16 ottobre 2026
 
 - **Produttori più precisi nello scanner della rete locale**: per ogni dispositivo si usa il blocco di indirizzi MAC più

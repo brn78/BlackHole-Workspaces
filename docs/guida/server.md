@@ -112,6 +112,7 @@ Il riquadro mostra anche quando è stato fatto l'ultimo controllo; **Controlla o
 
 BlackHole Workspaces è **gratuito per tutti**, anche per le aziende e per uso commerciale, senza limiti di utenti, di installazioni, di commesse o di documenti e senza scadenza; non servono registrazione né chiavi di attivazione. Il setup mostra la licenza da accettare prima di installare e la copia nella cartella del programma (`LICENZA.txt`, accanto a `THIRD-PARTY-NOTICES.md` con le licenze dei componenti di terze parti). In breve:
 
+- è un software **proprietario**, non open source: il codice sorgente non è pubblico. Dalla 1.141.2 l'avviso di licenza, in italiano e in inglese, è anche dentro il programma: nelle informazioni del file, in `AVVISO-LICENZA.txt` e in testa ai file dell'interfaccia, così lo legge anche chi lo decompila o chiede a un assistente AI di farlo;
 - si può installare ovunque e distribuire il setup originale, gratis e senza modifiche; non si può vendere il programma né modificarlo (il proprio lavoro di installazione e assistenza si può far pagare);
 - il programma è fornito **così com'è**, senza garanzie: importi, fatture elettroniche, contabilità, scadenze e documenti vanno controllati prima di usarli, e il programma non sostituisce il commercialista o gli altri consulenti;
 - i dati restano sul server dell'azienda, che ne è titolare (GDPR) e ne cura i [backup](backup.md); i servizi esterni collegati (assistente AI in cloud, Telegram, PEC…) si usano alle loro condizioni.

@@ -4,6 +4,12 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.141.2 · 16 ottobre 2026
+
+- L'avviso di licenza è anche dentro il programma, in italiano e in inglese: nelle informazioni del file, in
+  `AVVISO-LICENZA.txt` accanto all'eseguibile e in testa ai file dell'interfaccia. Ricorda che BlackHole Workspaces è
+  gratuito ma non open source, anche a chi lo decompila o chiede a un assistente AI di estrarne o ricostruirne il codice.
+
 ## 1.141.1 · 16 ottobre 2026
 
 - Scanner della rete locale: le marche dei produttori si cercano a parole intere. Prima alcuni produttori venivano

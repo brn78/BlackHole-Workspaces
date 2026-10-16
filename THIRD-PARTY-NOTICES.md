@@ -414,6 +414,15 @@ di copyright è solo nei file del carattere, come indicato sotto). Gli `@font-fa
   - `lora-latin-wght-normal.woff2`: `DDB8C66035104E233FC024669183AAD3738B6DAA16DEEE2EBB1241BD0F98ACE1`
   - `lora-latin-ext-wght-normal.woff2`: `2A2D9C22C9863086A23F5013FEDE1428585321812B25F2662542C39D02967C5E`
 
+## Produttori dei dispositivi di rete
+
+`Assets/Oui/ieee-oui.txt.gz` (il produttore di un dispositivo dal suo indirizzo MAC, nello scanner della rete locale)
+contiene i prefissi e i nomi delle organizzazioni dei registri pubblici dell'IEEE Registration Authority: MA-L (OUI a 24
+bit), MA-M (28 bit) e MA-S (36 bit), consultabili gratuitamente su https://standards.ieee.org/products-programs/regauth/.
+È generato da `Scripts/Build-Oui.py` dal file «manuf» che il progetto Wireshark compila da quei registri
+(https://www.wireshark.org/download/automated/data/manuf). I dati sono forniti così come sono, senza garanzie di
+accuratezza o aggiornamento; l'amministratore può scaricare i registri aggiornati dall'IEEE dalla piattaforma.
+
 ## Dati geografici
 
 `wwwroot/assets/data/geo-it.json` (comuni italiani con codice catastale e CAP, località e frazioni, comuni soppressi, stati

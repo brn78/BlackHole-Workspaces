@@ -4,6 +4,16 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.141.0 · 16 ottobre 2026
+
+- **Produttori più precisi nello scanner della rete locale**: per ogni dispositivo si usa il blocco di indirizzi MAC più
+  preciso tra i tre registri dell'IEEE (MA-L, MA-M e MA-S), come in WhoIs Pro. Telecamere, domotica e apparati
+  industriali mostrano il produttore vero invece di «IEEE Registration Authority».
+- L'elenco dei produttori (oltre 58.000 blocchi) è **incluso nel programma**: il produttore si vede subito, anche senza
+  internet. *Scarica l'elenco dall'IEEE* scarica i tre registri aggiornati; si possono anche caricare oui.csv, mam.csv,
+  oui36.csv o il file manuf di Wireshark.
+- Il tipo proposto riconosce anche le macchine virtuali, i telefoni dal nome e altri moduli di domotica.
+
 ## 1.140.0 · 16 ottobre 2026
 
 - **Regole delle password**: in *Impostazioni → Sicurezza* l'amministratore sceglie la lunghezza minima (da 8 caratteri,

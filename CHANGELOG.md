@@ -4,6 +4,20 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.1 · 18 ottobre 2026
+
+- **Testi incollati senza sorprese**: i caratteri che non si vedono e arrivano copiando da PDF, Word, pagine web o email
+  (spazi di larghezza zero, segni di controllo, spazi «non separabili») si tolgono da soli al salvataggio, così ricerca
+  e controlli trovano il testo anche incollato. Tabulazioni e a capo restano; password e note riservate restano come
+  sono.
+- **Testi lunghi su più righe** (una tabella copiata da Excel, un testo incollato dalla tastiera del telefono) entrano
+  subito nelle descrizioni e nelle note: prima, con qualche centinaio di righe, la pagina poteva restare ferma per minuti.
+- **Troppi dati**: un testo incollato enorme ferma il salvataggio con un messaggio che dice quanto pesa e cosa fare
+  (accorciarlo o allegarlo come file), invece di «Server non raggiungibile» e della barra «Senza rete».
+- **Fattura elettronica**: le virgolette tipografiche diventano quelle semplici (prima diventavano «?»), le lettere con
+  segni che non ci sono in italiano tornano alla lettera di base (Dvořák → Dvorák), emoji e simboli si tolgono.
+- Messaggi in italiano, con il nome del campo, quando un dato non si riesce a leggere.
+
 ## 1.143.0 · 17 ottobre 2026
 
 - **Rubrica**, una pagina nuova in *La mia giornata*: i contatti che non sono clienti né fornitori (parenti, amici,

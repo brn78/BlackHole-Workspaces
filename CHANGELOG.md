@@ -4,6 +4,25 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.0 · 17 ottobre 2026
+
+- **Rubrica**, una pagina nuova in *La mia giornata*: i contatti che non sono clienti né fornitori (parenti, amici,
+  tecnici di fiducia, numeri utili), personali oppure condivisi con colleghi, gruppi o tutti, con preferiti, cestino,
+  foto o icona. Si importano dal telefono (vCard di iPhone e Android, CSV di Google Contatti e di Outlook) con
+  l'anteprima, i doppioni riconosciuti e le foto, e si esportano in vCard.
+- **Dalla rubrica ai clienti**: scrivendo un nome nei campi Cliente e Fornitore (preventivi, trattative, assistenza,
+  attività, progetti, documenti, vendite, acquisti, pratiche) compaiono anche i contatti della rubrica; sceglierne uno
+  apre la scheda cliente già compilata, che resta collegata al contatto.
+- **Avviso di accesso**: un'email o un messaggio Telegram quando qualcuno entra con il tuo account, a ogni accesso o
+  solo da un browser nuovo (*Profilo → Notifiche*).
+- Indirizzi degli utenti e del personale con le coordinate e la mappa; **Genera** su ogni campo di una password nuova.
+- **Elenchi tutti uguali**: *Scegli più righe* in alto a sinistra, il conteggio («3 di 7 contatti») in basso a sinistra,
+  le indicazioni in basso a destra, e il menu della riga (tasto destro o ⋯) in ogni elenco; contatori sempre con il
+  numero, anche 0, su fondo colorato.
+- Interfaccia rifinita: notifiche sotto la barra in alto con il colore del tipo, altezze uniformi, barre con molti
+  filtri su due righe; movimento rivisto, con dissolvenze anche quando il sistema chiede di ridurre le animazioni,
+  pulsanti che rispondono alla pressione e menu che nascono dal pulsante che li apre.
+
 ## 1.142.0 · 17 ottobre 2026
 
 - **Strumenti di rete**, una pagina nuova in *Strumenti*: diagnostica fatta dal server (ping in serie con perdita e

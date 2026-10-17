@@ -39,6 +39,17 @@ Le **notifiche** ti avvisano di ciò che ti riguarda nelle [attività](attivita.
 
 Non ricevi notifiche delle cose che fai tu, e le notifiche di un'attività arrivano solo a chi può [vederla](attivita.md#attivita-condivisione).
 
+## <a id="notifiche-accesso"></a>Avviso di accesso
+
+Dalla 1.143.0, quando qualcuno entra con il tuo account ricevi subito un'**email** o un messaggio su **Telegram**: chi, quando, da quale indirizzo e con quale browser. Se non sei stato tu te ne accorgi: cambia subito la password, chiudi le altre sessioni da [Profilo e sicurezza](profilo.md) e avvisa un amministratore. Lo scegli in **Profilo e sicurezza → Notifiche → Avviso di accesso**:
+
+- **Quando entro da un browser o un dispositivo nuovo** (di serie, consigliato): l'avviso arriva solo la prima volta che il tuo account entra da un browser; dallo stesso browser, le volte dopo, no. Un browser diverso, un'altra persona che usa il tuo PC con il suo account, una finestra in incognito o i cookie cancellati contano come nuovi.
+- **A ogni accesso**: sempre, anche dal solito browser.
+- **Mai**.
+- **Per email** e **Su Telegram**: dove riceverlo. Servono la posta configurata e l'email dell'account, o la chat di Telegram collegata.
+
+L'avviso parte **a qualsiasi ora**, anche fuori dal tuo [orario](#notifiche-quando), e **non passa dalla campanella**: chi entrasse al posto tuo non lo vede e non può fermarlo leggendo la notifica. Con la [verifica in due passaggi](profilo.md) arriva dopo il codice, quando l'accesso è completo; un accesso non riuscito non manda nulla. In **Impostazioni → Posta e Telegram → Anteprima delle email** si vede com'è fatta l'email.
+
 ## <a id="notifiche-email"></a>Per email
 
 Se la [posta in uscita](impostazioni.md) è configurata e il tuo account ha un indirizzo email, le notifiche che restano **da leggere per qualche minuto** arrivano anche per email, riunite in un solo messaggio con il collegamento a ciascuna attività o progetto. Se le leggi subito nella piattaforma l'email non parte. Il collegamento usa l'indirizzo pubblico indicato in Impostazioni. Gli avvisi del monitoraggio partono subito, se il controllo lo prevede.

@@ -187,4 +187,4 @@ Al massimo 5 MB e 5.000 righe per file. Un codice di verifica in due passaggi no
 
 ---
 
-[← Appunti](appunti.md) · [Indice](README.md) · [Clienti →](clienti.md)
+[← Rubrica](rubrica.md) · [Indice](README.md) · [Clienti →](clienti.md)

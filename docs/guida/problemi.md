@@ -75,7 +75,7 @@ L'avviso riguarda il **server**: è lui che usa internet per meteo, mappe, indir
 <details>
 <summary><b>Dove sono finite le caselle per scegliere più clienti?</b></summary>
 
-Compaiono con l'icona **Scegli più righe**, a destra nella barra della ricerca: vedi [Scegliere più schede insieme](clienti.md#clienti-selezione).
+Compaiono con l'icona **Scegli più righe**, la prima a sinistra nella barra della ricerca: vedi [Scegliere più schede insieme](clienti.md#clienti-selezione).
 
 </details>
 

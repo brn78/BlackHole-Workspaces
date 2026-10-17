@@ -43,7 +43,8 @@ documenti e senza abbonamenti: i dati restano sul tuo server.
 
 **🗓️ La mia giornata**<br>
 Home con i numeri che contano, attività con kanban, calendario e Gantt, appunti ed elenchi condivisi, gestione delle
-password cifrata con le cartelle aziendali e i codici della verifica in due passaggi.
+password cifrata con le cartelle aziendali e i codici della verifica in due passaggi, **rubrica** personale o condivisa
+importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic.
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, importazione da Excel o da un vecchio
@@ -201,7 +202,8 @@ modalità *Chiedi alla guida* con l'assistente AI.
 ## 🔒 Sicurezza e dati
 
 - Accesso con password e **verifica in due passaggi**, browser di fiducia, blocco dei tentativi errati, sessioni che
-  scadono, orari di accesso per gruppo.
+  scadono, orari di accesso per gruppo, **avviso di accesso** per email o Telegram (a ogni accesso o da un browser
+  nuovo).
 - **Regole delle password** scelte dall'amministratore (lunghezza e complessità) e controllo delle **password
   trafugate** con Have I Been Pwned, senza che la password esca dal server: per gli utenti, la gestione password e le
   password dei servizi.

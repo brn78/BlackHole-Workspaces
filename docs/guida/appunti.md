@@ -171,4 +171,4 @@ Se titolo, testo o voci superano il limite, l'appunto non viene salvato e un mes
 
 ---
 
-[← Attività](attivita.md) · [Indice](README.md) · [Password →](password.md)
+[← Attività](attivita.md) · [Indice](README.md) · [Rubrica →](rubrica.md)

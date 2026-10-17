@@ -83,7 +83,7 @@ La **categoria** classifica la scheda (Partner, Rivenditore, Installatore, Profe
 
 ## <a id="clienti-selezione"></a>Scegliere più schede insieme
 
-Premi l'icona **Scegli più righe**, a destra nella barra della ricerca: ogni riga dell'elenco mostra una **casella** a sinistra (premendo di nuovo l'icona le caselle spariscono e la scelta si toglie). Spunta le schede su cui lavorare:
+Premi l'icona **Scegli più righe**, la prima a sinistra nella barra della ricerca: ogni riga dell'elenco mostra una **casella** a sinistra (premendo di nuovo l'icona le caselle spariscono e la scelta si toglie). Spunta le schede su cui lavorare:
 
 - un clic sulla casella sceglie o toglie una scheda; con <kbd>Maiusc</kbd> premuto sceglie tutte quelle tra l'ultima casella cliccata e questa;
 - la casella nell'intestazione sceglie **tutte le schede dell'elenco filtrato** (anche quelle più in basso, non ancora mostrate): prima cerca o filtra, per esempio per città, poi scegli tutte.

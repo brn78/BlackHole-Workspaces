@@ -81,7 +81,8 @@ Locale sul server oppure in cloud (Claude, OpenAI, Gemini): migliora i testi, co
 legge i documenti con l'OCR, risponde con la guida.
 
 **🧰 Strumenti**<br>
-Monitoraggio di dispositivi e siti con la topologia, scanner della rete locale, **voce da testo** per centralini,
+Monitoraggio di dispositivi e siti con la topologia, perdita e jitter, scanner della rete locale con IPv6, porte e
+servizi, **strumenti di rete** (ping, traceroute, DNS, WHOIS, porte, traffico, prove della connessione), **voce da testo** per centralini,
 annunci e video, chat interna e notifiche anche su **Telegram**.
 
 **⚙️ Pensato per il server**<br>

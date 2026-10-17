@@ -55,4 +55,4 @@ La ricerca veloce è una finestra in alto. Mentre scrivi compaiono i primi risul
 
 ---
 
-[← Rete locale](rete-locale.md) · [Indice](README.md) · [Chat e presenze →](chat.md)
+[← Strumenti di rete](strumenti-rete.md) · [Indice](README.md) · [Chat e presenze →](chat.md)

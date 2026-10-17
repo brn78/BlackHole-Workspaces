@@ -69,6 +69,10 @@ I dispositivi vanno nel gruppo aperto, oppure in quello scritto nella colonna «
 > [!NOTE]
 > **Senza internet.** Se manca la connessione a internet del server (l'[avviso di internet assente](interfaccia.md)), i controlli degli indirizzi fuori dalla rete locale non contano: il dispositivo non va giù e non parte nessun avviso finché internet non torna. Quelli della rete locale continuano come sempre.
 
+## <a id="monitoraggio-rallentato"></a>Perdita, jitter e «rallentato»
+
+Dalla 1.142.0 un controllo ping può mandare **più ping** per controllo (3, 5 o 10, uno ogni 200 ms; i controlli nuovi ne mandano 3): fallisce solo se non ne torna nessuno, e misura la **perdita** e il **jitter**, che compaiono nell'elenco, nell'andamento (con il grafico dei ping persi) e nella prova. Con **Rallentato oltre** (millisecondi, per ogni tipo di controllo) e **Oppure se perde più del** (percentuale, per il ping) il controllo diventa **rallentato**, con il pallino giallo e il motivo, quando risponde ma oltre le soglie per due controlli di fila; torna normale al primo controllo sotto le soglie. Rallentato non manda avvisi: è un segnale da guardare. Dalla scheda, **Diagnostica** apre gli [Strumenti di rete](strumenti-rete.md) con il traceroute verso il dispositivo.
+
 ## <a id="monitoraggio-andamento"></a>Andamento e interruzioni
 
 La scheda si apre su **Andamento**: in alto lo stato, da quanto, l'ultimo controllo e il motivo dell'ultimo errore, con **Controlla adesso** e **Pausa**. Si sceglie il periodo (**24 ore**, **7 giorni**, **30 giorni**, **1 anno**):

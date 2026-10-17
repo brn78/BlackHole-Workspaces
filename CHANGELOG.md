@@ -4,6 +4,25 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.142.0 · 17 ottobre 2026
+
+- **Strumenti di rete**, una pagina nuova in *Strumenti*: diagnostica fatta dal server (ping in serie con perdita e
+  jitter, traceroute con i nomi dei router, DNS con tutti i record e il server che scegli, WHOIS con RDAP, porte aperte
+  con quello che dicono i servizi), il traffico delle schede di rete del server con l'andamento degli ultimi minuti e le
+  **prove della connessione** (latenza, jitter e perdita verso il gateway e internet, DNS, download e upload), a mano o
+  da sole ogni tante ore, con la storia e una nota che dice per che cosa basta la connessione.
+- **Rete locale più ricca**, con le idee di WhoIs Pro: sistema operativo probabile dal TTL, indirizzi IPv6, porte UDP
+  (DNS, orario NTP, SNMP con la descrizione del dispositivo, UPnP), che cosa dicono i servizi sulle porte aperte
+  (programma e versione, certificato) e la storia delle porte aperte e chiuse, con l'avviso facoltativo delle porte
+  nuove. L'elenco dei produttori si aggiorna da solo dall'IEEE alla prima scansione, se non ne è mai stato caricato uno.
+- **Monitoraggio**: i ping mandano più pacchetti per controllo e misurano perdita e jitter (anche nell'andamento, con il
+  grafico dei ping persi); un controllo diventa **rallentato** (pallino giallo) quando risponde oltre una soglia di tempo
+  o di perdita; *Diagnostica* nella scheda apre il traceroute verso il dispositivo.
+- **Tutti gli elenchi anche a schede**: con *Elenco | Schede* nella barra ogni voce si vede per intero in una scheda
+  larga, con *Ordina per*; la scelta resta per ogni elenco.
+- Barre di avanzamento nuove, piene e con un riflesso che scorre; negli elenchi lunghi frecce, Pag su/giù, Home e Fine
+  fanno scorrere l'elenco.
+
 ## 1.141.2 · 16 ottobre 2026
 
 - L'avviso di licenza è anche dentro il programma, in italiano e in inglese: nelle informazioni del file, in

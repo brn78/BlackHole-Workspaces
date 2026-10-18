@@ -21,7 +21,7 @@
 
 ## <a id="interfaccia-primi-passi"></a>Primi passi
 
-Le funzioni più ricche (clienti, progetti, impianti, certificazioni, manutenzioni, assistenza, listino, listini dei fornitori, magazzino, acquisti, preventivi, vendite, personale, mezzi, attrezzature, scadenze, documenti, monitoraggio e password) hanno sul bordo destro della finestra, un po' sotto la metà, una sottile linguetta blu: **Primi passi** (dalla 1.124.3; prima era un pulsante accanto al titolo). Passandoci sopra si allarga e mostra ✨ e quanti passi sono fatti (per esempio 1/3); un clic fa uscire dal bordo il riquadro con i passi per avviare la funzione, uno dopo l'altro (per esempio nel magazzino: il magazzino aziendale, i furgoni, le voci a magazzino, la giacenza iniziale, scorte e dotazioni, il primo inventario).
+Le funzioni più ricche (clienti, progetti, impianti, certificazioni, manutenzioni, assistenza, listino, listini dei fornitori, magazzino, acquisti, preventivi, vendite, personale, mezzi, attrezzature, scadenze, documenti, monitoraggio e password) hanno sul bordo in basso della finestra, subito a destra del menu laterale, una sottile linguetta blu: **Primi passi** (dalla 1.143.5; prima era sul bordo destro). Passandoci sopra sale e mostra ✨, il nome e quanti passi sono fatti (per esempio 1/3); un clic fa salire dal bordo il riquadro con i passi per avviare la funzione, uno dopo l'altro (per esempio nel magazzino: il magazzino aziendale, i furgoni, le voci a magazzino, la giacenza iniziale, scorte e dotazioni, il primo inventario).
 
 - Ogni passo spiega che cosa fare, **evidenzia nella pagina** il pulsante da usare (o **Altro**, se il pulsante è nel suo menu) e ha **Fallo ora**, che apre la linguetta giusta e il modulo da compilare; **Nella guida** porta al capitolo che lo spiega.
 - Un passo si **spunta da solo** quando nei dati c'è quello che chiede (un magazzino creato, una fattura emessa…), anche se l'ha fatto un collega; **Salta** lo mette da parte, **Rimetti tra i passi** lo riprende.
@@ -237,6 +237,8 @@ Gli elenchi di tipi e categorie (categorie dei clienti e dei documenti, tipi di 
 - un clic sulla riga apre la sua **scheda**, sempre nel pannello a destra: nome, **icona e colore** (vedi [Icone e colori](#interfaccia-icone)), **Salva** ed **Elimina**;
 - 🗑 sulla riga elimina la voce: le schede che la usavano restano senza;
 - in fondo **Aggiungi** e, dove ci sono, le azioni dell'elenco (per i tipi di impianto **Importa…** ed **Esporta tutti**).
+
+**Senza chiudere la scheda** (dalla 1.143.5): nelle schede la scelta del tipo o della categoria (impianti, progetti, clienti e fornitori, documenti, password) ha in fondo **Nuovo tipo…** o **Nuova categoria…**, che apre la scheda della voce nuova sopra quella aperta e, salvata, la sceglie; **Gestisci l'elenco…**, o <kbd>F2</kbd> sulla scelta, apre l'elenco completo e, quando lo chiudi, la scelta si aggiorna (con una sola voce aggiunta, sceglie quella). Le due voci le vede chi ha il permesso di gestire quell'elenco.
 
 Le schede da compilare si aprono sempre nel pannello a destra; al centro restano solo le conferme, le domande di un campo (un nome, una cartella dove spostare) e le anteprime larghe.
 

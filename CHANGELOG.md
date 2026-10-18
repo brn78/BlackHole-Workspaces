@@ -4,6 +4,22 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.5 · 18 ottobre 2026
+
+- **Tipi e categorie senza chiudere la scheda**: nella scelta del tipo o della categoria (impianti, progetti, clienti,
+  documenti, password) ci sono *Nuovo tipo…* / *Nuova categoria…*, che la crea e la sceglie, e *Gestisci l'elenco…*;
+  anche con **F2** sulla scelta.
+- **Rubrica a più righe**: con *Scegli più righe* si aggiungono o tolgono dai preferiti, si esportano e si spostano nel
+  cestino tanti contatti insieme; nel cestino si ripristinano o si eliminano.
+- **Impianti**: la cartella in Documenti si chiama come il tipo (*Antintrusione*), il nome dell'impianto resta una
+  descrizione; la linguetta Documenti mostra il percorso vero della cartella. Il modello di partenza dell'antintrusione
+  non crea più la cartella *Tecnoalarm*.
+- **Cliente dalla Rubrica**: la scheda nasce normale, non più privata (la cartella in Documenti non è riservata).
+- **Primi passi** in basso a sinistra, accanto al menu: una linguetta che sale col mouse sopra, e il riquadro che sale
+  dal bordo.
+- **Elenco/Schede** segnato già all'apertura degli elenchi; in Attività resta solo il selettore della pagina.
+- Il **«?»** di un campo si apre solo sull'icona, non su tutta la riga; riga della Privacy del cliente allineata.
+
 ## 1.143.4 · 18 ottobre 2026
 
 - **Pannello dell'assistente in ordine**: la modalità e *Nuova conversazione* sono sopra, il campo per scrivere è largo

@@ -4,6 +4,29 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.144.0 · 18 ottobre 2026
+
+Correzioni di sicurezza, da un controllo del codice. Si consiglia di aggiornare.
+- **Configurazione iniziale con un codice**: per creare il primo amministratore dal browser serve il codice del file
+  `setup-code.txt` nella cartella dei dati, leggibile solo dagli amministratori del server. Aprendo la piattaforma
+  dall'installazione o dall'icona del server il codice è già scritto. Le installazioni esistenti non cambiano.
+- **Link di condivisione**: non mostrano più le cartelle con un permesso speciale (come i *Listini* dei produttori),
+  che si condividono solo con un link fatto apposta su di loro. Il link di un impianto con i documenti lo crea solo chi
+  vede la cartella dell'impianto. I file caricati con un link rispettano i limiti anche quando il programma che li manda
+  non ne dichiara la dimensione.
+- **Anteprima dei fogli di calcolo**: il testo formattato di un file si mostra come testo.
+- **Dati riservati dei clienti**: IBAN, codice SDI e banche non si trovano più con la ricerca generale e nei
+  suggerimenti da chi non li vede nella scheda. La ricerca nei documenti non usa più i nomi dei clienti che non si
+  vedono.
+- **PEC dello SDI**: si leggono solo i messaggi certificati dal gestore con lo SDI come mittente. Se usi l'invio con
+  la PEC, dopo l'aggiornamento controlla che le ricevute continuino ad arrivare: i messaggi scartati restano non letti
+  nella casella.
+- **Preventivi**: l'indirizzo del link online lo vede solo chi compila i preventivi; riportando un preventivo in bozza
+  il link si spegne e al nuovo invio se ne crea uno nuovo.
+- **Recupero della password**: il limite di 3 email all'ora per account ora funziona.
+- **Aggiornamento e motori dal browser**: più controlli che la richiesta arrivi davvero dalla rete locale.
+- **Immagini da un indirizzo web**: rifiutati anche gli indirizzi IPv6 della rete interna.
+
 ## 1.143.7 · 18 ottobre 2026
 
 - Il **«?»** accanto ai nomi dei campi non si illumina più passando con il mouse su tutta la riga: risponde solo

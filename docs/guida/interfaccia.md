@@ -111,6 +111,8 @@ Accanto a molti campi c'è l'icona (?): passandoci sopra (o con un clic, che la 
 
 ## <a id="interfaccia-campi"></a>Campi che si controllano e si compilano da soli
 
+Un campo che fa qualcosa ha la sua **icona a destra**, così si distingue da quelli di testo libero: data e ora, email, telefono, sito, indirizzo IP o nome di rete, MAC, coordinate, codice fiscale, partita IVA, importi e numeri, etichette. Quando il valore è controllato, la spunta verde (o l'avviso rosso) compare accanto all'icona.
+
 - **Spazi in più**: gli spazi lasciati prima o dopo un testo (un nome, un'email, un codice, un titolo) si tolgono da soli quando esci dal campo, e comunque al salvataggio. Le **password** restano esattamente come le scrivi, e così le note e i campi riservati della [gestione password](password.md); nei testi lunghi (il testo di un appunto, la descrizione di un'attività o di un progetto) restano i rientri all'inizio.
 - **Testi incollati**: copiando da un PDF, da Word, da una pagina web o da un'email arrivano spesso caratteri che non si vedono (spazi di larghezza zero, segni di controllo, spazi «non separabili»). Al salvataggio si tolgono da soli e gli spazi non separabili diventano spazi normali, così la ricerca e i controlli trovano il testo anche quando è incollato. Tabulazioni e a capo restano; le password restano come le scrivi. Anche un testo molto lungo su più righe, per esempio una tabella copiata da Excel, entra subito nelle descrizioni e nelle note.
 - **Troppi dati**: ogni scheda ha un limite di dimensione. Se un testo incollato è enorme (per esempio una conversazione email intera) il salvataggio si ferma con un messaggio che dice quanto è grande e cosa fare: accorciarlo, oppure allegarlo come file. La piattaforma non passa a *Senza rete*.

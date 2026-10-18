@@ -4,6 +4,20 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.3 · 18 ottobre 2026
+
+- **Rete locale a più righe**: con *Scegli più righe* si segnano tanti dispositivi insieme come conosciuti, ignorati o
+  da eliminare. I conosciuti hanno la spunta verde accanto al nome, i nuovi la pastiglia *Nuovo*, e c'è il filtro
+  *Conosciuti*.
+- **Campi con la loro icona**: ogni campo che fa qualcosa (sito, indirizzo IP o nome di rete, MAC, coordinate, codice
+  fiscale, partita IVA, importi, etichette…) ha la sua icona a destra e si distingue dai campi liberi; la spunta del
+  controllo sta accanto all'icona, non sopra.
+- **Etichette**: icona, aiuto che spiega come si aggiungono e si tolgono, un solo bordo quando il campo è attivo.
+- **Calendario sul telefono**: *Copia l'indirizzo* lo ricopia quando serve; gli indirizzi creati prima vanno rifatti
+  una volta.
+- **Pagina di accesso rivista**: titolo fermo con gli errori, pulsanti alti quanto i campi, marchio uguale a tutte le
+  larghezze.
+
 ## 1.143.2 · 18 ottobre 2026
 
 - **Menu del telefono che restano aperti**: il menu che sale dal basso non sparisce più quando lo si tocca o trascina;

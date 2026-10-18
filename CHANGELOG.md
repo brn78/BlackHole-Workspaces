@@ -4,6 +4,11 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.4 · 18 ottobre 2026
+
+- **Pannello dell'assistente in ordine**: la modalità e *Nuova conversazione* sono sopra, il campo per scrivere è largo
+  con *Invia* accanto e l'indicazione sotto, sul computer e sul telefono. Lo stesso in *Chiedi al documento*.
+
 ## 1.143.3 · 18 ottobre 2026
 
 - **Rete locale a più righe**: con *Scegli più righe* si segnano tanti dispositivi insieme come conosciuti, ignorati o

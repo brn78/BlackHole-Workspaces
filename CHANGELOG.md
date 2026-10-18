@@ -4,6 +4,16 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.6 · 18 ottobre 2026
+
+- **Filtri uguali in tutti gli elenchi**: accanto alla ricerca l'icona dell'imbuto apre al centro dello schermo la
+  finestra con tutti i filtri; sull'icona il numero di quelli attivi, e sotto la barra le loro etichette con la × per
+  toglierli (o *Togli tutti*). La barra resta su una riga. *Filtri…* anche nel menu di una riga.
+- **Ordinamento delle schede** con un'icona e il suo menu (colonna e verso), anche sul telefono.
+- **Più righe scelte**: il tasto destro (o ⋯) su una di esse mostra le azioni della scelta e vale per tutte; prima, per
+  esempio in Documenti, eliminava solo quella cliccata.
+- **Documenti** come gli altri elenchi: *Scegli più righe* a sinistra, *Elenco | Griglia* a destra.
+
 ## 1.143.5 · 18 ottobre 2026
 
 - **Tipi e categorie senza chiudere la scheda**: nella scelta del tipo o della categoria (impianti, progetti, clienti,

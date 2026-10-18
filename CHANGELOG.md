@@ -4,6 +4,12 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.7 · 18 ottobre 2026
+
+- Il **«?»** accanto ai nomi dei campi non si illumina più passando con il mouse su tutta la riga: risponde solo
+  sull'icona.
+- **Crediti**: con più clienti scelti, il tasto destro su uno di loro propone *Manda N lettere* per tutti.
+
 ## 1.143.6 · 18 ottobre 2026
 
 - **Filtri uguali in tutti gli elenchi**: accanto alla ricerca l'icona dell'imbuto apre al centro dello schermo la

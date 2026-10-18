@@ -4,6 +4,16 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.143.2 · 18 ottobre 2026
+
+- **Menu del telefono che restano aperti**: il menu che sale dal basso non sparisce più quando lo si tocca o trascina;
+  se le voci sono tante scorrono dentro il menu, e si chiude con un tocco fuori o trascinandolo in giù (basta un gesto
+  veloce). La pagina sotto resta ferma.
+- **Scorrimento che non passa alla pagina**: arrivati in fondo al menu laterale, a un pannello, a una finestra o a un
+  menu, la pagina principale non scorre più insieme.
+- **Barra in alto del telefono più leggera**: restano menu, ricerca, notifiche, chat e profilo; assistente AI, radio e
+  tema sono nel menu del profilo (la radio resta in barra mentre suona).
+
 ## 1.143.1 · 18 ottobre 2026
 
 - **Testi incollati senza sorprese**: i caratteri che non si vedono e arrivano copiando da PDF, Word, pagine web o email

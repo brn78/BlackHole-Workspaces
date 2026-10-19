@@ -30,7 +30,7 @@ Scegli **Azienda** (ragione sociale, forma giuridica) oppure **Persona fisica** 
 - Sotto la **data di nascita** di una persona compare il suo **segno zodiacale** (anche nella stampa della scheda): solo un'informazione in più. Lo stesso nelle schede del personale e degli utenti.
 - **Attivo**, nella fascia dei pulsanti in basso: una scheda non attiva resta in archivio e si nasconde con il filtro **Attivi**.
 
-Se esiste già un cliente con lo stesso codice fiscale, la stessa partita IVA o lo stesso nome compare l'avviso **Possibile doppione**.
+Mentre scrivi il nome, il codice fiscale o la partita IVA, se esiste già un cliente o fornitore con gli stessi dati compare l'avviso **Possibile doppione** con il link alla scheda; i nomi solo simili (*Rossi Impianti* accanto a *Rossi S.r.l.*) compaiono come informazione. Creando la scheda viene chiesta conferma: vedi [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni).
 
 **Duplica** (nel menu della riga e in fondo alla scheda, per chi può creare schede o ha la rubrica personale) apre una **scheda nuova** con gli stessi dati, comoda per un'altra sede o un'altra società dello stesso gruppo: ruoli, anagrafica, categoria, gruppo, etichette, contatti, indirizzi (con le coordinate), coordinate bancarie, referenti e note. Non si copia ciò che identifica la scheda: **codice** (se ne assegna uno nuovo), **codice fiscale**, **partita IVA**, **codice SDI**, **PEC** e immagine. Al nome si aggiunge «(copia)»: cambialo, completa i dati fiscali e premi **Crea**. La copia di un tuo contatto privato resta privata.
 

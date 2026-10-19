@@ -48,7 +48,8 @@ importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente 
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, importazione da Excel o da un vecchio
-gestionale, e la **valutazione del cliente**: come paga, quanto è fedele, quanto lavoro porta e quanto si guadagna.
+gestionale, l'**avviso dei possibili doppioni** mentre si scrive (in tutte le anagrafiche, dagli articoli alle
+password), e la **valutazione del cliente**: come paga, quanto è fedele, quanto lavoro porta e quanto si guadagna.
 
 **🛠️ Commesse e impianti**<br>
 Progetti con attività, budget e consuntivo; impianti dei clienti con la loro cartella e il Leggimi; certificazioni

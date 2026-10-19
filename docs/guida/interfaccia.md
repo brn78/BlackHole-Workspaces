@@ -191,6 +191,28 @@ Molti campi propongono, mentre scrivi, i valori **già scritti nello stesso camp
 
 I suggerimenti vengono solo da ciò che puoi vedere: compaiono a chi può aprire quella pagina e non mostrano mai i dati dei clienti riservati che non vedi. Un valore appena salvato compare subito tra i suggerimenti.
 
+## <a id="interfaccia-doppioni"></a>Avviso dei possibili doppioni
+
+Mentre compili una scheda, il programma controlla se in archivio **c'è già**: scrivendo *Rossi srl* come nuovo cliente compare subito, sotto il nome, che esiste già *Rossi S.r.l.*, con il link per aprirla. Così si evita di avere lo stesso cliente, fornitore, articolo o contatto due volte, con i documenti e la storia divisi a metà.
+
+- **Possibile doppione** (riquadro arancione): una scheda con lo **stesso nome**, anche scritto con maiuscole, accenti, punti o forma societaria diversi (*Rossi S.r.l.*, *ROSSI SRL* e *srl Rossi* sono lo stesso nome), oppure con lo **stesso codice** che la identifica (partita IVA, codice fiscale, targa, codice dell'articolo…). Premendo **Crea** il programma chiede conferma: **Annulla** per tornare alla scheda, **Crea comunque** se sono davvero due schede diverse (due omonimi, per esempio). Lo stesso vale salvando una scheda esistente in cui hai cambiato proprio quei campi.
+- **Schede simili** (riquadro azzurro): nomi che si somigliano, per esempio *Rossi Impianti* se c'è già *Rossi*. È solo un'informazione: non chiede nulla.
+
+Il controllo parte mentre scrivi (dopo un attimo di pausa) e anche quando apri una scheda esistente, una copia fatta con **Duplica** o una scheda compilata da un testo. Considera solo le schede che puoi vedere: un contatto privato di un collega o un progetto riservato a cui non partecipi non compaiono.
+
+| Dove | Possibile doppione | Solo informazione |
+| --- | --- | --- |
+| [Clienti e fornitori](clienti.md) | Stesso nome, codice fiscale o partita IVA | Nome simile |
+| [Rubrica](rubrica.md) | Stesso nome (anche con nome e cognome invertiti), email o telefono | Nome simile |
+| [Listino](listino.md) | Stesso codice, codice a barre, codice del fornitore o descrizione | Descrizione simile |
+| [Produttori](produttori.md) | Stesso nome o partita IVA | Nome simile |
+| [Mezzi e attrezzature](mezzi.md) | Stesso numero, targa, telaio o matricola | Stessa descrizione (più mezzi dello stesso modello sono normali) |
+| [Personale](personale.md) | Stesso nome e cognome (anche invertiti), codice fiscale o matricola | Nome simile |
+| [Impianti](impianti.md) | Stesso nome nella stessa sede dello stesso cliente | Stesso nome in un'altra sede, stesso tipo nella stessa sede |
+| [Progetti](progetti.md) | Stesso codice, stesso nome per lo stesso cliente | Stesso nome per un altro cliente |
+| [Password](password.md) | Stesso utente (o email) sullo stesso sito o nello stesso «Dove si usa», stesso nome con lo stesso utente | Nome simile, stesso sito con un altro utente |
+| [Utenti](utenti.md) | Stesso nome utente, email, codice fiscale o nome e cognome | Nome simile |
+
 ## <a id="interfaccia-icone"></a>Icone e colori
 
 Molte schede hanno **Icona e colore**: una piccola immagine che le fa riconoscere al volo negli elenchi, al posto dell'iniziale o dell'icona generica. Si sceglie tra le **7.188 icone Material Design Icons**, incluse nel programma (funzionano anche senza internet), con un colore a scelta, la **forma** (arrotondato, cerchio, quadrato, rombo) e il **riempimento**: con un'icona, icona su colore pieno, icona colorata su fondo tenue, solo l'icona colorata oppure icona colorata con il bordo; con il solo colore, pieno, fondo tenue o solo bordo. È l'unico modo di dare un colore a tipi e categorie: la tinta della piattaforma usata da chip e filtri si ricava da sola, la più vicina al colore scelto.

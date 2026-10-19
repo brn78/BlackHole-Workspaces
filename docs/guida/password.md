@@ -72,6 +72,8 @@ I segreti non compaiono mai negli elenchi e arrivano al browser solo quando li c
 
 **Duplica** (nel menu della riga e in fondo alla scheda) serve quando per lo stesso servizio c'è un'altra credenziale, per esempio una chiave API o un token accanto alla password di accesso: apre una **voce nuova** con tipo, nome seguito da «(copia)», utente, email, dove si usa, link, cliente, etichette, descrizione, campi aggiuntivi e, se la voce è tua, la condivisione. I **segreti non si copiano**: password, verifica in due passaggi, note riservate e valori dei campi riservati (di cui resta il nome) sono da scrivere. Cambia il tipo, il nome e il segreto, poi **Crea**.
 
+Se tra le password che vedi ce n'è già una con lo **stesso utente** (o la stessa email) **sullo stesso sito** o nello stesso **Dove si usa**, mentre compili compare l'avviso **Possibile doppione** con il link alla voce, e creando la voce viene chiesta conferma: spesso conviene aggiornare quella che c'è. Lo stesso sito con un altro utente o un nome simile compaiono solo come informazione. I segreti non si confrontano mai. Vedi [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni).
+
 Chiudendo il modulo con modifiche non salvate viene chiesta conferma (vedi [Modifiche non salvate](interfaccia.md#interfaccia-non-salvate)). Se un collega salva la stessa voce mentre la stai modificando, il tuo salvataggio viene fermato con un messaggio che dice chi l'ha cambiata: chiudi e riapri la scheda per vedere la versione aggiornata. Le schede aperte in consultazione e l'elenco si aggiornano da soli quando qualcuno cambia una voce che vedi.
 
 ## <a id="password-generatore"></a>Generatore di password

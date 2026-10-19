@@ -4,6 +4,15 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.146.1 · 19 ottobre 2026
+
+- **Possibili doppioni anche nelle Password**: creando una voce, se tra quelle che vedi c'è già lo stesso utente (o la
+  stessa email) sullo stesso sito o nello stesso «Dove si usa», compare l'avviso con il link alla voce e prima di
+  salvare viene chiesta conferma. Lo stesso sito con un altro utente, o un nome simile, compaiono solo come
+  informazione. Le password non si confrontano mai.
+- **Guida utente**: nuovo paragrafo *Avviso dei possibili doppioni* (capitolo L'interfaccia), con la tabella di che
+  cosa si controlla in ogni scheda; l'avviso ha la sua icona di aiuto con il rimando alla guida.
+
 ## 1.146.0 · 19 ottobre 2026
 
 **Avviso dei possibili doppioni.** Mentre si compila una scheda, il programma controlla se c'è già: scrivendo

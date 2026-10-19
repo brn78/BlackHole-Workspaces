@@ -4,6 +4,24 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.145.0 · 19 ottobre 2026
+
+Altre correzioni di sicurezza, dal secondo giro del controllo del codice. Si consiglia di aggiornare.
+- **Contatti privati e progetti riservati**: non si possono più usare scegliendoli per numero in vendite, acquisti,
+  gestione crediti, magazzino e monitoraggio da chi non li vede. Le bozze già fatte si modificano come prima; nel
+  monitoraggio il cliente di un controllo si mostra come *Contatto riservato* a chi non lo vede.
+- **Sintesi vocale**: gli audio di un cliente eliminato per sempre restano visibili solo agli amministratori.
+- **Attività dei progetti riservati**: chi esce da un gruppo (o perde il permesso di vedere i progetti) non vede più
+  la cartella delle attività del progetto.
+- **Archivio di rete**: i file si aprono solo se sono davvero dentro la cartella dell'archivio, senza seguire
+  collegamenti. Corretta la ricerca con parole di una o due lettere, che non trovava nulla.
+- **PEC dello SDI**: cambiando server o nome utente della casella va scritta di nuovo la password.
+- **Link di condivisione e anteprime**: limiti sugli archivi ZIP scaricati da un link (numero di file, dimensione e
+  download insieme: la pagina spiega il motivo) e sui caricamenti in corso; le conversioni di disegni DWG e documenti
+  Office che non riescono non si ripetono di continuo; la lettura del testo dei documenti e l'anteprima degli archivi
+  ZIP hanno limiti di tempo e di dimensione.
+- **Vendite e fatture dei fornitori**: i permessi si controllano prima di leggere i file caricati.
+
 ## 1.144.0 · 18 ottobre 2026
 
 Correzioni di sicurezza, da un controllo del codice. Si consiglia di aggiornare.

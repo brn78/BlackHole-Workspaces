@@ -4,6 +4,18 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.146.0 · 19 ottobre 2026
+
+**Avviso dei possibili doppioni.** Mentre si compila una scheda, il programma controlla se c'è già: scrivendo
+«Rossi srl» compare subito che in archivio c'è «Rossi S.r.l.», con il link per aprirla.
+- **Possibile doppione** (avviso arancione): stesso nome, anche scritto con maiuscole, punteggiatura o forma societaria
+  diverse, oppure stesso codice che identifica la scheda (partita IVA, codice fiscale, targa, matricola, codice
+  dell'articolo, codice a barre, email…). Creando la scheda, il programma chiede conferma prima di salvarla.
+- **Schede simili** (avviso azzurro): nomi che si somigliano, per esempio «Rossi Impianti» e «Rossi». È solo
+  un'informazione.
+- **Dove**: clienti e fornitori, rubrica, listino, produttori, mezzi e attrezzature, personale, impianti (dello stesso
+  cliente), progetti e utenti.
+
 ## 1.145.1 · 19 ottobre 2026
 
 Altre correzioni di sicurezza, dal terzo giro del controllo del codice. Si consiglia di aggiornare.

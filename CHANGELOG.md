@@ -30,6 +30,10 @@ crediti scaduti, persone in forza o qualunque altro numero si voglia seguire.
 **La guida segue le sezioni**: i capitoli delle sezioni spente non compaiono più nella guida, nella sua ricerca e nelle
 risposte dell'assistente AI.
 
+**Dati dimostrativi nella release**: insieme al setup c'è `BlackHoleWorkspaces-demo-1.147.0.bhbak`, un backup con
+un'azienda inventata e tutti i moduli pieni (Indicatori e Rubrica compresi) per provare la piattaforma su un PC di
+prova; istruzioni nel README e in `BlackHoleWorkspaces-demo-LEGGIMI.txt`. Da ora ogni versione ha il suo.
+
 ## 1.146.1 · 19 ottobre 2026
 
 - **Possibili doppioni anche nelle Password**: creando una voce, se tra quelle che vedi c'è già lo stesso utente (o la

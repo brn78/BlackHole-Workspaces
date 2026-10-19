@@ -158,7 +158,8 @@ elencati in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 Scarica **`BlackHoleWorkspaces-<versione>-Setup.exe`** dalla pagina
 [Releases](https://github.com/brn78/BlackHole-Workspaces/releases/latest). Il setup contiene tutto il necessario, compreso
-il runtime .NET: non serve installare altro. Le novità di ogni versione sono nel [registro delle versioni](CHANGELOG.md).
+il runtime .NET: non serve installare altro. Nella stessa pagina ci sono i [dati dimostrativi](#-provala-con-i-dati-dimostrativi)
+per provarla. Le novità di ogni versione sono nel [registro delle versioni](CHANGELOG.md).
 
 ## 💻 Requisiti
 
@@ -182,6 +183,23 @@ il runtime .NET: non serve installare altro. Le novità di ogni versione sono ne
    ogni pagina guidano il resto.
 
 Tutti i dettagli sono nella [guida utente](docs/guida/server.md).
+
+## 🧪 Provala con i dati dimostrativi
+
+Per valutare la piattaforma senza inserire nulla, ogni release porta anche
+**`BlackHoleWorkspaces-demo-<versione>.bhbak`**: un backup con un'azienda inventata («Impianti Demo S.r.l.») e tutti i
+moduli pieni, da gennaio a ottobre: clienti e fornitori, rubrica, preventivi, commesse, impianti, assistenza,
+magazzino, acquisti, vendite con la fatturazione elettronica, banca, contabilità, personale, mezzi, indicatori e premi,
+password, documenti e rete locale. Nomi, numeri e indirizzi sono tutti di fantasia.
+
+1. Installa la piattaforma su un **PC di prova** e crea l'amministratore.
+2. In *Sistema → Backup* scegli **Carica backup** e poi **Ripristina** sulla sua riga: la password del backup è
+   `demo-backup`.
+3. Dopo il riavvio entra con `admin` / `admin` (gli altri utenti della demo hanno la password `demo1234`).
+
+> [!WARNING]
+> Il ripristino sostituisce tutti i dati del server: non farlo mai su quello che usi davvero. Istruzioni e contenuto
+> sono in `BlackHoleWorkspaces-demo-LEGGIMI.txt`, allegato alla stessa release.
 
 ## 🔄 Aggiornamenti
 

@@ -4,6 +4,18 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.145.1 · 19 ottobre 2026
+
+Altre correzioni di sicurezza, dal terzo giro del controllo del codice. Si consiglia di aggiornare.
+- **Programmi e pacchetti nei documenti e nei link**: la verifica della firma usa solo i certificati già presenti sul
+  server, senza scaricarne altri da indirizzi scritti nel file; la scheda di un programma si ricorda e non si rifà a
+  ogni apertura.
+- **Anteprime con LibreOffice**: i collegamenti contenuti nei documenti (immagini, sezioni o oggetti presi da indirizzi
+  web, cartelle di rete o file del server) non si aprono più e le macro restano disattivate. Se una conversione non
+  riesce, il messaggio non mostra più dettagli del server.
+- **Posta in uscita**: come per la PEC, cambiando server, porta, sicurezza o nome utente va scritta di nuovo la
+  password.
+
 ## 1.145.0 · 19 ottobre 2026
 
 Altre correzioni di sicurezza, dal secondo giro del controllo del codice. Si consiglia di aggiornare.

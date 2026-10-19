@@ -33,6 +33,7 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Assistenza | Vedere l'assistenza · Aprire le richieste e registrare gli interventi · Gestire l'assistenza (vedi [Assistenza](assistenza.md#assistenza-permessi)) |
 | Personale | Vedere il personale · Documenti personali e visite mediche · Costi del personale · Gestire il personale · Eliminare le schede del personale · Gestire i corsi, i documenti e le visite (vedi [Personale](personale.md#personale-permessi)) |
 | Reperibilità | Vedere la reperibilità · Gestire la reperibilità (vedi [Reperibilità](reperibilita.md#reperibilita-permessi)) |
+| Indicatori | Vedere gli indicatori · Inserire i dati degli indicatori · Configurare gli indicatori · Indicatori delle persone · Premi (vedi [Indicatori](indicatori.md#indicatori-permessi)) |
 | Mezzi e attrezzature | Vedere mezzi e attrezzature · Costi di mezzi e attrezzature · Gestire mezzi e attrezzature · Eliminare mezzi e attrezzature · Gestire i tipi di mezzi e attrezzature (vedi [Mezzi e attrezzature](mezzi.md#mezzi-permessi)) |
 | Listino | Vedere il listino · Costi e ricarichi del listino · Gestire il listino (vedi [Listino](listino.md#listino-permessi)) |
 | Magazzino | Vedere il magazzino · Registrare i movimenti · Il proprio furgone · Gestire il magazzino (vedi [Magazzino](magazzino.md#magazzino-permessi)) |

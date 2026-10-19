@@ -33,6 +33,7 @@ Con l'[assistente AI](assistente-ai.md) attivo, **✨ Da un testo** (per chi pu�
 - **Contatti**: email, telefoni e indirizzi (residenza, domicilio…), con gli stessi controlli dei clienti.
 - **Orario e costo**: l'[orario di lavoro](#personale-orario) (a fasce oppure le ore al giorno e alla settimana), la **tariffa oraria di vendita** e, per chi ha il permesso dei costi, il **costo aziendale**.
 - **Formazione**, **Documenti** e **Visite**: le [voci](#personale-voci) della persona; sulla linguetta, quante sono e un pallino se c'è qualcosa da guardare.
+- **Indicatori** (dalla 1.147.0, con il [dettaglio per persona](indicatori.md#indicatori-persone) acceso, a chi può vedere la persona): i suoi indicatori e quelli del reparto nell'anno, le valutazioni, le note dei colloqui e, a chi vede i premi, il premio; con la stampa del riepilogo da firmare.
 - **Storico**: chi ha cambiato che cosa, e quando.
 
 In basso **Elimina**, **Duplica** (una scheda nuova con la stessa azienda, mansione, reparto, contratto, orario e tariffa, comoda quando si assumono più persone per lo stesso lavoro) e **Stampa**: la scheda con i corsi e, per chi li vede, documenti e visite, oppure il [tesserino di riconoscimento](#personale-tesserino). Una scheda nuova si crea con i dati e i contatti, anche dalla scheda di un [cliente](clienti.md#clienti-personale) o di un [utente](utenti.md), con i loro dati già scritti; corsi, documenti e visite si registrano subito dopo, nella scheda che si riapre da sola.

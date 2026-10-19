@@ -23,6 +23,7 @@
 - **Scadenze** : le [scadenze](scadenze.md) da gestire, le più urgenti prima: quelle passate, le voci obbligatorie mancanti e quelle entro il preavviso. Un clic apre la scheda della persona alla linguetta giusta, la scheda del mezzo o dell'attrezzatura, oppure la scadenza dell'azienda; **Scadenze** apre lo scadenzario.
 - **In consegna a te** : i [mezzi e le attrezzature](mezzi.md#mezzi-consegne) che l'azienda ti ha affidato, ciascuno con la sua prossima scadenza (revisione, tagliando, verifica…). Compare solo a chi ha qualcosa in consegna, cioè a chi ha la sua [scheda del personale](personale.md#personale-accesso) collegata all'utente.
 - **Reperibilità** : **Sei reperibile fino a…** quando tocca a te, il tuo prossimo turno se è entro due settimane e, a chi vede la [reperibilità](reperibilita.md), chi è reperibile adesso con il telefono. Compare solo quando c'è qualcosa da dire.
+- **Indicatori** : gli [indicatori](indicatori.md) segnati «nella Home», per l'azienda (a chi la vede), per il tuo reparto o quelli di cui sei responsabile e per te, con il valore dell'ultimo periodo finito, il colore dello stato e il mini andamento. Un clic apre il dettaglio.
 - **Chi è online**: i colleghi collegati, con la chat a portata di clic (vedi [Chat e presenze](chat.md)).
 - **Notifiche** 🔔: le ultime notifiche, con **Segna tutte come lette** e il collegamento alle [preferenze](notifiche.md#notifiche-preferenze).
 - **Appunti** : prima i fissati in alto, poi i più recenti, anche quelli condivisi con te.

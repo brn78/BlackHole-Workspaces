@@ -4,6 +4,32 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.147.0 · 19 ottobre 2026
+
+**Indicatori** (Azienda → Indicatori). L'andamento dell'azienda, dei reparti e, se si vuole, delle singole persone,
+mese per mese: pezzi prodotti, rilavorazioni, ore, interventi chiusi nei tempi, preventivi accettati, fatturato,
+crediti scaduti, persone in forza o qualunque altro numero si voglia seguire.
+- **Misure**: quelle che il programma conta da solo (progetti, ore, assistenza, manutenzioni, preventivi, vendite,
+  crediti, contabilità, personale) e quelle che si inseriscono a mano, anche importandole da Excel o CSV, con chi deve
+  inserirle e il promemoria.
+- **Indicatori**: si costruiscono dalle misure (per esempio rilavorazioni ÷ pezzi × 100), per mese, trimestre o anno,
+  con obiettivo e soglia d'allarme. Il cruscotto li mostra con il grafico, il confronto con l'anno prima e il colore
+  dello stato; la tabella li mette a confronto periodo per periodo. Quando un indicatore passa la soglia arriva un
+  avviso a chi si è scelto.
+- **Reparti e responsabili**: ogni responsabile vede il proprio reparto e le sue persone, senza bisogno di permessi.
+- **Persone** (facoltativo): indicatori personali, valutazioni con voci a scelta, note dei colloqui e riepilogo da
+  stampare e firmare, anche nella nuova linguetta *Indicatori* della scheda del personale. Si può lasciare che ognuno
+  veda i propri.
+- **Premi di fine anno** (facoltativo): fondo fisso o percentuale dell'utile, tre parti (azienda, reparto, persona) con
+  i loro pesi, fasce, calcolo in proporzione per chi è entrato o uscito durante l'anno e forme del premio a scelta per
+  persona. Tutti i nomi (del piano, delle parti, delle fasce, delle forme come «Welfare») si cambiano liberamente.
+- **Modelli pronti** per produzione, squadre sul campo e ufficio, e configurazione da esportare e importare.
+- **Periodi chiusi**: un mese chiuso conserva valori e obiettivi di allora, anche se poi si cambiano le formule.
+- Nuovo gruppo di permessi *Indicatori*; il modulo è una sezione che si può spegnere in *Impostazioni → Sezioni*.
+
+**La guida segue le sezioni**: i capitoli delle sezioni spente non compaiono più nella guida, nella sua ricerca e nelle
+risposte dell'assistente AI.
+
 ## 1.146.1 · 19 ottobre 2026
 
 - **Possibili doppioni anche nelle Password**: creando una voce, se tra quelle che vedi c'è già lo stesso utente (o la

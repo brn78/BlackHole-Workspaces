@@ -13,7 +13,7 @@ Sotto, le **aree dell'azienda**, come in un gestionale, ciascuna pagina con i su
 
 - **Anagrafiche**: [Clienti](clienti.md) e [Fornitori](clienti.md#clienti-ruoli), con le loro sedi;
 - **Commesse**: i [Progetti](progetti.md), cioè i lavori da organizzare, gli [Impianti](impianti.md), ciò che resta installato presso i clienti quando il lavoro finisce, e le [Certificazioni](certificazioni.md), il registro delle loro dichiarazioni, e le [Manutenzioni](manutenzioni.md), il piano e i rapporti degli interventi periodici, le [Pratiche](pratiche.md) con gli enti (connessione, GSE, ENEA…), con i passi e le scadenze, e l' [Assistenza](assistenza.md), le richieste dei clienti e il laboratorio;
-- **Azienda**: il [Personale](personale.md), con i corsi, i documenti e le visite di ciascuno, i [Mezzi e le Attrezzature](mezzi.md), con le loro scadenze, le manutenzioni e a chi sono consegnati, e le [Scadenze](scadenze.md), lo scadenzario del personale, dei mezzi e dell'azienda;
+- **Azienda**: il [Personale](personale.md), con i corsi, i documenti e le visite di ciascuno, gli [Indicatori](indicatori.md), l'andamento dell'azienda e dei reparti mese per mese, i [Mezzi e le Attrezzature](mezzi.md), con le loro scadenze, le manutenzioni e a chi sono consegnati, e le [Scadenze](scadenze.md), lo scadenzario del personale, dei mezzi e dell'azienda;
 - **Archivio**: i [Documenti](documenti.md), le [Condivisioni](condivisioni.md), i link per far vedere file, cartelle e la documentazione degli impianti a chi non ha un account, e l'[Archivio di rete](archivio-rete.md#archivio-rete-sfogliare), le cartelle dell'ufficio in sola lettura;
 - **Strumenti**: il [Monitoraggio](monitoraggio.md) dei dispositivi, dei servizi e dei siti.
 

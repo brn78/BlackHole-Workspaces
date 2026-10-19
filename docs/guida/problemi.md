@@ -415,6 +415,27 @@ Nella scheda [Assistente AI](impostazioni.md#impostazioni-ai) il riquadro **Moto
 
 </details>
 
+<details>
+<summary><b>Un indicatore mostra «—»</b></summary>
+
+Nel periodo manca il dato della misura A, oppure in una divisione la misura B vale zero (per esempio nessun pezzo prodotto): il programma non scrive un numero sbagliato. Controlla la linguetta [Dati](indicatori.md#indicatori-dati) e, nel dettaglio dell'indicatore, il valore delle misure della formula. Un indicatore annuale con misure mensili somma i mesi che ci sono.
+
+</details>
+
+<details>
+<summary><b>Non vedo la linguetta Indicatori nella scheda del personale</b></summary>
+
+Serve il [dettaglio per persona](indicatori.md#indicatori-persone) acceso nelle impostazioni degli indicatori e poter vedere quella persona: il permesso «Indicatori delle persone», essere responsabile del suo reparto, oppure essere la persona stessa con «Ognuno vede i propri» acceso.
+
+</details>
+
+<details>
+<summary><b>Il responsabile di reparto non vede gli indicatori</b></summary>
+
+Controlla in Indicatori → Configurazione → Impostazioni che il reparto sia scritto come nelle schede del personale e che il responsabile sia l'utente giusto. Vede il suo reparto e (con il dettaglio per persona) le sue persone, non l'azienda né gli altri reparti.
+
+</details>
+
 ---
 
 [← Buone pratiche di sicurezza](sicurezza.md) · [Indice](README.md) · [Fonti e riconoscimenti →](crediti.md)

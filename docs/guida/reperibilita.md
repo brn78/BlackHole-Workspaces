@@ -52,4 +52,4 @@ La linguetta **Ore** conta, per persona, i turni del mese (o dell'anno, con **An
 
 ---
 
-[← Personale](personale.md) · [Indice](README.md) · [Mezzi e attrezzature →](mezzi.md)
+[← Personale](personale.md) · [Indice](README.md) · [Indicatori →](indicatori.md)

@@ -72,4 +72,4 @@ Un bene si **consegna** a una persona del [personale](personale.md), anche se no
 
 ---
 
-[← Reperibilità](reperibilita.md) · [Indice](README.md) · [Banca →](banca.md)
+[← Indicatori](indicatori.md) · [Indice](README.md) · [Banca →](banca.md)

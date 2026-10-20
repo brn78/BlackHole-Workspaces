@@ -27,6 +27,10 @@ Dalla 1.123.0, con l'[assistente AI](assistente-ai.md) attivo, **✨ Da un testo
 
 Ogni scadenza manda una [notifica](notifiche.md) quando **entra nel preavviso** e una quando **passa** senza essere rinnovata, una volta sola per data (o per km), dalle 7 del mattino; come le altre notifiche arrivano anche per email a chi le vuole. Le ricevono chi può **Gestire il personale** (per documenti e visite serve anche **Documenti personali e visite mediche**), chi può **Gestire mezzi e attrezzature** (e la persona che ha il bene in consegna, se ha la scheda collegata a un utente), chi può **Gestire le manutenzioni** (quelle dei contatti privati solo il proprietario e gli amministratori) e chi può **Gestire le scadenze dell'azienda**. Le voci mancanti non mandano notifiche: compaiono nello scadenzario e nelle schede. Si possono disattivare dalle [preferenze delle notifiche](notifiche.md#notifiche-preferenze).
 
+## <a id="scadenze-importa"></a>Importare ed esportare
+
+**Esporta** scarica lo scadenzario (che cosa, riferimento, data, stato, ogni quanto) in **Excel**, **CSV** o come **calendario** (.ics, un evento il giorno di ogni scadenza); dalla linguetta **Dell'azienda** esporta le scadenze dell'azienda con le colonne che l'importazione riconosce. **Importa** (a chi gestisce le scadenze) porta le **scadenze dell'azienda** da un foglio: che cosa, categoria, azienda del gruppo, data, ogni quanto (in mesi o annuale, biennale…), preavviso e note. Le altre scadenze nascono dalle loro schede (personale, mezzi, manutenzioni…) e si importano dalle loro pagine. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="scadenze-permessi"></a>Permessi
 
 | Permesso | Consente |

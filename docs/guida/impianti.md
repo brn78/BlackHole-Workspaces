@@ -141,6 +141,13 @@ I tipi dei campi: quando si compila la scheda, il valore si controlla secondo il
 
 Le modifiche valgono anche per le schede già compilate. Rinominare un campo o una sezione non perde nulla; togliendoli, i valori già scritti restano nella parte (in fondo, *dati di campi tolti dal modello*) finché nella sua finestra non si sceglie **Toglili**. Un modello usato da qualche scheda non si elimina.
 
+## <a id="impianti-importa"></a>Importare ed esportare
+
+**Esporta** scarica in **Excel** o **CSV** gli impianti mostrati, scelti o tutti: cliente (con il codice davanti), nome, tipo, sede, stato, data di installazione e Leggimi. **Importa** (a chi crea gli impianti) li porta da un foglio, una riga per impianto. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
+- Il **cliente** si riconosce dal codice, dalla partita IVA, dal codice fiscale o dal nome com'è in anagrafica (anche senza la forma societaria): deve esserci, altrimenti la riga non si importa.
+- Il **tipo** si cerca tra i tipi degli impianti, la **sede** tra quelle del cliente (via o città). Quello che non si trova finisce nel Leggimi, sotto «Da controllare». Ogni impianto nuovo ha la sua cartella in Documenti.
+
 ## <a id="impianti-permessi"></a>Permessi
 
 | Permesso | Consente |

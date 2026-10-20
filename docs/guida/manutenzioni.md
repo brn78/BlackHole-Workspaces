@@ -48,6 +48,10 @@ Ogni [tipo di impianto](impianti.md#impianti-tipi) propone le sue manutenzioni (
 > [!NOTE]
 > **Le periodicità proposte sono indicative.** Quelle vere dipendono dalle norme (per esempio i controlli antincendio, le verifiche DPR 462/01, le guide CEI), dal costruttore, dall'uso e dai contratti con i clienti: verificale e correggile nei tipi o nel piano di ogni impianto.
 
+## <a id="manutenzioni-importa"></a>Importare ed esportare il piano
+
+**Esporta** scarica il piano delle manutenzioni in **Excel**, in **CSV** oppure come **calendario** (.ics), un evento il giorno di ogni scadenza da aprire in Outlook, Google Calendar o sul telefono. **Importa** (a chi gestisce le manutenzioni) porta il piano da un foglio: impianto, cliente (serve se più clienti hanno un impianto con lo stesso nome), manutenzione, ogni quanto (in mesi, oppure semestrale, annuale, una volta sola), prossima scadenza, preavviso, controlli separati da punto e virgola, contratto e la sua fine. Si collegano solo agli impianti in servizio. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="manutenzioni-permessi"></a>Permessi
 
 | Permesso | Consente |

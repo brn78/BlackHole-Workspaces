@@ -4,6 +4,30 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.149.0 · 20 ottobre 2026
+
+**Importare ed esportare, seconda parte: il lavoro di tutti i giorni.** Le stesse finestre «Importa» ed «Esporta» della
+1.148.0 (tutti i fogli del file, modello Excel da compilare, import diretto, scelta delle colonne) arrivano in:
+- **Impianti**: cliente, nome, tipo, sede, stato, data di installazione e Leggimi.
+- **Manutenzioni**: il piano, con ogni quanto (in mesi o «semestrale», «annuale»…), prossima scadenza, controlli e
+  contratto.
+- **Progetti** e **attività**: codice, cliente, responsabile o assegnatari, stato, priorità, date, ore, voci da
+  spuntare.
+- **Scadenze dell'azienda**: certificazioni, polizze, contributi, con ogni quanto si ripetono e il preavviso.
+- **Reperibilità**: i turni, con giorno e ora di inizio e fine.
+- **Trattative**: un cliente che non è in anagrafica diventa il potenziale cliente, con telefono ed email.
+- **Giacenze del magazzino**: le quantità di un foglio entrano come giacenza iniziale (un carico solo) oppure in un
+  inventario da controllare e chiudere; l'export ha una colonna per ogni magazzino e furgone.
+
+**Calendario (.ics)**: scadenze, manutenzioni, progetti, attività, turni di reperibilità e prossimi passi delle
+trattative si esportano anche come calendario, da aprire in Outlook, Google Calendar o sul telefono.
+
+**Collegamenti nelle importazioni**: il cliente, l'impianto, il progetto o la persona di una riga si riconoscono dal
+codice, dalla partita IVA, dal codice fiscale o dal nome (anche senza la forma societaria). Quello che non si trova non
+ferma la riga: finisce nelle note, «Da controllare».
+
+Nella release anche i dati dimostrativi aggiornati alla 1.149.0.
+
 ## 1.148.0 · 20 ottobre 2026
 
 **Importare ed esportare, uguale dappertutto** (prima parte: anagrafiche e listini). Le finestre «Importa» ed

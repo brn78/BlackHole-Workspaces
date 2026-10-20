@@ -85,6 +85,15 @@ La linguetta **Da riordinare** elenca le voci a magazzino sotto la **scorta mini
 
 Ogni voce ha il suo **costo medio ponderato**: i carichi con il costo (giacenza iniziale, carico da fornitore, rettifica in aumento) lo aggiornano, tutte le uscite valgono il costo medio del momento. Correggendo o eliminando un carico, costo medio e valore delle uscite si ricalcolano. Nella scheda di magazzino, **Consumi e acquisti** mostra per ogni fornitore quante volte e quanto si è comprato, l'**ultimo prezzo**, il **medio**, il minimo e il massimo: un ultimo prezzo sopra il medio è evidenziato. Costi e valori li vede solo chi ha i [costi del listino](listino.md#listino-permessi).
 
+## <a id="magazzino-importa"></a>Importare ed esportare le giacenze
+
+**Esporta** scarica le giacenze in **Excel** o **CSV**: codice, descrizione, unità, marca, codice a barre, una colonna per ogni magazzino e furgone, il totale e la scorta minima. **Importa** porta le quantità da un foglio (codice o codice a barre e quantità, il costo se serve) in un magazzino scelto, in due modi:
+
+- **Giacenza iniziale**: un carico solo con le quantità del foglio, da fare all'inizio (si somma a quello che c'è già), con il costo unitario per chi vede i costi.
+- **Inventario** (a chi gestisce il magazzino): le quantità contate vanno nell'inventario aperto del magazzino (o in uno nuovo). Lo controlli e lo chiudi dalla linguetta **Inventari**, che fa la rettifica delle differenze.
+
+Gli articoli con la matricola si caricano a mano, una matricola per pezzo. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="magazzino-permessi"></a>Permessi
 
 | Vedere il magazzino | Giacenze di tutti i magazzini e furgoni, movimenti, matricole, inventari e voci da riordinare (valori e costi solo con i costi del listino). |

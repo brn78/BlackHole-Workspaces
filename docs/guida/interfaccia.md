@@ -215,7 +215,7 @@ Il controllo parte mentre scrivi (dopo un attimo di pausa) e anche quando apri u
 
 ## <a id="interfaccia-import-export"></a>Importare ed esportare
 
-Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature, monitoraggio) funzionano allo stesso modo, e quello che esce da una si reimporta nella stessa.
+Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature, monitoraggio, impianti, manutenzioni, progetti, attività, scadenze, reperibilità, trattative e giacenze del magazzino) funzionano allo stesso modo, e quello che esce da una si reimporta nella stessa.
 
 ### Importare
 
@@ -224,11 +224,12 @@ Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, 
 - **Fogli del file**: un Excel con più fogli (Foglio1, Foglio2, Foglio3…) li mostra tutti, con le righe, le colonne riconosciute e se hanno le **stesse colonne** del primo (anche in un altro ordine) oppure **colonne diverse**. Si spuntano quelli da importare: vanno insieme in un'importazione sola, con le colonne dello stesso nome unite. Di partenza sono scelti i fogli con le stesse colonne. Nell'anteprima ogni riga dice da dove viene: *Foglio2 · riga 7* è la riga 7 di quel foglio in Excel.
 - **La prima riga contiene già dei dati**: per un foglio senza la riga dei nomi. Anche la prima riga si importa e le colonne si chiamano *Colonna 1*, *Colonna 2*…: scegli tu che cosa c'è in ognuna. Se la prima riga ha l'aria di essere di dati (numeri, email, codici fiscali), la casella è già spuntata.
 - **Scarica il modello Excel**: un file con il foglio *Dati*, che ha già la riga dei campi (i campi hanno un commento con la spiegazione), e il foglio *Istruzioni* con ogni campo, se è obbligatorio, che cosa scriverci, i valori possibili e un esempio. Lo compili una scheda per riga e lo importi così com'è: un foglio con **tutte le colonne dal nome esatto** di un campo, come il modello o un file esportato da qui, salta la scelta delle colonne e va dritto all'anteprima. Il foglio delle istruzioni non si importa.
+- **Collegamenti**: una colonna che si riferisce a un'altra scheda (il cliente, l'impianto, il progetto, la persona) si riconosce dal codice, dalla partita IVA o dal codice fiscale, oppure dal nome scritto com'è (anche senza la forma societaria: *Rossi Impianti* trova *Rossi Impianti S.r.l.*, ma *Rossi* no). Se non si trova e non è indispensabile, la riga si importa lo stesso e il valore finisce nelle note, sotto «Da controllare».
 - Prima di importare l'**anteprima** mostra ogni riga con il suo esito (nuova, già presente, possibile doppione, con errori): si importano solo le schede nuove scelte, quelle già presenti non si modificano.
 
 ### Esportare
 
-- **Formato**: **Excel** e **CSV** hanno le colonne con i nomi che l'importazione riconosce (il file si sistema in Excel e si reimporta), più i formati che leggono altri programmi: **vCard** per le rubriche dei telefoni, Outlook e Google Contatti (clienti, fornitori e rubrica), **METEL** per i gestionali del materiale elettrico (listino e listini dei fornitori), il **JSON della piattaforma** per portare tutto su un altro server.
+- **Formato**: **Excel** e **CSV** hanno le colonne con i nomi che l'importazione riconosce (il file si sistema in Excel e si reimporta), più i formati che leggono altri programmi: **vCard** per le rubriche dei telefoni, Outlook e Google Contatti (clienti, fornitori e rubrica), **METEL** per i gestionali del materiale elettrico (listino e listini dei fornitori), il **calendario** (.ics) per Outlook, Google Calendar e il telefono (scadenze, manutenzioni, attività, progetti, turni di reperibilità, prossimi passi delle trattative: è una copia del momento; per un calendario che si aggiorna da solo c'è [Nel calendario del telefono](profilo.md#profilo-calendario)), il **JSON della piattaforma** per portare tutto su un altro server.
 - **Che cosa esportare**: quelli **scelti** nell'elenco, quelli **mostrati** con la ricerca e i filtri, oppure **tutti**.
 - **Colonne** (Excel e CSV): si spuntano quelle da tenere; **Tutte** e **Quelle proposte** le cambiano in un colpo.
 - Formato, colonne e opzioni restano per la volta dopo, in questo browser.

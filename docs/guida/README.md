@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.148.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.149.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -52,6 +52,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Attività ricorrenti](attivita.md#attivita-ricorrenti)
    - [File delle attività](attivita.md#attivita-file)
    - [Registro ore](attivita.md#attivita-ore)
+   - [Importare ed esportare](attivita.md#attivita-importa)
    - [Permessi](attivita.md#attivita-permessi)
    - [Lavorare insieme](attivita.md#attivita-dal-vivo)
 7. [Appunti](appunti.md)
@@ -115,6 +116,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Documenti del progetto](progetti.md#progetti-documenti)
    - [Modelli di progetto](progetti.md#progetti-modelli)
    - [Budget e consuntivo](progetti.md#progetti-budget)
+   - [Importare ed esportare](progetti.md#progetti-importa)
    - [Permessi](progetti.md#progetti-permessi)
 13. [Impianti](impianti.md)
    - [L'elenco e la pagina dell'impianto](impianti.md#impianti-pagina)
@@ -127,6 +129,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Impianti e progetti](impianti.md#impianti-progetti)
    - [Tipi di impianto](impianti.md#impianti-tipi)
    - [I modelli delle schede tecniche](impianti.md#impianti-modelli)
+   - [Importare ed esportare](impianti.md#impianti-importa)
    - [Permessi](impianti.md#impianti-permessi)
 14. [Certificazioni](certificazioni.md)
    - [Il registro](certificazioni.md#certificazioni-registro)
@@ -144,6 +147,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Pianificare l'intervento](manutenzioni.md#manutenzioni-pianificare)
    - [I rapporti](manutenzioni.md#manutenzioni-rapporti)
    - [Le manutenzioni proposte dai tipi](manutenzioni.md#manutenzioni-tipi)
+   - [Importare ed esportare il piano](manutenzioni.md#manutenzioni-importa)
    - [Permessi](manutenzioni.md#manutenzioni-permessi)
 16. [Pratiche](pratiche.md)
    - [I tipi di pratica](pratiche.md#pratiche-tipi)
@@ -192,6 +196,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Inventari](magazzino.md#magazzino-inventari)
    - [Da riordinare](magazzino.md#magazzino-riordino)
    - [Costo medio e prezzi d'acquisto](magazzino.md#magazzino-costo)
+   - [Importare ed esportare le giacenze](magazzino.md#magazzino-importa)
    - [Permessi](magazzino.md#magazzino-permessi)
 21. [Acquisti](acquisti.md)
    - [Gli ordini](acquisti.md#acquisti-ordini)
@@ -223,6 +228,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Prossimo passo e cliente sentito](trattative.md#trattative-prossimo-passo)
    - [I preventivi della trattativa](trattative.md#trattative-preventivi)
    - [Vinte e perse](trattative.md#trattative-chiusura)
+   - [Importare ed esportare](trattative.md#trattative-importa)
    - [Previsione](trattative.md#trattative-previsione)
 25. [Preventivi](preventivi.md)
    - [La pagina Preventivi](preventivi.md#preventivi-pagina)
@@ -258,6 +264,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Orario e avvisi](reperibilita.md#reperibilita-impostazioni)
    - [Chi riceve gli avvisi](reperibilita.md#reperibilita-avvisi)
    - [Ore e giorni](reperibilita.md#reperibilita-ore)
+   - [Importare ed esportare i turni](reperibilita.md#reperibilita-importa)
    - [Permessi](reperibilita.md#reperibilita-permessi)
 28. [Indicatori](indicatori.md)
    - [Come si comincia](indicatori.md#indicatori-primi-passi)
@@ -308,6 +315,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Le scadenze dell'azienda](scadenze.md#scadenze-azienda)
    - [Una scadenza da un testo](scadenze.md#scadenze-da-testo)
    - [I promemoria](scadenze.md#scadenze-promemoria)
+   - [Importare ed esportare](scadenze.md#scadenze-importa)
    - [Permessi](scadenze.md#scadenze-permessi)
 33. [Documenti](documenti.md)
    - [Cartelle, file e azioni](documenti.md#documenti-cartelle)

@@ -35,6 +35,10 @@ Il **prossimo passo** dice che cosa fare e quando («fissare il sopralluogo», �
 
 **Vinta** la porta al 100%, **Persa** allo 0% con il **motivo** (prezzo, concorrente, rinviato, nessuna risposta…): servono a capire dove si perde. Le linguette **Vinte** e **Perse** le elencano con il giorno e l'esito; **Riapri** le rimette nel kanban. Eliminata, una trattativa va nel [cestino](cestino.md) con il suo storico; i preventivi restano.
 
+## <a id="trattative-importa"></a>Importare ed esportare
+
+**Esporta** scarica le trattative in **Excel**, **CSV** o come **calendario** (i prossimi passi e le chiusure previste di quelle in corso). **Importa** (a chi le gestisce) le porta da un foglio: lavoro, cliente, telefono ed email, fase, probabilità, valore, chiusura prevista, commerciale, provenienza, tipo di lavoro, prossimo passo con la sua data, note. Un cliente che non è in anagrafica diventa un **potenziale cliente** della trattativa, con il telefono e l'email del foglio. Si importano in corso: vinte e perse si chiudono dalla scheda. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="trattative-previsione"></a>Previsione
 
 - **Per mese di chiusura**: le trattative in corso nei prossimi sei mesi (più quelle in ritardo, quelle più avanti e quelle senza data), con il valore e il **pesato**, cioè quanto ci si può ragionevolmente aspettare.

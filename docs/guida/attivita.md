@@ -104,6 +104,10 @@ In **Si ripete** scegli ogni giorno, settimana, mese o anno, ogni quanti (per es
 - La scheda **Ore** mostra una **settimana** o un **mese** (frecce per spostarsi, **Oggi** per tornare), con il totale e la ripartizione per persona, per progetto (*Senza progetto* per le attività non collegate) e per cliente (quello dell'attività, altrimenti quello del suo progetto); si filtra per persona, progetto e cliente, si stampa e si scarica in **CSV** per Excel.
 - Vedi le tue ore, quelle delle attività che puoi modificare (per esempio dei progetti di cui sei responsabile) e, con il permesso **Vedere le ore di tutti**, tutte le ore, tranne quelle dei progetti riservati che non vedi. Il totale di un'attività o di un progetto comprende sempre le ore di tutti.
 
+## <a id="attivita-importa"></a>Importare ed esportare
+
+**Esporta** scarica le attività mostrate, scelte o tutte in **Excel**, **CSV** o come **calendario** (un evento dall'inizio alla scadenza). **Importa** le porta da un foglio: titolo, progetto (codice o nome), cliente, impianto, stato, priorità, date, assegnatari (più nomi separati da virgola), ore previste, ora dell'avviso, voci da spuntare (separate da punto e virgola), etichette e descrizione. Il progetto si cerca tra quelli a cui puoi collegare attività; senza cliente vale quello del progetto. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="attivita-permessi"></a>Permessi
 
 Per usare le attività non servono permessi: ognuno crea le sue, lavora su quelle che gli vengono assegnate o condivise e vede quelle dei progetti a cui ha accesso. Tre permessi delle [policy](gruppi-policy.md#policy-permessi) servono a chi coordina il lavoro degli altri:

@@ -73,7 +73,7 @@ bilancio CEE.
 **👷 Azienda**<br>
 Personale con corsi, visite e documenti in scadenza, **indicatori** dell'azienda, dei reparti e delle persone con
 obiettivi, valutazioni e premi di fine anno (facoltativi, con i nomi che si vogliono), mezzi e attrezzature con
-revisioni e tagliandi, un unico **scadenzario** con i promemoria, **privacy** (GDPR): informative, registro dei
+revisioni e tagliandi, un unico **scadenzario** con i promemoria (anche come calendario per Outlook, Google e il telefono), **privacy** (GDPR): informative, registro dei
 trattamenti, richieste e violazioni.
 
 **📁 Documenti**<br>

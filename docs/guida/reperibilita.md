@@ -43,6 +43,10 @@ In alto, la riga **Adesso**: chi è reperibile in questo momento con il suo **te
 
 La linguetta **Ore** conta, per persona, i turni del mese (o dell'anno, con **Anno**): **turni**, **ore** (solo quelle dentro il periodo), **fuori orario** (le ore fuori dall'orario di lavoro: le altre sono già lavorate), i **giorni** di reperibilità, **feriali**, **non lavorativi** (i giorni senza fasce, di solito il sabato) e **domeniche e festivi**, e le **uscite**. Ogni 24 ore di turno, dal suo inizio, fanno un giorno, del giorno in cui cominciano: la settimana da lunedì alle 8 a lunedì alle 8 fa 5 giorni feriali, un sabato e una domenica; il fine settimana da venerdì alle 18 a lunedì alle 8 fa un feriale, un sabato e una domenica. Le **uscite** sono gli interventi dell'assistenza con la [reperibilità nel consuntivo](assistenza.md#assistenza-consuntivo) fatti durante il turno da chi era reperibile (dalla sua scheda del personale). **Esporta** scrive il riepilogo in Excel o CSV, per le buste paga.
 
+## <a id="reperibilita-importa"></a>Importare ed esportare i turni
+
+**Esporta** scarica i turni (dal mese scorso a un anno avanti, oppure quelli dell'elenco) in **Excel**, **CSV** o come **calendario** con l'ora di inizio e di fine. **Importa** (a chi gestisce la reperibilità) porta i turni da un foglio: reperibile (nome utente o nome e cognome), dal e al (`gg/mm/aaaa hh:mm`; senza l'ora vale quella del cambio turno delle impostazioni), note. I turni sovrapposti della stessa persona e quelli più lunghi di 31 giorni non si importano: l'esito li dice. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="reperibilita-permessi"></a>Permessi
 
 | Permesso | Consente |

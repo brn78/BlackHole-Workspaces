@@ -87,6 +87,10 @@ In cima alla linguetta i numeri principali (ricavo e costi previsti, fatti e imp
 
 La scheda **Economia** della pagina Progetti elenca le commesse con ricavo e costi previsti, fatti + impegnati, uso del previsto, fatturato e margine a finire, con i totali sotto le colonne; i riquadri in cima e il filtro mostrano le aperte, quelle fuori budget, vicine al budget, senza budget o concluse. **Stampa** stampa l'elenco com'è. Scrivere o togliere un budget resta nello **Storico** della commessa (senza importi) e nel registro attività.
 
+## <a id="progetti-importa"></a>Importare ed esportare
+
+**Esporta** scarica i progetti in **Excel**, **CSV** o come **calendario** (un evento dall'inizio alla scadenza). **Importa** (a chi crea i progetti) li porta da un foglio: codice (vuoto: il prossimo libero), nome, tipo, cliente, responsabile (nome utente o nome e cognome), stato, priorità, date, ore previste, etichette e descrizione. Un cliente, un responsabile, uno stato che non si trovano finiscono nella descrizione, «Da controllare». Ogni progetto ha la sua cartella in Documenti. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.
+
 ## <a id="progetti-permessi"></a>Permessi
 
 | Permesso | Consente |

@@ -39,6 +39,10 @@ La linguetta **Prezzi da verificare** controlla i carichi da fornitore del perio
 
 La linguetta **Fornitori** riassume come lavora ogni fornitore nel periodo: ordini e valore ordinato, ordini aperti e in ritardo, acquistato con i carichi, **puntualità** (le righe arrivate del tutto entro la consegna prevista), **ritardo medio**, solleciti e prezzi da verificare.
 
+## <a id="acquisti-importa"></a>Importare ed esportare
+
+**Esporta** scarica gli ordini (dalla linguetta Ordini) o le richieste d'offerta (dalla loro linguetta) in **Excel** o **CSV**, con una riga per ogni riga del documento: numero, data, fornitore, oggetto, riferimento del fornitore, consegna prevista, pagamento, resa e note, poi codice, codice del fornitore, descrizione, unità di misura, quantità, prezzo, sconto (anche in cascata, *50+10*), IVA, consegna e note della riga. **Importa** li porta da un foglio fatto così: le righe con lo stesso numero fanno un documento. Il fornitore deve essere in anagrafica (per le richieste d'offerta si può lasciare vuoto). I documenti si importano **in bozza**, con il numero della piattaforma (quello del file va nelle note): si controllano e si mandano come gli altri. Una riga con il **codice di una voce del listino** (o il suo codice del fornitore) si collega alla voce, così all'arrivo la merce entra in magazzino. Vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export).
+
 ## <a id="acquisti-impostazioni"></a>Impostazioni e permessi
 
 Le **Impostazioni** (chi gestisce gli acquisti) fissano dopo quanti giorni un ordine è da confermare, ogni quanti giorni risentire il fornitore, la soglia dei prezzi da verificare e i testi proposti: messaggio dell'ordine e della richiesta d'offerta, pagamento, consegna e note.

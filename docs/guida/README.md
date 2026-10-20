@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.149.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.150.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -206,6 +206,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Ordini proposti: scorte e preventivi](acquisti.md#acquisti-proposte)
    - [Prezzi da verificare](acquisti.md#acquisti-prezzi)
    - [Fornitori](acquisti.md#acquisti-fornitori)
+   - [Importare ed esportare](acquisti.md#acquisti-importa)
    - [Impostazioni e permessi](acquisti.md#acquisti-impostazioni)
 22. [Vendite](vendite.md)
    - [I DDT](vendite.md#vendite-ddt)
@@ -215,6 +216,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [La fattura elettronica](vendite.md#vendite-sdi)
    - [Invio diretto allo SDI con la PEC](vendite.md#vendite-pec)
    - [L'andamento](vendite.md#vendite-andamento)
+   - [Lo storico delle fatture e l'esportazione](vendite.md#vendite-storico)
    - [Impostazioni e permessi](vendite.md#vendite-impostazioni)
 23. [Fatture dei fornitori](fatture-fornitori.md)
    - [Importare le fatture](fatture-fornitori.md#fatture-fornitori-importa)
@@ -244,6 +246,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [I file](preventivi.md#preventivi-file)
    - [La commessa](preventivi.md#preventivi-commessa)
    - [Modelli e impostazioni](preventivi.md#preventivi-modelli)
+   - [Importare ed esportare](preventivi.md#preventivi-importa)
    - [Permessi](preventivi.md#preventivi-permessi)
 26. [Personale](personale.md)
    - [L'elenco](personale.md#personale-elenco)

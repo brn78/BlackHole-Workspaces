@@ -215,7 +215,7 @@ Il controllo parte mentre scrivi (dopo un attimo di pausa) e anche quando apri u
 
 ## <a id="interfaccia-import-export"></a>Importare ed esportare
 
-Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature, monitoraggio, impianti, manutenzioni, progetti, attività, scadenze, reperibilità, trattative e giacenze del magazzino) funzionano allo stesso modo, e quello che esce da una si reimporta nella stessa.
+Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature, monitoraggio, impianti, manutenzioni, progetti, attività, scadenze, reperibilità, trattative, giacenze del magazzino, preventivi, acquisti e vendite) funzionano allo stesso modo, e quello che esce da una si reimporta nella stessa.
 
 ### Importare
 
@@ -226,11 +226,12 @@ Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, 
 - **Scarica il modello Excel**: un file con il foglio *Dati*, che ha già la riga dei campi (i campi hanno un commento con la spiegazione), e il foglio *Istruzioni* con ogni campo, se è obbligatorio, che cosa scriverci, i valori possibili e un esempio. Lo compili una scheda per riga e lo importi così com'è: un foglio con **tutte le colonne dal nome esatto** di un campo, come il modello o un file esportato da qui, salta la scelta delle colonne e va dritto all'anteprima. Il foglio delle istruzioni non si importa.
 - **Collegamenti**: una colonna che si riferisce a un'altra scheda (il cliente, l'impianto, il progetto, la persona) si riconosce dal codice, dalla partita IVA o dal codice fiscale, oppure dal nome scritto com'è (anche senza la forma societaria: *Rossi Impianti* trova *Rossi Impianti S.r.l.*, ma *Rossi* no). Se non si trova e non è indispensabile, la riga si importa lo stesso e il valore finisce nelle note, sotto «Da controllare».
 - Prima di importare l'**anteprima** mostra ogni riga con il suo esito (nuova, già presente, possibile doppione, con errori): si importano solo le schede nuove scelte, quelle già presenti non si modificano.
+- **Documenti con le righe** (preventivi, ordini e richieste d'offerta, fatture): una riga del foglio per ogni riga del documento, con i dati del documento (numero, data, cliente o fornitore…) ripetuti su ogni riga oppure scritti solo nella prima. Le righe con lo **stesso numero** fanno un documento; una riga senza numero continua il documento sopra. L'anteprima mostra un documento per riga, con quante righe ha.
 
 ### Esportare
 
 - **Formato**: **Excel** e **CSV** hanno le colonne con i nomi che l'importazione riconosce (il file si sistema in Excel e si reimporta), più i formati che leggono altri programmi: **vCard** per le rubriche dei telefoni, Outlook e Google Contatti (clienti, fornitori e rubrica), **METEL** per i gestionali del materiale elettrico (listino e listini dei fornitori), il **calendario** (.ics) per Outlook, Google Calendar e il telefono (scadenze, manutenzioni, attività, progetti, turni di reperibilità, prossimi passi delle trattative: è una copia del momento; per un calendario che si aggiorna da solo c'è [Nel calendario del telefono](profilo.md#profilo-calendario)), il **JSON della piattaforma** per portare tutto su un altro server.
-- **Che cosa esportare**: quelli **scelti** nell'elenco, quelli **mostrati** con la ricerca e i filtri, oppure **tutti**.
+- **Che cosa esportare**: quelli **scelti** nell'elenco, quelli **mostrati** con la ricerca e i filtri, oppure **tutti**. I documenti con le righe escono con una riga per riga del documento e i dati del documento ripetuti, come un database.
 - **Colonne** (Excel e CSV): si spuntano quelle da tenere; **Tutte** e **Quelle proposte** le cambiano in un colpo.
 - Formato, colonne e opzioni restano per la volta dopo, in questo browser.
 

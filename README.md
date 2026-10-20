@@ -47,8 +47,9 @@ password cifrata con le cartelle aziendali e i codici della verifica in due pass
 importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic.
 
 **🏢 Clienti e fornitori**<br>
-Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, importazione da Excel o da un vecchio
-gestionale, l'**avviso dei possibili doppioni** mentre si scrive (in tutte le anagrafiche, dagli articoli alle
+Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, **importazione ed esportazione
+universali** (Excel con tutti i suoi fogli, CSV, vCard, METEL, il modello da compilare, il vecchio gestionale),
+l'**avviso dei possibili doppioni** mentre si scrive (in tutte le anagrafiche, dagli articoli alle
 password), e la **valutazione del cliente**: come paga, quanto è fedele, quanto lavoro porta e quanto si guadagna.
 
 **🛠️ Commesse e impianti**<br>

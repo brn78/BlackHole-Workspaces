@@ -135,11 +135,11 @@ Accanto c'è **Togli dal listino** (o **Rimetti a listino**) e **Da controllare*
 
 ## <a id="listino-importare"></a>Importare ed esportare
 
-**Esporta** scarica **tutto il listino**, anche le voci fuori listino:
+**Esporta** apre la [finestra dell'esportazione](interfaccia.md#interfaccia-import-export): **tutto il listino** (anche le voci fuori listino) oppure **le voci mostrate** con i filtri di adesso, in uno di questi formati:
 
-- **Excel (.xlsx)** e **CSV**: una riga per voce, con le colonne che l'importazione riconosce da sola (codice, descrizione, categoria, marca, codici, fornitore, prezzi, IVA, a listino, da controllare, note). Si sistema in Excel e si reimporta.
-- **JSON, da reimportare**: tutto, anche la descrizione estesa e le ore di posa, per portare il listino su un altro server.
-- **Solo le voci mostrate, in CSV**: quelle dell'elenco con i filtri di adesso.
+- **Excel** e **CSV**: una riga per voce, con le colonne scelte tra quelle che l'importazione riconosce da sola (codice, descrizione, categoria, marca, codici, fornitore, prezzi, IVA, a listino, da controllare, note). Si sistema in Excel e si reimporta.
+- **JSON della piattaforma**: tutto, anche la descrizione estesa e le ore di posa, per portare il listino su un altro server.
+- **METEL**: il listino al pubblico nel tracciato dei listini del materiale elettrico, per un cliente o un gestionale che lo legge (file `<sigla>LSP.TXT`). Si scrive la **sigla METEL** dell'azienda (tre lettere o cifre), che vale per le voci senza una sigla METEL del produttore. Ci sono le voci in vendita con un prezzo, al prezzo di vendita (anche nel campo del prezzo al rivenditore: i costi non escono), con codice a barre, unità di misura e pezzi nella confezione; i codici più lunghi di 16 caratteri si tagliano.
 
 Prezzo di listino, sconto, costo e ricarico ci sono solo per chi vede i costi.
 

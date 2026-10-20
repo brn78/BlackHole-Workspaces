@@ -213,6 +213,26 @@ Il controllo parte mentre scrivi (dopo un attimo di pausa) e anche quando apri u
 | [Password](password.md) | Stesso utente (o email) sullo stesso sito o nello stesso «Dove si usa», stesso nome con lo stesso utente | Nome simile, stesso sito con un altro utente |
 | [Utenti](utenti.md) | Stesso nome utente, email, codice fiscale o nome e cognome | Nome simile |
 
+## <a id="interfaccia-import-export"></a>Importare ed esportare
+
+Le pagine con **Importa** ⬆ ed **Esporta** ⬇ (clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature, monitoraggio) funzionano allo stesso modo, e quello che esce da una si reimporta nella stessa.
+
+### Importare
+
+- **Qualsiasi foglio**: Excel (.xlsx, .xls, .ods), CSV o testo con il punto e virgola, la virgola o la tabulazione, oltre ai formati propri della pagina (vCard e CSV di Google e Outlook nella rubrica, METEL nei listini dei fornitori, JSON della piattaforma). Si legge come una tabella di database: la **prima riga ha i nomi dei campi**, sotto una scheda per riga. Le righe di titolo sopra la tabella si saltano da sole.
+- **Che cosa c'è in ogni colonna**: le colonne con un nome noto (anche scritto diverso: *P.IVA*, *Cod. fiscale*, *E-mail*, *Località*…) sono già abbinate al campo giusto; le altre le scegli tu, o le propone l'[assistente AI](assistente-ai.md) con **Proponi con l'assistente**. Quelle da non importare possono finire nelle note della scheda, così non si perde niente.
+- **Fogli del file**: un Excel con più fogli (Foglio1, Foglio2, Foglio3…) li mostra tutti, con le righe, le colonne riconosciute e se hanno le **stesse colonne** del primo (anche in un altro ordine) oppure **colonne diverse**. Si spuntano quelli da importare: vanno insieme in un'importazione sola, con le colonne dello stesso nome unite. Di partenza sono scelti i fogli con le stesse colonne. Nell'anteprima ogni riga dice da dove viene: *Foglio2 · riga 7* è la riga 7 di quel foglio in Excel.
+- **La prima riga contiene già dei dati**: per un foglio senza la riga dei nomi. Anche la prima riga si importa e le colonne si chiamano *Colonna 1*, *Colonna 2*…: scegli tu che cosa c'è in ognuna. Se la prima riga ha l'aria di essere di dati (numeri, email, codici fiscali), la casella è già spuntata.
+- **Scarica il modello Excel**: un file con il foglio *Dati*, che ha già la riga dei campi (i campi hanno un commento con la spiegazione), e il foglio *Istruzioni* con ogni campo, se è obbligatorio, che cosa scriverci, i valori possibili e un esempio. Lo compili una scheda per riga e lo importi così com'è: un foglio con **tutte le colonne dal nome esatto** di un campo, come il modello o un file esportato da qui, salta la scelta delle colonne e va dritto all'anteprima. Il foglio delle istruzioni non si importa.
+- Prima di importare l'**anteprima** mostra ogni riga con il suo esito (nuova, già presente, possibile doppione, con errori): si importano solo le schede nuove scelte, quelle già presenti non si modificano.
+
+### Esportare
+
+- **Formato**: **Excel** e **CSV** hanno le colonne con i nomi che l'importazione riconosce (il file si sistema in Excel e si reimporta), più i formati che leggono altri programmi: **vCard** per le rubriche dei telefoni, Outlook e Google Contatti (clienti, fornitori e rubrica), **METEL** per i gestionali del materiale elettrico (listino e listini dei fornitori), il **JSON della piattaforma** per portare tutto su un altro server.
+- **Che cosa esportare**: quelli **scelti** nell'elenco, quelli **mostrati** con la ricerca e i filtri, oppure **tutti**.
+- **Colonne** (Excel e CSV): si spuntano quelle da tenere; **Tutte** e **Quelle proposte** le cambiano in un colpo.
+- Formato, colonne e opzioni restano per la volta dopo, in questo browser.
+
 ## <a id="interfaccia-icone"></a>Icone e colori
 
 Molte schede hanno **Icona e colore**: una piccola immagine che le fa riconoscere al volo negli elenchi, al posto dell'iniziale o dell'icona generica. Si sceglie tra le **7.188 icone Material Design Icons**, incluse nel programma (funzionano anche senza internet), con un colore a scelta, la **forma** (arrotondato, cerchio, quadrato, rombo) e il **riempimento**: con un'icona, icona su colore pieno, icona colorata su fondo tenue, solo l'icona colorata oppure icona colorata con il bordo; con il solo colore, pieno, fondo tenue o solo bordo. È l'unico modo di dare un colore a tipi e categorie: la tinta della piattaforma usata da chip e filtri si ricava da sola, la più vicina al colore scelto.

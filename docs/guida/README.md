@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.147.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.148.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -34,6 +34,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato)
    - [Suggerimenti mentre scrivi](interfaccia.md#interfaccia-suggerimenti)
    - [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni)
+   - [Importare ed esportare](interfaccia.md#interfaccia-import-export)
    - [Icone e colori](interfaccia.md#interfaccia-icone)
    - [Immagini, loghi e foto](interfaccia.md#interfaccia-immagini)
    - [Tipi e categorie](interfaccia.md#interfaccia-tipi)
@@ -67,7 +68,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Riservatezza](appunti.md#appunti-riservatezza)
    - [Limiti](appunti.md#appunti-limiti)
 8. [Rubrica](rubrica.md)
-   - [Importare i contatti dal telefono](rubrica.md#rubrica-import)
+   - [Importare i contatti dal telefono o da Excel](rubrica.md#rubrica-import)
    - [Usare un contatto come cliente o fornitore](rubrica.md#rubrica-clienti)
 9. [Password](password.md)
    - [Le cartelle](password.md#password-cartelle)
@@ -96,7 +97,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Scegliere più schede insieme](clienti.md#clienti-selezione)
    - [Cestino](clienti.md#clienti-cestino)
    - [Contatti privati](clienti.md#clienti-privati)
-   - [Esportare i clienti in un file CSV](clienti.md#clienti-esporta)
+   - [Esportare i clienti: Excel, CSV e vCard](clienti.md#clienti-esporta)
    - [Importare i clienti da un file CSV, Excel o JSON](clienti.md#clienti-importa)
    - [Documenti, attività, progetti, impianti, password e stampa del cliente](clienti.md#clienti-documenti)
    - [Anche nel personale](clienti.md#clienti-personale)

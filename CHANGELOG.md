@@ -4,6 +4,33 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.148.0 · 20 ottobre 2026
+
+**Importare ed esportare, uguale dappertutto** (prima parte: anagrafiche e listini). Le finestre «Importa» ed
+«Esporta» di clienti e fornitori, rubrica, listino, listini dei fornitori, produttori, personale, mezzi e attrezzature e
+monitoraggio funzionano ora allo stesso modo, e quello che esce si reimporta così com'è.
+- **Qualsiasi foglio**: Excel, CSV o testo, letto come una tabella di database (la prima riga ha i nomi dei campi,
+  sotto una scheda per riga). Le colonne con un nome noto si abbinano da sole, le altre si scelgono o le propone
+  l'assistente AI.
+- **Tutti i fogli del file**: un Excel con Foglio1, Foglio2, Foglio3… li mostra tutti, con le righe e le colonne
+  riconosciute; si spuntano quelli da importare, anche più d'uno insieme. Nell'anteprima ogni riga dice da quale foglio
+  e da quale riga viene.
+- **Modello Excel da compilare** in ogni importazione: la riga dei campi già scritta e un foglio di istruzioni con i
+  valori possibili e un esempio. Un foglio fatto con il modello, o esportato dalla piattaforma, salta la scelta delle
+  colonne e va dritto all'anteprima.
+- **La prima riga contiene già dei dati**: per i fogli senza la riga dei nomi (il programma se ne accorge da solo).
+- **Esporta** apre una finestra unica: il formato, che cosa esportare (le schede scelte, quelle mostrate con i filtri
+  o tutte) e le colonne. Le scelte restano per la volta dopo.
+- **Clienti e fornitori**: export in Excel e in **vCard** per il telefono, Outlook e Google Contatti (anche i referenti,
+  ognuno come contatto); la colonna «P.IVA/C.F.» dei gestionali si divide da sola tra partita IVA e codice fiscale; un
+  CSV con colonne dai nomi sconosciuti passa sempre dalla scelta delle colonne, così non si perde niente.
+- **Rubrica**: si importa anche da un foglio Excel o CSV qualunque e si esporta anche in Excel e CSV.
+- **Listino e listini dei fornitori in METEL**: il listino al pubblico con la sigla dell'azienda, per un cliente o un
+  altro gestionale, e i listini dei fornitori come li dà il produttore (con le famiglie di sconto).
+- Guida utente: nuovo paragrafo *Importare ed esportare* (capitolo L'interfaccia) e i capitoli delle pagine aggiornati.
+
+Nella release anche i dati dimostrativi aggiornati alla 1.148.0.
+
 ## 1.147.0 · 19 ottobre 2026
 
 **Indicatori** (Azienda → Indicatori). L'andamento dell'azienda, dei reparti e, se si vuole, delle singole persone,

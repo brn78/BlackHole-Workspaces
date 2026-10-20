@@ -10,11 +10,11 @@ Le due pagine funzionano allo stesso modo. Le linguette **In uso** e **Dismessi*
 
 ## <a id="mezzi-importa"></a>Importare ed esportare con Excel
 
-**Esporta** ⬇ scarica in **Excel** o in **CSV** i mezzi o le attrezzature che vedi (filtri compresi) o tutti, con le colonne che l'importazione riconosce: il file si sistema in Excel e si reimporta così com'è.
+**Esporta** ⬇ scarica in **Excel** o in **CSV** i mezzi o le attrezzature che vedi (filtri compresi) o tutti, con le colonne scelte tra quelle che l'importazione riconosce: il file si sistema in Excel e si reimporta così com'è.
 
 **Importa** ⬆ (a chi può creare le schede) apre l'importazione guidata da un foglio **Excel** (.xlsx, .xls, .ods) o **CSV**, una riga per mezzo o attrezzatura, nel pannello a destra:
 
-1. **Il file**, anche trascinandolo nel riquadro (al massimo 20 MB e 5.000 righe).
+1. **Il file**, anche trascinandolo nel riquadro (al massimo 20 MB e 5.000 righe). **Scarica il modello Excel** dà il foglio già pronto con la riga dei campi e le istruzioni: compilato e importato così com'è, salta la scelta delle colonne. Un file con più fogli mostra quali importare (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)).
 2. **Che cosa c'è in ogni colonna**: quelle con il nome giusto sono già scelte, le altre si scelgono a mano oppure, con l'assistente AI attivo, con **✨ Proponi con l'assistente**. **Metti nelle note le colonne da non importare** (già spuntato) conserva il resto nelle note della scheda.
 3. **L'anteprima**: ogni riga con il suo esito (**Nuova**, **Già presente**, **Con errori**), i filtri per esito e una casella per scegliere che cosa importare. Un bene è già presente con lo stesso numero, la stessa targa o lo stesso telaio o matricola.
 4. **Importa** crea le schede una dopo l'altra, come dal modulo, con l'avanzamento e **Ferma**; l'esito dice quante sono state importate e, riga per riga, quelle non importate con il motivo.

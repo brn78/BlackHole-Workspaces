@@ -48,7 +48,7 @@ Un listino con la decorrenza più vecchia di quello già importato arriva senza 
 
 ## <a id="listini-fornitori-esporta"></a>Esportare
 
-**Esporta** scarica il listino scelto in **Excel**, in **CSV** (con le colonne che l'importazione riconosce da sola, sconto della famiglia compreso) o in **JSON**, oppure **tutti i listini** in JSON, per portarli su un altro server. Prezzi al rivenditore e sconti ci sono solo per chi vede i costi.
+**Esporta** scarica il listino scelto in **Excel**, in **CSV** (con le colonne che l'importazione riconosce da sola, sconto della famiglia compreso), in **JSON** o in **METEL**, oppure **tutti i listini** in JSON, per portarli su un altro server. Il file METEL è come quello del produttore (`<sigla>LSP.TXT` o `LSG`, con le famiglie di sconto in uno ZIP) e si reimporta qui o in un gestionale che legge METEL. Prezzi al rivenditore e sconti ci sono solo per chi vede i costi: per gli altri, nel file METEL il prezzo al rivenditore resta a zero.
 
 ## <a id="listini-fornitori-articoli"></a>Cercare gli articoli e metterli nel listino
 

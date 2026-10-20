@@ -10,11 +10,11 @@ Le linguette **In forza** e **Cessati** dicono quante persone ci sono; se ci son
 
 ## <a id="personale-importa"></a>Importare ed esportare con Excel
 
-**Esporta** ⬇ scarica in **Excel** o in **CSV** le persone che vedi (filtri compresi) o tutti, con le colonne che l'importazione riconosce: il file si sistema in Excel e si reimporta così com'è. Niente costi né visite: solo i dati dell'elenco.
+**Esporta** ⬇ scarica in **Excel** o in **CSV** le persone che vedi (filtri compresi) o tutti, con le colonne scelte tra quelle che l'importazione riconosce: il file si sistema in Excel e si reimporta così com'è. Niente costi né visite: solo i dati dell'elenco.
 
 **Importa** ⬆ (a chi può creare le schede) apre l'importazione guidata da un foglio **Excel** (.xlsx, .xls, .ods) o **CSV**, una riga per persona, nel pannello a destra:
 
-1. **Il file**, anche trascinandolo nel riquadro (al massimo 20 MB e 5.000 righe).
+1. **Il file**, anche trascinandolo nel riquadro (al massimo 20 MB e 5.000 righe). **Scarica il modello Excel** dà il foglio già pronto con la riga dei campi e le istruzioni: compilato e importato così com'è, salta la scelta delle colonne. Un file con più fogli mostra quali importare (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)).
 2. **Che cosa c'è in ogni colonna**: quelle con il nome giusto sono già scelte, le altre si scelgono a mano oppure, con l'assistente AI attivo, con **✨ Proponi con l'assistente**. **Metti nelle note le colonne da non importare** (già spuntato) conserva il resto nelle note della scheda.
 3. **L'anteprima**: ogni riga con il suo esito (**Nuova**, **Già presente**, **Con errori**), i filtri per esito e una casella per scegliere che cosa importare. Una persona è già presente con lo stesso codice o lo stesso cognome e nome; si salta, a meno di spuntarla.
 4. **Importa** crea le schede una dopo l'altra, come dal modulo, con l'avanzamento e **Ferma**; l'esito dice quante sono state importate e, riga per riga, quelle non importate con il motivo.

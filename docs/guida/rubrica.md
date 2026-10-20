@@ -12,9 +12,9 @@
 - **Cestino**: i contatti nel cestino li vede solo chi li ha creati; si ripristinano entro 30 giorni, poi vengono eliminati da soli.
 - **Più contatti insieme** (dalla 1.143.5): l'icona **Scegli più righe** a sinistra della ricerca mostra le caselle; con i contatti scelti la barra propone **Aggiungi ai preferiti**, **Togli dai preferiti**, **Esporta in vCard** e **Sposta nel cestino** (solo per quelli creati da te: quelli condivisi dai colleghi restano, e il messaggio lo dice); nel **Cestino Ripristina** ed **Elimina definitivamente**.
 
-## <a id="rubrica-import"></a>Importare i contatti dal telefono
+## <a id="rubrica-import"></a>Importare i contatti dal telefono o da Excel
 
-Con **Importa dal telefono** (in **Altro**, o nella pagina ancora vuota) si carica il file esportato dal telefono o dal computer:
+Con **Importa** (in **Altro**, o nella pagina ancora vuota) si carica il file esportato dal telefono o dal computer, oppure un **foglio Excel o CSV qualunque** con i nomi delle colonne nella prima riga: scegli che cosa c'è in ogni colonna (nome, cognome o nome e cognome insieme, azienda, ruolo, due email, cellulare, telefono, telefono dell'ufficio e di casa, fax, indirizzo, compleanno, sito, etichette, note) e poi segue la stessa anteprima. **Scarica il modello Excel** dà il foglio già pronto da compilare (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Dal telefono:
 
 - **Google Contatti** (Android): su *contacts.google.com* → **Esporta** → *vCard* oppure *CSV di Google*. Le etichette di Google diventano le etichette della rubrica.
 - **iPhone**: su *icloud.com* → Contatti → seleziona → **Esporta vCard**; oppure dall'app Contatti, condividi i contatti come file.
@@ -25,7 +25,7 @@ L'anteprima mostra i contatti letti, i nuovi in cima: **Nuovo**, **Già in rubri
 
 **Le foto**: quelle scritte nel file (le vCard dell'iPhone e di Android le contengono) arrivano subito, e nell'anteprima si vedono accanto al nome. Il CSV e la vCard di **Google Contatti** indicano invece la foto con un indirizzo web: con **Scarica anche le foto** (acceso) si scaricano dopo l'import, poche alla volta, solo da internet, e compaiono da sole nell'elenco. Una foto che non si trova più o non è un'immagine viene saltata: il contatto resta con le iniziali. A un contatto già in rubrica la foto si aggiunge solo con **Aggiungi i dati nuovi** e se non ne ha già una.
 
-**Esporta vCard** (in **Altro**) scarica tutti i contatti che vedi in un file *.vcf*, con le foto, che si importa in Google Contatti, sull'iPhone, in Outlook o nel telefono.
+**Esporta** (in **Altro**, o dalla barra dei contatti scelti) scarica i contatti scelti, quelli mostrati o tutti quelli che vedi: in **vCard** (*.vcf*, con le foto, che si importa in Google Contatti, sull'iPhone, in Outlook o nel telefono) oppure in **Excel** o **CSV** con le colonne scelte, che si reimportano così come sono.
 
 ## <a id="rubrica-clienti"></a>Usare un contatto come cliente o fornitore
 

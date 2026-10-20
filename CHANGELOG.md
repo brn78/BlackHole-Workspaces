@@ -4,6 +4,32 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.151.0 · 21 ottobre 2026
+
+- **Il genere dai nomi impara dalle tue schede**: un nome a cui hai dato il genere una volta (a mano o con
+  genderize.io) viene proposto subito le volte dopo, senza chiedere niente fuori e anche con genderize.io spento: «Proposto
+  come le altre 3 schede con il nome Bruno». Se le schede non sono d'accordo vale la maggioranza (almeno 3 su 4); il
+  codice fiscale conta più di tutto.
+- **Genere compilato da solo**: salvando o importando un cliente, una scheda del personale o un utente senza genere, il
+  genere si compila dal codice fiscale o dalle altre schede con lo stesso nome. Un nome che nessuna scheda conosce resta
+  vuoto.
+- **Sistema i generi** (Impostazioni → Servizi esterni): mostra i generi vuoti da compilare e quelli da correggere,
+  perché diversi dal codice fiscale o in minoranza netta (tre Bruno maschi e uno femmina: la scheda femmina diventa
+  maschio). Togli la spunta a quelle da lasciare e premi Sistema; oppure accendi **Sistema i generi da solo ogni notte**.
+- **Codice fiscale**: la spunta verde o l'avviso rosso stanno dentro il campo, come per email e telefono (anche partita
+  IVA, codice SDI e IBAN). Scrivendo il codice fiscale, o aprendo una scheda nuova con il codice già messo (per esempio
+  la scheda del personale creata da Utenti), data, genere e **luogo di nascita** mancanti si compilano da soli.
+- **Data di nascita**: l'icona del calendario non scende più sotto il campo quando accanto compare il suggerimento sul
+  genere.
+- **Personale e Utenti**: contatti e indirizzi in due linguette, **Contatti** e **Indirizzi** con la mappa, come nei
+  clienti e nella rubrica.
+- **Indirizzi**: l'avviso su come mettere gli indirizzi sulla mappa è un riquadro azzurro con l'icona «i», come gli
+  altri avvisi della piattaforma.
+- **Privacy**: i pulsanti di ogni linguetta stanno in alto a destra come nelle altre pagine (Salva le informative, Nuovo
+  trattamento, Nuova richiesta, Registra una violazione, Nuovo responsabile) e le stampe in «Altro»; le spiegazioni sono
+  riquadri azzurri. Nella tabella delle persone autorizzate «Stampa la lettera» e «Consegnata oggi» non escono più dalla
+  tabella.
+
 ## 1.150.4 · 20 ottobre 2026
 
 - **I messaggi non coprono più i pulsanti**: i messaggi con l'esito delle operazioni («Preventivo salvato», «Fattura

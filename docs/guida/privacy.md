@@ -11,6 +11,8 @@
 - **Violazioni**: il [registro delle violazioni dei dati](#privacy-violazioni), con le 72 ore per la notifica al Garante.
 - **Nomine**: i [responsabili esterni e le persone autorizzate](#privacy-nomine).
 
+Il pulsante di ogni linguetta sta in alto a destra, come nelle altre pagine: **Salva le informative**, **Nuovo trattamento**, **Nuova richiesta**, **Registra una violazione**, **Nuovo responsabile**; le stampe (il registro dei trattamenti, quello delle violazioni, i responsabili esterni, le lettere di autorizzazione) sono in **⋯ Altro**.
+
 Le richieste aperte e le violazioni da notificare compaiono anche nelle [Scadenze](scadenze.md) degli amministratori, sotto **Privacy**.
 
 > [!NOTE]
@@ -65,7 +67,7 @@ Nell'elenco la colonna **Garante** dice entro quando notificarla e quanto manca,
 
 **Responsabili esterni** (art. 28): chi tratta dati personali per conto dell'azienda, come il servizio di posta, l'assistente AI esterno, il commercialista, il consulente del lavoro, chi fa assistenza ai computer. Per ognuno: che cosa fa, quali dati, **dove** sono i dati (nell'UE o fuori, con le garanzie: clausole contrattuali standard o decisione di adeguatezza), il giorno dell'**accordo firmato** (contratto o nomina; per i grandi servizi in rete l'accordo sul trattamento dei dati accettato con le condizioni) e quando rivederlo. In cima, **proposti da ciò che la piattaforma usa**: il server di posta configurato, l'assistente AI esterno, Telegram, la casella PEC per lo SDI, la ricerca degli indirizzi, il genere dal nome, il commercialista e, se c'è il personale, il consulente del lavoro. Un clic apre la scheda già compilata; aggiunto, non viene più proposto. Senza accordo firmato il responsabile è segnato in rosso e contato nello Stato.
 
-**Persone autorizzate** (art. 29 GDPR e art. 2-quaterdecies del Codice privacy): gli utenti abilitati con le **aree** della piattaforma a cui accedono, secondo i permessi delle loro policy (gli amministratori tutte), e quanti permessi con dati riservati hanno. **Stampa la lettera** prepara l'autorizzazione da firmare: le aree, i dati riservati e le istruzioni (riservatezza, credenziali personali, niente copie su supporti personali, segnalare subito le violazioni al referente privacy). **Consegnata oggi** la segna; **Stampa quelle da consegnare** le stampa tutte insieme, una per pagina. Quando cambiano i permessi di qualcuno, ristampagli la lettera.
+**Persone autorizzate** (art. 29 GDPR e art. 2-quaterdecies del Codice privacy): gli utenti abilitati con le **aree** della piattaforma a cui accedono, secondo i permessi delle loro policy (gli amministratori tutte), e quanti permessi con dati riservati hanno. **Stampa la lettera** prepara l'autorizzazione da firmare: le aree, i dati riservati e le istruzioni (riservatezza, credenziali personali, niente copie su supporti personali, segnalare subito le violazioni al referente privacy). **Consegnata oggi** la segna; **⋯ Altro → Stampa le lettere da consegnare** le stampa tutte insieme, una per pagina. Quando cambiano i permessi di qualcuno, ristampagli la lettera.
 
 ## <a id="privacy-conservazione"></a>Conservazione
 

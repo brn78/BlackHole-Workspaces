@@ -5,7 +5,8 @@
 **Sistema → Utenti** (la voce **Sistema** è [in basso a sinistra nel menu](interfaccia.md#interfaccia-menu)) elenca le persone che usano la piattaforma, con ruolo, gruppi, stato della sicurezza e ultimo accesso. La scheda di un utente ha quattro sezioni (la tua, che è anche [Profilo e sicurezza](profilo.md), ne ha sei):
 
 - **Anagrafica**: nome, cognome, genere (proposto dal nome, se il [genere dai nomi](impostazioni.md#impostazioni-genere) è attivo), data di nascita, codice fiscale, ruolo aziendale, reparto, note. Per un utente collegato a una [scheda del personale](personale.md#personale-accesso) nome, dati anagrafici, ruolo aziendale e reparto vengono da lì e si cambiano lì (un avviso lo dice, con **Apri la scheda**). A un utente senza scheda, chi gestisce il personale la crea con **Crea la scheda nel personale**: una scheda nuova con i suoi dati, già collegata.
-- **Contatti**: l'**email dell'account** (serve per accedere e per ricevere inviti e link di recupero), altre email, telefoni e indirizzi.
+- **Contatti**: l'**email dell'account** (serve per accedere e per ricevere inviti e link di recupero), altre email e telefoni.
+- **Indirizzi**: residenza, domicilio…, con le coordinate e la mappa, come nei clienti.
 - **Accesso**: nome utente (non si cambia dopo la creazione), **ruolo**, gruppi (l'interruttore **Account abilitato** sta in basso, nella fascia dei pulsanti). Per un nuovo utente scegli la prima password, **impostandola ora** (di norma da cambiare al primo accesso; sotto la conferma compare subito se le due password coincidono) oppure **inviando un invito via email** con cui la sceglie da solo.
 - **Sicurezza**: impostare una password o inviare il link per sceglierla, richiedere il cambio al prossimo accesso, reimpostare o rendere obbligatoria la verifica in due passaggi, revocare i browser di fiducia, chiudere tutte le sessioni aperte. In fondo, i **permessi effettivi** dell'utente.
 

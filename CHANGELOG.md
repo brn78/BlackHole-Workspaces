@@ -4,6 +4,22 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.150.4 · 20 ottobre 2026
+
+- **I messaggi non coprono più i pulsanti**: i messaggi con l'esito delle operazioni («Preventivo salvato», «Fattura
+  emessa»…) ora sono una striscia colorata in basso, larga quanto la pagina, con l'icona davanti, come gli avvisi delle
+  pagine (verde se è andata bene, azzurro per un'informazione, giallo per un'attenzione, rosso per un errore). Prima
+  stavano in alto a destra, proprio sopra Salva, Invia e la × dei pannelli. Con un pannello aperto la striscia si ferma
+  accanto al pannello, oppure, se il pannello è largo, va dentro il pannello sopra Annulla e Salva; sul telefono resta
+  sopra il pulsante tondo e sopra gli avvisi. Un pulsante come «Annulla» dopo aver messo qualcosa nel cestino ora sta
+  sulla stessa riga, a destra.
+- **Pagine più veloci ad aprirsi**: l'app salvata sul dispositivo (per lavorare anche senza rete) cercava ogni file in
+  un modo che in Chrome costava circa un secondo a file, così una pagina aperta la prima volta, o dopo aver ricaricato,
+  poteva aspettare diversi secondi su «Caricamento…». Ora i file salvati si trovano subito.
+- Le notifiche della campanella non cambiano: restano nel loro pannello dalla campanella (e, se le hai scelte, per
+  email e su Telegram); gli avvisi di sistema (password da cambiare, aggiornamento) restano in basso a destra, e la
+  striscia si mette sopra di loro.
+
 ## 1.150.2 · 20 ottobre 2026
 
 - **Fattura dal preventivo con la merce già consegnata**: se parte del materiale è uscito con dei DDT non ancora fatturati,

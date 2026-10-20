@@ -4,6 +4,13 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.150.2 · 20 ottobre 2026
+
+- **Fattura dal preventivo con la merce già consegnata**: se parte del materiale è uscito con dei DDT non ancora fatturati,
+  la finestra «Fattura dal preventivo» li elenca (già spuntati quelli della stessa commessa o dello stesso preventivo).
+  La fattura delle righe o del saldo li richiama e diventa differita, con il riferimento ai DDT nella fattura
+  elettronica, e i DDT escono da «Da fatturare». Prima restavano da fatturare e si rischiava di fatturarli due volte.
+
 ## 1.150.1 · 20 ottobre 2026
 
 **Più robusta nei casi peggiori** (prove di spegnimenti a metà, disco pieno, backup rovinati, file ostili):

@@ -4,6 +4,11 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.149.1 · 20 ottobre 2026
+
+- **Setup, scelta delle opzioni**: «Apri la porta nel Firewall di Windows» ora si spunta anche da sola; prima si
+  accendeva solo spuntando «anche per le reti Pubbliche». Allo stesso modo, togliere «Icona di stato» non spegne più
+  «Installa come servizio di Windows».
 ## 1.149.0 · 20 ottobre 2026
 
 **Importare ed esportare, seconda parte: il lavoro di tutti i giorni.** Le stesse finestre «Importa» ed «Esporta» della

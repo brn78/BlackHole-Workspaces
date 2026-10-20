@@ -4,6 +4,30 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.150.1 · 20 ottobre 2026
+
+**Più robusta nei casi peggiori** (prove di spegnimenti a metà, disco pieno, backup rovinati, file ostili):
+- **Ripristino interrotto**: se la corrente salta o il server si ferma mentre si applica un ripristino, al riavvio riprende
+  da dove era arrivato. Prima, in un momento preciso, il server poteva ripartire vuoto (i dati restavano nella cartella
+  di recupero, ma sembravano spariti).
+- **Backup interrotti**: il file a metà lasciato da un backup interrotto (grande quanto un backup) si toglie da solo al
+  backup successivo, dopo qualche ora.
+- **Disco pieno**: un messaggio chiaro, «il disco del server è pieno… i dati salvati finora sono al sicuro», invece
+  dell'errore tecnico; liberato lo spazio si riprende senza riavviare.
+- **Storico delle vendite**: un'importazione interrotta a metà non lascia più una bozza in giro; ripetendola, le fatture
+  già entrate si riconoscono e si aggiungono le altre.
+
+**Correzioni trovate usando la piattaforma come un ufficio vero:**
+- Uscendo da un preventivo inviato, accettato o rifiutato compariva «Modifiche non salvate» anche senza aver toccato
+  niente.
+- «Aggiungi dal listino» nei preventivi: descrizione e codice di nuovo su due righe e il pulsante «Aggiungi» sempre in
+  vista (prima la tabella usciva dalla finestra).
+- Ordini, richieste d'offerta, DDT e fatture: con la scheda stretta il menu «Altro» non ripete più la stessa azione due
+  volte («Invia» e «Invia…», «Emetti» ed «Emetti»).
+- Fattura dal preventivo: la percentuale dell'acconto compare solo scegliendo «Acconto».
+- Scheda del cliente: l'avviso sulle coordinate degli indirizzi non compare più quando gli indirizzi non ci sono.
+- Matricole: «1 pezzo», non «1 pezzi».
+
 ## 1.150.0 · 20 ottobre 2026
 
 **Importare ed esportare, terza parte: i documenti con le righe.** Un foglio con una riga per ogni riga del documento e

@@ -8,7 +8,7 @@ oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, acc
 
 **I preferiti**
 
-- **La stella** <span>☆</span> accanto al titolo di ogni pagina la mette tra i preferiti, con la linguetta che stai
+- **La stella** ☆ accanto al titolo di ogni pagina la mette tra i preferiti, con la linguetta che stai
   guardando (per esempio *Clienti · Gruppi*); su un preventivo aperto, quel preventivo.
 - **La stella nelle schede**: nell'intestazione di un cliente, un fornitore, un progetto, un impianto, una pratica, una
   fattura, un ordine, una richiesta di assistenza e delle altre schede salvate.

@@ -369,7 +369,7 @@ Servono la posta in uscita configurata, un indirizzo email sul tuo account e l'o
 <details>
 <summary><b>Non ricevo le notifiche su Telegram</b></summary>
 
-In [Profilo e sicurezza](profilo.md) la chat deve risultare **Collegato**, con **Anche su Telegram** spuntato. Come le email, le notifiche partono solo se restano da leggere per due minuti (gli avvisi del monitoraggio subito). Se il bot non risponde a **/start**, in Impostazioni → Posta e Telegram il riquadro Telegram dice il problema: il caso più comune è lo stesso bot usato anche da un altro programma. Vedi [Telegram](impostazioni.md#impostazioni-telegram).
+In [Profilo e sicurezza](profilo.md) la chat deve risultare **Collegato**, con **Anche su Telegram** spuntato. Come le email, le notifiche partono solo se restano da leggere per due minuti (gli avvisi del monitoraggio subito). Se il bot non risponde a **/start**, in Impostazioni → Telegram e presenze il riquadro Telegram dice il problema: il caso più comune è lo stesso bot usato anche da un altro programma. Vedi [Telegram](impostazioni.md#impostazioni-telegram).
 
 </details>
 

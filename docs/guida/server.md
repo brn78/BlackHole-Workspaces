@@ -106,7 +106,7 @@ Nulla si installa senza che un amministratore lo chieda: con **Scarica e install
 Il riquadro mostra anche quando è stato fatto l'ultimo controllo; **Controlla ora** lo ripete subito. Finché su GitHub non è pubblicata nessuna versione, il riquadro lo dice e non compare alcun avviso. Gli utenti che non sono amministratori non vedono nulla. La prima segnalazione di ogni versione finisce nel [registro attività](registro.md) (categoria **Sistema**, «Nuova versione disponibile»).
 
 > [!NOTE]
-> **Riservatezza**: la richiesta va a `api.github.com` e non contiene alcun dato dell'organizzazione (né nome, né utenti, né versione installata). Per spegnere il controllo automatico togli la spunta **Avvisa quando esce una nuova versione** nel riquadro e salva le impostazioni: il server non interroga più GitHub, niente notifiche né pallino; **Controlla ora** resta disponibile. Se il server non raggiunge Internet il controllo non riesce e il riquadro ne indica il motivo, senza altre conseguenze: il server riprova dopo qualche ora.
+> **Riservatezza**: la richiesta va a `api.github.com` e non contiene alcun dato dell'organizzazione (né nome, né utenti, né versione installata). Per spegnere il controllo automatico togli la spunta **Avvisa quando esce una nuova versione** nel riquadro e premi **Salva** in fondo: il server non interroga più GitHub, niente notifiche né pallino; **Controlla ora** resta disponibile. Se il server non raggiunge Internet il controllo non riesce e il riquadro ne indica il motivo, senza altre conseguenze: il server riprova dopo qualche ora.
 
 ## <a id="server-licenza"></a>Licenza d'uso e responsabilità
 

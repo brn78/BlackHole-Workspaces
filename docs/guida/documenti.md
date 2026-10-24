@@ -214,7 +214,7 @@ Per vedere un file al volo, senza metterlo nei Documenti: **Carica** → **Solo 
 In alto ci sono anche **Cerca e sostituisci** 🔍 (<kbd>Ctrl</kbd>+<kbd>F</kbd>; la casella **Maiuscole** distingue maiuscole e minuscole, **Sostituisci tutto** cambia ogni occorrenza), **Stampa** (<kbd>Ctrl</kbd>+<kbd>P</kbd>) e **Salva** (<kbd>Ctrl</kbd>+<kbd>S</kbd>); in basso il conteggio di parole e caratteri. Chiudendo con modifiche non salvate viene chiesta conferma.
 
 - Il primo salvataggio crea il file nella cartella; i successivi ne creano una **nuova revisione**, così le versioni precedenti restano nella cronologia.
-- **Modifica** su un documento Word esistente lo apre nell'editor. I documenti con un'impaginazione complessa (caselle di testo, colonne, intestazioni) vengono **semplificati**: un messaggio in basso lo dice, e l'originale resta comunque nelle revisioni precedenti.
+- **Modifica** su un documento Word esistente lo apre nell'editor. I documenti con un'impaginazione complessa (caselle di testo, colonne, intestazioni) vengono **semplificati**: un messaggio in alto a destra lo dice, e l'originale resta comunque nelle revisioni precedenti.
 - **Nuovo** → **File di testo…** e **Modifica** su un file di testo o di codice (.txt, .md, .csv, .json, script… fino a 5 MB) aprono l'editor di testo semplice, con i numeri di riga e l'a capo automatico che si può togliere. Il file si salva in UTF-8.
 - **Testo da immagine o PDF** , in alto, accanto a Cerca: scegli dal computer una scansione o una foto (PDF, JPG, PNG, TIFF, BMP, GIF) e il server ne riconosce il testo, che entra dove c'è il cursore (al posto del testo selezionato, se ce n'è); un testo di più righe va su righe sue. C'è quando il [riconoscimento del testo](#documenti-ocr) è installato. Rileggi il testo inserito: il riconoscimento può sbagliare qualche lettera.
 
@@ -235,7 +235,7 @@ Lo stesso editor, in versione ridotta, scrive il [testo degli appunti](appunti.m
 - **Annulla** e **Ripeti** (<kbd>Ctrl</kbd>+<kbd>Z</kbd>, <kbd>Ctrl</kbd>+<kbd>Y</kbd>), **Cerca e sostituisci** 🔍 (<kbd>Ctrl</kbd>+<kbd>F</kbd>; si sostituisce nelle celle senza formula), **Stampa** del foglio scelto e **Salva** (<kbd>Ctrl</kbd>+<kbd>S</kbd>).
 
 > [!NOTE]
-> Si salvano valori, formule con il loro risultato, formati dei numeri (date, percentuali, euro), larghezze delle colonne e celle unite. Colori, bordi e caratteri di un file Excel esistente qui non si modificano e salvando non si conservano: il messaggio in basso lo dice, e il file originale resta nella revisione precedente. Il file salvato chiede a Excel di ricalcolare tutte le formule all'apertura.
+> Si salvano valori, formule con il loro risultato, formati dei numeri (date, percentuali, euro), larghezze delle colonne e celle unite. Colori, bordi e caratteri di un file Excel esistente qui non si modificano e salvando non si conservano: il messaggio in alto a destra lo dice, e il file originale resta nella revisione precedente. Il file salvato chiede a Excel di ricalcolare tutte le formule all'apertura.
 
 ## <a id="documenti-cestino"></a>Cestino
 

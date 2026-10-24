@@ -125,7 +125,12 @@ Un campo che fa qualcosa ha la sua **icona a destra**, così si distingue da que
 - **Conferma della password**: ovunque si sceglie una password (configurazione iniziale, cambio e recupero nella pagina di accesso, **Profilo e sicurezza**, scheda dell'utente, password dei backup), mentre scrivi nel campo di conferma compare sotto **Le password coincidono**, in verde, oppure **Le password non coincidono**, in rosso. Finché la conferma è vuota non compare nulla. Il controllo al salvataggio resta: con due password diverse non si prosegue.
 - **Suggerimenti**: in molti campi, mentre scrivi, compaiono i valori già scritti nello stesso campo, dal più usato: frecce e <kbd>Invio</kbd> per scegliere, <kbd>Esc</kbd> per chiudere l'elenco. Vedi [Suggerimenti mentre scrivi](#interfaccia-suggerimenti). Sotto alcuni campi (per esempio **Come** nell'invio e nell'accettazione di un preventivo) ci sono le **scelte rapide**: un clic scrive la voce nel campo, e si può sempre scrivere altro (dalla 1.125.0).
 - **Controllo dei campi**: email, telefoni, codici fiscali, partite IVA, indirizzi IP e MAC, siti, coordinate, numeri, importi e ore si controllano mentre scrivi, in tutti i moduli. Un valore sbagliato ha il **bordo rosso** e, sotto, che cosa non va; uno giusto la spunta verde ✓ e, uscendo dal campo, la forma di sempre (*00:11:22:AA:BB:CC*, *+39 333 123 4567*). Mentre scrivi non compare nulla finché il valore non è completo; se provi a salvare con un campo rosso, il modulo te lo indica e ci porta il cursore.
-- **Quantità, ore e importi**: il decimale si scrive con la virgola (*0,5*) o con il punto (*0.5*, *2.75*). Il punto separa le migliaia solo nella forma *1.000* o *12.500*, e sempre quando c'è anche la virgola (*1.250,50*).
+- **Quantità, ore e importi** (dalla 1.158.0 li legge un solo motore, uguale in tutte le pagine e sul server):
+   - l'**ultimo** punto o virgola che scrivi è quello dei decimali, quelli prima separano le migliaia: *1.125* e *1,125* valgono 1,125; *1.125.65*, *1,125.65* e *1.125,65* valgono 1.125,65;
+   - lo zero davanti fa da «zero virgola»: *01*, *010*, *0,1* e *0.10* valgono 0,10;
+   - il segno si scrive davanti (*-12,50*, *+12,50*), in fondo (*12,50-*) o con le parentesi (*(12,50)*); spazi, apostrofi e il simbolo € si possono scrivere o no;
+   - quello che non ha un senso unico non si indovina: *1.000.000* (un milione o mille?) chiede di scrivere i decimali (*1.000.000,00*), le migliaia vanno a gruppi di tre cifre, e un valore con più decimali di quelli del campo (*1,125* in un importo, che ne ha due) è rosso invece di essere arrotondato da solo;
+   - gli importi si mostrano sempre con i decimali (*1.250,00 €*), così un valore copiato dallo schermo e incollato in un campo vale lo stesso. I conti (righe, sconti, IVA, totali) si fanno con valori esatti e l'arrotondamento commerciale al centesimo, come nella fattura elettronica.
 - **Password**: dove si scrive una password, l'occhio 👁 nel campo la mostra e la nasconde. Dove se ne sceglie una nuova (la propria, quella di un utente, quella dei backup, la configurazione iniziale, le password delle schede tecniche) accanto c'è **Genera** : apre il [generatore](password.md#password-generatore) e **Usa questa password** la mette nel campo, in chiaro per poterla annotare, e anche nella conferma. Se è inserito il **Blocco maiuscole**, il campo ha il bordo arancione e sotto compare *Blocco maiuscole attivo*: le password distinguono maiuscole e minuscole. L'avviso compare appena scrivi o fai clic nel campo e sparisce quando lo togli o esci dal campo.
 - **Linguette strette**: quando le linguette di una scheda o di una pagina non stanno nella larghezza, quelle non scelte mostrano solo l'icona (il nome compare fermando il mouse); allargando il pannello o la finestra tornano i nomi.
 
@@ -212,6 +217,35 @@ Il controllo parte mentre scrivi (dopo un attimo di pausa) e anche quando apri u
 | [Progetti](progetti.md) | Stesso codice, stesso nome per lo stesso cliente | Stesso nome per un altro cliente |
 | [Password](password.md) | Stesso utente (o email) sullo stesso sito o nello stesso «Dove si usa», stesso nome con lo stesso utente | Nome simile, stesso sito con un altro utente |
 | [Utenti](utenti.md) | Stesso nome utente, email, codice fiscale o nome e cognome | Nome simile |
+
+## <a id="interfaccia-dati-nuovi"></a>Dati nuovi senza F5
+
+Quando un collega (o il bot delle presenze) cambia qualcosa, le pagine aperte lo sanno subito. Quasi tutte **si aggiornano da sole**: Presenze, Personale, Scadenze, Vendite, Acquisti, Magazzino, Attività, Progetti, Documenti, Appunti, Rubrica, Password e le altre dei lavori di ogni giorno. Le pagine che non si aggiornano da sole (Clienti, Fornitori, Indicatori, Utenti, Gruppi, Policy, Privacy) mostrano sotto la barra in alto **Ci sono dati nuovi** con **Aggiorna**: la pagina si ridisegna con i dati di adesso (se hai modifiche non salvate prima lo chiede). La × chiude la fascia senza aggiornare. Le modifiche fatte da te non la fanno comparire.
+
+## <a id="interfaccia-stessa-scheda"></a>Più persone sulla stessa scheda
+
+Due colleghi possono aprire la stessa scheda: la piattaforma lo dice e non lascia che uno cancelli il lavoro dell'altro. È nata nella 1.153.0 con [clienti e fornitori](clienti.md) e [utenti](utenti.md); dalla 1.154.0 vale per tutte le schede che si aprono e si salvano: gruppi e policy, attività, pratiche, personale e le sue voci, mezzi, progetti, impianti, manutenzioni, certificazioni, scadenze, documenti, password, appunti, rubrica, preventivi, trattative, acquisti, vendite, fatture dei fornitori, prima nota, banca, assistenza, controlli, listini, magazzino, privacy, i tipi e le categorie degli elenchi e le impostazioni dei moduli.
+
+- **Chi altro l'ha aperta**: in cima alla scheda compare «Mario Rossi ha aperta questa scheda», che diventa «la sta modificando» quando lui cambia qualcosa senza salvare. Se l'hai aperta anche tu in un'altra finestra, lo dice.
+- **Sola lettura mentre un collega la modifica** (dalla 1.153.2): se lui ha già cominciato a cambiarla, tu la vedi ma non puoi modificarla, salvarla, eliminarla, duplicarla né usare i pulsanti delle sue linguette finché non salva o la chiude (si può solo passare da una linguetta all'altra e chiuderla); poi la scheda si riapre da sola con i dati nuovi. Se il collega l'ha lasciata a metà (è andato via con la scheda aperta), **Modifica comunque** la sblocca: al salvataggio vale comunque il controllo qui sotto, nessuno sovrascrive l'altro senza vederlo.
+- **Ha salvato mentre ce l'avevi aperta**: compare subito «Mario Rossi ha salvato questa scheda alle 10:42» con **Ricarica**, senza aspettare il tuo salvataggio.
+- **Al salvataggio**: se un collega ha salvato dopo che l'hai aperta, il tuo salvataggio non sovrascrive il suo. La fascia dice chi, quando e che cosa ha cambiato (per esempio *Telefoni*); quello che hai scritto resta nella scheda, così lo copi, poi **Ricarica** e lo rifai sulla versione aggiornata.
+- **Spostata nel cestino da un collega**: salvando, la fascia lo dice con **Ripristina e salva**. Se l'ha eliminata, la fascia lo dice subito: quello che hai scritto non si può più salvare, copialo se ti serve.
+- **Le operazioni immediate** (lo stato di un'attività, i passi di una pratica, le risposte di una richiesta d'offerta…) contano come un salvataggio: chi ha la scheda aperta altrove lo vede, e le tue fatte dalla stessa scheda non ti danno il conflitto.
+- **Eliminare**: se qualcuno la sta modificando, la conferma lo dice («Elimina comunque»); se è cambiata dopo che l'hai aperta, prima la si ricarica e la si guarda.
+
+Il blocco vale solo mentre un collega ha modifiche non salvate, e **Modifica comunque** lo toglie. Chi chiude la pagina sparisce dall'avviso in pochi secondi; se il browser si chiude male o cade la connessione, entro un minuto.
+
+## <a id="interfaccia-persone"></a>Nome e cognome: la persona è già in archivio
+
+Una stessa persona può essere utente della piattaforma, nel personale, cliente e nella rubrica. Nelle schede di [personale](personale.md), [utenti](utenti.md), [clienti](clienti.md) (persona fisica) e [rubrica](rubrica.md), mentre scrivi **Nome** o **Cognome** compaiono le persone che ci sono già negli **altri** archivi, con da dove vengono (*Utente · Tecnico installatore · m.verdi*, *Cliente · C00011 · Ragusa*, *Rubrica · Studio Ferro · Commercialista*). Basta l'inizio del nome o del cognome, senza maiuscole né accenti.
+
+- Scegliendo una persona, i suoi dati riempiono i campi **ancora vuoti** (genere, data e luogo di nascita, codice fiscale, ruolo e reparto) e le sue email, i telefoni e gli indirizzi si aggiungono a quelli già scritti: ciò che hai scritto tu resta. Un avviso dice che cosa è stato preso.
+- In una scheda **nuova**, con nome e cognome scritti per intero e uguali a quelli di una persona in archivio (anche invertiti), un riquadro la propone anche senza aprire l'elenco: **Usa i dati** con un clic.
+- Nel **personale**, scegliendo un utente o un cliente, la scheda nuova si **collega** già alla creazione al suo utente (che da allora prende nome e dati anagrafici dalla scheda) o al suo cliente, se non ha già una scheda.
+- Nell'**utente** la prima email della persona diventa l'email dell'account, se è ancora vuota.
+
+Compare solo ciò che puoi vedere: i clienti con il loro permesso (e i tuoi contatti privati), il personale con il permesso del personale, la rubrica con i contatti tuoi o condivisi con te. I nomi dei colleghi li vede chiunque, come nella chat; i loro dati personali (nascita, codice fiscale, recapiti) solo chi gestisce gli utenti, o chi crea la scheda del personale da collegare all'utente.
 
 ## <a id="interfaccia-import-export"></a>Importare ed esportare
 

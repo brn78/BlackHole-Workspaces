@@ -43,7 +43,7 @@ La ricerca veloce è una finestra in alto. Mentre scrivi compaiono i primi risul
 ## <a id="ricerca-trucchi"></a>Come cercare
 
 - **Maiuscole e accenti non contano**: «citta» trova «Città». Si trovano gli elementi che contengono **tutte** le parole scritte, anche come inizio o parte di una parola («fotov» trova «fotovoltaico»).
-- **Telefoni** in qualunque forma: «0932123456», «0932 12 34 56», «+39 0932 123456». Lo stesso per la **partita IVA**, con o senza il paese davanti («IT00743110157»), e per il **codice fiscale**: il cliente con quel codice va in cima.
+- **Telefoni** in qualunque forma: «0932123456», «0932 12 34 56», «+39 0932 123456». Lo stesso per la **partita IVA**, con o senza il paese davanti («IT01234567897»), e per il **codice fiscale**: il cliente con quel codice va in cima.
 - **Codici**: il codice di un cliente («C00012») o di un progetto («2026-001») mette quell'elemento in cima; «#12» cerca l'attività numero 12 (il numero è unico tra tutte le attività).
 - **Forse cercavi**: con pochi risultati la ricerca propone la parola giusta tra quelle che conosce (nomi di clienti, progetti, appunti, password, colleghi, guida). Senza risultati mostra direttamente quelli della parola corretta, con *Risultati per «rossi». Cerca invece «rosi»* per tornare a quella scritta.
 - **Vai a**: scrivendo il nome di una pagina («backup», «posta», «profilo», «controllo password») compare il collegamento per aprirla, se la puoi usare.

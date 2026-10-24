@@ -130,7 +130,7 @@ I tipi dei campi: quando si compila la scheda, il valore si controlla secondo il
 | --- | --- |
 | Testo, Testo su più righe | Testo libero, con le **Maiuscole** scelte. |
 | Numero con decimali, Numero intero | Con l'**unità** facoltativa (W, kWp, porte, giorni); il numero intero non ha decimali e si può scrivere con i punti delle migliaia (*1.000*). |
-| Importo (€) | Con la virgola per i centesimi (*1.234,50*); si mostra con il simbolo dell'euro. |
+| Importo (€) | Con al massimo due decimali: l'ultimo punto o virgola è quello dei decimali (*1.234,50*, *1234.5*); si mostra con il simbolo dell'euro. |
 | Data, Ora | Con il calendario e l'orologio del browser. |
 | Email, Telefono, Sito web o link | Controllati come nell'anagrafica; in lettura sono link da cliccare. |
 | Codice fiscale, Partita IVA | Con il controllo del carattere finale; la partita IVA anche con «IT» davanti. |

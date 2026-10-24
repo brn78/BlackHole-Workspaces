@@ -165,8 +165,8 @@ Serve per portare qui l'archivio di un altro gestionale con tutto quello che una
 ```
 { "customers": [
   { "code": "C00012", "kind": "company", "companyName": "ROSSI IMPIANTI SRL", "roles": ["customer", "supplier"],
-    "vatNumber": "01234567897", "sdiCode": "M5UXCR1", "pec": "rossi@pec.it",
-    "emails": ["info@rossi.it", { "label": "Amministrazione", "value": "amm@rossi.it" }],
+    "vatNumber": "01234567897", "sdiCode": "M5UXCR1", "pec": "rossi@pec.esempio.it",
+    "emails": ["info@esempio.it", { "label": "Amministrazione", "value": "amministrazione@esempio.it" }],
     "phones": [["Ufficio", "0932 123456"], "333 1234567"],
     "addresses": [
       { "label": "Sede legale", "street": "Via Roma 1", "postalCode": "97100", "city": "Ragusa", "province": "RG" },

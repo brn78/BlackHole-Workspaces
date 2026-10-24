@@ -2,7 +2,7 @@
 
 # <a id="sistema"></a>Sistema
 
-La voce **Sistema** , [in fondo al menu](interfaccia.md#interfaccia-menu), apre la pagina con tutta la gestione della piattaforma (dalla 1.135.0; prima era un menu a comparsa). Ogni pagina è un **riquadro** con l'icona, il nome, che cosa fa e le sue **funzioni**; un clic sul riquadro apre la pagina, un clic su una funzione sottolineata in blu apre direttamente quella linguetta (per esempio **Posta e Telegram** delle Impostazioni o le **Richieste** della Privacy). I riquadri sono raccolti in aree:
+La voce **Sistema** , [in fondo al menu](interfaccia.md#interfaccia-menu), apre la pagina con tutta la gestione della piattaforma (dalla 1.135.0; prima era un menu a comparsa). Ogni pagina è un **riquadro** con l'icona, il nome, che cosa fa e le sue **funzioni**; un clic sul riquadro apre la pagina, un clic su una funzione sottolineata in blu apre direttamente quella linguetta (per esempio **Telegram e presenze** delle Impostazioni o le **Richieste** della Privacy). I riquadri sono raccolti in aree:
 
 | Area | Pagine |
 | --- | --- |

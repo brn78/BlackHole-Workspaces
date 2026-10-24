@@ -4,6 +4,72 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.158.1 · 24 ottobre 2026
+
+Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.0.
+
+**Importi e conti a prova di errore**
+
+- **Un solo modo di leggere i numeri**, in tutte le pagine e sul server: l'ultimo punto o virgola che scrivi è quello
+  dei decimali, quelli prima separano le migliaia. *1.125* e *1,125* valgono 1,125; *1.125.65*, *1,125.65* e
+  *1.125,65* valgono 1.125,65. Lo zero davanti fa da «zero virgola»: *01*, *010* e *0,10* valgono 0,10. Il segno si
+  scrive davanti, in fondo o tra parentesi; il simbolo € si può scrivere o no.
+- **Mai un valore sbagliato preso per buono**: quello che non ha un senso unico si rifiuta con il campo rosso e la
+  spiegazione sotto, invece di essere indovinato. *1.000.000* chiede di scrivere i decimali (un milione o mille?), le
+  migliaia vanno a gruppi di tre cifre, e un importo con tre decimali non si arrotonda da solo.
+- **Conti esatti** su righe, sconti in cascata, IVA e totali, con l'arrotondamento commerciale al centesimo come nella
+  fattura elettronica: lo schermo e il documento salvato danno sempre lo stesso totale.
+- **Importi sempre con i decimali** (*1.250,00 €*): un valore copiato dallo schermo e incollato in un campo vale lo
+  stesso.
+- **Corretti**: uno sconto scritto male nei preventivi valeva «nessuno sconto»; gli importi delle regole dei costi
+  dell'assistenza scritti con la virgola diventavano 0; nei documenti di magazzino «1.5» era letto come quindici; lo
+  sconto del 100% era accettato negli acquisti e poi rifiutato al salvataggio; l'aliquota IVA «04» era letta come 0,4%;
+  la compensazione di una nota di credito del fornitore con un importo scritto male usava tutto il disponibile; fido e
+  tasso di mora del recupero crediti scritti male diventavano 0.
+
+**Presenze e attività sul campo con il bot di Telegram**
+
+- **Nuova sezione Presenze**: il dipendente collega la sua chat con un codice (o con la chat già collegata alle
+  notifiche) e dal bot inizia e chiude le attività con la posizione, sceglie il cantiere tra i clienti vicini o un
+  lavoro generico, e riceve il riepilogo della giornata.
+- **Chiusura guidata in una sola scheda della chat**: tipo di attività, pranzo, cena e pernotto in trasferta, mezzo
+  (con quello abituale proposto), alla guida o passeggero, reperibilità (anche automatica di notte, nei fine settimana
+  e nei festivi), pause quando la giornata è lunga; ogni domanda con Indietro e Annulla.
+- **Viaggio stimato** dalle due posizioni con la velocità che cresce con la distanza e il dislivello del percorso,
+  sempre dentro la durata dell'attività; quando la stima non torna l'attività è segnata «viaggio da verificare».
+- **Ferie, permessi e malattia**: richieste dal bot o dalla pagina, da approvare o valide subito, con l'esito su
+  Telegram; nella Giornata chi è assente.
+- **Menu del bot a numeri** secondo i permessi della persona: riapri o elimina l'attività, chi c'è adesso, nuovo
+  cantiere (cliente nuovo o sede nuova, dalla posizione o da un indirizzo), informazioni. Frasi variate, saluto non
+  ripetuto a ogni messaggio, auguri nei festivi.
+- **Pagina Presenze** con Giornata (tutto il personale e il suo stato), Periodo (totali, pasti, km per mezzo,
+  reperibilità) e Ferie e permessi; correzioni con lo storico, aggiunte dall'ufficio, «Da sistemare», ricalcolo delle
+  ore con le regole di adesso, giornata contabile per i turni a cavallo della mezzanotte.
+
+**Più persone sulla stessa scheda**
+
+- In tutte le schede la fascia in alto dice chi altro l'ha aperta o la sta modificando; mentre un collega modifica, la
+  scheda è in sola lettura (con «Modifica comunque»); quando salva, la tua si aggiorna da sola.
+- Se due persone salvano la stessa scheda, la seconda vede che cosa ha cambiato l'altra e sceglie se ricaricare o
+  salvare le sue modifiche. Lo stesso controllo vale per le eliminazioni.
+- Le pagine con dati condivisi (Clienti, Fornitori, Indicatori, Utenti, Gruppi, Policy, Privacy) mostrano «Ci sono
+  dati nuovi» con Aggiorna quando un collega cambia qualcosa.
+
+**Moduli e pagine**
+
+- **Nome e Cognome propongono le persone già in archivio** (utenti, personale, clienti, rubrica): sceglierne una
+  riempie i campi vuoti e collega le schede.
+- **Impostazioni con il Salva per riquadro**: ogni riquadro modificato prende il bordo blu e in fondo Annulla e Salva;
+  cambiando pagina la conferma dice quali riquadri non sono salvati.
+- **Modifiche non salvate**: l'avviso alla chiusura c'è ora anche nei pannelli dei preventivi (impostazioni comprese),
+  del recupero crediti, delle fatture dei fornitori, dei modelli di stampa, del cambio di stato dell'assistenza, delle
+  notifiche del profilo e nelle informative della privacy.
+- **«Disabilita account»** dal menu della riga degli utenti chiede conferma.
+- **Avvisi uniformi**: tutte le spiegazioni delle pagine e delle finestre sono riquadri azzurri con l'icona «i».
+- **Messaggi delle operazioni** di nuovo in alto a destra, con la × più visibile.
+- **Le mappe** non passano più sopra pannelli e finestre; nell'**Archivio di rete** un errore lungo va a capo invece di
+  allargare la pagina.
+
 ## 1.151.0 · 21 ottobre 2026
 
 - **Il genere dai nomi impara dalle tue schede**: un nome a cui hai dato il genere una volta (a mano o con

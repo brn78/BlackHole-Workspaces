@@ -179,4 +179,4 @@ Nel [registro attività](registro.md), sotto «Indicatori», restano le modifich
 
 ---
 
-[← Reperibilità](reperibilita.md) · [Indice](README.md) · [Mezzi e attrezzature →](mezzi.md)
+[← Presenze](presenze.md) · [Indice](README.md) · [Mezzi e attrezzature →](mezzi.md)

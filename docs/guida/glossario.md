@@ -39,7 +39,7 @@
 - **Generatore di password**: Crea nel browser password casuali, da leggere o PIN, con il generatore casuale crittografico: vedi [Password](password.md#password-generatore).
 - **JSON**: File di testo con dati strutturati, scritto da un programma: serve a importare i clienti di un altro gestionale con più indirizzi, recapiti, referenti e banche per cliente.
 - **Kanban**: Vista delle attività in colonne, una per stato, in cui si spostano trascinandole.
-- **Il mio spazio**: La prima area del menu laterale: Home, Attività, Appunti e Password, il lavoro di ogni giorno di ciascuno. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
+- **Il mio spazio**: La prima area del menu laterale: Home, Attività, Appunti, Rubrica e Password, il lavoro di ogni giorno di ciascuno, con i propri preferiti. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
 - **Leggimi**: Il testo di un impianto con ciò che serve sapere prima di intervenire: com'è fatto, dove sono centrale e apparati, accorgimenti, contatti sul posto. È la prima linguetta della pagina dell'impianto.
 - **LibreOffice**: Programma di ufficio gratuito; installato sul server, converte in PDF i documenti che il browser non sa leggere (.doc, .ppt, .odt…).
 - **Link di condivisione**: Un indirizzo che fa vedere a chi non ha un account un file, una cartella o la documentazione di un impianto, con scadenza e password facoltative, anche per farsi mandare file. Vedi [Condivisioni](condivisioni.md).
@@ -70,6 +70,7 @@
 - **Password precedente**: La password che una voce aveva prima dell'ultimo cambio: resta cifrata nel suo storico (le ultime 20).
 - **Password personale, condivisa**: Una voce della gestione password visibile solo a chi l'ha creata, oppure anche a colleghi, gruppi o tutti, in lettura o con la modifica.
 - **Policy**: Permessi e regole di sicurezza applicati agli utenti tramite i gruppi (non agli amministratori).
+- **Preferito**: Una pagina (con la sua linguetta) o una scheda segnata con la stella: compare nel menu sotto Il mio spazio e nella Home, solo per chi l'ha segnata. Vedi [I preferiti](area-di-lavoro.md#preferiti).
 - **Potenziale cliente**: Chi non ha ancora comprato: una scheda con il ruolo Potenziale, che diventa cliente con un clic su Cliente. Vedi [Ruoli](clienti.md#clienti-ruoli).
 - **Possibile doppione**: Cliente con lo stesso codice fiscale, la stessa partita IVA o lo stesso nome di un altro: segnalato nella scheda e nell'importazione dei clienti, dove viene saltato se non lo scegli tu.
 - **Progetto riservato**: Progetto visibile solo al responsabile e ai membri; le sue attività restano tra le persone che lo vedono.

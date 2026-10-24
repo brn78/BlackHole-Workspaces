@@ -4,6 +4,20 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.161.0 · 24 ottobre 2026
+
+**I preferiti**
+
+- **La stella** <span>☆</span> accanto al titolo di ogni pagina la mette tra i preferiti, con la linguetta che stai
+  guardando (per esempio *Clienti · Gruppi*); su un preventivo aperto, quel preventivo.
+- **La stella nelle schede**: nell'intestazione di un cliente, un fornitore, un progetto, un impianto, una pratica, una
+  fattura, un ordine, una richiesta di assistenza e delle altre schede salvate.
+- **Dove li ritrovi**: nel menu sotto *Il mio spazio → Preferiti* (i primi otto, poi *Tutti i preferiti*) e nel nuovo
+  riquadro **Preferiti** della Home, a tessere.
+- **Modifica**: dalla Home (o con il tasto destro sul menu) li rinomini, li metti in ordine e li togli.
+- Fino a 30 per persona, **solo tuoi** e salvati sul server: li ritrovi su ogni computer e telefono. Una pagina che non
+  puoi più aprire non compare.
+
 ## 1.160.0 · 24 ottobre 2026
 
 **Il menu per reparti**

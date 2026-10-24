@@ -34,6 +34,7 @@
 - **Fornitore**: Una scheda dell'anagrafica con il ruolo Fornitore: sta nella pagina Fornitori e, se è anche cliente, pure tra i clienti. Vedi [Ruoli](clienti.md#clienti-ruoli).
 - **Icona e colore**: La piccola immagine di una scheda (cliente, impianto, controllo del monitoraggio, mezzo, tipo…), scelta tra le icone Material Design Icons con un colore; i tipi la passano a ciò che non ne ha una sua. Vedi [Icone e colori](interfaccia.md#interfaccia-icone).
 - **Impianto**: Ciò che è installato presso un cliente, in una sua sede (antintrusione, videosorveglianza, KNX…): ha la sua pagina con il Leggimi, la cartella in Documenti, gli interventi, le certificazioni e i progetti che lo hanno realizzato. Il progetto finisce, l'impianto resta. Vedi [Impianti](impianti.md).
+- **Incassi e pagamenti**: La pagina con le rate da incassare dai clienti e da pagare ai fornitori, prima le scadute, e le entrate e uscite delle prossime settimane. Vedi [Incassi e pagamenti](incassi-pagamenti.md).
 - **Indicatore**: Una statistica scelta dall'azienda, calcolata con una formula sulle misure, per l'azienda, i reparti o le persone, con obiettivo e soglia facoltativi. Vedi [Indicatori](indicatori.md).
 - **Intervento**: Un'attività collegata a un impianto (installazione, manutenzione, riparazione, modifica): compare nella pagina dell'impianto, anche dopo la chiusura del suo progetto. Vedi [Interventi](impianti.md#impianti-interventi).
 - **Generatore di password**: Crea nel browser password casuali, da leggere o PIN, con il generatore casuale crittografico: vedi [Password](password.md#password-generatore).
@@ -101,6 +102,7 @@
 - **Tipo (impianto)**: La categoria di un impianto (Antintrusione, Videosorveglianza, KNX e domotica… o una aggiunta), con il suo colore e il modello delle cartelle che nascono con l'impianto. Vedi [Tipi di impianto](impianti.md#impianti-tipi).
 - **Tipo (password)**: La classe di una voce della gestione password (Accesso web, Server o dispositivo, Rete Wi-Fi… o uno aggiunto), con il suo colore: l'elenco si cambia dal pulsante «Tipi». Vedi [Cambiare l'elenco dei tipi](password.md#password-tipi).
 - **vCard**: Il formato dei contatti delle rubriche (file .vcf): lo leggono e lo scrivono i telefoni, Google Contatti e Outlook. La rubrica lo importa ed esporta; clienti e fornitori si esportano in vCard, anche con i referenti.
+- **Vendita al banco**: Una fattura immediata a chi paga subito (contanti, carta, bonifico, assegno): la merce esce dal magazzino e all'emissione la fattura risulta incassata. Niente scontrini. Vedi [Vendita al banco](vendite.md#vendite-banco).
 - **Verifica in due passaggi**: Oltre alla password, un codice temporaneo generato da un'app sul telefono (TOTP). La gestione password sa mostrare i codici degli account salvati.
 - **Voce obbligatoria mancante**: Un corso, un documento o una visita obbligatori per tutti o per la mansione di una persona e mai registrati nella sua scheda: compare nella scheda e nello scadenzario come «Mancante».
 

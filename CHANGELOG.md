@@ -4,6 +4,27 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.162.0 · 24 ottobre 2026
+
+**Fatturazione: emesse e ricevute in una pagina**
+
+- Le linguette sono **Da fatturare** (la prima), **Emesse**, **DDT**, **Ricevute**, **Fattura elettronica**,
+  **Crediti** e **Andamento**: le fatture dei fornitori stanno nella stessa pagina delle emesse, con la stessa
+  intestazione. Ognuno vede le linguette che i suoi permessi gli aprono.
+- **Da fatturare per origine**: in cima un riquadro per l'assistenza (le richieste chiuse con il consuntivo), i DDT e i
+  preventivi accettati, con quanto aspetta; ogni cosa dice **da quando aspetta** (oltre 30 giorni in giallo). Dei
+  preventivi si vede quanto **resta** da fatturare (al netto delle note di credito); se dal preventivo c'è già una
+  fattura in bozza, c'è **Apri la bozza** e una seconda non si prepara. La stampa elenca tutto per origine.
+- **Vendita al banco**: una fattura immediata per chi paga subito, con la merce che esce dal magazzino; si sceglie
+  l'incasso (contanti, carta, bonifico, assegno) e **Emetti e incassa** la emette e la segna incassata. Niente
+  scontrini.
+- Gli incassi dicono **con che cosa** si è incassato (anche l'assegno); i contanti vanno in cassa nella contabilità.
+
+**Incassi e pagamenti**
+
+- Una pagina nuova in Amministrazione: le rate **da incassare** dai clienti e **da pagare** ai fornitori, prima le
+  scadute, e le **prossime settimane** con quanto entra, quanto esce e la differenza. Si incassa e si paga da qui.
+
 ## 1.161.0 · 24 ottobre 2026
 
 **I preferiti**

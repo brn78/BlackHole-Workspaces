@@ -47,4 +47,4 @@ Il **prossimo passo** dice che cosa fare e quando («fissare il sopralluogo», �
 
 ---
 
-[← Fatture ricevute](fatture-fornitori.md) · [Indice](README.md) · [Preventivi →](preventivi.md)
+[← Incassi e pagamenti](incassi-pagamenti.md) · [Indice](README.md) · [Preventivi →](preventivi.md)

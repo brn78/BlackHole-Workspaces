@@ -2,7 +2,7 @@
 
 # <a id="fatture-fornitori"></a>Fatture ricevute
 
-**Amministrazione → Fatture ricevute** raccoglie le fatture elettroniche ricevute: si controllano con gli ordini e con la merce arrivata, si pagano e restano tutte in un posto, con il file originale. Le linguette: **Fatture** (filtri Da controllare, Contestate, Da pagare, Scadute, Note di credito, Tutte), **Pagamenti** (le rate, in ordine di scadenza) e **Per fornitore** (quante fatture, l'imponibile dell'anno, quanto resta da pagare, le note di credito ancora da usare).
+**Amministrazione → Fatturazione → Ricevute** raccoglie le fatture elettroniche ricevute: si controllano con gli ordini e con la merce arrivata, si pagano e restano tutte in un posto, con il file originale. Dalla 1.162.0 è una linguetta della [Fatturazione](vendite.md), con la stessa intestazione delle emesse. Sotto le linguette i filtri Da controllare, Contestate, Da pagare, Scadute, Note di credito, Tutte e, in fondo, **Per fornitore** (quante fatture, l'imponibile dell'anno, quanto resta da pagare, le note di credito ancora da usare). Le rate da pagare stanno in [Incassi e pagamenti](incassi-pagamenti.md).
 
 ## <a id="fatture-fornitori-importa"></a>Importare le fatture
 
@@ -32,10 +32,10 @@ Poi **Controllata**, oppure **Contesta al fornitore** con il motivo (va nelle no
 ## <a id="fatture-fornitori-pagamenti"></a>Pagamenti e note di credito
 
 - Le **rate** vengono dalla fattura; se il fornitore non le ha scritte, una sola alla data del documento. **Cambia le rate** (finché non ci sono pagamenti) le rifà: date, importi, modalità, IBAN.
-- **Paga** registra un pagamento, anche in parte, con la data e il modo (bonifico, contanti, carta, altro); **Togli** lo annulla.
+- **Paga** (dalla fattura o da [Incassi e pagamenti](incassi-pagamenti.md)) registra un pagamento, anche in parte, con la data e il modo (bonifico, contanti, carta, assegno, altro); **Togli** lo annulla.
 - Una **nota di credito** si usa per pagare una fattura dello stesso fornitore: **Azioni → Usa per pagare una fattura**, tutto o una parte; tutte e due risultano pagate per quell'importo (compensazione). Togliendo la compensazione da una parte sparisce anche dall'altra.
 - Le rate scadute e quelle della settimana vanno nello [Scadenzario](scadenze.md) (area *Pagamenti*) e nei promemoria di chi paga le fatture.
-- In cima alla linguetta **Pagamenti**, il grafico **Pagamenti delle prossime settimane**: quanto resta da pagare già scaduto (in rosso) e in ognuna delle prossime otto settimane, da lunedì a domenica; passando sopra una colonna si leggono i fornitori. A destra quanto scade più avanti.
+- In [Incassi e pagamenti → Prossime settimane](incassi-pagamenti.md) quanto resta da pagare (e da incassare) già scaduto e in ognuna delle prossime otto settimane.
 
 ## <a id="fatture-fornitori-permessi"></a>Permessi
 
@@ -48,4 +48,4 @@ Le policy proposte: *Ufficio* importa e controlla, *Amministrazione* paga.
 
 ---
 
-[← Fatturazione](vendite.md) · [Indice](README.md) · [Trattative →](trattative.md)
+[← Fatturazione](vendite.md) · [Indice](README.md) · [Incassi e pagamenti →](incassi-pagamenti.md)

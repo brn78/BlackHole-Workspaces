@@ -4,9 +4,9 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
-## 1.158.1 · 24 ottobre 2026
+## 1.159.0 · 24 ottobre 2026
 
-Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.0.
+Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.2.
 
 **Importi e conti a prova di errore**
 
@@ -55,6 +55,18 @@ Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.0.
 - Le pagine con dati condivisi (Clienti, Fornitori, Indicatori, Utenti, Gruppi, Policy, Privacy) mostrano «Ci sono
   dati nuovi» con Aggiorna quando un collega cambia qualcosa.
 
+**Più facile da usare**
+
+- **Il pulsante blu segue la linguetta**: crea quello che la linguetta mostra. In Assistenza → Laboratorio *Ricevi un
+  pezzo*, in Magazzino *Nuovo magazzino*, *Nuovo inventario* e *Crea gli ordini*, in Contabilità *Nuovo cespite* e
+  *Nuovo conto*, in Banca *Nuova distinta*, *Nuovo mandato* e *Nuovo conto*. Esporta e Importa stanno sempre in «Altro».
+- **Modelli e tipi fuori dal lavoro di ogni giorno**: Modelli di progetto, Modelli di preventivo, Tipi di pratica e
+  Modelli della voce da testo non sono più linguette: si aprono da «Altro» in un elenco nel pannello a destra, con
+  «Nuovo…», importazione, esportazione e quelli proposti.
+- **Un solo menu nella fascia in basso dei pannelli**: nelle schede dell'assistenza, della rubrica e delle condivisioni
+  c'erano due «⋯»; ora le azioni sono tutte in «Altro».
+- **Nuovo preventivo da questo modello** sceglie già il modello, con la sua serie.
+
 **Moduli e pagine**
 
 - **Nome e Cognome propongono le persone già in archivio** (utenti, personale, clienti, rubrica): sceglierne una
@@ -67,6 +79,7 @@ Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.0.
 - **«Disabilita account»** dal menu della riga degli utenti chiede conferma.
 - **Avvisi uniformi**: tutte le spiegazioni delle pagine e delle finestre sono riquadri azzurri con l'icona «i».
 - **Messaggi delle operazioni** di nuovo in alto a destra, con la × più visibile.
+- **Esempi generici** nella guida, nei suggerimenti dei campi, nelle anteprime di stampa e nei messaggi del bot.
 - **Le mappe** non passano più sopra pannelli e finestre; nell'**Archivio di rete** un errore lungo va a capo invece di
   allargare la pagina.
 

@@ -44,7 +44,7 @@ Dalla 1.102.0 il testo può arrivare anche **da un file**: il riquadro **Da un f
 
 Codice fiscale, partita IVA (con il paese), codice destinatario SDI e PEC vengono controllati mentre scrivi: per codice fiscale e partita IVA italiana si verifica anche il carattere di controllo.
 
-- **Calcola** (persone fisiche) ricava il codice fiscale da nome, cognome, data di nascita, genere e **luogo di nascita**. Il luogo va scelto dall'elenco: comune italiano con la provincia, per esempio `Ragusa (RG)`, comune soppresso o rinominato, oppure stato estero.
+- **Calcola** (persone fisiche) ricava il codice fiscale da nome, cognome, data di nascita, genere e **luogo di nascita**. Il luogo va scelto dall'elenco: comune italiano con la provincia, per esempio `Milano (MI)`, comune soppresso o rinominato, oppure stato estero.
 - Al contrario, da un codice fiscale già scritto **Compila i dati mancanti** ricava data di nascita, genere e luogo.
 - Se il codice non corrisponde a nome, cognome, data, genere o luogo dell'anagrafica compare un avviso.
 
@@ -61,11 +61,11 @@ Codice fiscale, partita IVA (con il paese), codice destinatario SDI e PEC vengon
 
 Di ogni tipo (email, telefoni, indirizzi, coordinate bancarie, referenti) si possono avere fino a **200 voci**: tante quante ne servono a chi ha molte sedi, come una catena di negozi o un amministratore di condomìni, ognuna con il suo telefono e il suo referente.
 
-Via, città, provincia e paese, nome e ruolo dei referenti, le etichette di recapiti e indirizzi, la banca e l'intestatario prendono anch'essi da soli maiuscole e minuscole (`via roma 12/a` diventa *Via Roma 12/A*, una città scritta `RAGUSA` diventa *Ragusa*): vedi [Maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato).
+Via, città, provincia e paese, nome e ruolo dei referenti, le etichette di recapiti e indirizzi, la banca e l'intestatario prendono anch'essi da soli maiuscole e minuscole (`via roma 12/a` diventa *Via Roma 12/A*, una città scritta `MILANO` diventa *Milano*): vedi [Maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato).
 
 ## <a id="clienti-gruppi"></a>Gruppi di clienti
 
-Il gruppo è un'**etichetta**: nel campo **Gruppo** dell'anagrafica scrivi un nome nuovo oppure scegline uno esistente dall'elenco che compare. Esempio: «Rossi Auto Ragusa» e «Rossi Auto Modica» nel gruppo «Gruppo Rossi». Ogni scheda sta in **un solo gruppo**.
+Il gruppo è un'**etichetta**: nel campo **Gruppo** dell'anagrafica scrivi un nome nuovo oppure scegline uno esistente dall'elenco che compare. Esempio: «Rossi Auto Milano» e «Rossi Auto Monza» nel gruppo «Gruppo Rossi». Ogni scheda sta in **un solo gruppo**.
 
 - Per mettere **molte schede** in un gruppo in una volta scegline più d'una nell'elenco e premi **Metti nel gruppo…**: vedi [Scegliere più schede insieme](#clienti-selezione).
 - Per vedere tutti i clienti di un gruppo fai clic sul **nome del gruppo** in una riga dell'elenco, oppure usa il filtro dei gruppi o la linguetta **Gruppi**.
@@ -167,12 +167,12 @@ Serve per portare qui l'archivio di un altro gestionale con tutto quello che una
   { "code": "C00012", "kind": "company", "companyName": "ROSSI IMPIANTI SRL", "roles": ["customer", "supplier"],
     "vatNumber": "01234567897", "sdiCode": "M5UXCR1", "pec": "rossi@pec.esempio.it",
     "emails": ["info@esempio.it", { "label": "Amministrazione", "value": "amministrazione@esempio.it" }],
-    "phones": [["Ufficio", "0932 123456"], "333 1234567"],
+    "phones": [["Ufficio", "02 1234567"], "333 1234567"],
     "addresses": [
-      { "label": "Sede legale", "street": "Via Roma 1", "postalCode": "97100", "city": "Ragusa", "province": "RG" },
-      { "name": "NEGOZIO CENTRO", "street": "Corso Italia 5", "city": "Ragusa",
-        "contact": "Giuseppe Verdi", "phone": "0932 333333" } ],
-    "people": [{ "name": "Anna Rossi", "role": "Amministrazione", "phone": "0932 555555" }],
+      { "label": "Sede legale", "street": "Via Roma 1", "postalCode": "20100", "city": "Milano", "province": "MI" },
+      { "name": "NEGOZIO CENTRO", "street": "Corso Italia 5", "city": "Milano",
+        "contact": "Giuseppe Verdi", "phone": "02 3333333" } ],
+    "people": [{ "name": "Anna Rossi", "role": "Amministrazione", "phone": "02 5555555" }],
     "bankAccounts": [{ "iban": "IT60X0542811101000000123456", "bankName": "Banca Prova" }],
     "tags": ["VIP"], "notes": "Testo libero", "active": true },
   { "kind": "person", "lastName": "BIANCHI", "firstName": "LUCIA", "fiscalCode": "BNCLCU85M41H163Q" }

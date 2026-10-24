@@ -2,7 +2,7 @@
 
 # <a id="progetti"></a>Progetti
 
-**Commesse → Progetti** raccoglie le **lavorazioni** da organizzare: un cantiere, una commessa, uno sviluppo, una manutenzione, un lavoro interno. Ogni progetto ha una **pagina propria** con le [attività](attivita.md) collegate, i documenti e lo storico. La pagina compare a chi può **Vedere i progetti** (vedi [Permessi](#progetti-permessi)) e ha le schede **Progetti**, **Modelli** e, per chi ha il permesso riservato **Budget e consuntivo delle commesse**, **Economia** (vedi [Budget e consuntivo](#progetti-budget)). Ciò che un progetto installa presso il cliente diventa un [impianto](impianti.md), che resta anche quando il progetto si chiude.
+**Commesse → Progetti** raccoglie le **lavorazioni** da organizzare: un cantiere, una commessa, uno sviluppo, una manutenzione, un lavoro interno. Ogni progetto ha una **pagina propria** con le [attività](attivita.md) collegate, i documenti e lo storico. La pagina compare a chi può **Vedere i progetti** (vedi [Permessi](#progetti-permessi)) e ha le schede **Progetti** e, per chi ha il permesso riservato **Budget e consuntivo delle commesse**, **Economia** (vedi [Budget e consuntivo](#progetti-budget)). Ciò che un progetto installa presso il cliente diventa un [impianto](impianti.md), che resta anche quando il progetto si chiude.
 
 ## <a id="progetti-pagina"></a>L'elenco e la pagina del progetto
 
@@ -61,7 +61,7 @@ Il **tipo** (Progetto, Commessa, Sviluppo, Manutenzione, Assistenza, Interno…)
 
 ## <a id="progetti-modelli"></a>Modelli di progetto
 
-- Un **modello** raccoglie le attività tipo di un lavoro che si ripete (un'installazione, un sito, una pratica): la scheda **Modelli** li elenca e un clic apre la pagina del modello, con le sue attività tipo, che si creano e si modificano come le altre. Le date sono **giorni dall'inizio del progetto** (*Inizio: giorno 0*, *Scadenza: giorno 5*). **Nuovo modello** ne crea uno vuoto.
+- Un **modello** raccoglie le attività tipo di un lavoro che si ripete (un'installazione, un sito, una pratica): **⋯ Altro → Modelli di progetto** (dalla 1.159.0) li elenca nel pannello a destra, con «Nuovo modello», l'importazione, l'esportazione e la stampa, e un clic apre la pagina del modello, con le sue attività tipo, che si creano e si modificano come le altre. Le date sono **giorni dall'inizio del progetto** (*Inizio: giorno 0*, *Scadenza: giorno 5*). **Nuovo modello** ne crea uno vuoto.
 - **Usa** (o **Nuovo progetto → da un modello**) chiede codice, nome, cliente, responsabile e data di inizio, e crea il progetto con tutte le attività: i giorni diventano date vere e ogni attività prende un numero nuovo. Puoi copiare i membri del modello e mantenere le persone assegnate (in un progetto riservato, solo quelle che lo vedono).
 - **Salva come modello**, nel menu **⋯** della pagina di un progetto, crea un modello da un progetto riuscito: le date diventano giorni dall'inizio; commenti, ore e file non si copiano.
 - Le attività dei modelli si vedono solo dal modello: non compaiono nella pagina Attività, nella ricerca né nella Home, non si condividono e non hanno ore né file.

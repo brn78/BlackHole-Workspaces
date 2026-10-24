@@ -2,7 +2,7 @@
 
 # <a id="appunti"></a>Appunti
 
-**La mia giornata → Appunti** è il blocco per appunti della piattaforma: note di testo, **elenchi di cose da fare** e **lavagne** su cui disegnare, ciascuno in un riquadro che puoi colorare, etichettare e fissare in alto. Un appunto è **personale** finché non lo condividi con colleghi o gruppi di utenti. Il servizio è disponibile a tutti gli utenti, senza permessi da assegnare.
+**Il mio spazio → Appunti** è il blocco per appunti della piattaforma: note di testo, **elenchi di cose da fare** e **lavagne** su cui disegnare, ciascuno in un riquadro che puoi colorare, etichettare e fissare in alto. Un appunto è **personale** finché non lo condividi con colleghi o gruppi di utenti. Il servizio è disponibile a tutti gli utenti, senza permessi da assegnare.
 
 La pagina ha tre viste, ciascuna con il numero dei suoi appunti: **Appunti** (quelli in uso), **Archivio** (quelli messi da parte) e **Cestino**. In alto ci sono i pulsanti **Stampa**, **Nuova lavagna**, **Nuovo elenco** e **Nuovo appunto**; sotto le linguette i filtri rapidi e la barra con la ricerca, come in tutte le pagine. Gli appunti sono in ordine di ultima modifica, i più recenti per primi; finché resti sulla pagina i riquadri non cambiano posto mentre li usi.
 

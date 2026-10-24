@@ -1,8 +1,8 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="fatture-fornitori"></a>Fatture dei fornitori
+# <a id="fatture-fornitori"></a>Fatture ricevute
 
-**Commerciale → Fatture dei fornitori** raccoglie le fatture elettroniche ricevute: si controllano con gli ordini e con la merce arrivata, si pagano e restano tutte in un posto, con il file originale. Le linguette: **Fatture** (filtri Da controllare, Contestate, Da pagare, Scadute, Note di credito, Tutte), **Pagamenti** (le rate, in ordine di scadenza) e **Per fornitore** (quante fatture, l'imponibile dell'anno, quanto resta da pagare, le note di credito ancora da usare).
+**Amministrazione → Fatture ricevute** raccoglie le fatture elettroniche ricevute: si controllano con gli ordini e con la merce arrivata, si pagano e restano tutte in un posto, con il file originale. Le linguette: **Fatture** (filtri Da controllare, Contestate, Da pagare, Scadute, Note di credito, Tutte), **Pagamenti** (le rate, in ordine di scadenza) e **Per fornitore** (quante fatture, l'imponibile dell'anno, quanto resta da pagare, le note di credito ancora da usare).
 
 ## <a id="fatture-fornitori-importa"></a>Importare le fatture
 
@@ -48,4 +48,4 @@ Le policy proposte: *Ufficio* importa e controlla, *Amministrazione* paga.
 
 ---
 
-[← Vendite](vendite.md) · [Indice](README.md) · [Trattative →](trattative.md)
+[← Fatturazione](vendite.md) · [Indice](README.md) · [Trattative →](trattative.md)

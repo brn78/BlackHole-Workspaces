@@ -2,7 +2,7 @@
 
 # <a id="home"></a>Home
 
-**La mia giornata → Home**, la pagina iniziale, fa il **punto della situazione**: in alto i numeri che contano, poi la **panoramica** con i grafici, sotto un riquadro per ogni servizio a cui hai accesso, con le ultime cose che ti riguardano. Si aggiorna da sola quando cambia qualcosa (un'attività assegnata, un documento caricato, un appunto condiviso): non serve ricaricarla.
+**Il mio spazio → Home**, la pagina iniziale, fa il **punto della situazione**: in alto i numeri che contano, poi la **panoramica** con i grafici, sotto un riquadro per ogni servizio a cui hai accesso, con le ultime cose che ti riguardano. Si aggiorna da sola quando cambia qualcosa (un'attività assegnata, un documento caricato, un appunto condiviso): non serve ricaricarla.
 
 - **I numeri in alto**, ognuno un collegamento: **Le mie attività aperte** (con quante sono in ritardo), **In scadenza in 7 giorni** (e quante scadono oggi), **Assistenza aperta** (con quante richieste sono in ritardo o pronte da ritirare), **Da rivedere** (le attività che aspettano la tua approvazione), **Progetti in corso** (e in quanti sei coinvolto), **Certificazioni da emettere** (le bozze, con quante ne sono state emesse quest'anno) e, se c'è posto, i documenti, i clienti attivi, le notifiche da leggere e gli appunti.
 - **L'azienda** (dalla 1.114.0, il cruscotto del titolare): sotto i tuoi numeri, quelli dell'azienda, ognuno solo se hai il permesso della sua pagina: **Fatturato** dell'anno a oggi (imponibile delle fatture meno le note di credito) con la differenza sullo stesso periodo dell'anno prima, **Incassato** dal 1° gennaio, **Da incassare** (con quanto è scaduto), **Da pagare ai fornitori** (scaduto o in scadenza in settimana), **Banche e cassa** (i saldi dei conti di banca e cassa **in contabilità**, se la [contabilità](contabilita.md) si tiene qui: può essere diverso dal saldo degli estratti conto della pagina [Banca](banca.md) finché i movimenti non sono registrati in prima nota), **Da fatturare** sui preventivi accettati e **Offerte aperte** (per chi gestisce i preventivi), **Margine delle commesse** in corso, previsto a finire (per chi vede budget e consuntivo). Nella panoramica il grafico **Fatturato per mese** mette ogni mese accanto allo stesso dell'anno prima. Ogni numero apre la sua pagina.
@@ -33,4 +33,4 @@ I riquadri seguono gli stessi permessi delle pagine: **Le mie attività**, **Da 
 
 ---
 
-[← La mia giornata e le aree](area-di-lavoro.md) · [Indice](README.md) · [Attività →](attivita.md)
+[← Il mio spazio e le aree](area-di-lavoro.md) · [Indice](README.md) · [Attività →](attivita.md)

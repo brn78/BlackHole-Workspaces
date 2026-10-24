@@ -1,8 +1,8 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="progetti"></a>Progetti
+# <a id="progetti"></a>Progetti e commesse
 
-**Commesse → Progetti** raccoglie le **lavorazioni** da organizzare: un cantiere, una commessa, uno sviluppo, una manutenzione, un lavoro interno. Ogni progetto ha una **pagina propria** con le [attività](attivita.md) collegate, i documenti e lo storico. La pagina compare a chi può **Vedere i progetti** (vedi [Permessi](#progetti-permessi)) e ha le schede **Progetti** e, per chi ha il permesso riservato **Budget e consuntivo delle commesse**, **Economia** (vedi [Budget e consuntivo](#progetti-budget)). Ciò che un progetto installa presso il cliente diventa un [impianto](impianti.md), che resta anche quando il progetto si chiude.
+**Progettazione → Progetti e commesse** raccoglie le **lavorazioni** da organizzare: un cantiere, una commessa, uno sviluppo, una manutenzione, un lavoro interno. Ogni progetto ha una **pagina propria** con le [attività](attivita.md) collegate, i documenti e lo storico. La pagina compare a chi può **Vedere i progetti** (vedi [Permessi](#progetti-permessi)) e ha le schede **Progetti** e, per chi ha il permesso riservato **Budget e consuntivo delle commesse**, **Economia** (vedi [Budget e consuntivo](#progetti-budget)). Ciò che un progetto installa presso il cliente diventa un [impianto](impianti.md), che resta anche quando il progetto si chiude.
 
 ## <a id="progetti-pagina"></a>L'elenco e la pagina del progetto
 

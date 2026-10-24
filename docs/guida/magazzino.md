@@ -2,7 +2,7 @@
 
 # <a id="magazzino"></a>Magazzino
 
-**Commerciale → Magazzino** tiene la merce dei **magazzini** dell'azienda e dei **furgoni**: quanta ce n'è, dove, quanto vale, da dove è arrivata e dove è andata. La merce sono le voci **materiali** del [listino](listino.md): non c'è un'anagrafica degli articoli a parte. Ogni carico, scarico o spostamento è una **registrazione** numerata per anno, con la sua [causale](#magazzino-causali); le giacenze, il costo medio e le matricole si calcolano da sole dalle registrazioni. In alto **Nuovo movimento**, **Nuovo magazzino**, **Cerca una matricola** e **Stampa**; le linguette sono Giacenze, Movimenti, Magazzini, Inventari e Da riordinare.
+**Magazzino → Magazzino** tiene la merce dei **magazzini** dell'azienda e dei **furgoni**: quanta ce n'è, dove, quanto vale, da dove è arrivata e dove è andata. La merce sono le voci **materiali** del [listino](listino.md): non c'è un'anagrafica degli articoli a parte. Ogni carico, scarico o spostamento è una **registrazione** numerata per anno, con la sua [causale](#magazzino-causali); le giacenze, il costo medio e le matricole si calcolano da sole dalle registrazioni. In alto **Nuovo movimento**, **Nuovo magazzino**, **Cerca una matricola** e **Stampa**; le linguette sono Giacenze, Movimenti, Magazzini, Inventari e Da riordinare.
 
 ## <a id="magazzino-magazzini"></a>Magazzini e furgoni
 
@@ -48,7 +48,7 @@ Dalla 1.100.0, con l'[assistente](assistente-ai.md) attivo per le analisi, **Da 
 3. La piattaforma cerca il fornitore in anagrafica (partita IVA, codice fiscale, nome), le righe dei suoi **ordini aperti** che il documento evade (codice del fornitore o descrizione simile, con quanto manca da ricevere) e, per le altre, la **voce del listino** dal codice del fornitore, dal codice a barre, dal codice del produttore o dal nostro. Una voce trovata solo per la descrizione simile è segnata *da controllare*.
 4. Controlli la proposta: spunti le righe da caricare, correggi le quantità, per le righe senza voce cerchi la voce nel listino (**Cambia** per sceglierne un'altra). **Prepara il carico** apre il movimento **Acquisto** già compilato (fornitore, riferimento «DDT n. … del …», righe con il costo e l'ordine evaso, nelle note le righe non caricate): lo registri come sempre. Niente si registra da solo.
 
-Una fattura si carica allo stesso modo; la fattura elettronica (XML) resta quella che arriva in [Fatture dei fornitori](fatture-fornitori.md). Il testo va all'assistente configurato (se è un servizio esterno, esce dall'azienda) e non si conserva. Le voci con la matricola chiedono le matricole nel carico.
+Una fattura si carica allo stesso modo; la fattura elettronica (XML) resta quella che arriva in [Fatture ricevute](fatture-fornitori.md). Il testo va all'assistente configurato (se è un servizio esterno, esce dall'azienda) e non si conserva. Le voci con la matricola chiedono le matricole nel carico.
 
 ## <a id="magazzino-causali"></a>Le causali
 
@@ -104,4 +104,4 @@ Gli articoli con la matricola si caricano a mano, una matricola per pezzo. Il fo
 
 ---
 
-[← Listini fornitori](listini-fornitori.md) · [Indice](README.md) · [Acquisti →](acquisti.md)
+[← Listini fornitori](listini-fornitori.md) · [Indice](README.md) · [Ordini ai fornitori →](acquisti.md)

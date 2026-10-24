@@ -4,6 +4,22 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.160.0 · 24 ottobre 2026
+
+**Il menu per reparti**
+
+- Le pagine sono raccolte come in azienda: **Il mio spazio** (Home, Attività, Appunti, Rubrica, Password),
+  **Anagrafiche** (Clienti, Fornitori, Produttori), **Azienda** (Assistenza, Reperibilità, Presenze, Mezzi,
+  Attrezzature, Personale, Indicatori, Scadenze), **Progettazione** (Trattative, Preventivi, Progetti e commesse,
+  Impianti, Certificazioni, Manutenzioni, Pratiche, Listino), **Magazzino** (Ordini ai fornitori, Prezzi da verificare,
+  Listini fornitori, Magazzino), **Amministrazione** (Fatturazione, Fatture ricevute, Banca, Contabilità), poi
+  Archivio, Strumenti e Sistema.
+- Nomi più chiari: *Progetti e commesse*, *Ordini ai fornitori*, *Fatturazione* (prima Vendite), *Fatture ricevute*
+  (prima Fatture dei fornitori); «La mia giornata» diventa **Il mio spazio**.
+- **Prezzi da verificare** ha una voce sua nel Magazzino e apre direttamente la linguetta degli ordini.
+- Le sezioni delle impostazioni, le aree del cestino, la ricerca e la guida seguono i nomi nuovi. Le sezioni spente,
+  i permessi e i collegamenti salvati restano come prima.
+
 ## 1.159.0 · 24 ottobre 2026
 
 Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.2.

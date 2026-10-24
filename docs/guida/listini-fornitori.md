@@ -2,7 +2,7 @@
 
 # <a id="listini-fornitori"></a>Listini fornitori
 
-**Commerciale → Listini fornitori** tiene i listini dei fornitori nel formato **METEL**, lo standard del materiale elettrico (si importano anche da [Excel, CSV e dal vecchio gestionale](#listini-fornitori-altri)). Sono file di testo che il fornitore manda o pubblica sul portale METEL, per esempio `VIMLSG021.TXT`: sigla dell'azienda, **LSG** per il listino al rivenditore o **LSP** per quello al pubblico, e la versione. Dentro ci sono, per ogni articolo:
+**Magazzino → Listini fornitori** tiene i listini dei fornitori nel formato **METEL**, lo standard del materiale elettrico (si importano anche da [Excel, CSV e dal vecchio gestionale](#listini-fornitori-altri)). Sono file di testo che il fornitore manda o pubblica sul portale METEL, per esempio `VIMLSG021.TXT`: sigla dell'azienda, **LSG** per il listino al rivenditore o **LSP** per quello al pubblico, e la versione. Dentro ci sono, per ogni articolo:
 
 - marchio, codice, EAN e descrizione;
 - prezzo al rivenditore e prezzo al pubblico;

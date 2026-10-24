@@ -2,7 +2,7 @@
 
 # <a id="pratiche"></a>Pratiche
 
-**Commesse → Pratiche** (dalla 1.121.0) segue le **pratiche con gli enti** che accompagnano un impianto: la connessione alla rete, Terna Gaudì, il GSE, l'ENEA, il Comune, le Dogane, la wallbox. Ogni pratica ha i suoi **passi**, ognuno con la sua **scadenza**: i passi da fare vanno nello [scadenzario](scadenze.md) (anche nel calendario del telefono di chi lo abbona) e chi segue la pratica riceve il promemoria. La pagina compare a chi vede gli impianti; le pratiche si compilano con *Modificare gli impianti*, si eliminano con *Eliminare gli impianti* e i tipi si gestiscono con *Gestire i tipi di impianto*.
+**Progettazione → Pratiche** (dalla 1.121.0) segue le **pratiche con gli enti** che accompagnano un impianto: la connessione alla rete, Terna Gaudì, il GSE, l'ENEA, il Comune, le Dogane, la wallbox. Ogni pratica ha i suoi **passi**, ognuno con la sua **scadenza**: i passi da fare vanno nello [scadenzario](scadenze.md) (anche nel calendario del telefono di chi lo abbona) e chi segue la pratica riceve il promemoria. La pagina compare a chi vede gli impianti; le pratiche si compilano con *Modificare gli impianti*, si eliminano con *Eliminare gli impianti* e i tipi si gestiscono con *Gestire i tipi di impianto*.
 
 Le linguette: **In corso** (con la scadenza più vicina, rossa se passata, gialla se vicina, e **Fatto** per segnare in un clic il prossimo passo), **Chiuse** e **Tutte**; i **tipi di pratica** (con quelli proposti) stanno in **⋯ Altro → Tipi di pratica**, nel pannello a destra. Si filtra per tipo e con *Solo quelle che seguo io*. In alto: le pratiche in corso, i passi scaduti, quelli in scadenza e le concluse dell'anno.
 

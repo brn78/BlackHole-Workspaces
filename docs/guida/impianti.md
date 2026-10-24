@@ -2,7 +2,7 @@
 
 # <a id="impianti"></a>Impianti
 
-**Commesse → Impianti** raccoglie ciò che è **installato presso i clienti**, sede per sede: un antintrusione, una videosorveglianza, un controllo accessi, un impianto KNX, un fotovoltaico, un quadro elettrico. È lo stesso ordine con cui si tengono i lavori sul PC (*clienti / cliente / sede / impianto*, con dentro il leggimi, le configurazioni e i backup), ma in un posto solo e con i permessi: quelle cartelle si portano dentro con [Da una cartella del PC](#impianti-cartella). La pagina compare a chi può **Vedere gli impianti** (vedi [Permessi](#impianti-permessi)).
+**Progettazione → Impianti** raccoglie ciò che è **installato presso i clienti**, sede per sede: un antintrusione, una videosorveglianza, un controllo accessi, un impianto KNX, un fotovoltaico, un quadro elettrico. È lo stesso ordine con cui si tengono i lavori sul PC (*clienti / cliente / sede / impianto*, con dentro il leggimi, le configurazioni e i backup), ma in un posto solo e con i permessi: quelle cartelle si portano dentro con [Da una cartella del PC](#impianti-cartella). La pagina compare a chi può **Vedere gli impianti** (vedi [Permessi](#impianti-permessi)).
 
 > [!TIP]
 > **Il progetto finisce, l'impianto resta.** Un [progetto](progetti.md) è il lavoro che realizza o modifica un impianto e prima o poi si chiude; l'impianto rimane presso il cliente, con il suo storico, e si continua a seguirlo: il suo [piano di manutenzione](manutenzioni.md#manutenzioni-piano), i rapporti, le riparazioni e le modifiche ([interventi](#impianti-interventi)), anche senza progetto.
@@ -162,4 +162,4 @@ Le cartelle degli impianti le crea la piattaforma, senza il permesso di caricare
 
 ---
 
-[← Progetti](progetti.md) · [Indice](README.md) · [Certificazioni →](certificazioni.md)
+[← Progetti e commesse](progetti.md) · [Indice](README.md) · [Certificazioni →](certificazioni.md)

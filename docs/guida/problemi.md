@@ -215,7 +215,7 @@ Gli amministratori non fanno parte dei gruppi: hanno già tutti i permessi e le 
 <details>
 <summary><b>Nel menu non trovo una pagina</b></summary>
 
-Le pagine di gestione della piattaforma (utenti, gruppi, policy, registro, archiviazione, backup, impostazioni) sono nel menu del pulsante **Sistema** , in fondo al menu laterale: un clic lo apre (con il menu ridotto alle icone, un clic sullo scudo). Se di un'area (Anagrafiche, Commesse, Archivio) vedi solo il titolo (o, nel menu ridotto, solo la freccia), è chiusa: un clic la riapre. Una pagina che non puoi usare non compare: chiedi a un amministratore. Vedi [Il menu laterale](interfaccia.md#interfaccia-menu).
+Le pagine di gestione della piattaforma (utenti, gruppi, policy, registro, archiviazione, backup, impostazioni) sono nel menu del pulsante **Sistema** , in fondo al menu laterale: un clic lo apre (con il menu ridotto alle icone, un clic sullo scudo). Se di un'area (Anagrafiche, Progettazione, Archivio…) vedi solo il titolo (o, nel menu ridotto, solo la freccia), è chiusa: un clic la riapre. Una pagina che non puoi usare non compare: chiedi a un amministratore. Vedi [Il menu laterale](interfaccia.md#interfaccia-menu).
 
 </details>
 

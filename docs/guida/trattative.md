@@ -2,7 +2,7 @@
 
 # <a id="trattative"></a>Trattative
 
-**Commerciale → Trattative** (dalla 1.117.0) segue i **lavori da prendere** prima e durante i preventivi: chi ha chiesto, che lavoro, quanto vale, a che punto è, quanto è probabile prenderlo, quando si pensa di chiudere e **che cosa fare dopo**. Così nessuna richiesta si perde tra una telefonata e l'altra e si vede in anticipo quanto lavoro sta per arrivare. La pagina compare a chi vede i [preventivi](preventivi.md), con gli stessi permessi: chi li compila crea e cambia le trattative, chi li gestisce può anche eliminarle. Quelle dei contatti privati le vede solo il proprietario.
+**Progettazione → Trattative** (dalla 1.117.0) segue i **lavori da prendere** prima e durante i preventivi: chi ha chiesto, che lavoro, quanto vale, a che punto è, quanto è probabile prenderlo, quando si pensa di chiudere e **che cosa fare dopo**. Così nessuna richiesta si perde tra una telefonata e l'altra e si vede in anticipo quanto lavoro sta per arrivare. La pagina compare a chi vede i [preventivi](preventivi.md), con gli stessi permessi: chi li compila crea e cambia le trattative, chi li gestisce può anche eliminarle. Quelle dei contatti privati le vede solo il proprietario.
 
 ## <a id="trattative-fasi"></a>Kanban e fasi
 
@@ -47,4 +47,4 @@ Il **prossimo passo** dice che cosa fare e quando («fissare il sopralluogo», �
 
 ---
 
-[← Fatture dei fornitori](fatture-fornitori.md) · [Indice](README.md) · [Preventivi →](preventivi.md)
+[← Fatture ricevute](fatture-fornitori.md) · [Indice](README.md) · [Preventivi →](preventivi.md)

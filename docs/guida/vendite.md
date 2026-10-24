@@ -1,8 +1,8 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="vendite"></a>Vendite
+# <a id="vendite"></a>Fatturazione
 
-**Commerciale → Vendite** fa i documenti verso i clienti: i **DDT** (documenti di trasporto) che accompagnano la merce, le **fatture** (immediate, differite dai DDT, d'acconto) e le **note di credito**, con gli **incassi**, i **solleciti** e la **fattura elettronica** nel formato ufficiale. Le linguette sono Fatture, DDT, Da fatturare, Incassi, Crediti (il [recupero crediti](#vendite-crediti)), Fattura elettronica e [Andamento](#vendite-andamento); in alto **Nuova fattura**, **Nuovo DDT**, **Impostazioni** e **Stampa**. Fatture e incassi sono dati riservati: li vede chi ha il permesso delle vendite.
+**Amministrazione → Fatturazione** fa i documenti verso i clienti: i **DDT** (documenti di trasporto) che accompagnano la merce, le **fatture** (immediate, differite dai DDT, d'acconto) e le **note di credito**, con gli **incassi**, i **solleciti** e la **fattura elettronica** nel formato ufficiale. Le linguette sono Fatture, DDT, Da fatturare, Incassi, Crediti (il [recupero crediti](#vendite-crediti)), Fattura elettronica e [Andamento](#vendite-andamento); in alto **Nuova fattura**, **Nuovo DDT**, **Impostazioni** e **Stampa**. Fatture e incassi sono dati riservati: li vede chi ha il permesso delle vendite.
 
 ## <a id="vendite-ddt"></a>I DDT
 
@@ -74,7 +74,7 @@ La linguetta **Andamento** mette in grafico i numeri delle vendite:
 
 **Importa** (a chi emette le fatture) porta lo **storico**: le fatture e le note di credito già emesse e mandate allo SDI con un altro programma, per avere in un posto solo il fatturato, i clienti con il loro storico, le rate da incassare e le statistiche. Si importano in due modi:
 
-- **Dai file delle fatture elettroniche**: XML o .p7m, anche dentro uno o più ZIP (come quelli scaricati dal cassetto fiscale dell'Agenzia delle Entrate o dall'intermediario). Si leggono solo le fatture **emesse dalla vostra azienda** (si riconosce dalla partita IVA o dal codice fiscale dei dati dell'azienda): quelle ricevute si importano da [Fatture dei fornitori](fatture-fornitori.md). Prima di importare si vede ogni fattura con il cliente (quelli che non sono in anagrafica si aggiungono con i dati della fattura), il totale e l'esito; ricevute, metadati e file che non sono fatture si lasciano fuori. Righe, aliquote IVA (le aliquote a zero devono avere la stessa natura), rate e modo di pagamento sono quelli del file.
+- **Dai file delle fatture elettroniche**: XML o .p7m, anche dentro uno o più ZIP (come quelli scaricati dal cassetto fiscale dell'Agenzia delle Entrate o dall'intermediario). Si leggono solo le fatture **emesse dalla vostra azienda** (si riconosce dalla partita IVA o dal codice fiscale dei dati dell'azienda): quelle ricevute si importano da [Fatture ricevute](fatture-fornitori.md). Prima di importare si vede ogni fattura con il cliente (quelli che non sono in anagrafica si aggiungono con i dati della fattura), il totale e l'esito; ricevute, metadati e file che non sono fatture si lasciano fuori. Righe, aliquote IVA (le aliquote a zero devono avere la stessa natura), rate e modo di pagamento sono quelli del file.
 - **Da un foglio Excel o CSV**: una riga per ogni riga della fattura, con numero, data e cliente (che deve essere in anagrafica); le righe con lo stesso numero fanno una fattura. Il tipo (fattura, nota di credito, fattura d'acconto, fattura differita), il pagamento (un termine di pagamento delle vendite o il modo: bonifico, RIBA…), se è già incassata e, per le note di credito, la fattura di riferimento.
 
 Le fatture dello storico entrano **emesse**, con il **loro numero e la loro data**: non si mandano allo SDI (risultano consegnate, «mandata con un altro programma»), non scaricano il magazzino e non cambiano le richieste di assistenza. La numerazione dell'anno **prosegue** dopo l'ultimo numero importato; un numero già usato nello stesso anno da un'altra fattura ferma quella fattura (fatture e note di credito hanno una sola numerazione), una fattura già presente si salta. Le note di credito si collegano alla loro fattura se è nello storico, anche se nel file viene dopo. **Già incassate** segna le rate pagate alla scadenza (oggi, se la scadenza è futura); un incasso si toglie dalla fattura come gli altri. Con la [contabilità](contabilita.md) attiva, le fatture e gli incassi dalla data di inizio entrano nella prima nota.
@@ -90,4 +90,4 @@ Le **Impostazioni** (chi gestisce le vendite) hanno il **regime fiscale** (RF01 
 
 ---
 
-[← Acquisti](acquisti.md) · [Indice](README.md) · [Fatture dei fornitori →](fatture-fornitori.md)
+[← Ordini ai fornitori](acquisti.md) · [Indice](README.md) · [Fatture ricevute →](fatture-fornitori.md)

@@ -2,7 +2,7 @@
 
 # <a id="banca"></a>Banca
 
-**Azienda → Banca** (dalla 1.119.0) tiene i **conti correnti** con il saldo e i **movimenti** importati dagli estratti conto, e li **abbina** agli incassi delle fatture emesse e ai pagamenti delle fatture dei fornitori. Va bene per qualunque banca: il file si scarica dall'internet banking nel formato che c'è. La pagina compare a chi ha *Vedere la banca* o *Importare e abbinare i movimenti*; per abbinare gli incassi serve anche *Gestire le vendite*, per i pagamenti *Pagare le fatture dei fornitori*. Sono dati riservati.
+**Amministrazione → Banca** (dalla 1.119.0) tiene i **conti correnti** con il saldo e i **movimenti** importati dagli estratti conto, e li **abbina** agli incassi delle fatture emesse e ai pagamenti delle fatture dei fornitori. Va bene per qualunque banca: il file si scarica dall'internet banking nel formato che c'è. La pagina compare a chi ha *Vedere la banca* o *Importare e abbinare i movimenti*; per abbinare gli incassi serve anche *Gestire le vendite*, per i pagamenti *Pagare le fatture dei fornitori*. Sono dati riservati.
 
 ## <a id="banca-conti"></a>I conti
 

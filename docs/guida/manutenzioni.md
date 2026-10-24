@@ -2,7 +2,7 @@
 
 # <a id="manutenzioni"></a>Manutenzioni
 
-**Commesse → Manutenzioni** segue le **manutenzioni periodiche degli impianti dei clienti**: per ogni [impianto](impianti.md) un **piano di manutenzione** (che cosa si fa, ogni quanto, la prossima scadenza, i controlli, il contratto), gli **interventi pianificati** come attività e i **rapporti** numerati, con l'esito e i controlli, da stampare e far firmare al cliente. Le scadenze compaiono anche nello [scadenzario](scadenze.md), con i promemoria. La pagina compare a chi può **Vedere le manutenzioni**, con le stesse regole degli impianti: quelle dei contatti privati le vede solo il proprietario (vedi [Permessi](#manutenzioni-permessi)).
+**Progettazione → Manutenzioni** segue le **manutenzioni periodiche degli impianti dei clienti**: per ogni [impianto](impianti.md) un **piano di manutenzione** (che cosa si fa, ogni quanto, la prossima scadenza, i controlli, il contratto), gli **interventi pianificati** come attività e i **rapporti** numerati, con l'esito e i controlli, da stampare e far firmare al cliente. Le scadenze compaiono anche nello [scadenzario](scadenze.md), con i promemoria. La pagina compare a chi può **Vedere le manutenzioni**, con le stesse regole degli impianti: quelle dei contatti privati le vede solo il proprietario (vedi [Permessi](#manutenzioni-permessi)).
 
 ## <a id="manutenzioni-pagina"></a>La pagina Manutenzioni
 

@@ -2,7 +2,7 @@
 
 # <a id="attivita"></a>Attività
 
-**La mia giornata → Attività** raccoglie le **cose da fare**: le tue, quelle da affidare ai colleghi e quelle da seguire insieme, con scadenze, priorità, persone assegnate, revisione, voci da spuntare, file e ore lavorate. È una funzione di base, come gli appunti: **tutti** creano attività, le ricevono e le condividono, senza permessi da assegnare. Un'attività sta in piedi da sola e, se serve, si collega a un [cliente](clienti.md) e a un [progetto](progetti.md).
+**Il mio spazio → Attività** raccoglie le **cose da fare**: le tue, quelle da affidare ai colleghi e quelle da seguire insieme, con scadenze, priorità, persone assegnate, revisione, voci da spuntare, file e ore lavorate. È una funzione di base, come gli appunti: **tutti** creano attività, le ricevono e le condividono, senza permessi da assegnare. Un'attività sta in piedi da sola e, se serve, si collega a un [cliente](clienti.md) e a un [progetto](progetti.md).
 
 La pagina ha due schede: **Attività**, con le viste elenco, kanban, calendario e Gantt, e **Ore**, il [registro delle ore](#attivita-ore). **Nuova attività**, in alto, c'è sempre. Ognuno vede le attività che lo riguardano (vedi [Chi vede un'attività](#attivita-condivisione)); quello che succede arriva nelle [notifiche](notifiche.md).
 

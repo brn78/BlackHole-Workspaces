@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.159.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.160.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -43,7 +43,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Tipi e categorie](interfaccia.md#interfaccia-tipi)
    - [L'app sul telefono e il lavoro senza rete](interfaccia.md#interfaccia-app)
    - [Stampare](interfaccia.md#stampa)
-4. [La mia giornata e le aree](area-di-lavoro.md)
+4. [Il mio spazio e le aree](area-di-lavoro.md)
 5. [Home](home.md)
 6. [Attività](attivita.md)
    - [La scheda dell'attività](attivita.md#attivita-scheda)
@@ -111,7 +111,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Importare ed esportare con Excel](produttori.md#produttori-importa)
    - [La scheda](produttori.md#produttori-scheda)
    - [La cartella in Documenti](produttori.md#produttori-documenti)
-12. [Progetti](progetti.md)
+12. [Progetti e commesse](progetti.md)
    - [L'elenco e la pagina del progetto](progetti.md#progetti-pagina)
    - [La scheda del progetto](progetti.md#progetti-scheda)
    - [Tipi dei progetti](progetti.md#progetti-tipi)
@@ -201,7 +201,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Costo medio e prezzi d'acquisto](magazzino.md#magazzino-costo)
    - [Importare ed esportare le giacenze](magazzino.md#magazzino-importa)
    - [Permessi](magazzino.md#magazzino-permessi)
-21. [Acquisti](acquisti.md)
+21. [Ordini ai fornitori](acquisti.md)
    - [Gli ordini](acquisti.md#acquisti-ordini)
    - [Conferme, ritardi e solleciti](acquisti.md#acquisti-solleciti)
    - [L'arrivo della merce](acquisti.md#acquisti-arrivi)
@@ -211,7 +211,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Fornitori](acquisti.md#acquisti-fornitori)
    - [Importare ed esportare](acquisti.md#acquisti-importa)
    - [Impostazioni e permessi](acquisti.md#acquisti-impostazioni)
-22. [Vendite](vendite.md)
+22. [Fatturazione](vendite.md)
    - [I DDT](vendite.md#vendite-ddt)
    - [Le fatture](vendite.md#vendite-fatture)
    - [Incassi e solleciti](vendite.md#vendite-incassi)
@@ -221,7 +221,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [L'andamento](vendite.md#vendite-andamento)
    - [Lo storico delle fatture e l'esportazione](vendite.md#vendite-storico)
    - [Impostazioni e permessi](vendite.md#vendite-impostazioni)
-23. [Fatture dei fornitori](fatture-fornitori.md)
+23. [Fatture ricevute](fatture-fornitori.md)
    - [Importare le fatture](fatture-fornitori.md#fatture-fornitori-importa)
    - [Il controllo](fatture-fornitori.md#fatture-fornitori-controllo)
    - [Pagamenti e note di credito](fatture-fornitori.md#fatture-fornitori-pagamenti)

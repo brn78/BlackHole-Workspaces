@@ -2,7 +2,7 @@
 
 # <a id="password"></a>Password
 
-**La mia giornata → Password** è il gestore di password della piattaforma: conserva le credenziali di accessi a siti e programmi, server e dispositivi, reti Wi-Fi, caselle di posta, database, chiavi API, licenze, con tutto ciò che serve per usarle (dove si usano, link, cliente, etichette, note). Password, note riservate, chiavi della verifica in due passaggi e campi riservati sono **cifrati sul server**. Una voce è **personale** finché non la condividi con colleghi, gruppi o tutti. Per usare il servizio serve il permesso **Usare la gestione password** (vedi [Permessi](#password-permessi)).
+**Il mio spazio → Password** è il gestore di password della piattaforma: conserva le credenziali di accessi a siti e programmi, server e dispositivi, reti Wi-Fi, caselle di posta, database, chiavi API, licenze, con tutto ciò che serve per usarle (dove si usano, link, cliente, etichette, note). Password, note riservate, chiavi della verifica in due passaggi e campi riservati sono **cifrati sul server**. Una voce è **personale** finché non la condividi con colleghi, gruppi o tutti. Per usare il servizio serve il permesso **Usare la gestione password** (vedi [Permessi](#password-permessi)).
 
 La pagina ha quattro viste, ciascuna con il suo numero: **Tutte**, **Preferite**, **Controllo** (le password da sistemare) e **Cestino**. In alto ci sono **Esporta CSV** (per chi ne ha il permesso), **Importa**, **Tipi** (per chi gestisce i tipi), **Generatore**, **Nuova cartella** e **Nuova password**. Le password si mettono in ordine nelle [cartelle](#password-cartelle).
 

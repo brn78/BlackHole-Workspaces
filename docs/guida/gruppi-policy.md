@@ -40,7 +40,7 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Acquisti | Vedere gli acquisti · Gestire ordini e richieste d'offerta · Gestire gli acquisti (vedi [Acquisti](acquisti.md#acquisti-impostazioni)) |
 | Vendite | Vedere le vendite · Preparare DDT e fatture · Gestire le vendite (vedi [Vendite](vendite.md#vendite-impostazioni)) |
 | Contabilità | Vedere la contabilità · Registrare in contabilità · Gestire la contabilità (vedi [Contabilità](contabilita.md#contabilita-permessi)) |
-| Fatture dei fornitori | Vedere le fatture dei fornitori · Importare e controllare · Pagare (vedi [Fatture dei fornitori](fatture-fornitori.md#fatture-fornitori-permessi)) |
+| Fatture ricevute | Vedere le fatture dei fornitori · Importare e controllare · Pagare (vedi [Fatture ricevute](fatture-fornitori.md#fatture-fornitori-permessi)) |
 | Preventivi | Vedere i preventivi · Compilare i preventivi · Gestire i preventivi (vedi [Preventivi](preventivi.md#preventivi-permessi)) |
 | Strumenti | Vedere il monitoraggio · Gestire il monitoraggio (vedi [Monitoraggio](monitoraggio.md#monitoraggio-permessi); valgono anche per la [Rete locale](rete-locale.md)) |
 | Scadenze | Vedere le scadenze dell'azienda · Gestire le scadenze dell'azienda (vedi [Scadenze](scadenze.md#scadenze-permessi)) |

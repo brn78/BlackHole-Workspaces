@@ -4,7 +4,7 @@
 
 - **Appunto**: Nota di testo o elenco di voci da spuntare, personale oppure condiviso con colleghi e gruppi: lo vedono solo il proprietario e i destinatari.
 - **Archivio (appunti)**: La vista in cui ciascuno mette da parte gli appunti che non gli servono sott'occhio: vale solo per chi archivia.
-- **Aree del menu**: Le sezioni del menu laterale: La mia giornata, Anagrafiche, Commesse, Commerciale, Azienda e Archivio; le pagine di gestione della piattaforma sono nel menu del pulsante Sistema. Vedi [La mia giornata e le aree](area-di-lavoro.md).
+- **Aree del menu**: Le sezioni del menu laterale, una per reparto: Il mio spazio, Anagrafiche, Azienda, Progettazione, Magazzino, Amministrazione, Archivio e Strumenti; le pagine di gestione della piattaforma sono nel menu del pulsante Sistema. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
 - **Assistente AI**: La chat della barra in alto che risponde con un modello linguistico sul server: domande, attività, rapportini, riassunti, supporto tecnico. Vedi [Assistente AI](assistente-ai.md).
 - **Attività condivisa**: Un'attività che chi può modificarla fa vedere a colleghi e gruppi, in sola lettura o con la modifica: chi la riceve ci lavora comunque (stato, voci, commenti, file, ore).
 - **Avviso**: Messaggio in basso a destra che segnala qualcosa arrivato da altri: un messaggio della chat, un appunto condiviso con te, una notifica di attività e progetti.
@@ -39,7 +39,7 @@
 - **Generatore di password**: Crea nel browser password casuali, da leggere o PIN, con il generatore casuale crittografico: vedi [Password](password.md#password-generatore).
 - **JSON**: File di testo con dati strutturati, scritto da un programma: serve a importare i clienti di un altro gestionale con più indirizzi, recapiti, referenti e banche per cliente.
 - **Kanban**: Vista delle attività in colonne, una per stato, in cui si spostano trascinandole.
-- **La mia giornata**: La prima area del menu laterale: Home, Attività, Appunti e Password, il lavoro di ogni giorno di ciascuno. Vedi [La mia giornata e le aree](area-di-lavoro.md).
+- **Il mio spazio**: La prima area del menu laterale: Home, Attività, Appunti e Password, il lavoro di ogni giorno di ciascuno. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
 - **Leggimi**: Il testo di un impianto con ciò che serve sapere prima di intervenire: com'è fatto, dove sono centrale e apparati, accorgimenti, contatti sul posto. È la prima linguetta della pagina dell'impianto.
 - **LibreOffice**: Programma di ufficio gratuito; installato sul server, converte in PDF i documenti che il browser non sa leggere (.doc, .ppt, .odt…).
 - **Link di condivisione**: Un indirizzo che fa vedere a chi non ha un account un file, una cartella o la documentazione di un impianto, con scadenza e password facoltative, anche per farsi mandare file. Vedi [Condivisioni](condivisioni.md).
@@ -66,7 +66,7 @@
 - **Numero dell'attività**: Il numero `#12` di ogni attività, unico tra tutte e mai riusato: «#12» nella ricerca la trova.
 - **Omocodia**: Due persone con lo stesso codice fiscale calcolato: l'Agenzia delle Entrate ne modifica uno sostituendo cifre con lettere.
 - **otpauth://**: L'indirizzo contenuto nel QR code della verifica in due passaggi di un sito: porta la chiave segreta da cui nascono i codici. Si incolla nella scheda di una password per vederne i codici.
-- **Pagina del progetto**: La pagina di un progetto, aperta da Commesse → Progetti: intestazione con l'avanzamento e le linguette Attività, Impianti, Certificazioni, Documenti e Storico. Vedi [Progetti](progetti.md#progetti-pagina).
+- **Pagina del progetto**: La pagina di un progetto, aperta da Progettazione → Progetti e commesse: intestazione con l'avanzamento e le linguette Attività, Impianti, Certificazioni, Documenti e Storico. Vedi [Progetti](progetti.md#progetti-pagina).
 - **Password precedente**: La password che una voce aveva prima dell'ultimo cambio: resta cifrata nel suo storico (le ultime 20).
 - **Password personale, condivisa**: Una voce della gestione password visibile solo a chi l'ha creata, oppure anche a colleghi, gruppi o tutti, in lettura o con la modifica.
 - **Policy**: Permessi e regole di sicurezza applicati agli utenti tramite i gruppi (non agli amministratori).
@@ -74,7 +74,7 @@
 - **Possibile doppione**: Cliente con lo stesso codice fiscale, la stessa partita IVA o lo stesso nome di un altro: segnalato nella scheda e nell'importazione dei clienti, dove viene saltato se non lo scegli tu.
 - **Progetto riservato**: Progetto visibile solo al responsabile e ai membri; le sue attività restano tra le persone che lo vedono.
 - **Proxy attendibile**: Reverse proxy da cui il server accetta l'indirizzo reale di chi si collega.
-- **Registro delle certificazioni**: La pagina Commesse → Certificazioni: tutte le dichiarazioni degli impianti, numerate per modello e anno, al posto delle cartelle per anno. Vedi [Il registro](certificazioni.md#certificazioni-registro).
+- **Registro delle certificazioni**: La pagina Progettazione → Certificazioni: tutte le dichiarazioni degli impianti, numerate per modello e anno, al posto delle cartelle per anno. Vedi [Il registro](certificazioni.md#certificazioni-registro).
 - **Registro ore**: Le ore lavorate sulle attività, per persona e giorno, con i totali per persona, progetto e cliente: scheda Ore della pagina Attività. Vedi [Registro ore](attivita.md#attivita-ore).
 - **Responsabile di reparto**: Chi, negli indicatori, vede il suo reparto e le sue persone (senza gli importi dei premi) e le valuta, anche senza i permessi degli indicatori. Vedi [Permessi e responsabili](indicatori.md#indicatori-permessi).
 - **Revisione (attività)**: Il controllo del lavoro finito: l'attività resta «In revisione» finché il revisore non la approva o la rimanda.

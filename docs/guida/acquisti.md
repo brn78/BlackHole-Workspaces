@@ -1,8 +1,8 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="acquisti"></a>Acquisti
+# <a id="acquisti"></a>Ordini ai fornitori
 
-**Commerciale → Acquisti** segue tutto quello che si compra dai fornitori: le **richieste d'offerta** per confrontare i prezzi, gli **ordini**, la loro conferma, i **solleciti**, l'**arrivo della merce** (anche a più riprese) e il **controllo dei prezzi d'acquisto**. Le linguette sono Ordini, Richieste d'offerta, Da ricevere, Prezzi da verificare e Fornitori; in alto **Nuovo ordine**, **Richiesta d'offerta**, **Arrivo merce**, **Impostazioni** e **Stampa**. I prezzi d'acquisto sono dati riservati: li vede chi ha il permesso degli acquisti.
+**Magazzino → Ordini ai fornitori** segue tutto quello che si compra dai fornitori: le **richieste d'offerta** per confrontare i prezzi, gli **ordini**, la loro conferma, i **solleciti**, l'**arrivo della merce** (anche a più riprese) e il **controllo dei prezzi d'acquisto**. Le linguette sono Ordini, Richieste d'offerta, Da ricevere, Prezzi da verificare e Fornitori; in alto **Nuovo ordine**, **Richiesta d'offerta**, **Arrivo merce**, **Impostazioni** e **Stampa**. I prezzi d'acquisto sono dati riservati: li vede chi ha il permesso degli acquisti.
 
 ## <a id="acquisti-ordini"></a>Gli ordini
 
@@ -54,4 +54,4 @@ Le **Impostazioni** (chi gestisce gli acquisti) fissano dopo quanti giorni un or
 
 ---
 
-[← Magazzino](magazzino.md) · [Indice](README.md) · [Vendite →](vendite.md)
+[← Magazzino](magazzino.md) · [Indice](README.md) · [Fatturazione →](vendite.md)

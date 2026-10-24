@@ -2,7 +2,7 @@
 
 # <a id="assistenza"></a>Assistenza
 
-**Commesse → Assistenza** raccoglie le **richieste di assistenza dei clienti**: chi chiama (anche un cliente che non è ancora in anagrafica), dove, per quale impianto, chi cercare sul posto e il problema, con una **priorità** che dà la **scadenza** del primo intervento; poi gli **interventi**, anche pianificati come attività, finché il problema non è risolto. Il **laboratorio** segue allo stesso modo i pezzi che i clienti portano da riparare, dalla consegna al ritiro, con il cartellino da attaccare al pezzo e la ricevuta per il cliente. La pagina compare a chi può **Vedere l'assistenza**, con le stesse regole dei clienti: le richieste dei contatti privati le vede solo il proprietario (vedi [Permessi](#assistenza-permessi)).
+**Azienda → Assistenza** raccoglie le **richieste di assistenza dei clienti**: chi chiama (anche un cliente che non è ancora in anagrafica), dove, per quale impianto, chi cercare sul posto e il problema, con una **priorità** che dà la **scadenza** del primo intervento; poi gli **interventi**, anche pianificati come attività, finché il problema non è risolto. Il **laboratorio** segue allo stesso modo i pezzi che i clienti portano da riparare, dalla consegna al ritiro, con il cartellino da attaccare al pezzo e la ricevuta per il cliente. La pagina compare a chi può **Vedere l'assistenza**, con le stesse regole dei clienti: le richieste dei contatti privati le vede solo il proprietario (vedi [Permessi](#assistenza-permessi)).
 
 ## <a id="assistenza-pagina"></a>La pagina Assistenza
 

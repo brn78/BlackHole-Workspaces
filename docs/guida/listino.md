@@ -2,7 +2,7 @@
 
 # <a id="listino"></a>Listino
 
-**Commerciale → Listino** raccoglie ciò che l'azienda vende, con il **prezzo di vendita** e l'IVA: **materiali** (con marca, codici e fornitore), **prestazioni** (sopralluogo, collaudo, diritto di chiamata, canoni…) e **manodopera** per qualifica. A chi ne ha il permesso mostra anche **costo**, **ricarico** e **margine**. Serve all'assistenza e ai preventivi. La pagina compare solo a chi ha i permessi del listino (vedi [Permessi](#listino-permessi)): nessuna policy li riceve da sola.
+**Progettazione → Listino** raccoglie ciò che l'azienda vende, con il **prezzo di vendita** e l'IVA: **materiali** (con marca, codici e fornitore), **prestazioni** (sopralluogo, collaudo, diritto di chiamata, canoni…) e **manodopera** per qualifica. A chi ne ha il permesso mostra anche **costo**, **ricarico** e **margine**. Serve all'assistenza e ai preventivi. La pagina compare solo a chi ha i permessi del listino (vedi [Permessi](#listino-permessi)): nessuna policy li riceve da sola.
 
 ## <a id="listino-elenco"></a>L'elenco
 

@@ -53,7 +53,7 @@ In alto lo **stato** (*Da fare*, *Pianificata*, *In lavorazione*, *In attesa*, *
 - **Registra un intervento**: il giorno (non nel futuro) e l'**ora d'inizio** (con il giorno dicono se il primo intervento è arrivato in tempo), **come** (sul posto, da remoto, al telefono, in laboratorio), **chi ha lavorato** con le sue ore (le persone del Personale; senza persone nel Personale, i tecnici scritti e le ore), **diritto di chiamata** e **reperibilità**, il **materiale e le spese** e il **lavoro svolto**: persone, materiale e spese finiscono nel [consuntivo](#assistenza-consuntivo). L'esito **Da proseguire** lascia aperta la richiesta; **Risolto** la chiude con la soluzione (vuota: il lavoro svolto). **Salva e stampa il rapporto** lo stampa subito. Chi ha scritto un intervento lo corregge; chi gestisce l'assistenza corregge ed elimina quelli di tutti.
 - **Pianifica**: il giorno, chi lo fa e una nota creano un'[attività](attivita.md) collegata al cliente e all'impianto, con l'etichetta *Assistenza* e nel testo il problema, il posto, chi cercare e il ticket del cliente. Nella scheda dell'attività un riquadro ricorda la richiesta, con **Registra l'intervento**: registrandolo l'attività si completa.
 - **In attesa** con il motivo (pezzi ordinati, risposta del cliente, preventivo da approvare…); riprende con **Riprendi** o registrando un intervento.
-- **Chiudi** chiede come è stato risolto; **Riapri** rimette aperta una richiesta chiusa.
+- **Chiudi la richiesta** chiede come è stato risolto; **Riapri** rimette aperta una richiesta chiusa.
 
 ## <a id="assistenza-consuntivo"></a>Il consuntivo e la fatturazione
 

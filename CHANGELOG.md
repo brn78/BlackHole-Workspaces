@@ -4,6 +4,33 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.164.1 · 25 ottobre 2026
+
+**Revisione a tappeto di pannelli e pulsanti**
+
+- **Quantità del materiale**: nello scarico dal magazzino, la quantità di un articolo con matricola è il numero delle
+  matricole scritte, e ora il pannello lo dice. Sul telefono, nel consuntivo dell'assistenza, la matita e il cestino
+  restano sempre a vista sulla destra. Nella scelta dal listino si legge la descrizione della voce.
+- **Campi bloccati spiegati**: l'intervento registrato da un collega mostra un lucchetto con chi lo può correggere. Le
+  voci del listino nel consuntivo, lo sconto senza prezzo di listino, il tipo di una pratica già aperta, l'impianto del
+  monitoraggio senza cliente, l'aliquota IVA proposta, il piano del rapporto di manutenzione, gli allegati di una
+  certificazione emessa e il nome utente dicono perché non si cambiano.
+- **Un solo pulsante blu per schermata**: le azioni secondarie non sono più blu, e il pulsante blu segue la linguetta
+  aperta. Tolti i doppioni: ogni comando sta in un posto solo, e le impostazioni sono in fondo al menu «Altro».
+- **Allineamenti**: icone centrate nei pulsanti piccoli, barre degli elenchi tutte alla stessa altezza, linguette della
+  scheda cliente tutte a vista, elenchi che non escono dalla pagina, pulsanti disattivati leggibili.
+- **Telefono**: fascia in basso dei pannelli su due righe, linguette che non escono dallo schermo, pulsante tondo e
+  avvisi nascosti con il menu aperto.
+- **Linguette numerose**, come nella scheda cliente: se non ci stanno nemmeno con le sole icone, compaiono le frecce ‹ ›
+  per scorrerle, e la linguetta aperta resta sempre in vista. Si usano anche con le frecce della tastiera.
+- **Altri ritocchi**: i cestini sono grigi e diventano rossi al passaggio. Con due pannelli aperti, la maniglia per
+  allargare è solo su quello in cima. Il colore «Predefinito» si vede anche con il tema scuro.
+- **Sicurezza**: il testo tecnico di un errore del server lo vedono solo gli amministratori. Gli altri utenti leggono
+  l'ora, per ritrovarlo nel registro; i messaggi scritti per chi usa il programma, come l'importazione annullata alla
+  riga N, arrivano a tutti.
+- **Correzioni**: il collegamento dallo storico prezzi di un produttore ai listini dei fornitori ora funziona. Una riga
+  di materiale cambiata nel frattempo dal consuntivo non si perde più in silenzio.
+
 ## 1.164.0 · 25 ottobre 2026
 
 **Progetti e commesse, con i nomi di chi li usa**

@@ -234,7 +234,7 @@ Excel tratta i codici come numeri e ne toglie gli zeri iniziali. L'importazione 
 
 ## <a id="clienti-documenti"></a>Documenti, attività, commesse, impianti, password e stampa del cliente
 
-Quando le sezioni della scheda non stanno tutte nella larghezza del pannello, quelle non scelte mostrano solo l'icona: fermando il mouse compare il nome (oppure allarga il pannello trascinandone la linguetta).
+Quando le sezioni della scheda non stanno tutte nella larghezza del pannello, quelle non scelte mostrano solo l'icona: fermando il mouse compare il nome (oppure allarga il pannello trascinandone il bordo). Se non ci stanno nemmeno così, le frecce **‹ ›** ai lati le fanno scorrere.
 
 - La scheda **Attività** del cliente elenca le attività collegate al cliente, sia direttamente (campo **Cliente** nella [scheda dell'attività](attivita.md#attivita-scheda)) sia attraverso la loro commessa, con stato, scadenza e persone: un clic apre l'attività, **Nuova attività per questo cliente** (o **Nuova attività**, quando non ce n'è ancora nessuna) ne crea una già collegata, **Apri nella pagina Attività** le mostra nella pagina, filtrate per quel cliente. C'è per tutti e mostra solo le attività che puoi [vedere](attivita.md#attivita-condivisione).
 - La scheda **Commesse** del cliente elenca le commesse collegate (campo **Cliente** nella [scheda della commessa](progetti.md#progetti-scheda)), con stato e avanzamento: un clic apre la pagina della commessa, **Nuova commessa per questo cliente** ne crea una già collegata. Compare a chi può **Vedere le commesse**, e mostra solo le commesse che puoi vedere. I progetti del cliente ancora in corso sono nella linguetta Preventivi, sopra i preventivi (**Progetti in corso**).

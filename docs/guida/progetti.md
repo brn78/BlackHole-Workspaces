@@ -87,6 +87,17 @@ In cima alla linguetta i numeri principali (ricavo e costi previsti, fatti e imp
 
 La scheda **Economia** della pagina Progetti elenca le commesse con ricavo e costi previsti, fatti + impegnati, uso del previsto, fatturato e margine a finire, con i totali sotto le colonne; i riquadri in cima e il filtro mostrano le aperte, quelle fuori budget, vicine al budget, senza budget o concluse. **Stampa** stampa l'elenco com'è. Scrivere o togliere un budget resta nello **Storico** della commessa (senza importi) e nel registro attività.
 
+## <a id="progetti-sal"></a>I SAL della commessa
+
+La linguetta **SAL** della pagina della commessa (dalla 1.163.0, per chi ha **Budget e consuntivo delle commesse**) è lo **stato di avanzamento lavori**: l'ufficio tecnico scrive a che punto sono i lavori e l'amministrazione lo trova da fatturare. In alto il **valore della commessa** (l'imponibile dei suoi [preventivi accettati](preventivi.md)), il **fatturato** (fatture emesse meno note di credito, acconti compresi) e l'avanzamento dell'ultimo SAL.
+
+1. **Nuovo SAL**: la percentuale raggiunta (oltre quella dell'ultimo SAL, al massimo 100), la data e i lavori eseguiti. Sotto si legge subito quanto andrà da fatturare.
+2. L'importo è **valore × percentuale meno il già fatturato**: al 30 % di una commessa da 100.000 € con un acconto di 10.000 € già fatturato, il SAL vale 20.000 €. Si calcola a oggi, così un acconto fatturato nel frattempo si toglie da solo.
+3. Il SAL va in [Fatturazione → Da fatturare](vendite.md#vendite-fatture), nella parte **SAL delle commesse**: **Fattura** prepara la fattura in bozza con la riga «SAL n. … al …%», divisa tra le aliquote IVA come nei preventivi. All'emissione il SAL risulta **fatturato** con il numero della fattura; riportandola in bozza torna da fatturare.
+
+- Un SAL alla volta: il successivo si scrive quando il precedente è fatturato.
+- Un SAL da fatturare si toglie (il cestino nella riga) finché non è in una fattura; uno fatturato resta: se serve si storna la fattura con una nota di credito.
+
 ## <a id="progetti-importa"></a>Importare ed esportare
 
 **Esporta** scarica i progetti in **Excel**, **CSV** o come **calendario** (un evento dall'inizio alla scadenza). **Importa** (a chi crea i progetti) li porta da un foglio: codice (vuoto: il prossimo libero), nome, tipo, cliente, responsabile (nome utente o nome e cognome), stato, priorità, date, ore previste, etichette e descrizione. Un cliente, un responsabile, uno stato che non si trovano finiscono nella descrizione, «Da controllare». Ogni progetto ha la sua cartella in Documenti. Il foglio si legge come una tabella di database: la prima riga ha i nomi dei campi, sotto una riga per scheda. Le colonne con il nome giusto si riconoscono da sole; **Scarica il modello Excel** dà il foglio già pronto con le istruzioni, e un file esportato da qui si reimporta così com'è (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Prima di importare l'anteprima mostra ogni riga: quelle già presenti si saltano, quelle con errori dicono perché.

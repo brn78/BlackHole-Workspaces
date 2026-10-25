@@ -4,6 +4,17 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.163.0 · 25 ottobre 2026
+
+**I SAL delle commesse**
+
+- Nella pagina della commessa c'è la linguetta **SAL**: l'ufficio tecnico scrive la **percentuale di avanzamento**
+  raggiunta, la data e i lavori eseguiti, e vede subito quanto andrà da fatturare.
+- Il SAL vale il **valore della commessa** (i preventivi accettati) per la percentuale, **meno quanto è già fatturato**
+  (acconti e SAL precedenti, al netto delle note di credito); si calcola a oggi. Un SAL alla volta.
+- In **Fatturazione → Da fatturare** c'è la parte **SAL delle commesse**: **Fattura** prepara la fattura con la riga
+  «SAL n. … al …%», divisa tra le aliquote IVA come nei preventivi. Emessa la fattura, il SAL risulta fatturato.
+
 ## 1.162.0 · 24 ottobre 2026
 
 **Fatturazione: emesse e ricevute in una pagina**

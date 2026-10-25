@@ -4,6 +4,26 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.164.2 · 25 ottobre 2026
+
+**Sicurezza**
+
+- **Da fuori dalla rete dell'ufficio** un amministratore entra solo con la verifica in due passaggi attiva, e così chi la
+  deve avere per una policy. La verifica si attiva solo dall'ufficio o dalla VPN: chi avesse rubato una password non può
+  collegare il suo telefono.
+- **Aggiornamento caricato a mano**: il server confronta l'impronta del setup con quella della stessa versione pubblicata
+  su GitHub e installa solo il setup originale. Se non la può confrontare, chiede il codice scritto sul server nel file
+  `update-code.txt`, che vale una volta.
+- **Cartelle di rete** di backup, archivio e «Sfoglia» solo su computer della rete locale. La password salvata di un NAS
+  vale solo per la sua cartella condivisa: se la cartella passa su un altro NAS va riscritta.
+- **Indirizzo pubblico in HTTPS**: chi apre la piattaforma con quel nome ha i cookie «solo HTTPS», e il browser non torna
+  più in chiaro.
+
+**Correzioni**
+
+- Il lettore di codici a barre con la fotocamera del telefono ora funziona anche quando la piattaforma è pubblicata in
+  HTTPS.
+
 ## 1.164.1 · 25 ottobre 2026
 
 **Revisione a tappeto di pannelli e pulsanti**

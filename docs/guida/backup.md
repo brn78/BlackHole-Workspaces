@@ -24,6 +24,8 @@ Dalla 1.139.0 la cartella dei backup si sceglie con **Sfoglia** e, se il NAS lo 
 
 I campi **Utente della cartella di rete** e **Password** compaiono solo per le cartelle di rete; vuoti, il server entra con l'account del servizio. La password si salva cifrata e non si rivede: il campo vuoto la lascia com'è, **Rimuovi la password salvata** la toglie. Il server entra nella cartella prima di ogni backup (anche quelli automatici della notte, dopo un riavvio del server o del NAS) e con la riga di comando `--backup`. Se non ci riesce, il messaggio dice con quale account ha provato e cosa fare.
 
+**Solo nella rete dell'ufficio** (dalla 1.164.2): le cartelle di rete dei backup, dell'archivio e di «Sfoglia» devono stare su un computer della rete locale (un nome come *\\\\nas* o un indirizzo come *\\\\192.168.1.20*). Un indirizzo su Internet, o un nome che porta su Internet, viene rifiutato prima di provarci: per entrare il server manda l'impronta della password, e la riceverebbe chi controlla quel computer. Per lo stesso motivo la password salvata vale solo per la sua cartella condivisa: se la cartella passa su un altro NAS va riscritta.
+
 > [!NOTE]
 > **Perché serve l'utente.** Il servizio della piattaforma gira con un account di sistema che in rete si presenta come il computer del server (per esempio *SERVER$*): un NAS fuori dal dominio non lo conosce e non lo lascia scrivere. Windows ammette **un solo utente per ogni NAS**: se il server ci entra già con un altro utente (per esempio per l'[archivio di rete](archivio-rete.md)), usa lo stesso, oppure scrivi il NAS una volta con il nome e una volta con l'indirizzo IP.
 

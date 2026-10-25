@@ -74,7 +74,8 @@ Lascia selezionato **Crea prima un backup completo** e conferma con la tua passw
 
 - solo gli **amministratori**, con la conferma della password;
 - solo da un PC della **rete locale** del server (o dalla VPN), aprendo la piattaforma con l'indirizzo interno: non attraverso un proxy. Se hai aperto la piattaforma in un altro modo, il riquadro mostra l'indirizzo interno come collegamento e il pulsante **Apri la piattaforma locale**, che apre in una nuova scheda la piattaforma locale direttamente su questo riquadro (dopo l'accesso, se serve);
-- solo con il **servizio di Windows installato dal setup**.
+- solo con il **servizio di Windows installato dal setup**;
+- solo il **setup originale** (dalla 1.164.2): il server confronta l'impronta SHA-256 del file con quella della stessa versione pubblicata su GitHub. Se è diversa non installa niente. Se non la può confrontare (il server non raggiunge Internet, la versione non è pubblicata) la finestra chiede il **codice letto sul server**: è scritto nel file `update-code.txt` della cartella dei dati (di solito `C:\ProgramData\BlackHoleWorkspaces`), che aprono solo gli amministratori di Windows. Il codice vale una volta: dopo l'aggiornamento il file si cancella.
 
 **Sul server**: esegui il nuovo setup sopra l'installazione esistente: ferma il servizio, sostituisce i file e lo riavvia. Il pacchetto compresso si aggiorna invece con `Update.ps1`. Anche in questi casi, al riavvio il riquadro mostra come **Ultimo aggiornamento** le due versioni e la data, con **direttamente sul server** al posto del nome di chi l'ha avviato: vale sempre l'aggiornamento più recente, fatto dalla piattaforma o sul server.
 

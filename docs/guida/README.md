@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.163.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.163.1**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -169,7 +169,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Il consuntivo e la fatturazione](assistenza.md#assistenza-consuntivo)
    - [Il laboratorio](assistenza.md#assistenza-laboratorio)
    - [Permessi](assistenza.md#assistenza-permessi)
-18. [Listino](listino.md)
+18. [Listino aziendale](listino.md)
    - [L'elenco](listino.md#listino-elenco)
    - [La voce](listino.md#listino-voci)
    - [Una voce da una scheda tecnica](listino.md#listino-da-scheda)
@@ -203,7 +203,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Costo medio e prezzi d'acquisto](magazzino.md#magazzino-costo)
    - [Importare ed esportare le giacenze](magazzino.md#magazzino-importa)
    - [Permessi](magazzino.md#magazzino-permessi)
-21. [Ordini ai fornitori](acquisti.md)
+21. [Ordini fornitori](acquisti.md)
    - [Gli ordini](acquisti.md#acquisti-ordini)
    - [Conferme, ritardi e solleciti](acquisti.md#acquisti-solleciti)
    - [L'arrivo della merce](acquisti.md#acquisti-arrivi)

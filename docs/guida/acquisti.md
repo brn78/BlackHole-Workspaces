@@ -1,8 +1,8 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="acquisti"></a>Ordini ai fornitori
+# <a id="acquisti"></a>Ordini fornitori
 
-**Magazzino → Ordini ai fornitori** segue tutto quello che si compra dai fornitori: le **richieste d'offerta** per confrontare i prezzi, gli **ordini**, la loro conferma, i **solleciti**, l'**arrivo della merce** (anche a più riprese) e il **controllo dei prezzi d'acquisto**. Le linguette sono Ordini, Richieste d'offerta, Da ricevere, Prezzi da verificare e Fornitori; in alto **Nuovo ordine**, **Richiesta d'offerta**, **Arrivo merce**, **Impostazioni** e **Stampa**. I prezzi d'acquisto sono dati riservati: li vede chi ha il permesso degli acquisti.
+**Magazzino → Ordini fornitori** segue tutto quello che si compra dai fornitori: le **richieste d'offerta** per confrontare i prezzi, gli **ordini**, la loro conferma, i **solleciti**, l'**arrivo della merce** (anche a più riprese) e il **controllo dei prezzi d'acquisto**. Le linguette sono Ordini, Richieste d'offerta, Da ricevere, Prezzi da verificare e Fornitori; in alto **Nuovo ordine**, **Richiesta d'offerta**, **Arrivo merce**, **Impostazioni** e **Stampa**. I prezzi d'acquisto sono dati riservati: li vede chi ha il permesso degli acquisti.
 
 ## <a id="acquisti-ordini"></a>Gli ordini
 

@@ -92,4 +92,4 @@ Le richieste si assegnano solo a chi vede l'assistenza. Per aprire la pagina del
 
 ---
 
-[← Pratiche](pratiche.md) · [Indice](README.md) · [Listino →](listino.md)
+[← Pratiche](pratiche.md) · [Indice](README.md) · [Listino aziendale →](listino.md)

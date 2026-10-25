@@ -1,12 +1,12 @@
 [Indice della guida](README.md) · [Presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
-# <a id="listino"></a>Listino
+# <a id="listino"></a>Listino aziendale
 
-**Progettazione → Listino** raccoglie ciò che l'azienda vende, con il **prezzo di vendita** e l'IVA: **materiali** (con marca, codici e fornitore), **prestazioni** (sopralluogo, collaudo, diritto di chiamata, canoni…) e **manodopera** per qualifica. A chi ne ha il permesso mostra anche **costo**, **ricarico** e **margine**. Serve all'assistenza e ai preventivi. La pagina compare solo a chi ha i permessi del listino (vedi [Permessi](#listino-permessi)): nessuna policy li riceve da sola.
+**Magazzino → Listino aziendale** raccoglie ciò che l'azienda vende, con il **prezzo di vendita** e l'IVA: **materiali** (con marca, codici e fornitore), **prestazioni** (sopralluogo, collaudo, diritto di chiamata, canoni…) e **manodopera** per qualifica. A chi ne ha il permesso mostra anche **costo**, **ricarico** e **margine**. Serve all'assistenza e ai preventivi. La pagina compare solo a chi ha i permessi del listino (vedi [Permessi](#listino-permessi)): nessuna policy li riceve da sola.
 
 ## <a id="listino-elenco"></a>L'elenco
 
-Le linguette **A listino** e **Fuori listino** dicono quante voci ci sono; **Da controllare** compare quando ci sono voci da sistemare (vedi [Importare ed esportare](#listino-importare)). Sotto si sceglie il tipo (**Materiali**, **Prestazioni**, **Manodopera**). La ricerca trova codice, descrizione, produttore, codice del produttore, codici a barre (del pezzo e della confezione), fornitore, qualifica e categoria. Gli elenchi scelgono la **categoria**, comprese le sottocategorie, il **produttore** e il **fornitore**. Una voce con le immagini mostra la principale al posto dell'icona del tipo. **Leggi codice** apre la voce dal suo codice a barre (vedi [Codici a barre ed etichette](#listino-codici)); anche un lettore che scrive il codice nella ricerca e preme Invio apre la voce.
+Le linguette **A listino** e **Fuori listino** dicono quante voci ci sono; **Da controllare** compare quando ci sono voci da sistemare (vedi [Importare ed esportare](#listino-importare)). Sotto si sceglie il tipo (**Materiali**, **Prestazioni**, **Manodopera**). La ricerca trova codice, descrizione, produttore, codice del produttore, codici a barre (del pezzo e della confezione), fornitore, qualifica e categoria. Gli elenchi scelgono la **categoria**, comprese le sottocategorie, il **produttore** e il **fornitore**. Una voce con le immagini mostra la principale al posto dell'icona del tipo. Il pulsante accanto al filtro (Leggi codice) apre la voce dal suo codice a barre (vedi [Codici a barre ed etichette](#listino-codici)); anche un lettore che scrive il codice nella ricerca e preme Invio apre la voce.
 
 Ogni riga mostra:
 

@@ -4,6 +4,24 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.163.1 · 25 ottobre 2026
+
+**Menu Magazzino più chiaro**
+
+- Il gruppo **Magazzino** del menu ora contiene **Ordini fornitori**, **Listini fornitori**, **Listino aziendale** e
+  **Magazzino**.
+- **Listino** si chiama **Listino aziendale** e passa da Progettazione a Magazzino: sono i prezzi dell'azienda
+  (prezzario, articoli di magazzino, prestazioni, manodopera), distinti dai listini dei fornitori.
+- **Ordini ai fornitori** si chiama **Ordini fornitori**.
+- **Prezzi da verificare** non è più una voce del menu: è la linguetta degli ordini fornitori. I preferiti e i
+  collegamenti salvati portano ancora lì.
+
+**Ritocchi**
+
+- **Leggi codice** è un'icona accanto al filtro, nel Listino aziendale, nel Magazzino e nel nuovo movimento.
+- La stella dei preferiti e il «?» accanto al titolo sono in asse con il titolo.
+- Lo stato di commesse e richieste di assistenza nei suggerimenti è in italiano, come quello delle fatture nella stampa
+  dell'elenco.
 ## 1.163.0 · 25 ottobre 2026
 
 **I SAL delle commesse**

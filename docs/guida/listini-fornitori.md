@@ -92,4 +92,4 @@ Una voce collegata si può anche **staccare** dalla sua scheda: da lì in poi pr
 
 ---
 
-[← Listino](listino.md) · [Indice](README.md) · [Magazzino →](magazzino.md)
+[← Listino aziendale](listino.md) · [Indice](README.md) · [Magazzino →](magazzino.md)

@@ -17,7 +17,7 @@ Ogni scheda mostra quante voci ci sono, quanto valgono (a chi vede i costi), qua
 
 ## <a id="magazzino-giacenze"></a>Giacenze
 
-L'elenco delle voci a magazzino con la quantità di ogni magazzino (fino a cinque colonne, poi il totale), la scorta minima, il costo medio, il valore e il giorno dell'ultimo movimento. Si filtra per magazzino (che mostra anche la sua dotazione) e con **Sotto scorta**, **A zero o sotto**, **Con matricola**; si cerca per codice, descrizione, marca o codice a barre, anche con **Leggi codice**. Un clic apre la **scheda di magazzino** della voce:
+L'elenco delle voci a magazzino con la quantità di ogni magazzino (fino a cinque colonne, poi il totale), la scorta minima, il costo medio, il valore e il giorno dell'ultimo movimento. Si filtra per magazzino (che mostra anche la sua dotazione) e con **Sotto scorta**, **A zero o sotto**, **Con matricola**; si cerca per codice, descrizione, marca o codice a barre, anche con (Leggi codice) accanto al filtro. Un clic apre la **scheda di magazzino** della voce:
 
 - **Giacenze**: quanto c'è in ogni magazzino, con la dotazione e l'ubicazione, il costo medio e il valore.
 - **Movimenti**: tutte le registrazioni della voce, con il segno, il costo e le matricole; un clic apre la registrazione.
@@ -104,4 +104,4 @@ Gli articoli con la matricola si caricano a mano, una matricola per pezzo. Il fo
 
 ---
 
-[← Listini fornitori](listini-fornitori.md) · [Indice](README.md) · [Ordini ai fornitori →](acquisti.md)
+[← Listini fornitori](listini-fornitori.md) · [Indice](README.md) · [Ordini fornitori →](acquisti.md)

@@ -101,4 +101,4 @@ Le **Impostazioni** (chi gestisce le vendite) hanno il **regime fiscale** (RF01 
 
 ---
 
-[← Ordini ai fornitori](acquisti.md) · [Indice](README.md) · [Fatture ricevute →](fatture-fornitori.md)
+[← Ordini fornitori](acquisti.md) · [Indice](README.md) · [Fatture ricevute →](fatture-fornitori.md)

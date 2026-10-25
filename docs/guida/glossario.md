@@ -7,7 +7,7 @@
 - **Aree del menu**: Le sezioni del menu laterale, una per reparto: Il mio spazio, Anagrafiche, Azienda, Progettazione, Magazzino, Amministrazione, Archivio e Strumenti; le pagine di gestione della piattaforma sono nel menu del pulsante Sistema. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
 - **Assistente AI**: La chat della barra in alto che risponde con un modello linguistico sul server: domande, attività, rapportini, riassunti, supporto tecnico. Vedi [Assistente AI](assistente-ai.md).
 - **Attività condivisa**: Un'attività che chi può modificarla fa vedere a colleghi e gruppi, in sola lettura o con la modifica: chi la riceve ci lavora comunque (stato, voci, commenti, file, ore).
-- **Avviso**: Messaggio in basso a destra che segnala qualcosa arrivato da altri: un messaggio della chat, un appunto condiviso con te, una notifica di attività e progetti.
+- **Avviso**: Messaggio in basso a destra che segnala qualcosa arrivato da altri: un messaggio della chat, un appunto condiviso con te, una notifica di attività e commesse.
 - **Backup `.bhbak`**: File unico con tutti i dati della piattaforma, eventualmente cifrato.
 - **Bot di Telegram**: L'account di Telegram dell'azienda, creato con @BotFather, da cui arrivano le notifiche a chi collega la sua chat. Vedi [Su Telegram](notifiche.md#notifiche-telegram).
 - **Browser di fiducia**: Browser su cui, per un periodo, non viene chiesto il codice della verifica in due passaggi.
@@ -20,6 +20,9 @@
 - **Cestino (password)**: Dove finiscono le password tolte dal proprietario (o da chi gestisce le condivise): si ripristinano entro 30 giorni, poi vengono eliminate da sole.
 - **Codice catastale**: Il codice di quattro caratteri del comune (o dello stato estero) di nascita, parte del codice fiscale.
 - **Codice destinatario SDI**: Il codice a cui il Sistema di Interscambio recapita le fatture elettroniche del cliente.
+- **Commessa**: Il lavoro partito, da organizzare in attività: nasce di solito dal progetto o dal preventivo accettato, con un codice, un responsabile, i membri, la sua pagina e la cartella in Documenti. Vedi [Commesse](progetti.md).
+- **Commessa interna**: Una commessa senza cliente: un lavoro dell'azienda per sé (furgoni, magazzino, sede, formazione…), con le stesse attività, ore, budget e documenti. Vedi [Commesse interne](progetti.md#progetti-interne).
+- **Commessa riservata**: Commessa visibile solo al responsabile e ai membri; le sue attività restano tra le persone che la vedono.
 - **Contatto privato**: Cliente visibile solo al suo proprietario.
 - **Costo netto**: Il prezzo di un articolo del listino del fornitore meno lo sconto della sua famiglia: è il costo delle voci del listino collegate. Vedi [Listini fornitori](listini-fornitori.md).
 - **CSV**: File di testo con una riga per ogni elemento e i valori separati da punto e virgola (o virgola), apribile con Excel: serve a esportare e a importare i clienti.
@@ -33,10 +36,10 @@
 - **Gantt**: Cronoprogramma: ogni attività è una barra dalla data di inizio alla scadenza.
 - **Fornitore**: Una scheda dell'anagrafica con il ruolo Fornitore: sta nella pagina Fornitori e, se è anche cliente, pure tra i clienti. Vedi [Ruoli](clienti.md#clienti-ruoli).
 - **Icona e colore**: La piccola immagine di una scheda (cliente, impianto, controllo del monitoraggio, mezzo, tipo…), scelta tra le icone Material Design Icons con un colore; i tipi la passano a ciò che non ne ha una sua. Vedi [Icone e colori](interfaccia.md#interfaccia-icone).
-- **Impianto**: Ciò che è installato presso un cliente, in una sua sede (antintrusione, videosorveglianza, KNX…): ha la sua pagina con il Leggimi, la cartella in Documenti, gli interventi, le certificazioni e i progetti che lo hanno realizzato. Il progetto finisce, l'impianto resta. Vedi [Impianti](impianti.md).
+- **Impianto**: Ciò che è installato presso un cliente, in una sua sede (antintrusione, videosorveglianza, KNX…): ha la sua pagina con il Leggimi, la cartella in Documenti, gli interventi, le certificazioni e le commesse che lo hanno realizzato. La commessa finisce, l'impianto resta. Vedi [Impianti](impianti.md).
 - **Incassi e pagamenti**: La pagina con le rate da incassare dai clienti e da pagare ai fornitori, prima le scadute, e le entrate e uscite delle prossime settimane. Vedi [Incassi e pagamenti](incassi-pagamenti.md).
 - **Indicatore**: Una statistica scelta dall'azienda, calcolata con una formula sulle misure, per l'azienda, i reparti o le persone, con obiettivo e soglia facoltativi. Vedi [Indicatori](indicatori.md).
-- **Intervento**: Un'attività collegata a un impianto (installazione, manutenzione, riparazione, modifica): compare nella pagina dell'impianto, anche dopo la chiusura del suo progetto. Vedi [Interventi](impianti.md#impianti-interventi).
+- **Intervento**: Un'attività collegata a un impianto (installazione, manutenzione, riparazione, modifica): compare nella pagina dell'impianto, anche dopo la chiusura della sua commessa. Vedi [Interventi](impianti.md#impianti-interventi).
 - **Generatore di password**: Crea nel browser password casuali, da leggere o PIN, con il generatore casuale crittografico: vedi [Password](password.md#password-generatore).
 - **JSON**: File di testo con dati strutturati, scritto da un programma: serve a importare i clienti di un altro gestionale con più indirizzi, recapiti, referenti e banche per cliente.
 - **Kanban**: Vista delle attività in colonne, una per stato, in cui si spostano trascinandole.
@@ -58,31 +61,31 @@
 - **Mansione**: Il lavoro che una persona fa in azienda (elettricista, capo cantiere, impiegata amministrativa…), scritto nella sua scheda del personale: decide i corsi, i documenti e le visite obbligatori. Per un utente collegato è anche il suo ruolo aziendale.
 - **Migliora testo**: Il pulsante ✨ nei campi di testo dei moduli: l'assistente AI corregge, chiarisce, accorcia, rende professionale, mette in elenco o traduce il testo, e la proposta si applica solo se la accetti. Vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
 - **Dati riservati**: Costi, prezzi di acquisto, ricarichi, retribuzioni, documenti personali e coordinate bancarie: ci arriva solo chi ha i permessi segnati con il lucchetto nelle policy. Vedi [Dati riservati e policy proposte](gruppi-policy.md#policy-riservati).
-- **Modelli tra server**: L'esportazione e l'importazione dei modelli (tipi di impianto, schede tecniche, certificazioni, schemi dei file, modelli di progetto) in un file che ricorda l'origine e cita per nome dove si usano e per chi: per portarli dal server di prova a quello in uso. Vedi [Modelli tra server](impostazioni.md#impostazioni-modelli).
+- **Modelli tra server**: L'esportazione e l'importazione dei modelli (tipi di impianto, schede tecniche, certificazioni, schemi dei file, modelli di commessa) in un file che ricorda l'origine e cita per nome dove si usano e per chi: per portarli dal server di prova a quello in uso. Vedi [Modelli tra server](impostazioni.md#impostazioni-modelli).
 - **Modello (assistente AI)**: Il file di qualche GB, in formato GGUF, con cui l'assistente AI scrive le risposte: più è grande, più è preciso ma lento. Lavora a «token», pezzi di parola: il contesto dice quanti ne tiene presenti in una volta.
 - **Modello di certificazione**: Il tipo di una certificazione (DiCo, DiRi, quadro elettrico o uno aggiunto): sigla e numerazione, campi da compilare, allegati previsti, firme e testo di stampa con i segnaposto. Vedi [Modelli](certificazioni.md#certificazioni-modelli).
-- **Modello di progetto**: Progetto tipo con attività le cui date sono giorni dall'inizio: da un modello nasce un progetto già organizzato.
+- **Modello di commessa**: Commessa tipo con attività le cui date sono giorni dall'inizio: da un modello nasce una commessa già organizzata. Vedi [Modelli di commessa](progetti.md#progetti-modelli).
 - **Modello Excel (importazione)**: Il foglio da compilare che si scarica dalle finestre «Importa»: la riga dei campi già scritta, un foglio di istruzioni con che cosa scrivere e un esempio. Compilato una scheda per riga, si importa senza scegliere le colonne. Vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export).
-- **Notifica**: Avviso di ciò che ti riguarda nelle attività e nei progetti, nella campanella in alto e, se vuoi, per email e su Telegram. Il messaggio in alto a destra con l'esito di un'operazione è la *notifica dell'operazione*: dura pochi secondi (passandoci sopra con il mouse resta) e la **×** la chiude subito.
+- **Notifica**: Avviso di ciò che ti riguarda nelle attività e nelle commesse, nella campanella in alto e, se vuoi, per email e su Telegram. Il messaggio in alto a destra con l'esito di un'operazione è la *notifica dell'operazione*: dura pochi secondi (passandoci sopra con il mouse resta) e la **×** la chiude subito.
 - **Numero dell'attività**: Il numero `#12` di ogni attività, unico tra tutte e mai riusato: «#12» nella ricerca la trova.
 - **Omocodia**: Due persone con lo stesso codice fiscale calcolato: l'Agenzia delle Entrate ne modifica uno sostituendo cifre con lettere.
 - **otpauth://**: L'indirizzo contenuto nel QR code della verifica in due passaggi di un sito: porta la chiave segreta da cui nascono i codici. Si incolla nella scheda di una password per vederne i codici.
-- **Pagina del progetto**: La pagina di un progetto, aperta da Progettazione → Progetti e commesse: intestazione con l'avanzamento e le linguette Attività, Impianti, Certificazioni, Documenti e Storico. Vedi [Progetti](progetti.md#progetti-pagina).
+- **Pagina della commessa**: La pagina di una commessa, aperta da Progettazione → Commesse: intestazione con l'avanzamento e le linguette Attività, Impianti, Certificazioni, Preventivi, Budget, Documenti e Storico. Vedi [Commesse](progetti.md#progetti-pagina).
 - **Password precedente**: La password che una voce aveva prima dell'ultimo cambio: resta cifrata nel suo storico (le ultime 20).
 - **Password personale, condivisa**: Una voce della gestione password visibile solo a chi l'ha creata, oppure anche a colleghi, gruppi o tutti, in lettura o con la modifica.
 - **Policy**: Permessi e regole di sicurezza applicati agli utenti tramite i gruppi (non agli amministratori).
 - **Preferito**: Una pagina (con la sua linguetta) o una scheda segnata con la stella: compare nel menu sotto Il mio spazio e nella Home, solo per chi l'ha segnata. Vedi [I preferiti](area-di-lavoro.md#preferiti).
 - **Potenziale cliente**: Chi non ha ancora comprato: una scheda con il ruolo Potenziale, che diventa cliente con un clic su Cliente. Vedi [Ruoli](clienti.md#clienti-ruoli).
 - **Possibile doppione**: Cliente con lo stesso codice fiscale, la stessa partita IVA o lo stesso nome di un altro: segnalato nella scheda e nell'importazione dei clienti, dove viene saltato se non lo scegli tu.
-- **Progetto riservato**: Progetto visibile solo al responsabile e ai membri; le sue attività restano tra le persone che lo vedono.
+- **Progetto**: Il lavoro da prendere presso un cliente, dal primo contatto all'accettazione: fasi, valore, probabilità e prossimo passo, fino ad Accettato o Rifiutato; accettato, diventa una commessa. Vedi [Progetti](trattative.md).
 - **Proxy attendibile**: Reverse proxy da cui il server accetta l'indirizzo reale di chi si collega.
 - **Registro delle certificazioni**: La pagina Progettazione → Certificazioni: tutte le dichiarazioni degli impianti, numerate per modello e anno, al posto delle cartelle per anno. Vedi [Il registro](certificazioni.md#certificazioni-registro).
-- **Registro ore**: Le ore lavorate sulle attività, per persona e giorno, con i totali per persona, progetto e cliente: scheda Ore della pagina Attività. Vedi [Registro ore](attivita.md#attivita-ore).
+- **Registro ore**: Le ore lavorate sulle attività, per persona e giorno, con i totali per persona, commessa e cliente: scheda Ore della pagina Attività. Vedi [Registro ore](attivita.md#attivita-ore).
 - **Responsabile di reparto**: Chi, negli indicatori, vede il suo reparto e le sue persone (senza gli importi dei premi) e le valuta, anche senza i permessi degli indicatori. Vedi [Permessi e responsabili](indicatori.md#indicatori-permessi).
 - **Revisione (attività)**: Il controllo del lavoro finito: l'attività resta «In revisione» finché il revisore non la approva o la rimanda.
 - **Revisione (documenti)**: Una versione di un documento: ogni file conserva le precedenti, che si aprono, si scaricano e si ripristinano.
 - **Ricarico e margine**: Il ricarico è la differenza tra prezzo e costo in percentuale del costo (10 € → 13 € = 30 %); il margine è la stessa differenza in percentuale del prezzo (3 € su 13 € = 23 %). Vedi [Costo e prezzo](listino.md#listino-prezzi).
-- **Ricerca generale**: La casella che cerca in tutto ciò che puoi vedere (clienti, documenti, attività, progetti, impianti, certificazioni, appunti, password, colleghi, guida): pulsante Cerca in alto, <kbd>Ctrl</kbd>+<kbd>K</kbd> o la Home. Vedi [Ricerca](ricerca.md).
+- **Ricerca generale**: La casella che cerca in tutto ciò che puoi vedere (clienti, documenti, attività, commesse, impianti, certificazioni, appunti, password, colleghi, guida): pulsante Cerca in alto, <kbd>Ctrl</kbd>+<kbd>K</kbd> o la Home. Vedi [Ricerca](ricerca.md).
 - **Ruoli (di una scheda)**: Cliente, Potenziale cliente e Fornitore: dicono che cosa è una scheda dell'anagrafica e in quali pagine compare. Cliente e Potenziale si escludono; Fornitore si aggiunge.
 - **Robustezza (password)**: La stima, su cinque livelli da Molto debole a Molto robusta, di quanto è difficile indovinare una password.
 - **Richiesta di assistenza**: La chiamata di un cliente per un guasto o un problema (AT 2026-012), oppure un pezzo portato in laboratorio (LAB 2026-004): chi, dove, che cosa, la priorità con la scadenza del primo intervento, gli interventi fino alla soluzione. Vedi [Assistenza](assistenza.md).

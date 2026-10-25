@@ -53,7 +53,7 @@ l'**avviso dei possibili doppioni** mentre si scrive (in tutte le anagrafiche, d
 password), e la **valutazione del cliente**: come paga, quanto è fedele, quanto lavoro porta e quanto si guadagna.
 
 **🛠️ Commesse e impianti**<br>
-Progetti con attività, budget e consuntivo; impianti dei clienti con la loro cartella e il Leggimi; certificazioni
+Commesse con attività, budget e consuntivo, anche interne; impianti dei clienti con la loro cartella e il Leggimi; certificazioni
 (conformità e rispondenza) numerate e pronte da firmare; manutenzioni periodiche con rapporti e firme sullo schermo;
 pratiche con gli enti (GSE, Terna, ENEA, Comune, wallbox).
 
@@ -62,7 +62,8 @@ Richieste dei clienti con priorità e scadenze, interventi pianificati, laborato
 consuntivo e fatturazione, reperibilità con turni, cambi e avvisi fuori orario.
 
 **💶 Commerciale e amministrazione**<br>
-Listino con ricarichi e storico dei prezzi, listini dei fornitori **METEL**, trattative, **preventivi** con firma online
+Listino aziendale con ricarichi e storico dei prezzi, listini dei fornitori **METEL**, progetti dal primo contatto
+all'accettazione, **preventivi** con firma online
 del cliente, magazzino con furgoni e matricole, ordini e richieste d'offerta, DDT e **fatture elettroniche** (FatturaPA)
 inviate allo SDI con la PEC, fatture dei fornitori, incassi e solleciti, banca, **contabilità** in partita doppia fino al
 bilancio CEE.

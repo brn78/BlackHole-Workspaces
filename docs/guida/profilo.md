@@ -12,7 +12,7 @@ Il menu con il tuo nome, in alto a destra, riassume il tuo account (nome utente,
    - **Browser di fiducia**: quelli su cui il codice non viene chiesto, da revocare uno per uno o tutti.
    - **Permessi effettivi**: che cosa puoi fare, secondo le [policy](gruppi-policy.md) dei tuoi gruppi.
 - **Aspetto**: il tema e il carattere della piattaforma su questo browser: vedi [Aspetto: tema e carattere](#profilo-aspetto).
-- **Notifiche**: quali [notifiche di attività e progetti](notifiche.md) ricevere e se averle anche per email o su Telegram (**Collega Telegram**); vedi [Preferenze](notifiche.md#notifiche-preferenze) e [Su Telegram](notifiche.md#notifiche-telegram). L'icona ⚙ della campanella apre la scheda direttamente qui.
+- **Notifiche**: quali [notifiche di attività e commesse](notifiche.md) ricevere e se averle anche per email o su Telegram (**Collega Telegram**); vedi [Preferenze](notifiche.md#notifiche-preferenze) e [Su Telegram](notifiche.md#notifiche-telegram). L'icona ⚙ della campanella apre la scheda direttamente qui.
 
 In Sicurezza, Aspetto e Notifiche ogni comando vale subito (o ha il suo **Salva**), per questo in fondo non c'è il pulsante Salva della scheda.
 

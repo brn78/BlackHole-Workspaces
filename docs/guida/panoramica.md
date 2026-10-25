@@ -17,9 +17,10 @@ La piattaforma è composta da due parti:
 - **Documento**: Un file (o una cartella) dell'archivio comune, con le sue **revisioni**, la categoria, le etichette e l'eventuale cliente collegato. Una cartella può essere **riservata** a utenti e gruppi scelti.
 - **Appunto**: Una nota di testo o un elenco di cose da fare: **personale**, oppure **condiviso** con colleghi e gruppi di utenti. Lo vedono solo chi lo scrive e le persone con cui è condiviso.
 - **Password (voce)**: Le credenziali di un accesso, di un dispositivo, di una rete o di un servizio, con i suoi segreti cifrati sul server: **personale**, oppure **condivisa** con colleghi, gruppi o tutti, in lettura o con la modifica.
-- **Attività**: Una cosa da fare, con stato, priorità, scadenza, persone assegnate, voci da spuntare, sottoattività, commenti, file e ore lavorate. Può passare da una **revisione** e ripetersi nel tempo. Sta in piedi da sola e, se serve, si collega a un **cliente** e a un **progetto**; la vedono chi la crea, chi ci lavora e chi la riceve in **condivisione**.
-- **Progetto**: Una lavorazione da organizzare: un cantiere, una commessa, uno sviluppo. Ha un codice, un responsabile, i membri, un eventuale cliente e una **pagina propria** con le attività collegate e la cartella dei documenti; può essere **riservato** a chi ci lavora.
-- **Notifica**: Ciò che ti riguarda nelle attività e nei progetti (un'assegnazione, una condivisione, un commento, una revisione, una scadenza): arriva nella campanella in alto e, se vuoi, per email.
+- **Attività**: Una cosa da fare, con stato, priorità, scadenza, persone assegnate, voci da spuntare, sottoattività, commenti, file e ore lavorate. Può passare da una **revisione** e ripetersi nel tempo. Sta in piedi da sola e, se serve, si collega a un **cliente** e a una **commessa**; la vedono chi la crea, chi ci lavora e chi la riceve in **condivisione**.
+- **Progetto**: Il lavoro da prendere presso un cliente, dal primo contatto all'accettazione: passa per le sue fasi e si chiude **accettato** o **rifiutato**. Accettato, diventa una **commessa**.
+- **Commessa**: Il lavoro partito: un cantiere, una manutenzione, uno sviluppo, anche un lavoro interno. Ha un codice, un responsabile, i membri, un eventuale cliente e una **pagina propria** con le attività collegate e la cartella dei documenti; può essere **riservata** a chi ci lavora.
+- **Notifica**: Ciò che ti riguarda nelle attività e nelle commesse (un'assegnazione, una condivisione, un commento, una revisione, una scadenza): arriva nella campanella in alto e, se vuoi, per email.
 - **Cartella di lavoro**: La cartella sul server con tutti i dati della piattaforma; da lì nascono i **backup**.
 
 ---

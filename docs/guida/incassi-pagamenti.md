@@ -11,4 +11,4 @@
 
 ---
 
-[← Fatture ricevute](fatture-fornitori.md) · [Indice](README.md) · [Trattative →](trattative.md)
+[← Fatture ricevute](fatture-fornitori.md) · [Indice](README.md) · [Progetti →](trattative.md)

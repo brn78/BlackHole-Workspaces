@@ -9,14 +9,14 @@
 
 ## <a id="certificazioni-registro"></a>Il registro
 
-Le linguette **Tutte**, **Bozze**, **Emesse** e **Annullate** dicono quante ce ne sono; il filtro sceglie un modello o un anno, la ricerca trova numero, cliente, impianto, sede e progetto. Ogni riga ha numero e modello, data, impianto con cliente e sede, stato e, a finestra larga, gli **allegati** presenti su quelli previsti (con se manca uno «sempre necessario») e **firmata** se c'è la copia firmata. In alto **Stampa** (il registro come lo stai guardando), **Modelli** (per chi li gestisce, vedi [Modelli](#certificazioni-modelli)) e **Nuova certificazione**. Un clic apre la scheda; il tasto destro o **⋯** stampa, apre la pagina dell'impianto o la cartella in Documenti, duplica, elimina.
+Le linguette **Tutte**, **Bozze**, **Emesse** e **Annullate** dicono quante ce ne sono; il filtro sceglie un modello o un anno, la ricerca trova numero, cliente, impianto, sede e commessa. Ogni riga ha numero e modello, data, impianto con cliente e sede, stato e, a finestra larga, gli **allegati** presenti su quelli previsti (con se manca uno «sempre necessario») e **firmata** se c'è la copia firmata. In alto **Stampa** (il registro come lo stai guardando), **Modelli** (per chi li gestisce, vedi [Modelli](#certificazioni-modelli)) e **Nuova certificazione**. Un clic apre la scheda; il tasto destro o **⋯** stampa, apre la pagina dell'impianto o la cartella in Documenti, duplica, elimina.
 
-Le certificazioni di un impianto si trovano anche nella linguetta **Certificazioni** della [pagina dell'impianto](impianti.md#impianti-pagina), e quelle di un progetto nella linguetta **Certificazioni** della [pagina del progetto](progetti.md#progetti-pagina): da lì **Nuova certificazione** parte già dall'impianto (dal progetto si sceglie tra i suoi impianti). La pagina si aggiorna da sola quando un collega cambia una certificazione, e le certificazioni si trovano con la [ricerca](ricerca.md) (anche per numero: *DiCo 12/2026*).
+Le certificazioni di un impianto si trovano anche nella linguetta **Certificazioni** della [pagina dell'impianto](impianti.md#impianti-pagina), e quelle di una commessa nella linguetta **Certificazioni** della [pagina della commessa](progetti.md#progetti-pagina): da lì **Nuova certificazione** parte già dall'impianto (dalla commessa si sceglie tra i suoi impianti). La pagina si aggiorna da sola quando un collega cambia una certificazione, e le certificazioni si trovano con la [ricerca](ricerca.md) (anche per numero: *DiCo 12/2026*).
 
 ## <a id="certificazioni-scheda"></a>La scheda della certificazione
 
 - **Nuova certificazione**: si sceglie il modello (DiCo, DiRi, quadro…) e, partendo dal registro, si cerca l'impianto scrivendo il suo nome, il cliente o la sede. I campi si compilano da soli con i dati dell'impianto (committente, comune, via e civico della sede, proprietà…) e con quelli scritti una volta nel modello (dichiarante, responsabile tecnico).
-- **Impianto**: dopo la creazione non si cambia. **Numero** e **Data**: vedi [Numeri e date](#certificazioni-numeri). **Progetto**: facoltativo, tra i progetti collegati all'impianto; la certificazione compare anche nella pagina del progetto.
+- **Impianto**: dopo la creazione non si cambia. **Numero** e **Data**: vedi [Numeri e date](#certificazioni-numeri). **Commessa**: facoltativa, tra le commesse collegate all'impianto; la certificazione compare anche nella pagina della commessa.
 - I **campi del modello**, divisi in sezioni; quelli con l'\* vanno compilati prima di emettere. Sotto un campo può esserci un suggerimento su che cosa scrivere; mentre scrivi, i campi di testo propongono i valori già scritti nelle altre certificazioni, prima quelle dello stesso modello, e uscendo dal campo il valore prende le maiuscole del campo.
 - **Note interne**: per l'ufficio (consegna al cliente, deposito, promemoria). Non vanno in stampa.
 - Le linguette **Allegati** (vedi [Allegati](#certificazioni-allegati)), **Anteprima** (il foglio come esce in stampa, con quello che è scritto nella scheda anche prima di salvare) e **Storico**.
@@ -24,7 +24,7 @@ Le certificazioni di un impianto si trovano anche nella linguetta **Certificazio
 
 ## <a id="certificazioni-emissione"></a>Emettere, correggere, annullare
 
-- **Emetti** salva, controlla i campi obbligatori e, prima di confermare, avvisa se manca un allegato «sempre necessario». Da quel momento dati del modulo, testo del modello, dati dell'azienda, del cliente e della sede e allegati spuntati restano quelli dell'emissione, anche se poi cambiano. Si possono ancora cambiare progetto, note e file: la copia firmata arriva dopo.
+- **Emetti** salva, controlla i campi obbligatori e, prima di confermare, avvisa se manca un allegato «sempre necessario». Da quel momento dati del modulo, testo del modello, dati dell'azienda, del cliente e della sede e allegati spuntati restano quelli dell'emissione, anche se poi cambiano. Si possono ancora cambiare commessa, note e file: la copia firmata arriva dopo.
 - **Riporta in bozza** serve a correggere una certificazione emessa: torna modificabile e segue di nuovo modello e dati attuali, con lo stesso numero; poi la si emette di nuovo.
 - **Annulla la certificazione** chiede il motivo: resta nel registro con il suo numero e in stampa porta la scritta ANNULLATA. **Ripristina come bozza** la rimette in compilazione.
 - **Elimina**, con il permesso apposito, la toglie dal registro, anche se emessa: il numero resta libero e i file restano in Documenti. Di solito si annulla, non si elimina.
@@ -80,7 +80,7 @@ Nel testo di stampa (e nei valori proposti) una parola tra doppie graffe diventa
 | `{{azienda.nome}}`, `.indirizzo`, `.via`, `.civico`, `.cap`, `.comune`, `.provincia`, `.telefono`, `.email`, `.pec`, `.piva`, `.cf`, `.rea`, `.cciaa`, `.sito`, `.capitale`, `.dicitura` | I dati dell'azienda che emette il modello (Impostazioni → Generale): *via* è senza «Via» davanti e senza numero, *cciaa* è la Camera di commercio per esteso (dalla provincia del REA), *dicitura* è la dicitura nei documenti. |
 | `{{cliente.nome}}`, `.indirizzo`, `.piva`, `.cf`, `.telefono`, `.email`, `.pec` | Il cliente dell'impianto: nome e cognome per una persona, ragione sociale con la forma giuridica per un'azienda; l'indirizzo è il primo della scheda. |
 | `{{sede.nome}}`, `.indirizzo`, `.via`, `.civico`, `.cap`, `.comune`, `.provincia` | La sede dell'impianto (senza sede, il primo indirizzo del cliente). |
-| `{{impianto.nome}}`, `.tipo`, `.data` · `{{progetto.codice}}`, `.nome` | L'impianto (con la data di installazione) e il progetto collegato. |
+| `{{impianto.nome}}`, `.tipo`, `.data` · `{{progetto.codice}}`, `.nome` | L'impianto (con la data di installazione) e la commessa collegata: codice della commessa e nome della commessa. |
 
 ## <a id="certificazioni-permessi"></a>Permessi
 

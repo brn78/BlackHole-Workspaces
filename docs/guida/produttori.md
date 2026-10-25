@@ -40,4 +40,4 @@ Rinominando il produttore, la cartella e la marca delle sue voci del listino cam
 
 ---
 
-[← Clienti](clienti.md) · [Indice](README.md) · [Progetti e commesse →](progetti.md)
+[← Clienti](clienti.md) · [Indice](README.md) · [Commesse →](progetti.md)

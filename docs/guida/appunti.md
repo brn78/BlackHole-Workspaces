@@ -25,7 +25,7 @@ Sopra il testo c'è la barra dell'editor, la stessa dei [documenti Word](documen
 - **elenco puntato** ed **elenco numerato**;
 - **collegamento** (<kbd>Ctrl</kbd>+<kbd>K</kbd>): seleziona il testo e scrivi l'indirizzo, che deve iniziare con `https://`, `http://`, `mailto:` o `tel:`. Nel riquadro il collegamento si apre in una nuova scheda del browser;
 - **Togli la formattazione** riporta il testo selezionato a testo semplice;
-- in fondo a destra, se puoi usare l'assistente AI, **Migliora testo** ✨: corregge, chiarisce, accorcia o traduce il testo (o la parte selezionata), con la proposta da accettare. La stessa barra c'è nella descrizione di attività e progetti; vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
+- in fondo a destra, se puoi usare l'assistente AI, **Migliora testo** ✨: corregge, chiarisce, accorcia o traduce il testo (o la parte selezionata), con la proposta da accettare. La stessa barra c'è nella descrizione di attività e commesse; vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
 
 Il riquadro mostra il testo con la sua formattazione (titoli, grassetto, colori, caselle). Il testo incollato da altri programmi conserva solo questi formati: immagini e tabelle non entrano negli appunti (per quelle c'è un [documento Word](documenti.md#documenti-editor)). Gli indirizzi web scritti senza usare il pulsante **Collegamento** restano testo.
 

@@ -5,13 +5,13 @@
 **Progettazione → Impianti** raccoglie ciò che è **installato presso i clienti**, sede per sede: un antintrusione, una videosorveglianza, un controllo accessi, un impianto KNX, un fotovoltaico, un quadro elettrico. È lo stesso ordine con cui si tengono i lavori sul PC (*clienti / cliente / sede / impianto*, con dentro il leggimi, le configurazioni e i backup), ma in un posto solo e con i permessi: quelle cartelle si portano dentro con [Da una cartella del PC](#impianti-cartella). La pagina compare a chi può **Vedere gli impianti** (vedi [Permessi](#impianti-permessi)).
 
 > [!TIP]
-> **Il progetto finisce, l'impianto resta.** Un [progetto](progetti.md) è il lavoro che realizza o modifica un impianto e prima o poi si chiude; l'impianto rimane presso il cliente, con il suo storico, e si continua a seguirlo: il suo [piano di manutenzione](manutenzioni.md#manutenzioni-piano), i rapporti, le riparazioni e le modifiche ([interventi](#impianti-interventi)), anche senza progetto.
+> **La commessa finisce, l'impianto resta.** Una [commessa](progetti.md) è il lavoro che realizza o modifica un impianto e prima o poi si chiude; l'impianto rimane presso il cliente, con il suo storico, e si continua a seguirlo: il suo [piano di manutenzione](manutenzioni.md#manutenzioni-piano), i rapporti, le riparazioni e le modifiche ([interventi](#impianti-interventi)), anche senza commessa.
 
 ## <a id="impianti-pagina"></a>L'elenco e la pagina dell'impianto
 
-Le linguette **In servizio** e **Dismessi** elencano gli impianti che vedi: in evidenza il **cliente** (l'impianto è suo), sotto il nome dell'impianto con il tipo (anche nel colore dell'icona), poi la sede, i progetti collegati e la data di installazione. La ricerca trova nome, cliente, sede, tipo e progetti; il filtro mostra un tipo, o quelli senza tipo. In alto **Stampa**, **Tipi** (l'elenco dei [tipi](#impianti-tipi)), **Schede tecniche** (i [modelli delle schede tecniche](#impianti-modelli)) e **Nuovo impianto**. Un clic su un impianto apre la sua **pagina**:
+Le linguette **In servizio** e **Dismessi** elencano gli impianti che vedi: in evidenza il **cliente** (l'impianto è suo), sotto il nome dell'impianto con il tipo (anche nel colore dell'icona), poi la sede, le commesse collegate e la data di installazione. La ricerca trova nome, cliente, sede, tipo e commesse; il filtro mostra un tipo, o quelli senza tipo. In alto **Stampa**, **Tipi** (l'elenco dei [tipi](#impianti-tipi)), **Schede tecniche** (i [modelli delle schede tecniche](#impianti-modelli)) e **Nuovo impianto**. Un clic su un impianto apre la sua **pagina**:
 
-- in testa cliente (un clic apre la sua scheda), sede, tipo, stato, data di installazione e i **progetti** collegati, con i pulsanti **Condividi** (un link alla [documentazione dell'impianto](condivisioni.md#condivisioni-impianto), anche come etichetta con il QR code), **Stampa** (scheda, Leggimi e interventi), **Elimina**, **⋯** (nuovo intervento, cartella in Documenti, scheda del cliente, **Duplica**) e **Modifica**;
+- in testa cliente (un clic apre la sua scheda), sede, tipo, stato, data di installazione e le **commesse** collegate, con i pulsanti **Condividi** (un link alla [documentazione dell'impianto](condivisioni.md#condivisioni-impianto), anche come etichetta con il QR code), **Stampa** (scheda, Leggimi e interventi), **Elimina**, **⋯** (nuovo intervento, cartella in Documenti, scheda del cliente, **Duplica**) e **Modifica**;
 - **Leggimi**: quello che serve sapere prima di intervenire;
 - **Scheda tecnica**: i [dati tecnici](#impianti-scheda-tecnica) dell'impianto, parte per parte (EVAC, TVCC…), con i dispositivi;
 - **Interventi**: le [attività collegate](#impianti-interventi), con il numero di quelle ancora aperte;
@@ -20,7 +20,7 @@ Le linguette **In servizio** e **Dismessi** elencano gli impianti che vedi: in e
 - **Assistenza**: le sue [richieste di assistenza](assistenza.md), con **Nuova richiesta** già compilata con il cliente e l'impianto, per chi può vedere l'assistenza;
 - **Documenti**: la [cartella dell'impianto](#impianti-sedi);
 - **Password**: le password collegate al cliente (accessi alla centrale, al router, al cloud del costruttore), per chi usa la [gestione password](password.md#password-clienti);
-- **Storico**: chi ha cambiato che cosa (dati, sede, stato, progetti collegati, cartella, scheda tecnica, interventi, certificazioni create, emesse, annullate ed eliminate).
+- **Storico**: chi ha cambiato che cosa (dati, sede, stato, commesse collegate, cartella, scheda tecnica, interventi, certificazioni create, emesse, annullate ed eliminate).
 
 L'indirizzo della pagina (`#/installations?installation=…`) si può mandare a un collega. La pagina si aggiorna da sola quando un collega cambia l'impianto o i suoi interventi; gli impianti si trovano anche con la [ricerca](ricerca.md).
 
@@ -32,10 +32,10 @@ L'indirizzo della pagina (`#/installations?installation=…`) si può mandare a 
 - **Icona e colore**: per riconoscere l'impianto negli elenchi e in testa alla sua pagina. Senza, vale quella del tipo (vedi [Icone e colori](interfaccia.md#interfaccia-icone)).
 - **Stato**: **In servizio** oppure **Dismesso** (smontato o sostituito: resta, con tutto il suo storico, nella linguetta Dismessi). **Installato il**: la data, anche lontana nel passato.
 - **Leggimi**, con testo formattato e ✨ [Migliora testo](assistente-ai.md#assistente-moduli): com'è fatto l'impianto, dove sono centrale e apparati, accorgimenti, contatti sul posto.
-- **Progetti collegati**: si cercano per codice o nome, prima quelli del cliente.
+- **Commesse collegate**: si cercano per codice o nome, prima quelle del cliente.
 - Per un impianto nuovo la casella **Crea la cartella in Documenti**, spuntata, crea subito la sua cartella; altrimenti la crea poi **Crea la cartella**, nella scheda o nella linguetta Documenti.
 
-**Duplica**, in fondo alla scheda o nel menu **⋯**, apre un impianto nuovo già compilato come questo (stesso cliente, sede, tipo, Leggimi e progetti, nome con «(copia)»): comodo per lo stesso impianto in più sedi. **Elimina** toglie l'impianto con il suo Leggimi e il suo storico: gli interventi restano, senza impianto, e la cartella resta in Documenti; il suo piano di manutenzione se ne va con lui. Un impianto con [certificazioni](certificazioni.md) nel registro o con [rapporti di manutenzione](manutenzioni.md#manutenzioni-rapporti) non si elimina: se è stato smontato, mettilo **Dismesso**. Se due persone modificano lo stesso impianto insieme, il secondo salvataggio chiede di riaprire la scheda per vedere la versione aggiornata.
+**Duplica**, in fondo alla scheda o nel menu **⋯**, apre un impianto nuovo già compilato come questo (stesso cliente, sede, tipo, Leggimi e commesse, nome con «(copia)»): comodo per lo stesso impianto in più sedi. **Elimina** toglie l'impianto con il suo Leggimi e il suo storico: gli interventi restano, senza impianto, e la cartella resta in Documenti; il suo piano di manutenzione se ne va con lui. Un impianto con [certificazioni](certificazioni.md) nel registro o con [rapporti di manutenzione](manutenzioni.md#manutenzioni-rapporti) non si elimina: se è stato smontato, mettilo **Dismesso**. Se due persone modificano lo stesso impianto insieme, il secondo salvataggio chiede di riaprire la scheda per vedere la versione aggiornata.
 
 ## <a id="impianti-scheda-tecnica"></a>La scheda tecnica
 
@@ -102,15 +102,15 @@ Ognuno scrive i file di testo delle cartelle a modo suo: tu con le sezioni *\*\*
 
 ## <a id="impianti-interventi"></a>Interventi
 
-- Un **intervento** è un'[attività](attivita.md) collegata all'impianto: l'installazione, una manutenzione, una riparazione, una modifica. Nella [scheda dell'attività](attivita.md#attivita-scheda) il campo **Impianto**, sotto Progetto e Cliente, propone gli impianti del cliente scelto, prima quelli in servizio e poi i dismessi.
-- La linguetta **Interventi** della pagina dell'impianto li elenca tutti, anche quelli di progetti già chiusi, con stato, priorità, persone e scadenza; **Nuovo intervento** crea un'attività già collegata al cliente e all'impianto. Come sempre, ognuno vede gli interventi che può vedere.
+- Un **intervento** è un'[attività](attivita.md) collegata all'impianto: l'installazione, una manutenzione, una riparazione, una modifica. Nella [scheda dell'attività](attivita.md#attivita-scheda) il campo **Impianto**, sotto Commessa e Cliente, propone gli impianti del cliente scelto, prima quelli in servizio e poi i dismessi.
+- La linguetta **Interventi** della pagina dell'impianto li elenca tutti, anche quelli di commesse già chiuse, con stato, priorità, persone e scadenza; **Nuovo intervento** crea un'attività già collegata al cliente e all'impianto. Come sempre, ognuno vede gli interventi che può vedere.
 - Collegare o togliere l'impianto resta nello storico dell'attività e in quello dell'impianto; un'attività che si ripete porta l'impianto anche nelle volte successive.
 - Le manutenzioni periodiche hanno il loro [piano](manutenzioni.md): **Pianifica** ne fa un intervento, e nella scheda di quell'attività **Registra il rapporto** la chiude. Allo stesso modo le [richieste di assistenza](assistenza.md#assistenza-interventi) pianificate: **Registra l'intervento**.
 
-## <a id="impianti-progetti"></a>Impianti e progetti
+## <a id="impianti-progetti"></a>Impianti e commesse
 
-- Un impianto si collega ai progetti che lo hanno realizzato o modificato dalla sua scheda (**Progetti collegati**) oppure dalla pagina del progetto, linguetta **Impianti**: lì **Nuovo impianto** ne crea uno presso il cliente del progetto, già collegato, **Collega un impianto del cliente** sceglie tra quelli che ci sono e la **×** lo scollega (l'impianto resta).
-- Collegamenti e scollegamenti compaiono nello storico del progetto e in quello dell'impianto. Un progetto [riservato](progetti.md#progetti-scheda) compare tra i progetti di un impianto solo a chi lo vede.
+- Un impianto si collega alle commesse che lo hanno realizzato o modificato dalla sua scheda (**Commesse collegate**) oppure dalla pagina della commessa, linguetta **Impianti**: lì **Nuovo impianto** ne crea uno presso il cliente della commessa, già collegato, **Collega un impianto del cliente** sceglie tra quelli che ci sono e la **×** lo scollega (l'impianto resta).
+- Collegamenti e scollegamenti compaiono nello storico della commessa e in quello dell'impianto. Una commessa [riservata](progetti.md#progetti-scheda) compare tra le commesse di un impianto solo a chi la vede.
 
 ## <a id="impianti-tipi"></a>Tipi di impianto
 
@@ -154,7 +154,7 @@ Le modifiche valgono anche per le schede già compilate. Rinominare un campo o u
 | --- | --- |
 | Vedere gli impianti | Aprire la pagina Impianti e vedere gli impianti dei clienti condivisi e dei propri contatti privati, con il Leggimi e la scheda tecnica; documenti, interventi e password si vedono secondo i propri diritti. |
 | Creare impianti | Nuovi impianti presso i clienti, con la loro cartella in Documenti. |
-| Modificare gli impianti | Modificare la scheda, il Leggimi e la scheda tecnica di qualsiasi impianto visibile, crearne la cartella e collegarlo ai progetti. |
+| Modificare gli impianti | Modificare la scheda, il Leggimi e la scheda tecnica di qualsiasi impianto visibile, crearne la cartella e collegarlo alle commesse. |
 | Eliminare gli impianti | Eliminare un impianto: interventi e cartella in Documenti restano. |
 | Gestire i tipi di impianto | Aggiungere, rinominare, colorare ed eliminare i tipi di impianto con il loro modello di cartelle, e i modelli delle schede tecniche, uguali per tutti. |
 
@@ -162,4 +162,4 @@ Le cartelle degli impianti le crea la piattaforma, senza il permesso di caricare
 
 ---
 
-[← Progetti e commesse](progetti.md) · [Indice](README.md) · [Certificazioni →](certificazioni.md)
+[← Commesse](progetti.md) · [Indice](README.md) · [Certificazioni →](certificazioni.md)

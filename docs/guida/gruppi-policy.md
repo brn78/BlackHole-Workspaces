@@ -26,7 +26,7 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Clienti | Visualizzare i clienti · Creare clienti · Modificare i clienti creati da sé · Modificare tutti i clienti · Eliminare i clienti creati da sé · Eliminare qualsiasi cliente · Svuotare il cestino dei clienti · Gestire i gruppi di clienti · Gestire le categorie dei clienti · Esportare i clienti · Importare clienti · Rubrica personale · Dati amministrativi dei clienti (valgono anche per potenziali clienti e fornitori; il significato di ciascuno è nella [tabella dei Clienti](clienti.md#clienti-permessi)) |
 | Documenti | Visualizzare i documenti · Caricare documenti · Modificare i documenti caricati da sé · Modificare tutti i documenti · Eliminare i documenti caricati da sé · Eliminare qualsiasi documento · Gestire le categorie dei documenti · Riservare le cartelle (vedi [Documenti](documenti.md#documenti-permessi)) · Condividere con link esterni · Gestire tutti i link esterni (vedi [Condivisioni](condivisioni.md#condivisioni-permessi)) |
 | Attività | Vedere tutte le attività · Gestire tutte le attività · Vedere le ore di tutti (vedi [Attività](attivita.md#attivita-permessi)) |
-| Progetti | Vedere i progetti · Gestire le attività dei progetti · Creare progetti · Gestire tutti i progetti · Gestire i tipi dei progetti · Budget e consuntivo delle commesse (vedi [Progetti](progetti.md#progetti-permessi)) |
+| Commesse | Vedere le commesse · Gestire le attività delle commesse · Creare commesse · Gestire tutte le commesse · Gestire i tipi delle commesse · Budget e consuntivo delle commesse (vedi [Commesse](progetti.md#progetti-permessi)) |
 | Impianti | Vedere gli impianti · Creare impianti · Modificare gli impianti · Eliminare gli impianti · Gestire i tipi di impianto (vedi [Impianti](impianti.md#impianti-permessi)) |
 | Certificazioni | Vedere le certificazioni · Compilare le certificazioni · Emettere le certificazioni · Eliminare le certificazioni · Gestire i modelli delle certificazioni (vedi [Certificazioni](certificazioni.md#certificazioni-permessi)) |
 | Manutenzioni | Vedere le manutenzioni · Registrare i rapporti di manutenzione · Gestire le manutenzioni (vedi [Manutenzioni](manutenzioni.md#manutenzioni-permessi)) |
@@ -60,15 +60,15 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Responsabile dei clienti | Modificare tutti i clienti · Creare clienti · Eliminare qualsiasi cliente · Svuotare il cestino dei clienti · Gestire i gruppi di clienti · Esportare · Importare. |
 | Rubrica personale | Rubrica personale (con Esportare e Importare, se servono). |
 | Gestione del personale | Creare utenti · Modificare gli utenti · Gestire la sicurezza degli utenti. |
-| Tecnico | Vedere i progetti (vede i cantieri e le loro attività; sulle proprie attività lavora e registra le ore anche senza permessi). La policy proposta **Tecnici** è il punto di partenza completo. |
-| Capo progetto | Creare progetti · Gestire le attività dei progetti · Vedere le ore di tutti. |
-| Direzione lavori | Gestire tutti i progetti · Gestire tutte le attività · Vedere le ore di tutti. |
+| Tecnico | Vedere le commesse (vede i cantieri e le loro attività; sulle proprie attività lavora e registra le ore anche senza permessi). La policy proposta **Tecnici** è il punto di partenza completo. |
+| Capo commessa | Creare commesse · Gestire le attività delle commesse · Vedere le ore di tutti. |
+| Direzione lavori | Gestire tutte le commesse · Gestire tutte le attività · Vedere le ore di tutti. |
 | Password del reparto | Condividere le password (comprende Usare la gestione password). |
 | Responsabile IT | Gestire tutte le password condivise · Esportare le password. |
 | Assistente AI | Usare l'assistente AI: nelle policy dei gruppi che devono averlo (per esempio i tecnici, per i rapportini e per Migliora testo nei moduli). |
 
 > [!TIP]
-> Le policy create con una versione precedente sono state **convertite da sole** ai permessi nuovi, senza togliere nulla: «Creare e modificare i clienti» è diventato Creare + Modificare tutti + Gestire i gruppi + Importare; «Consultare i clienti» ha avuto anche Esportare; «Rubrica personale» anche Esportare e Importare; «Creare e modificare gli utenti» è diventato Creare + Modificare; «Consultare il registro» ha avuto anche Esportare. Con la versione 1.7 le attività sono diventate una funzione per tutti: «Vedere le ore di tutti» è passato all'area Attività, insieme a Vedere i progetti che comprendeva. Conviene riguardarle una volta e togliere ciò che non serve.
+> Le policy create con una versione precedente sono state **convertite da sole** ai permessi nuovi, senza togliere nulla: «Creare e modificare i clienti» è diventato Creare + Modificare tutti + Gestire i gruppi + Importare; «Consultare i clienti» ha avuto anche Esportare; «Rubrica personale» anche Esportare e Importare; «Creare e modificare gli utenti» è diventato Creare + Modificare; «Consultare il registro» ha avuto anche Esportare. Con la versione 1.7 le attività sono diventate una funzione per tutti: «Vedere le ore di tutti» è passato all'area Attività, insieme a Vedere le commesse che comprendeva. Conviene riguardarle una volta e togliere ciò che non serve.
 
 La **chat**, le **attività**, gli **appunti** e la pagina del proprio **profilo** sono disponibili a tutti gli utenti, senza permessi; l'[assistente AI](assistente-ai.md) invece lo usa solo chi ha il permesso **Usare l'assistente AI**, perché fa lavorare il server. I gruppi di utenti servono anche a [condividere gli appunti](appunti.md#appunti-condividere): ogni utente può condividere un appunto con un gruppo, di cui vede il nome e il numero dei membri, e lo ricevono tutti i membri (non gli amministratori, che dei gruppi non fanno parte: vanno aggiunti per nome). Allo stesso modo si condividono le [password](password.md#password-condividere) e le [attività](attivita.md#attivita-condivisione). Eliminando un gruppo finiscono le condivisioni fatte con quel gruppo.
 
@@ -96,7 +96,7 @@ Nessun permesso riservato si concede da solo: anche chi ha tutto il resto di un'
 | --- | --- | --- |
 | Ufficio | Chi segue clienti, commesse, impianti, certificazioni, assistenza, mezzi, listino, magazzino, acquisti, preventivi, DDT e bozze delle fatture: tutto il lavoro d'ufficio, con documenti, progetti, personale (senza retribuzioni), scadenze, monitoraggio, password e assistente AI. | Dati amministrativi dei clienti, costi dei mezzi, listino completo (e quindi costi e margini dei preventivi). |
 | Amministrazione | Chi fa i conti: clienti con i dati amministrativi e la valutazione, personale con retribuzioni e documenti personali, costi dei mezzi, listino, magazzino e acquisti (in lettura), fatture, incassi e fattura elettronica, budget e consuntivo delle commesse, scadenze dell'azienda, ore di tutti, registro attività. | Tutti. |
-| Tecnici | Chi lavora sul campo: vede clienti, documenti e progetti, gestisce impianti e schede tecniche, compila certificazioni, registra manutenzioni e assistenza, usa i mezzi e la merce del proprio furgone, le password e l'assistente AI. | Nessuno. |
+| Tecnici | Chi lavora sul campo: vede clienti, documenti e commesse, gestisce impianti e schede tecniche, compila certificazioni, registra manutenzioni e assistenza, usa i mezzi e la merce del proprio furgone, le password e l'assistente AI. | Nessuno. |
 | Sola consultazione | Guarda senza cambiare nulla (anche il magazzino), listino escluso. | Nessuno. |
 
 > [!TIP]

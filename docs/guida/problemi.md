@@ -311,30 +311,30 @@ Sul disco della cartella di lavoro deve restare libero almeno mezzo gigabyte anc
 </details>
 
 <details>
-<summary><b>Non vedo un progetto che un collega vede</b></summary>
+<summary><b>Non vedo una commessa che un collega vede</b></summary>
 
-È un [progetto riservato](progetti.md#progetti-scheda): chiedi al responsabile di aggiungerti tra i membri, nella scheda del progetto. Se non vedi del tutto la pagina Progetti, ti manca il permesso **Vedere i progetti**.
+È una [commessa riservata](progetti.md#progetti-scheda): chiedi al responsabile di aggiungerti tra i membri, nella scheda della commessa. Se non vedi del tutto la pagina Commesse, ti manca il permesso **Vedere le commesse**.
 
 </details>
 
 <details>
 <summary><b>Non vedo un'attività che un collega vede</b></summary>
 
-Un'attività la vedono solo chi la riguarda e chi vede il suo progetto: chiedi a chi l'ha creata di assegnartela o di [condividerla](attivita.md#attivita-condivisione) con te. Controlla anche i filtri della pagina: con **Le mie** compaiono solo quelle che ti riguardano direttamente.
+Un'attività la vedono solo chi la riguarda e chi vede la sua commessa: chiedi a chi l'ha creata di assegnartela o di [condividerla](attivita.md#attivita-condivisione) con te. Controlla anche i filtri della pagina: con **Le mie** compaiono solo quelle che ti riguardano direttamente.
 
 </details>
 
 <details>
 <summary><b>Non riesco ad assegnare (o condividere) un'attività a un collega</b></summary>
 
-Il collega deve avere l'account abilitato. Se l'attività è collegata a un progetto riservato deve anche poter vedere il progetto, cioè esserne membro (anche tramite un gruppo): il messaggio dice chi manca. Lo stesso vale per il revisore e per i gruppi della condivisione.
+Il collega deve avere l'account abilitato. Se l'attività è collegata a una commessa riservata deve anche poter vedere la commessa, cioè esserne membro (anche tramite un gruppo): il messaggio dice chi manca. Lo stesso vale per il revisore e per i gruppi della condivisione.
 
 </details>
 
 <details>
-<summary><b>Non posso collegare un'attività a un progetto</b></summary>
+<summary><b>Non posso collegare un'attività a una commessa</b></summary>
 
-Nel campo **Progetto** compaiono solo i progetti di cui gestisci le attività: chiedi al responsabile di aggiungerti tra i membri con il ruolo *Gestisce le attività*. Vedi [Le attività del progetto](progetti.md#progetti-attivita).
+Nel campo **Commessa** compaiono solo le commesse di cui gestisci le attività: chiedi al responsabile di aggiungerti tra i membri con il ruolo *Gestisce le attività*. Vedi [Le attività della commessa](progetti.md#progetti-attivita).
 
 </details>
 
@@ -348,14 +348,14 @@ L'attività ha un revisore: è lui a completarla approvandola. Vedi [Revisione](
 <details>
 <summary><b>Nell'attività non posso cambiare il titolo o le date</b></summary>
 
-Ci lavori ma non la puoi modificare: puoi cambiarne lo stato, spuntare le voci, registrare le ore e commentarla. Il resto lo cambiano chi l'ha creata, chi la riceve con la modifica e chi gestisce le attività del progetto collegato. Vedi [Assegnare e lavorare](attivita.md#attivita-assegnare).
+Ci lavori ma non la puoi modificare: puoi cambiarne lo stato, spuntare le voci, registrare le ore e commentarla. Il resto lo cambiano chi l'ha creata, chi la riceve con la modifica e chi gestisce le attività della commessa collegata. Vedi [Assegnare e lavorare](attivita.md#attivita-assegnare).
 
 </details>
 
 <details>
-<summary><b>Ho eliminato un progetto: dove sono finite le sue attività?</b></summary>
+<summary><b>Ho eliminato una commessa: dove sono finite le sue attività?</b></summary>
 
-Se hai scelto **Elimina il progetto e lascia le attività**, sono ancora nella pagina Attività, *Senza progetto*, con le loro persone, ore e commenti: a te sono state condivise con la modifica (le trovi in **Le mie**) e nel loro storico c'è scritto da quale progetto vengono. Chi le vedeva solo attraverso il progetto non le vede più: condividile di nuovo se serve. Se hai scelto di eliminarle (la scelta proposta per un progetto riservato) non si recuperano, se non da un [backup](backup.md).
+Se hai scelto **Elimina la commessa e lascia le attività**, sono ancora nella pagina Attività, *Senza commessa*, con le loro persone, ore e commenti: a te sono state condivise con la modifica (le trovi in **Le mie**) e nel loro storico c'è scritto da quale commessa vengono. Chi le vedeva solo attraverso la commessa non le vede più: condividile di nuovo se serve. Se hai scelto di eliminarle (la scelta proposta per una commessa riservata) non si recuperano, se non da un [backup](backup.md).
 
 </details>
 

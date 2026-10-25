@@ -15,7 +15,7 @@ Sopra l'elenco ci sono il **percorso** della cartella aperta (un clic su un nome
 - **Trascinare** file e cartelle su una cartella dell'elenco o del percorso li sposta lì (per una cartella lontana usa **Sposta**, che fa scegliere la destinazione).
 - **Copia** duplica i file con la loro revisione corrente (il contenuto non occupa altro spazio sul disco) e le cartelle con il loro contenuto e la stessa riservatezza. Se il nome c'è già, la copia si chiama «nome - copia».
 - Nella stessa cartella due elementi non possono avere lo stesso nome (maiuscole e minuscole non contano).
-- Le cartelle **Progetti** e **Attività**, nella radice, le crea la piattaforma per i [documenti dei progetti](progetti.md#progetti-documenti) e per i [file delle attività](attivita.md#attivita-file) senza progetto: le loro sottocartelle seguono la riservatezza del progetto o dell'attività e si riallineano da sole.
+- Le cartelle **Commesse** e **Attività**, nella radice, le crea la piattaforma per i [documenti delle commesse](progetti.md#progetti-documenti) e per i [file delle attività](attivita.md#attivita-file) senza commessa: le loro sottocartelle seguono la riservatezza della commessa o dell'attività e si riallineano da sole.
 
 ## <a id="documenti-caricare"></a>Caricare e scaricare
 

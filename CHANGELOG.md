@@ -4,6 +4,26 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.164.0 · 25 ottobre 2026
+
+**Progetti e commesse, con i nomi di chi li usa**
+
+- Le **Trattative** ora si chiamano **Progetti**: sono i lavori da prendere presso un cliente, con le fasi primo
+  contatto, sopralluogo, preventivo e trattativa. L'esito è **Accettato** o **Rifiutato**.
+- **Progetti e commesse** ora si chiama **Commesse**: sono i lavori partiti. Usano i nomi nuovi anche la cartella in
+  Documenti, i permessi, le notifiche, il registro attività, gli storici, la guida e la ricerca.
+- Quando un progetto è **accettato**, il programma propone di **aprire la commessa**, nuova o già esistente dello
+  stesso cliente. Il collegamento si vede sia nel progetto sia nella commessa. Il filtro **Senza commessa** mostra i
+  progetti accettati ancora da avviare.
+- Quando un **preventivo** è accettato, si sceglie se aprire la commessa, creare il progetto, collegarlo a uno che
+  esiste già o non fare nulla. Nell'elenco dei preventivi, la colonna **Collegato a** e il suo filtro dicono a cosa è
+  legato ciascuno.
+
+**Commesse interne**
+
+- Una commessa senza cliente è una **commessa interna**: un lavoro per l'azienda stessa. Nell'elenco si riconosce
+  subito e ha il filtro **Interne**.
+
 ## 1.163.1 · 25 ottobre 2026
 
 **Menu Magazzino più chiaro**
@@ -22,6 +42,7 @@ oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, acc
 - La stella dei preferiti e il «?» accanto al titolo sono in asse con il titolo.
 - Lo stato di commesse e richieste di assistenza nei suggerimenti è in italiano, come quello delle fatture nella stampa
   dell'elenco.
+
 ## 1.163.0 · 25 ottobre 2026
 
 **I SAL delle commesse**

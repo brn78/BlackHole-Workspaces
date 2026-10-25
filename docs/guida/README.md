@@ -3,9 +3,9 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.163.1**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.164.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
-BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, progetti, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
+BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
 > [!TIP]
 > **Come orientarsi.** L'indice a lato porta al capitolo desiderato; la ricerca, sopra l'indice e sempre in vista mentre scorri, evidenzia tutte le occorrenze di una parola (<kbd>Invio</kbd> passa alla successiva, <kbd>Esc</kbd> azzera). Nelle schede della piattaforma le icone (?) spiegano il singolo campo: passa sopra con il mouse oppure fai clic. <kbd>F1</kbd> apre la guida da qualsiasi pagina; **Stampa / PDF** la salva su carta o in un file.
@@ -104,7 +104,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Contatti privati](clienti.md#clienti-privati)
    - [Esportare i clienti: Excel, CSV e vCard](clienti.md#clienti-esporta)
    - [Importare i clienti da un file CSV, Excel o JSON](clienti.md#clienti-importa)
-   - [Documenti, attività, progetti, impianti, password e stampa del cliente](clienti.md#clienti-documenti)
+   - [Documenti, attività, commesse, impianti, password e stampa del cliente](clienti.md#clienti-documenti)
    - [Anche nel personale](clienti.md#clienti-personale)
    - [Valutazione del cliente](clienti.md#clienti-valutazione)
    - [Permessi](clienti.md#clienti-permessi)
@@ -112,13 +112,14 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Importare ed esportare con Excel](produttori.md#produttori-importa)
    - [La scheda](produttori.md#produttori-scheda)
    - [La cartella in Documenti](produttori.md#produttori-documenti)
-12. [Progetti e commesse](progetti.md)
-   - [L'elenco e la pagina del progetto](progetti.md#progetti-pagina)
-   - [La scheda del progetto](progetti.md#progetti-scheda)
-   - [Tipi dei progetti](progetti.md#progetti-tipi)
-   - [Le attività del progetto](progetti.md#progetti-attivita)
-   - [Documenti del progetto](progetti.md#progetti-documenti)
-   - [Modelli di progetto](progetti.md#progetti-modelli)
+12. [Commesse](progetti.md)
+   - [L'elenco e la pagina della commessa](progetti.md#progetti-pagina)
+   - [Commesse interne](progetti.md#progetti-interne)
+   - [La scheda della commessa](progetti.md#progetti-scheda)
+   - [Tipi delle commesse](progetti.md#progetti-tipi)
+   - [Le attività della commessa](progetti.md#progetti-attivita)
+   - [Documenti della commessa](progetti.md#progetti-documenti)
+   - [Modelli di commessa](progetti.md#progetti-modelli)
    - [Budget e consuntivo](progetti.md#progetti-budget)
    - [I SAL della commessa](progetti.md#progetti-sal)
    - [Importare ed esportare](progetti.md#progetti-importa)
@@ -131,7 +132,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Da una cartella del PC](impianti.md#impianti-cartella)
    - [Schemi dei file](impianti.md#impianti-schemi)
    - [Interventi](impianti.md#impianti-interventi)
-   - [Impianti e progetti](impianti.md#impianti-progetti)
+   - [Impianti e commesse](impianti.md#impianti-progetti)
    - [Tipi di impianto](impianti.md#impianti-tipi)
    - [I modelli delle schede tecniche](impianti.md#impianti-modelli)
    - [Importare ed esportare](impianti.md#impianti-importa)
@@ -230,13 +231,14 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Pagamenti e note di credito](fatture-fornitori.md#fatture-fornitori-pagamenti)
    - [Permessi](fatture-fornitori.md#fatture-fornitori-permessi)
 24. [Incassi e pagamenti](incassi-pagamenti.md)
-25. [Trattative](trattative.md)
+25. [Progetti](trattative.md)
    - [Kanban e fasi](trattative.md#trattative-fasi)
-   - [La scheda della trattativa](trattative.md#trattative-scheda)
-   - [Una trattativa da un testo](trattative.md#trattative-da-testo)
+   - [La scheda del progetto](trattative.md#trattative-scheda)
+   - [Un progetto da un testo](trattative.md#trattative-da-testo)
    - [Prossimo passo e cliente sentito](trattative.md#trattative-prossimo-passo)
-   - [I preventivi della trattativa](trattative.md#trattative-preventivi)
-   - [Vinte e perse](trattative.md#trattative-chiusura)
+   - [I preventivi del progetto](trattative.md#trattative-preventivi)
+   - [Accettati e rifiutati](trattative.md#trattative-chiusura)
+   - [Accettato: la commessa](trattative.md#trattative-commessa)
    - [Importare ed esportare](trattative.md#trattative-importa)
    - [Previsione](trattative.md#trattative-previsione)
 26. [Preventivi](preventivi.md)
@@ -251,7 +253,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Risentire il cliente](preventivi.md#preventivi-ricontatti)
    - [Il link per il cliente: vedere e accettare online](preventivi.md#preventivi-link)
    - [I file](preventivi.md#preventivi-file)
-   - [La commessa](preventivi.md#preventivi-commessa)
+   - [Dopo l'accettazione: commessa o progetto](preventivi.md#preventivi-commessa)
    - [Modelli e impostazioni](preventivi.md#preventivi-modelli)
    - [Importare ed esportare](preventivi.md#preventivi-importa)
    - [Permessi](preventivi.md#preventivi-permessi)

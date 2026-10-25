@@ -2,15 +2,15 @@
 
 # <a id="notifiche"></a>Notifiche
 
-Le **notifiche** ti avvisano di ciò che ti riguarda nelle [attività](attivita.md) e nei [progetti](progetti.md): non serve tenere aperta la pagina Attività per sapere che qualcuno ti ha assegnato un lavoro, te lo ha condiviso, ha commentato o aspetta la tua approvazione. Arrivano qui anche i promemoria delle [scadenze](scadenze.md) a chi le gestisce. Agli amministratori arriva qui anche l'avviso di una [nuova versione](server.md#server-nuove-versioni) della piattaforma.
+Le **notifiche** ti avvisano di ciò che ti riguarda nelle [attività](attivita.md) e nelle [commesse](progetti.md): non serve tenere aperta la pagina Attività per sapere che qualcuno ti ha assegnato un lavoro, te lo ha condiviso, ha commentato o aspetta la tua approvazione. Arrivano qui anche i promemoria delle [scadenze](scadenze.md) a chi le gestisce. Agli amministratori arriva qui anche l'avviso di una [nuova versione](server.md#server-nuove-versioni) della piattaforma.
 
 ## <a id="notifiche-campanella"></a>La campanella
 
 - La campanella 🔔 nella barra superiore mostra in rosso quante notifiche hai **da leggere**. Un clic apre l'elenco, dalle più recenti; quelle da leggere hanno lo sfondo colorato e un pallino.
-- Un clic su una notifica la segna come letta e apre l'attività (o la pagina del progetto) a cui si riferisce.
+- Un clic su una notifica la segna come letta e apre l'attività (o la pagina della commessa) a cui si riferisce.
 - Mentre carichi o scarichi documenti, in cima al pannello c'è la sezione **Trasferimenti**, con l'avanzamento di ciascun file; attorno alla campanella un anello mostra la percentuale complessiva. Lì ci sono anche i PDF che il server sta rendendo ricercabili, con le pagine lette. Vedi [Caricare e scaricare](documenti.md#documenti-caricare) e [Riconoscimento del testo](documenti.md#documenti-ocr).
 - In alto nell'elenco: **Segna tutte come lette**, 🗑 **Elimina le notifiche già lette** e ⚙ le [preferenze](#notifiche-preferenze). Le notifiche lette si eliminano comunque da sole dopo 90 giorni.
-- Mentre usi la piattaforma, una notifica nuova compare anche come **avviso in basso a destra**, una volta sola: un clic sull'avviso apre l'attività o il progetto. Aprendo la piattaforma, compaiono come avviso al massimo le tre più recenti tra quelle arrivate mentre non c'eri; le altre sono nella campanella.
+- Mentre usi la piattaforma, una notifica nuova compare anche come **avviso in basso a destra**, una volta sola: un clic sull'avviso apre l'attività o la commessa. Aprendo la piattaforma, compaiono come avviso al massimo le tre più recenti tra quelle arrivate mentre non c'eri; le altre sono nella campanella.
 
 ## <a id="notifiche-tipi"></a>Che cosa arriva
 
@@ -20,11 +20,11 @@ Le **notifiche** ti avvisano di ciò che ti riguarda nelle [attività](attivita.
 | Attività condivisa con te | I colleghi aggiunti alla [condivisione](attivita.md#attivita-condivisione) di un'attività, direttamente o tramite un loro gruppo (non gli assegnatari, che la vedono già). |
 | Commento | Assegnatari, revisore, chi ha creato l'attività e chi l'ha già commentata, se la vede ancora. |
 | Cambio di stato | Assegnatari e chi ha creato l'attività, quando un altro ne cambia lo stato. |
-| Da rivedere | Il revisore quando l'attività passa «In revisione»; se non c'è, il responsabile del progetto collegato oppure, senza progetto, chi ha creato l'attività. |
+| Da rivedere | Il revisore quando l'attività passa «In revisione»; se non c'è, il responsabile della commessa collegata oppure, senza commessa, chi ha creato l'attività. |
 | Approvata o rimandata | Gli assegnatari e chi ha creato l'attività, con il commento del revisore se l'ha rimandata. |
-| Promemoria delle scadenze | Gli assegnatari (se non ce ne sono, il responsabile del progetto collegato oppure, senza progetto, chi ha creato l'attività): il giorno prima della scadenza, il giorno stesso e, una volta, quando l'attività è scaduta. Arrivano dalle 7 del mattino, oppure all'ora di **Avviso alle** se l'attività ce l'ha, anche per le attività senza progetto; non per quelle dei progetti completati o annullati. |
+| Promemoria delle scadenze | Gli assegnatari (se non ce ne sono, il responsabile della commessa collegata oppure, senza commessa, chi ha creato l'attività): il giorno prima della scadenza, il giorno stesso e, una volta, quando l'attività è scaduta. Arrivano dalle 7 del mattino, oppure all'ora di **Avviso alle** se l'attività ce l'ha, anche per le attività senza commessa; non per quelle delle commesse completate o annullate. |
 | Nuova occorrenza | Gli assegnatari di un'[attività ricorrente](attivita.md#attivita-ricorrenti) quando ne nasce la successiva. |
-| Progetto | Chi viene aggiunto ai membri di un progetto o ne diventa responsabile: il clic apre la [pagina del progetto](progetti.md#progetti-pagina). |
+| Commessa | Chi viene aggiunto ai membri di una commessa o ne diventa responsabile: il clic apre la [pagina della commessa](progetti.md#progetti-pagina). |
 | Scadenze in arrivo e passate | Chi gestisce il personale (per documenti e visite, chi ha anche il permesso dei dati delicati), chi gestisce mezzi e attrezzature, chi gestisce le manutenzioni e chi gestisce le scadenze dell'azienda: quando una scadenza entra nel preavviso e quando passa senza rinnovo, una volta sola. Il clic apre la scheda della persona, del bene, la manutenzione o la scadenza. Vedi [I promemoria](scadenze.md#scadenze-promemoria). |
 | Scadenze dei beni in consegna | Chi ha in consegna un mezzo o un'attrezzatura (con la sua scheda del personale collegata all'utente): le stesse notifiche per le scadenze di quel bene. Il clic apre la scheda del bene, oppure la Home per chi non vede mezzi e attrezzature. Vedi [Le consegne](mezzi.md#mezzi-consegne). |
 | Richiesta di assistenza assegnata | Il tecnico a cui viene assegnata una [richiesta di assistenza](assistenza.md) (se non se l'è assegnata da solo): il clic apre la richiesta. Le notifiche dell'assistenza le vede nelle preferenze solo chi vede l'assistenza. |
@@ -54,7 +54,7 @@ L'avviso parte **a qualsiasi ora**, anche fuori dal tuo [orario](#notifiche-quan
 
 ## <a id="notifiche-email"></a>Per email
 
-Se la [posta in uscita](impostazioni.md) è configurata e il tuo account ha un indirizzo email, le notifiche che restano **da leggere per qualche minuto** arrivano anche per email, riunite in un solo messaggio con il collegamento a ciascuna attività o progetto. Se le leggi subito nella piattaforma l'email non parte. Il collegamento usa l'indirizzo pubblico indicato in Impostazioni. Gli avvisi del monitoraggio partono subito, se il controllo lo prevede.
+Se la [posta in uscita](impostazioni.md) è configurata e il tuo account ha un indirizzo email, le notifiche che restano **da leggere per qualche minuto** arrivano anche per email, riunite in un solo messaggio con il collegamento a ciascuna attività o commessa. Se le leggi subito nella piattaforma l'email non parte. Il collegamento usa l'indirizzo pubblico indicato in Impostazioni. Gli avvisi del monitoraggio partono subito, se il controllo lo prevede.
 
 Tutto si sceglie nel riquadro **Notifiche per email** del [profilo](profilo.md):
 
@@ -102,7 +102,7 @@ Sotto si legge in parole quando ti arrivano adesso. Le notifiche nate fuori orar
 
 ## <a id="notifiche-preferenze"></a>Preferenze
 
-In [Profilo e sicurezza](profilo.md), scheda **Notifiche** (la apre anche l'icona ⚙ della campanella), ci sono i riquadri **Nella piattaforma** (che cosa arriva nella campanella: togli la spunta ai tipi che non vuoi), [Per email](#notifiche-email) e [Su Telegram](#notifiche-telegram) (se averle anche lì, e quali) e [Quando disturbarmi](#notifiche-quando). I tipi sono divisi per area (attività e progetti, scadenze, assistenza e reperibilità, monitoraggio, commerciale, piattaforma) con un nome corto: la descrizione intera compare passandoci sopra con il mouse. Un tipo spento nella campanella non arriva nemmeno per email o su Telegram. Dalla 1.124.0 si salva tutto insieme con **Salva le notifiche**, in fondo e sempre in vista (dice *Modifiche da salvare* quando c'è qualcosa di nuovo). Le preferenze sono dell'account: valgono su ogni computer.
+In [Profilo e sicurezza](profilo.md), scheda **Notifiche** (la apre anche l'icona ⚙ della campanella), ci sono i riquadri **Nella piattaforma** (che cosa arriva nella campanella: togli la spunta ai tipi che non vuoi), [Per email](#notifiche-email) e [Su Telegram](#notifiche-telegram) (se averle anche lì, e quali) e [Quando disturbarmi](#notifiche-quando). I tipi sono divisi per area (attività e commesse, scadenze, assistenza e reperibilità, monitoraggio, commerciale, piattaforma) con un nome corto: la descrizione intera compare passandoci sopra con il mouse. Un tipo spento nella campanella non arriva nemmeno per email o su Telegram. Dalla 1.124.0 si salva tutto insieme con **Salva le notifiche**, in fondo e sempre in vista (dice *Modifiche da salvare* quando c'è qualcosa di nuovo). Le preferenze sono dell'account: valgono su ogni computer.
 
 ---
 

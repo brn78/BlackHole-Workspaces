@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.165.1**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.167.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -99,6 +99,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Contatti, indirizzi e coordinate bancarie](clienti.md#clienti-contatti)
    - [Gruppi di clienti](clienti.md#clienti-gruppi)
    - [Categorie dei clienti](clienti.md#clienti-categorie)
+   - [Categorie dei fornitori](clienti.md#fornitori-categorie)
    - [Scegliere più schede insieme](clienti.md#clienti-selezione)
    - [Cestino](clienti.md#clienti-cestino)
    - [Contatti privati](clienti.md#clienti-privati)

@@ -34,7 +34,7 @@ Gli audio creati con la 1.132.0 e la 1.133.0 hanno ancora il file nella voce da 
 
 ## <a id="voce-da-testo-modelli"></a>Modelli
 
-Il modello tiene motore e voce, il modello del servizio, come deve parlare, la velocità (e il tono per Windows), il formato del file e i ritocchi: **volume al picco** (−1 dB è il massimo senza distorsione, −3 dB per i centralini), volume in più o in meno, **silenzio prima e dopo**, **pausa tra i paragrafi**, silenzio tolto ai bordi di ogni parte. In **⋯ Altro → Modelli** (il pannello a destra), chi li gestisce trova in basso i **modelli proposti**, da creare con un clic con il primo motore pronto e poi da adattare:
+Il modello tiene motore e voce, il modello del servizio, come deve parlare, la velocità (e il tono per Windows), il formato del file e i ritocchi: **volume al picco** (−1 dB è il massimo senza distorsione, −3 dB per i centralini), volume in più o in meno, **silenzio prima e dopo**, **pausa tra i paragrafi**, silenzio tolto ai bordi di ogni parte. Nel nuovo audio il campo **Modello** prende il modello scelto; <kbd>F2</kbd> (o **Gestisci l'elenco…**) apre i modelli di voce nel pannello a destra, **Nuovo modello…** crea il modello senza chiudere l'audio. Dal pulsante **Modelli di voce** in alto (pannello a destra) chi li gestisce trova in basso i **modelli proposti**, da creare con un clic con il primo motore pronto e poi da adattare:
 
 - **Centralino**: voce femminile cordiale, WAV 8 kHz mono 16 bit, −3 dB, un po' di silenzio prima e dopo;
 - **Diffusione sonora / EVAC**: voce maschile ferma e scandita, un po' più lenta, WAV 48 kHz mono 16 bit;

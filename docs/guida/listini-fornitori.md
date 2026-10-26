@@ -68,7 +68,7 @@ Un clic apre i dettagli dell'articolo. Con le caselle, **Aggiungi al listino** c
 - il produttore del listino come marca;
 - senza una categoria scelta, quella principale del produttore;
 - prezzo di listino e sconto presi da lì, e il costo che li segue;
-- la colonna «Nel listino» porta alla voce.
+- la colonna «Nel listino» apre la voce del listino sopra la pagina in cui sei.
 
 Un articolo senza prezzo non diventa una voce a zero.
 

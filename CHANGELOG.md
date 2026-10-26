@@ -4,6 +4,49 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.167.0 · 26 ottobre 2026
+
+**Novità**
+
+- **Preventivo da un'offerta del fornitore**: nel preventivo, «Aggiungi» › «Da un'offerta del fornitore…» legge il PDF
+  dell'offerta (codice, descrizione, quantità, prezzo, sconto), riconosce il fornitore dalla partita IVA e propone per
+  ogni riga il costo netto, il ricarico e il prezzo di vendita, da controllare prima di aggiungere. Le voci possono
+  aggiornare anche il listino e il PDF va nei file del preventivo. Chi non vede i costi vede solo i prezzi di vendita.
+- **Le schede si aprono sopra la pagina dove sei**: un collegamento a un cliente, un fornitore, un progetto, una
+  fattura, un ordine, una persona, un mezzo, una voce del listino e alle altre schede apre la scheda nel pannello sopra
+  la pagina; chiusa la scheda si resta lì. Cambiano pagina solo commessa, preventivo e impianto. Ctrl+clic apre ancora
+  in una nuova scheda del browser.
+
+## 1.166.0 · 26 ottobre 2026
+
+**Novità**
+
+- **Un solo campo per tipi, categorie e modelli**: ovunque si sceglie una voce da un elenco che si gestisce (tipi di
+  impianto, di mezzi e attrezzature, di pratica e delle commesse, catalogo del personale, categorie del listino,
+  aliquote IVA, termini di pagamento, magazzini, modelli di preventivo e di voce) c'è lo stesso campo: con il colore
+  dove l'elenco ce l'ha, «Nuovo…» e «Gestisci l'elenco… F2», per cambiare l'elenco senza chiudere la scheda. Nei filtri
+  lo stesso campo, senza «Nuovo…». Le categorie del listino hanno anche il colore.
+- **Categorie dei fornitori**: i fornitori hanno un elenco di categorie tutto loro, separato da quello dei clienti
+  («Altro» › «Categorie dei fornitori»). Le categorie usate solo dai fornitori passano da sole nell'elenco nuovo.
+- **Matricole facoltative**: la matricola non blocca mai il lavoro. La quantità si scrive sempre, le matricole si
+  aggiungono se ci sono, anche dopo («Aggiungi le matricole» sul movimento). «Con la matricola» si imposta anche dalla
+  scheda del listino e in ogni momento, anche con merce a magazzino; inventari e giacenza iniziale valgono anche per
+  queste voci.
+- **Più codici a barre di fila**: nei preventivi, nelle fatture e DDT, negli ordini e nei movimenti la lettura resta
+  aperta: ogni codice letto va nel riepilogo (lo stesso codice fa +1), con la quantità subito o alla fine, poi
+  «Aggiungi» porta tutte le righe nel documento.
+- **Offerte dei fornitori in PDF nel listino**: dall'offerta o dal preventivo di un fornitore in PDF l'importazione
+  trova da sola la tabella delle voci, con le sue colonne, fino ai totali. Le voci senza codice prendono il prossimo
+  codice libero (o ritrovano quella con la stessa descrizione) e il prezzo del fornitore diventa il costo.
+
+**Correzioni**
+
+- **Valutazione del cliente**: un margine sulla carta non è un guadagno. Lo scaduto da oltre 60 giorni conta come perso
+  («A rischio», con quanto ci si rimette); la frase comincia dal problema più grave («Bloccato per i pagamenti: …
+  scaduti, il …% del fatturato»); il giudizio di un cliente bloccato è «Bloccato»; nel primo anno la fedeltà conta per
+  la parte d'anno passata.
+- **Preventivi**: tolto da «Altro» il doppione «Nuovo modello» (è nel pannello «Modelli di preventivo»).
+
 ## 1.165.1 · 26 ottobre 2026
 
 **Correzioni**

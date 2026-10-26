@@ -264,7 +264,7 @@ Il giudizio è la media pesata degli aspetti che si possono calcolare (come paga
 
 - Nell'elenco dei clienti la colonna **Valutazione** mostra punteggio e giudizio (clic sull'intestazione per ordinare: i migliori in alto, o quelli da seguire); nel menu della riga, **Valutazione** apre la linguetta. Il filtro **Tutti i giudizi**, accanto a quello dello stato, mostra soltanto gli ottimi, i buoni, quelli nella media, da seguire, con l'attenzione, **da seguire o attenzione** insieme (per la telefonata o il sollecito), oppure quelli **senza giudizio**; vale anche per la stampa dell'elenco (dalla 1.130.1).
 - Nei [preventivi](preventivi.md) (dalla 1.131.0): nel **Nuovo preventivo** (e nella copia per un altro cliente), sotto il cliente scelto, l'avviso con il giudizio, la frase e il primo consiglio, insieme a quello dei pagamenti; nella scheda del preventivo, accanto al cliente, la pillola **Valutazione** (passa sopra per la frase e il consiglio).
-- È un [dato riservato](gruppi-policy.md#policy-riservati) (permesso **Valutazione dei clienti**, nella policy proposta Amministrazione) e non compare mai in quello che vede il cliente: condivisioni, link del preventivo, stampe.
+- È un [dato riservato](gruppi-policy.md#policy-riservati) (permesso **Valutazione dei clienti**, che nessuna policy proposta concede: si dà a mano) e non compare mai in quello che vede il cliente: condivisioni, link del preventivo, stampe.
 - Vale per i clienti, non per i potenziali clienti né per i fornitori. Un cliente nuovo, senza lavori, non ha ancora niente da valutare.
 
 ## <a id="clienti-permessi"></a>Permessi

@@ -4,6 +4,33 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.165.0 · 26 ottobre 2026
+
+**Novità**
+
+- **Attività e ore del progetto**: il lavoro per preparare un'offerta (sopralluogo, disegni, calcoli) si segue con le
+  attività del progetto e le loro ore, anche quando il cliente rifiuta. La scheda del progetto ha la parte «Attività e
+  ore» con il totale; chi vede budget e consuntivo delle commesse vede anche il costo. La Previsione ha il riquadro
+  «Costo delle offerte» per in corso, accettati e rifiutati; il kanban e gli accettati e rifiutati mostrano le ore.
+  Un'attività sta in un progetto oppure in una commessa.
+- **Materiale nella commessa**: la nuova linguetta mostra il materiale movimentato per la commessa, voce per voce: uscito,
+  rientrato, netto e ancora in cantiere, con le matricole, le registrazioni di magazzino e i DDT. Solo quantità, mai
+  prezzi: la vede anche chi lavora in campo.
+- **Policy proposte per reparto**: Reception, Progettazione, Acquisti, Magazziniere, Amministrazione e Squadre in campo,
+  più Commercialista e Sola consultazione. Si sommano (chi fa due lavori ne riceve due); i dati riservati ci sono solo
+  dove sono il lavoro del reparto, gli altri si danno a mano. Le policy già create non cambiano.
+
+**Correzioni**
+
+- Lo scarico di magazzino di un DDT ricorda la sua commessa, e il materiale consegnato con i DDT arriva al consuntivo
+  della commessa (anche per i DDT già emessi).
+- Il magazzino non mostra il nome di una commessa riservata a chi non ne fa parte, e il netto degli ordini ai fornitori
+  resta nascosto a chi non vede i costi.
+
+**Dati dimostrativi**
+
+- I dati dimostrativi e le immagini della documentazione usano solo luoghi inventati.
+
 ## 1.164.2 · 25 ottobre 2026
 
 **Sicurezza**

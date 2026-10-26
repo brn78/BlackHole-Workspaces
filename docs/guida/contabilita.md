@@ -92,7 +92,7 @@ Mastri e conti con codice, nome, **natura** (attività, passività e netto, cost
 | Registrare in contabilità | Scritture libere, conti e detraibilità delle righe delle fatture dei fornitori, cespiti, scritture di assestamento, ratei e risconti. |
 | Gestire la contabilità | Impostazioni, piano dei conti e ruoli, chiusura e riapertura delle liquidazioni, versamenti, chiusura e riapertura dell'esercizio. |
 
-Le policy proposte: *Amministrazione* gestisce la contabilità; *Commercialista* (per lo studio) vede contabilità, vendite e fatture dei fornitori senza cambiare niente.
+Le policy proposte: *Amministrazione* gestisce fatture, incassi, banca e contabilità; *Commercialista* (per lo studio) vede contabilità, vendite, fatture dei fornitori e banca senza cambiare niente.
 
 ---
 

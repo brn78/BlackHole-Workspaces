@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.164.2**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.165.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -118,6 +118,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [La scheda della commessa](progetti.md#progetti-scheda)
    - [Tipi delle commesse](progetti.md#progetti-tipi)
    - [Le attività della commessa](progetti.md#progetti-attivita)
+   - [Il materiale della commessa](progetti.md#commesse-materiale)
    - [Documenti della commessa](progetti.md#progetti-documenti)
    - [Modelli di commessa](progetti.md#progetti-modelli)
    - [Budget e consuntivo](progetti.md#progetti-budget)
@@ -237,6 +238,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Un progetto da un testo](trattative.md#trattative-da-testo)
    - [Prossimo passo e cliente sentito](trattative.md#trattative-prossimo-passo)
    - [I preventivi del progetto](trattative.md#trattative-preventivi)
+   - [Attività e ore del progetto](trattative.md#trattative-attivita)
    - [Accettati e rifiutati](trattative.md#trattative-chiusura)
    - [Accettato: la commessa](trattative.md#trattative-commessa)
    - [Importare ed esportare](trattative.md#trattative-importa)

@@ -60,7 +60,7 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Responsabile dei clienti | Modificare tutti i clienti · Creare clienti · Eliminare qualsiasi cliente · Svuotare il cestino dei clienti · Gestire i gruppi di clienti · Esportare · Importare. |
 | Rubrica personale | Rubrica personale (con Esportare e Importare, se servono). |
 | Gestione del personale | Creare utenti · Modificare gli utenti · Gestire la sicurezza degli utenti. |
-| Tecnico | Vedere le commesse (vede i cantieri e le loro attività; sulle proprie attività lavora e registra le ore anche senza permessi). La policy proposta **Tecnici** è il punto di partenza completo. |
+| Tecnico | Vedere le commesse (vede i cantieri e le loro attività; sulle proprie attività lavora e registra le ore anche senza permessi). La policy proposta **Squadre in campo** è il punto di partenza per chi lavora sul campo. |
 | Capo commessa | Creare commesse · Gestire le attività delle commesse · Vedere le ore di tutti. |
 | Direzione lavori | Gestire tutte le commesse · Gestire tutte le attività · Vedere le ore di tutti. |
 | Password del reparto | Condividere le password (comprende Usare la gestione password). |
@@ -88,19 +88,23 @@ Chi lavora sul campo non deve arrivare ai dati amministrativi. Per questo alcuni
 - **Vedere la contabilità**: prima nota, IVA, mastrini e bilancio.
 - **Budget e consuntivo delle commesse**: ricavi, costi e margini delle commesse, con il costo delle ore.
 
-Nessun permesso riservato si concede da solo: anche chi ha tutto il resto di un'area non li ha finché non vengono spuntati. Il resto del programma non mostra importi: le ore delle attività, le scadenze dell'azienda, l'assistenza e le manutenzioni non ne hanno; il listino mostra i prezzi di vendita a chi ha *Vedere il listino*, che le policy proposte non danno ai tecnici.
+Nessun permesso riservato si concede da solo: anche chi ha tutto il resto di un'area non li ha finché non vengono spuntati. Il resto del programma non mostra importi: le ore delle attività, le scadenze dell'azienda, l'assistenza e le manutenzioni non ne hanno; il listino mostra i prezzi di vendita a chi ha *Vedere il listino*, che le policy proposte danno solo a Progettazione e Acquisti.
 
-**Policy proposte**, nella pagina Policy, apre quattro policy già pensate, da creare con un clic e poi adattare (si aprono nella scheda, dove si controllano i permessi prima di crearle; non sono applicate a nessun gruppo finché non lo decidi tu):
+**Policy proposte**, nella pagina Policy, apre una policy per reparto, da creare con un clic e poi adattare (si aprono nella scheda, dove si controllano i permessi prima di crearle; non sono applicate a nessun gruppo finché non lo decidi tu). Quello che un reparto non ha dentro e gli serve si dà a mano: la scheda di ogni policy dice quale.
 
 | Policy | Per chi | Dati riservati |
 | --- | --- | --- |
-| Ufficio | Chi segue clienti, commesse, impianti, certificazioni, assistenza, mezzi, listino, magazzino, acquisti, preventivi, DDT e bozze delle fatture: tutto il lavoro d'ufficio, con documenti, progetti, personale (senza retribuzioni), scadenze, monitoraggio, password e assistente AI. | Dati amministrativi dei clienti, costi dei mezzi, listino completo (e quindi costi e margini dei preventivi). |
-| Amministrazione | Chi fa i conti: clienti con i dati amministrativi e la valutazione, personale con retribuzioni e documenti personali, costi dei mezzi, listino, magazzino e acquisti (in lettura), fatture, incassi e fattura elettronica, budget e consuntivo delle commesse, scadenze dell'azienda, ore di tutti, registro attività. | Tutti. |
-| Tecnici | Chi lavora sul campo: vede clienti, documenti e commesse, gestisce impianti e schede tecniche, compila certificazioni, registra manutenzioni e assistenza, usa i mezzi e la merce del proprio furgone, le password e l'assistente AI. | Nessuno. |
+| Reception | Il banco e il telefono: apre e pianifica le richieste di assistenza, vede la reperibilità e le scadenze, crea e corregge i clienti. Da dare a mano, se servono: Gestire l'assistenza e Gestire la reperibilità. | Nessuno. |
+| Progettazione (ufficio tecnico) | Preventivi, commesse con le loro attività, impianti, pratiche, certificazioni, manutenzioni e listino in lettura. Il SAL e il budget della commessa si danno a mano all'ingegnere che li prepara; emettere le certificazioni (di solito il responsabile tecnico) si dà a mano. | Nessuno. |
+| Acquisti | Ordini e richieste d'offerta, solleciti, prezzi da verificare, listini dei fornitori con gli sconti, listino aziendale e magazzino in lettura. Per registrare l'arrivo della merce serve a mano Registrare i movimenti del magazzino. | Vedere gli acquisti e Costi e ricarichi del listino. |
+| Magazziniere | Movimenti in tutti i magazzini e nei furgoni, inventari e riordino, senza costi né prezzi d'acquisto. Per gli ordini in arrivo serve a mano Vedere gli acquisti; per i DDT, Preparare DDT e fatture (mostrano gli importi). | Nessuno. |
+| Amministrazione | Fatture e note di credito, DDT da fatturare, incassi e pagamenti, fatture dei fornitori, banca, contabilità e dati amministrativi dei clienti. Il budget delle commesse, i costi dei mezzi e quelli del personale si danno a mano. | Dati amministrativi dei clienti, vendite, fatture dei fornitori, banca e contabilità. |
+| Squadre in campo | Le proprie attività e presenze, l'assistenza assegnata, il proprio furgone, le commesse con il materiale in quantità, senza prezzi. Compilare le certificazioni, registrare i rapporti di manutenzione e modificare gli impianti si danno a mano, se la squadra li fa. | Nessuno. |
+| Commercialista | Lo studio che tiene o controlla la contabilità: prima nota, registri IVA, liquidazioni, mastrini, bilancio, fatture e banca. Non cambia niente. | Contabilità, vendite, fatture dei fornitori e banca. |
 | Sola consultazione | Guarda senza cambiare nulla (anche il magazzino), listino escluso. | Nessuno. |
 
 > [!TIP]
-> **Revisione delle policy.** Apri la pagina Policy e guarda la colonna Permessi: le policy con *dati riservati* vanno solo ai gruppi dell'ufficio. Se i tecnici hanno una policy con il lucchetto, aprila e togli i permessi riservati, oppure sostituiscila con la policy proposta Tecnici.
+> **Revisione delle policy.** Apri la pagina Policy e guarda la colonna Permessi: le policy con *dati riservati* dovrebbero andare solo ai gruppi di Amministrazione, Acquisti e Commercialista. Se un'altra policy ha il lucchetto, aprila e togli i permessi riservati, oppure sostituiscila con la policy proposta del suo reparto.
 
 ## <a id="policy-regole"></a>Regole di sicurezza
 

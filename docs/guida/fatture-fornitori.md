@@ -44,7 +44,7 @@ Poi **Controllata**, oppure **Contesta al fornitore** con il motivo (va nelle no
 | Importare e controllare le fatture dei fornitori | Importare i file, abbinare le righe agli ordini (per scegliere a mano serve anche *Vedere gli acquisti*), segnarle controllate o contestate, data di ricezione, commessa e note. |
 | Pagare le fatture dei fornitori | Pagamenti, rate, compensazioni, lo storico già pagato, eliminare una fattura importata per sbaglio (si può reimportare dal file). |
 
-Le policy proposte: *Ufficio* importa e controlla, *Amministrazione* paga.
+Le policy proposte: *Amministrazione* importa, controlla e paga le fatture dei fornitori.
 
 ---
 

@@ -15,7 +15,7 @@
 
 - **Il lavoro** in poche parole (è anche il nome proposto per la commessa) e il **cliente**. Se non è ancora in anagrafica, **Non è ancora in anagrafica** chiede solo nome, telefono ed email; **Crea la scheda del cliente** lo mette tra i potenziali clienti e lo collega. Un preventivo per il progetto lo collega comunque.
 - **Valore stimato** (l'imponibile che si pensa di fatturare), **probabilità**, **chiusura prevista**, **commerciale** (di base chi lo crea), **provenienza** (passaparola, sito, fiera…) e **tipo di lavoro**, con i suggerimenti di quelli già scritti.
-- In cima, per un progetto in corso: **Cliente sentito**, **Rifiutato** e **Accettato**; per uno chiuso, **Riapri**. Sotto, le [commesse](#trattative-commessa) nate dal progetto, i [preventivi](#trattative-preventivi) e lo **storico**: fasi, contatti, preventivi, chiusura.
+- In cima, per un progetto in corso: **Cliente sentito**, **Rifiutato** e **Accettato**; per uno chiuso, **Riapri**. Sotto, le [commesse](#trattative-commessa) nate dal progetto, i [preventivi](#trattative-preventivi), le [attività e ore](#trattative-attivita) e lo **storico**: fasi, contatti, preventivi, attività, chiusura.
 
 ## <a id="trattative-da-testo"></a>Un progetto da un testo
 
@@ -30,6 +30,16 @@ Il **prossimo passo** dice che cosa fare e quando («fissare il sopralluogo», �
 - **Nuovo preventivo** nella scheda prepara il preventivo per quel cliente, con l'oggetto del progetto. Un progetto nelle prime fasi passa a **Preventivo**.
 - Quando il preventivo è **inviato**, il valore del progetto diventa il suo imponibile; quando è **accettato**, il progetto risulta **accettato** da solo e si propone subito la commessa (vedi [Dopo l'accettazione: commessa o progetto](preventivi.md#preventivi-commessa)). Un rifiuto resta nello storico: si può fare una revisione (resta collegata) oppure segnare il progetto rifiutato.
 - **Collega** aggancia un preventivo già fatto per lo stesso cliente; l'icona accanto lo toglie. Il preventivo mostra in testata il suo progetto, e la scheda del cliente, nella linguetta Preventivi, sopra i preventivi, i suoi **Progetti in corso**.
+
+## <a id="trattative-attivita"></a>Attività e ore del progetto
+
+Dalla 1.165.0 il lavoro per **preparare l'offerta** (il sopralluogo, i disegni, i calcoli) si segue con le [attività](attivita.md) del progetto e le loro ore, anche quando il cliente poi rifiuta: così si sa quanto costa preparare un'offerta.
+
+- Nella scheda del progetto la parte **Attività e ore** elenca le sue attività con lo stato, chi ci lavora e le ore registrate; **Nuova attività** ne crea una già collegata al progetto e al suo cliente. In fondo il totale delle ore di tutti e, a chi vede [budget e consuntivo delle commesse](progetti.md#progetti-budget), il **costo**: le ore per il costo orario di chi le ha registrate, come la manodopera del consuntivo.
+- Le attività del progetto le vede chi vede il progetto, come quelle di una commessa le vede chi vede la commessa. Le ore si registrano come sempre, dalla scheda dell'attività (linguetta **Ore**) o dal registro delle ore.
+- Un'attività sta **in un progetto oppure in una commessa**, non in tutti e due: le ore del progetto sono il costo dell'offerta, quelle della commessa il suo consuntivo. Nella scheda dell'attività il campo **Progetto** prende il posto della commessa; **Togli** la libera. Le sottoattività stanno nel progetto dell'attività principale.
+- Accettato il progetto, le sue attività restano dove sono (sono il lavoro fatto per prenderlo): il lavoro del cantiere va nelle attività della commessa.
+- Nel kanban la scheda del progetto mostra le ore registrate; la linguetta **Accettati e rifiutati** ha la colonna **Ore**, e la [Previsione](#trattative-previsione) il riquadro **Costo delle offerte**.
 
 ## <a id="trattative-chiusura"></a>Accettati e rifiutati
 
@@ -54,6 +64,7 @@ Quando il cliente dice sì, il lavoro parte: il progetto diventa una [commessa](
 
 - **Per mese di chiusura**: i progetti in corso nei prossimi sei mesi (più quelli in ritardo, quelli più avanti e quelli senza data), con il valore e il **pesato**, cioè quanto ci si può ragionevolmente aspettare.
 - **Per fase**, **Accettati e rifiutati** negli ultimi 12 mesi (tasso di accettazione per numero e per valore, giorni medi per chiudere), **Perché si rifiutano** e **Da dove arrivano** (provenienze con in corso, accettati, rifiutati e il valore accettato).
+- **Costo delle offerte** (dalla 1.165.0): le ore registrate sulle [attività dei progetti](#trattative-attivita) in corso, accettati e rifiutati negli ultimi 12 mesi, con le ore per progetto. A chi vede budget e consuntivo delle commesse anche il costo, il costo per progetto e, per gli accettati, quanto pesa sul valore preso.
 - Nella Home, a chi gestisce i preventivi, il riquadro **Progetti** mostra il pesato di quelli in corso.
 
 ---

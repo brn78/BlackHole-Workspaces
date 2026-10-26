@@ -15,6 +15,7 @@ Un clic su una commessa apre la sua **pagina**:
 - la linguetta **Impianti**: gli [impianti](impianti.md#impianti-progetti) che la commessa realizza o modifica, per chi può vederli;
 - la linguetta **Certificazioni**: le [certificazioni](certificazioni.md) collegate alla commessa, per chi può vederle; **Nuova certificazione** parte da uno degli impianti della commessa;
 - la linguetta **Preventivi**: i [preventivi](preventivi.md#preventivi-commessa) della commessa;
+- la linguetta **Materiale**, con il magazzino acceso: il [materiale movimentato](#commesse-materiale) per la commessa, in quantità;
 - la linguetta **Budget**, per chi ha il permesso riservato: il [budget e il consuntivo](#progetti-budget) della commessa;
 - la linguetta **Documenti**: la [cartella della commessa](#progetti-documenti);
 - la linguetta **Storico**: chi ha cambiato che cosa nella commessa (dati, responsabile, membri, riservatezza, cliente) e quali attività sono state create, completate, eliminate, collegate o scollegate.
@@ -61,6 +62,16 @@ Il **tipo** (Cantiere, Manutenzione, Interna…) si sceglie da un elenco uguale 
 - Chi vede la commessa vede anche le sue attività; ci lavorano, come sempre, assegnatari, revisore e chi le riceve in condivisione (vedi [chi può fare che cosa](attivita.md#attivita-assegnare)).
 - L'avanzamento della commessa conta tutte le attività collegate, sottoattività comprese; le ore della commessa sono quelle registrate sulle sue attività.
 
+## <a id="commesse-materiale"></a>Il materiale della commessa
+
+Dalla 1.165.0 la linguetta **Materiale** mostra il materiale movimentato per la commessa, senza andarlo a cercare nel [magazzino](magazzino.md). Sono **solo quantità**: niente prezzi, costi né importi, così la vede anche chi lavora in campo senza il permesso dei costi. La vede chi vede la commessa (una commessa riservata solo chi ne fa parte); il costo del materiale resta nel [Budget](#progetti-budget).
+
+- In alto quante voci sono uscite, quante rientrate, quante sono ancora in cantiere e quanti DDT ha la commessa.
+- **Materiale per voce**: **Uscito** (gli scarichi per la commessa, dal magazzino o dal furgone, e la merce consegnata con i DDT della commessa), **Rientrato** (i rientri da cantiere registrati per la commessa), **Netto** (la differenza) e **In cantiere** (la merce ancora nei magazzini presso il cliente collegati alla commessa), con l'unità e, sotto la descrizione, le matricole uscite.
+- **Registrazioni di magazzino**: quelle della commessa e i trasferimenti verso o dai suoi cantieri, con la causale, da dove a dove, il riferimento (con il DDT) e chi le ha registrate. Un clic apre la registrazione a chi vede quel magazzino.
+- **DDT**: i DDT della commessa con numero, data, stato e magazzino, senza importi; un clic li apre in Fatturazione a chi la vede.
+- Il materiale compare quando si scarica per la commessa (causale **Scarico per commessa o impianto**), quando si emette un DDT della commessa (dalla 1.165.0 lo scarico del DDT ricorda la commessa, anche nel [consuntivo](#progetti-budget)) o quando la merce si trasferisce al cantiere del cliente. La merce nel furgone non è di una commessa finché non si scarica per lei.
+
 ## <a id="progetti-documenti"></a>Documenti della commessa
 
 - Alla creazione della commessa, con la casella **Crea la cartella della commessa in Documenti** spuntata, nasce la cartella **Documenti → Commesse → *codice nome***, collegata al cliente e, se la commessa è riservata, riservata alle stesse persone: i membri con il loro ruolo e il responsabile con la modifica. Si riallinea da sola quando cambiano riservatezza, cliente, responsabile o membri. Con l'aggiornamento alla 1.164.0 la cartella **Progetti** che c'era già si rinomina da sola in **Commesse**, con dentro le stesse sottocartelle.
@@ -80,7 +91,7 @@ Nella scheda Modelli, **Esporta tutti** e **Importa…** (e **Esporta il modello
 
 ## <a id="progetti-budget"></a>Budget e consuntivo
 
-Per ogni commessa si confronta quanto si era **previsto** con quanto si è **speso** e **fatturato**, mentre il lavoro va avanti. Lo vede solo chi ha il permesso riservato **Budget e consuntivo delle commesse** (nella policy proposta Amministrazione): nella pagina della commessa la linguetta **Budget**, nella pagina Commesse la scheda **Economia** con tutte le commesse.
+Per ogni commessa si confronta quanto si era **previsto** con quanto si è **speso** e **fatturato**, mentre il lavoro va avanti. Lo vede solo chi ha il permesso riservato **Budget e consuntivo delle commesse** (nessuna policy proposta lo concede: si dà a mano, di solito all'ingegnere che prepara il SAL): nella pagina della commessa la linguetta **Budget**, nella pagina Commesse la scheda **Economia** con tutte le commesse.
 
 - **Il previsto**: ricavo, ore di manodopera e costi per voce (manodopera, materiale, prestazioni esterne, altre spese). Finché non lo scrivi vale la **proposta dai preventivi accettati** della commessa: il loro imponibile (con lo sconto) come ricavo, il costo delle righe per tipo (materiale, prestazioni, manodopera), le ore di manodopera e di posa; le ore di posa sono valorizzate al costo orario medio del personale. **Scrivi il budget** apre il pannello a destra con i numeri proposti, da correggere; **Riprendi la proposta** li rimette, **Togli il budget** torna alla proposta. Nel pannello anche la soglia dell'**avviso** (90 % se non la cambi) e le note.
 - **Il fatto** si calcola da solo da quello che c'è già nel programma:

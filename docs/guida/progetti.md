@@ -52,7 +52,7 @@ Se due persone modificano la stessa commessa insieme, il secondo salvataggio non
 
 ## <a id="progetti-tipi"></a>Tipi delle commesse
 
-Il **tipo** (Cantiere, Manutenzione, Interna…) si sceglie da un elenco uguale per tutti, come le [categorie dei clienti](clienti.md#clienti-categorie): ogni tipo ha il suo colore, che l'elenco delle commesse e dei modelli mostra come etichetta accanto al nome. Chi ha il permesso **Gestire i tipi delle commesse** trova in cima alla pagina il pulsante **Tipi**: nel pannello dei [tipi e delle categorie](interfaccia.md#interfaccia-tipi) li aggiunge, li rinomina, ne sceglie icona e colore e li elimina, vedendo quante commesse e modelli usano ciascuno. Eliminando un tipo, le sue commesse restano senza tipo. Una commessa creata da un modello prende il tipo del modello.
+Il **tipo** (Cantiere, Manutenzione, Interna…) si sceglie da un elenco uguale per tutti, come le [categorie dei clienti](clienti.md#clienti-categorie): ogni tipo ha il suo colore, che l'elenco delle commesse e dei modelli mostra come etichetta accanto al nome. Chi ha il permesso **Gestire i tipi delle commesse** trova in **Altro** la voce **Tipi delle commesse**: nel pannello dei [tipi e delle categorie](interfaccia.md#interfaccia-tipi) li aggiunge, li rinomina, ne sceglie icona e colore e li elimina, vedendo quante commesse e modelli usano ciascuno. Eliminando un tipo, le sue commesse restano senza tipo. Una commessa creata da un modello prende il tipo del modello.
 
 ## <a id="progetti-attivita"></a>Le attività della commessa
 

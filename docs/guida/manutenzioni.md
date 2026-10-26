@@ -43,7 +43,7 @@ Salvato, il rapporto prende il **numero** successivo dell'anno (*RM 2026-012*) e
 
 ## <a id="manutenzioni-tipi"></a>Le manutenzioni proposte dai tipi
 
-Ogni [tipo di impianto](impianti.md#impianti-tipi) propone le sue manutenzioni (che cosa, ogni quanti mesi, il preavviso, i controlli): si scrivono dalla pagina Impianti, **Tipi**, con il pulsante accanto al tipo, per chi può **Gestire i tipi di impianto**. Dove il programma è partito con i tipi proposti si parte da Antintrusione, Videosorveglianza e Controllo accessi (ogni anno), Antincendio (controllo periodico ogni 6 mesi), KNX e domotica (verifica e backup), Fotovoltaico, Elettrico e quadri (manutenzione del quadro ogni anno e verifica periodica dell'impianto di terra DPR 462/01 ogni 5 anni). Cambiarle non tocca i piani che ci sono già.
+Ogni [tipo di impianto](impianti.md#impianti-tipi) propone le sue manutenzioni (che cosa, ogni quanti mesi, il preavviso, i controlli): si scrivono da **Altro** › **Tipi di impianto**, con il pulsante accanto al tipo, per chi può **Gestire i tipi di impianto**. Dove il programma è partito con i tipi proposti si parte da Antintrusione, Videosorveglianza e Controllo accessi (ogni anno), Antincendio (controllo periodico ogni 6 mesi), KNX e domotica (verifica e backup), Fotovoltaico, Elettrico e quadri (manutenzione del quadro ogni anno e verifica periodica dell'impianto di terra DPR 462/01 ogni 5 anni). Cambiarle non tocca i piani che ci sono già.
 
 > [!NOTE]
 > **Le periodicità proposte sono indicative.** Quelle vere dipendono dalle norme (per esempio i controlli antincendio, le verifiche DPR 462/01, le guide CEI), dal costruttore, dall'uso e dai contratti con i clienti: verificale e correggile nei tipi o nel piano di ogni impianto.

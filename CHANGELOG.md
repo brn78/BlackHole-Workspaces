@@ -4,6 +4,20 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.165.1 · 26 ottobre 2026
+
+**Correzioni**
+
+- **Assistenza**: torna il pulsante blu «Nuova richiesta» (in Laboratorio «Ricevi un pezzo»). Lo stesso errore poteva
+  nascondere il pulsante blu anche in altre pagine con più linguette.
+- **F2** apre «Gestisci l'elenco» anche quando l'elenco delle scelte è già aperto.
+- **Scadenze**: ogni scheda si apre sopra lo scadenzario e, chiusa, si resta nelle Scadenze con l'elenco aggiornato. Il
+  preventivo da risentire si apre con un riassunto (stato, cliente, date e importi), «Cliente sentito» e «Apri il
+  preventivo».
+- **Listino**: «Stampa le etichette» è nel menu «Altro» della scheda della voce, insieme alle altre stampe.
+- **Menu «Altro»**: tipi, categorie e modelli hanno il nome intero dell'elenco («Tipi di impianto», «Categorie del
+  listino», «Modelli delle certificazioni»…); «Tipi di impianto» c'è anche in Assistenza e Manutenzioni.
+
 ## 1.165.0 · 26 ottobre 2026
 
 **Novità**

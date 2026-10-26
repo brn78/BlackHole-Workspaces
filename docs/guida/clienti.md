@@ -76,9 +76,9 @@ Il gruppo è un'**etichetta**: nel campo **Gruppo** dell'anagrafica scrivi un no
 
 La **categoria** classifica la scheda (Partner, Rivenditore, Installatore, Professionista, Ente pubblico, Ex cliente…): si sceglie dall'elenco nel campo **Categoria** dell'anagrafica, e ognuna ha il suo **colore**, come le [categorie dei documenti](documenti.md#documenti-scheda). Nell'elenco delle schede compare accanto al nome come etichetta colorata, e il filtro **Tutte le categorie** mostra le schede di una categoria o quelle **Senza categoria**.
 
-- Chi ha il permesso **Gestire le categorie dei clienti** vede in cima alla pagina il pulsante **Categorie**: aggiunge, rinomina, sceglie icona e colore ed elimina le categorie, uguali per tutti, nel pannello dei [tipi e delle categorie](interfaccia.md#interfaccia-tipi). Sotto ognuna c'è quante schede la usano (tra quelle che vedi).
+- Chi ha il permesso **Gestire le categorie dei clienti** trova in **Altro Categorie dei clienti** (nella pagina Fornitori **Categorie dei clienti e dei fornitori**, perché l'elenco è lo stesso): aggiunge, rinomina, sceglie icona e colore ed elimina le categorie, uguali per tutti, nel pannello dei [tipi e delle categorie](interfaccia.md#interfaccia-tipi). Sotto ognuna c'è quante schede la usano (tra quelle che vedi).
 - Eliminando una categoria, le schede che l'avevano restano **senza categoria**; rinominandola, il nuovo nome vale subito per tutte.
-- **Importare**: la colonna `Categoria` del file usa la categoria con quel nome (maiuscole e minuscole non contano); un nome che nell'elenco non c'è viene aggiunto, con il colore predefinito, da cambiare poi con **Categorie**. **Esportare** scrive il nome della categoria.
+- **Importare**: la colonna `Categoria` del file usa la categoria con quel nome (maiuscole e minuscole non contano); un nome che nell'elenco non c'è viene aggiunto, con il colore predefinito, da cambiare poi con **Categorie dei clienti**. **Esportare** scrive il nome della categoria.
 - Le categorie scritte nelle schede prima che ci fosse l'elenco ci sono già, ognuna con un colore (la stessa parola scritta in modi diversi, per esempio «partner» e «Partner», è una categoria sola).
 
 ## <a id="clienti-selezione"></a>Scegliere più schede insieme
@@ -281,7 +281,7 @@ Ciò che ciascuno può fare sui clienti condivisi dipende dai permessi delle sue
 | Eliminare qualsiasi cliente | Spostare nel cestino (e ripristinare) qualsiasi cliente condiviso. |
 | Svuotare il cestino dei clienti | Eliminare definitivamente le schede nel cestino che puoi vedere, una alla volta o con **Svuota cestino**. Senza questo permesso le schede eliminate restano nel cestino e spariscono da sole dopo 30 giorni. |
 | Gestire i gruppi di clienti | Rinominare, descrivere ed eliminare i gruppi di clienti. (Un gruppo nuovo nasce comunque scrivendone il nome nella scheda di un cliente che puoi modificare.) |
-| Gestire le categorie dei clienti | Aggiungere, rinominare, colorare ed eliminare le [categorie](#clienti-categorie) con il pulsante **Categorie**. Sceglierne una nella scheda lo può fare chiunque modifichi la scheda. |
+| Gestire le categorie dei clienti | Aggiungere, rinominare, colorare ed eliminare le [categorie](#clienti-categorie) con **Altro** › **Categorie dei clienti**. Sceglierne una nella scheda lo può fare chiunque modifichi la scheda. |
 | Esportare i clienti | Scaricare in CSV i clienti che puoi vedere. |
 | Importare clienti | Aggiungere clienti da un file CSV o JSON: condivisi se puoi crearli, privati se hai la rubrica personale. |
 | Rubrica personale | Creare contatti privati, visibili solo a te. |

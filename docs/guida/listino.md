@@ -19,7 +19,7 @@ In alto ci sono:
 
 - **Stampa**: il listino prezzi da dare al cliente, il listino con costi e ricarichi per uso interno, le **etichette con il codice a barre** delle voci in elenco, oppure lo scarico in **CSV** per Excel;
 - **Esporta** e **Importa**: tutto il listino in Excel, CSV o JSON, e le voci da un file (vedi [Importare ed esportare](#listino-importare));
-- **Categorie**;
+- **Categorie del listino**;
 - **Ricarico**: il ricarico predefinito e l'IVA proposta;
 - **Nuova voce**.
 
@@ -27,7 +27,7 @@ Un clic apre la voce. Il tasto destro (o ⋯) offre:
 
 - lo storico dei prezzi;
 - il listino del fornitore da cui viene la voce;
-- **Etichette** (per i materiali);
+- **Stampa le etichette** (per i materiali);
 - **Duplica**;
 - **Togli dal listino** (o **Rimetti a listino**);
 - **Segna da controllare** (o **Segna come controllata**);
@@ -74,7 +74,7 @@ Un materiale ha due codici a barre: quello del **pezzo** e quello della **confez
 - si **legge** con : con un **lettore USB o Bluetooth** (scrive il codice come una tastiera, seguito da Invio) oppure con la **fotocamera** del telefono. La fotocamera legge i codici in Chrome su Android (anche su macOS e ChromeOS) e solo dall'indirizzo sicuro della piattaforma (https); sul PC Windows si usa il lettore;
 - si **genera** con **Genera**: un EAN-13 interno che inizia con **20** (GS1 riserva i prefissi da 20 a 29 all'uso interno: non finiscono mai su un prodotto in commercio), progressivo, diverso da tutti quelli già usati. Serve per i prodotti senza codice, per le confezioni fatte da voi o per le parti di magazzino.
 
-**Etichette** (nella voce, dal menu della riga, dalle voci scelte o da Stampa per tutte quelle in elenco) prepara le etichette da stampare: il codice del pezzo, della confezione o entrambi, su fogli A4 da 24 etichette (70 × 37 mm) o da 65 (38 × 21 mm), oppure una per foglio da 62 × 29 mm per le stampanti di etichette; con le copie per ogni etichetta, il prezzo di vendita (della confezione intera, sull'etichetta della confezione) e il QR code con il codice della voce. Le voci senza codice a barre possono portare il codice della voce (in Code 128), che si legge con lo stesso lettore. L'anteprima mostra le prime etichette come verranno.
+**Stampa le etichette** (nella voce, in **Altro** in basso; dal menu della riga; **Etichette** per le voci scelte o da Stampa per tutte quelle in elenco) prepara le etichette da stampare: il codice del pezzo, della confezione o entrambi, su fogli A4 da 24 etichette (70 × 37 mm) o da 65 (38 × 21 mm), oppure una per foglio da 62 × 29 mm per le stampanti di etichette; con le copie per ogni etichetta, il prezzo di vendita (della confezione intera, sull'etichetta della confezione) e il QR code con il codice della voce. Le voci senza codice a barre possono portare il codice della voce (in Code 128), che si legge con lo stesso lettore. L'anteprima mostra le prime etichette come verranno.
 
 I codici a barre si usano poi nei [preventivi](preventivi.md#preventivi-righe): letto il codice della confezione, la riga prende già la quantità della confezione.
 
@@ -99,7 +99,7 @@ La linguetta **Storico prezzi** mostra il **grafico** del prezzo nel tempo, e pe
 
 ## <a id="listino-categorie"></a>Categorie e ricarico predefinito
 
-**Categorie** apre l'albero delle categorie merceologiche, per esempio Videosorveglianza › Telecamere, Cavi, Prestazioni. Ogni categoria può avere un suo **ricarico**; senza, prende quello della categoria sopra, e in cima il ricarico predefinito. Accanto a ogni categoria si legge quale ricarico vale e da dove viene.
+**Categorie del listino**, in **Altro**, apre l'albero delle categorie merceologiche, per esempio Videosorveglianza › Telecamere, Cavi, Prestazioni. Ogni categoria può avere un suo **ricarico**; senza, prende quello della categoria sopra, e in cima il ricarico predefinito. Accanto a ogni categoria si legge quale ricarico vale e da dove viene.
 
 Quando cambia un ricarico, o una categoria si sposta, i prezzi delle voci che lo seguono si ricalcolano e il cambio finisce nel loro storico. Eliminare una categoria non elimina le voci: le sue voci e le sue sottocategorie passano alla categoria sopra. In cima al riquadro c'è il **ricarico predefinito** con l'IVA proposta per le voci nuove; si cambia anche dal pulsante **Ricarico** della pagina.
 

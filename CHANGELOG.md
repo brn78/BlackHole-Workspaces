@@ -4,6 +4,14 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.168.2 · 27 ottobre 2026
+
+**Correzioni**
+
+- **Posta, spostamenti annullati**: un messaggio spostato in un'altra cartella mentre il programma stava già
+  controllando la posta a volte tornava da solo nella cartella di partenza. Ora lo spostamento resta, anche quando la
+  posta si aggiorna più volte di seguito.
+
 ## 1.168.1 · 27 ottobre 2026
 
 **Novità**

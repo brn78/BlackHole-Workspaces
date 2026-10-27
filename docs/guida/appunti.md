@@ -105,7 +105,7 @@ Quando un collega condivide un appunto con te, o con un gruppo di cui fai parte,
 - Se in quel momento non eri collegato, l'avviso compare al prossimo accesso. Con molte condivisioni in attesa ne vengono segnalate tre: le altre le trovi nella pagina.
 - Aprendo la pagina **Appunti** tutte le condivisioni risultano viste e gli avvisi non tornano più. Se sei già sulla pagina l'avviso non compare: l'appunto si aggiunge da solo all'elenco.
 
-Un appunto ricevuto si riconosce dal nome del proprietario in fondo al riquadro (*di Mario Bianchi*). Oltre a leggerlo, e a modificarlo se ne hai il permesso, puoi:
+Un appunto ricevuto si riconosce dal nome del proprietario in fondo al riquadro (*di Mario Rossi*). Oltre a leggerlo, e a modificarlo se ne hai il permesso, puoi:
 
 - **fissarlo** o **archiviarlo**, solo per te;
 - **Crea una copia** : nasce un appunto **tuo** con lo stesso titolo, contenuto, colore ed etichette, non condiviso con nessuno. Da lì in poi copia e originale sono indipendenti;

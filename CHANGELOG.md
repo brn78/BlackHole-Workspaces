@@ -4,6 +4,36 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.168.1 · 27 ottobre 2026
+
+**Novità**
+
+- **Posta come Outlook**: a sinistra l'albero con ogni casella come radice e le sue cartelle; tre visualizzazioni da
+  scegliere in «Altro» (cartelle, messaggi e messaggio in fila; messaggio sotto l'elenco; messaggio nella scheda
+  laterale); i messaggi si trascinano su una cartella per spostarli; ‹ › e frecce ↑ ↓ per il messaggio precedente e
+  successivo; riquadri da allargare o stringere con la maniglia; la colonna delle cartelle si nasconde con un clic.
+- **Posta con gli stili di tutta la piattaforma**: impostazioni, condivisione e firma della casella in una scheda sola
+  con le linguette; condivisione come negli appunti; allegati con l'anteprima; assegnazione come nelle attività;
+  modifiche non salvate che chiedono conferma. Chi può scrivere in una casella condivisa cambia dal ⋯ la propria firma.
+- **Il cursore nel primo campo**: ogni scheda e finestra, appena aperta, mette il cursore nel primo campo dove si scrive,
+  anche quelle che leggono i dati dopo l'apertura e quando «Modifica» apre il modulo.
+- **L'occhio su tutte le password**: ogni campo password (caselle di posta, server, chiavi, conferme con la propria
+  password) ha l'occhio per vedere quello che si scrive.
+- **Esempi uguali dappertutto**: negli esempi dei campi e nella guida la persona è Mario Rossi, la città Ragusa e il
+  santo patrono San Giovanni Battista.
+
+**Correzioni**
+
+- **Posta senza caselle**: si vede solo l'invito ad aggiungerne una, senza le colonne vuote.
+- **Messaggi e firme che vanno a capo**: ogni spazio scritto diventava uno spazio fisso, e le righe lunghe non andavano
+  più a capo nei messaggi inviati e nelle firme.
+- **Immagini dei messaggi**: quelle scritte senza «https:» (frequenti nelle newsletter) ora sono riconosciute come
+  immagini esterne: compare «Mostra le immagini» invece di un'immagine rotta.
+- **Caselle POP3**: «Posta inviata» e «Cestino» ci sono da subito, non solo dopo il primo invio o la prima eliminazione.
+- **Elenco dei messaggi**: l'ora di oggi senza i secondi; nella lettura il mittente non si ripete quando il nome è
+  l'indirizzo.
+- **Eliminazioni definitive della Posta**: non promettono più il Cestino.
+
 ## 1.168.0 · 27 ottobre 2026
 
 **Novità**

@@ -44,8 +44,9 @@ documenti e senza abbonamenti: i dati restano sul tuo server.
 **🗓️ La mia giornata**<br>
 Home con i numeri che contano, attività con kanban, calendario e Gantt, appunti ed elenchi condivisi, gestione delle
 password cifrata con le cartelle aziendali e i codici della verifica in due passaggi, **rubrica** personale o condivisa
-importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic, e la **posta**: caselle
-IMAP o POP3 personali o condivise, la PEC con le ricevute, l'archivio compresso che entra nei backup.
+importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic, e la **posta** come in
+Outlook: caselle IMAP o POP3 personali o condivise, tre visualizzazioni, messaggi da trascinare sulle cartelle, la PEC
+con le ricevute, l'archivio compresso che entra nei backup.
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, **importazione ed esportazione

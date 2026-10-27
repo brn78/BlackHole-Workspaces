@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.168.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.168.1**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -76,11 +76,21 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Importare i contatti dal telefono o da Excel](rubrica.md#rubrica-import)
    - [Usare un contatto come cliente o fornitore](rubrica.md#rubrica-clienti)
 9. [Posta](posta.md)
+   - [Caselle e cartelle](posta.md#posta-caselle)
+   - [Come stanno le colonne](posta.md#posta-visualizzazione)
+   - [L'elenco dei messaggi](posta.md#posta-elenco)
+   - [Spostare trascinando](posta.md#posta-trascinare)
+   - [Leggere un messaggio](posta.md#posta-lettura)
+   - [Scrivere](posta.md#posta-scrivere)
+   - [Scorciatoie](posta.md#posta-scorciatoie)
+   - [La scheda della casella](posta.md#posta-casella)
    - [IMAP o POP3](posta.md#posta-ricezione)
    - [Che cosa succede dei messaggi sul server](posta.md#posta-server)
    - [PEC e ricevute](posta.md#posta-pec)
    - [Condivisione e diritti](posta.md#posta-condivisione)
    - [Allegati e Documenti](posta.md#posta-allegati)
+   - [Cestino ed eliminazione](posta.md#posta-eliminare)
+   - [Da sapere](posta.md#posta-da-sapere)
 10. [Password](password.md)
    - [Le cartelle](password.md#password-cartelle)
    - [Le voci](password.md#password-voci)

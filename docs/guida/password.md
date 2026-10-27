@@ -109,7 +109,7 @@ La condivisione vale dal salvataggio. Condivide chi ha il permesso **Condividere
 | Chi ha **Gestire tutte le password condivise** | Vedere, modificare, condividere, cestinare ed eliminare **tutte le password condivise**, anche quelle non condivise con lui: la scheda lo dice. Le password **personali** degli altri restano invisibili anche a lui. |
 
 - **Gruppi**: una voce condivisa con un gruppo arriva a tutti i suoi membri, anche a chi entra in seguito; chi ne esce smette di vederla. Chi la riceve in più modi ha il permesso più ampio.
-- Nell'elenco la colonna **Condivisione** dice *Personale*, *Con tutti*, *Con Mario Rossi*, *Con 3 destinatari* oppure, per quelle ricevute, *Da Anna Verdi*; fermando il mouse compaiono tutti i nomi.
+- Nell'elenco la colonna **Condivisione** dice *Personale*, *Con tutti*, *Con Mario Rossi*, *Con 3 destinatari* oppure, per quelle ricevute, *Da Maria Rossi*; fermando il mouse compaiono tutti i nomi.
 - Una password si può condividere al massimo con **100** tra utenti e gruppi.
 
 ## <a id="password-controllo"></a>Controllo delle password

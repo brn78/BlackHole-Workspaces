@@ -4,6 +4,36 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.168.0 · 27 ottobre 2026
+
+**Novità**
+
+- **Posta in «Il mio spazio»**: le caselle di posta si leggono, si cercano e si scrivono dentro BlackHole, con le
+  cartelle, la firma, le risposte e gli inoltri. Ogni casella è IMAP o POP3, a scelta; i server li propone il programma
+  dall'indirizzo e «Prova la connessione» dice subito se ricezione e invio funzionano.
+- **Caselle personali e condivise**: le tue le vedi solo tu; quelle che condividi con colleghi o gruppi si danno in
+  lettura, in scrittura (rispondere e inviare dalla casella) o in gestione. Le caselle dell'azienda (info, PEC) le
+  gestisce chi ne ha il permesso; quelle personali degli altri non le vede nessuno, nemmeno l'amministratore.
+- **PEC**: invio e ricezione, con le ricevute di accettazione e di consegna legate al messaggio inviato e il suo stato
+  (consegnata, consegna parziale, mancata consegna); i messaggi PEC non si cancellano mai dall'archivio.
+- **Il server della posta tieni o svuoti tu**: per ogni casella si sceglie se lasciare i messaggi sul server, toglierli
+  dopo lo scarico, dopo un certo numero di giorni o quando si eliminano in BlackHole, e cosa fare del cestino del server.
+  Nulla si cancella dal server finché il messaggio non è nell'archivio di BlackHole **e** in un backup completato.
+- **Archivio a pezzi**: la posta di ogni casella è divisa in pezzi per trimestre, compressi, con gli allegati salvati
+  una volta sola anche se arrivano più volte. I pezzi chiusi non cambiano più e il backup li copia una volta sola,
+  accanto ai backup, nella cartella «BlackHole-posta» («Includi la posta» nelle impostazioni dei backup).
+- **Collegata al resto**: il mittente riconosciuto tra clienti e fornitori, con la scheda che si apre sopra la pagina;
+  i destinatari suggeriti dalla Rubrica e dai clienti; gli allegati si salvano in Documenti; nelle caselle condivise
+  «La prendo io» e chi ha letto o risposto.
+- **Sicura per com'è fatta**: i messaggi si mostrano in una cornice isolata, senza script e con le immagini esterne
+  bloccate finché non le chiedi; le password delle caselle sono cifrate e non vanno mai a un server diverso da quello
+  per cui le hai scritte.
+
+**Correzioni**
+
+- **Ripristino**: due ripristini nello stesso secondo mettevano da parte i dati attuali nella stessa cartella; ora ogni
+  ripristino ha la sua.
+
 ## 1.167.0 · 26 ottobre 2026
 
 **Novità**

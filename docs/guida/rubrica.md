@@ -38,4 +38,4 @@ Collegato, il contatto non si propone più nei campi Cliente: si trova come clie
 
 ---
 
-[← Appunti](appunti.md) · [Indice](README.md) · [Password →](password.md)
+[← Appunti](appunti.md) · [Indice](README.md) · [Posta →](posta.md)

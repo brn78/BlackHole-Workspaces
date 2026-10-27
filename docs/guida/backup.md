@@ -9,6 +9,7 @@
 - **Cartella dei backup**: meglio un altro disco o un NAS, così un guasto del disco dei dati non colpisce anche i backup. Si sceglie con **Sfoglia** e si controlla con **Prova** (vedi [Backup su un NAS](#backup-nas)).
 - **Backup automatico giornaliero** all'ora indicata, conservando gli ultimi N. Se un backup automatico non riesce (per esempio la cartella di destinazione non è raggiungibile) viene **ritentato ogni 10 minuti**, fino a sei volte; nella pagina resta l'errore dell'ultimo tentativo finché uno non va a buon fine, e nel registro attività il fallimento compare una volta sola.
 - **Includi i documenti**: attivo all'inizio, mette nel backup tutti i file della pagina [Documenti](documenti.md), con le revisioni. Con un archivio molto grande puoi spegnerlo e salvare la cartella `files\documents` in un altro modo (copia su NAS, backup del disco): i backup restano piccoli e veloci, ma **non contengono i documenti**. Nell'elenco quei backup hanno l'indicazione **Senza documenti** (e la stessa parola nel nome del file).
+- **Includi la posta**: attivo all'inizio, mette nel backup l'archivio delle caselle di posta. Con questa opzione spenta la posta non entra nei backup e il programma non cancella nulla dal server della posta finché non c'è un backup che la contiene. Se l'opzione è spenta e ci sono caselle, il backup si riconosce dall'indicazione **Senza posta** nell'elenco e dalla stessa parola nel nome del file.
 - **Cifratura** con password: un backup cifrato si ripristina anche su un altro server; senza cifratura le chiavi restano legate al PC che lo ha creato, e su un altro server non si leggono più i segreti: verifica in due passaggi, password della posta, chiavi dei servizi e le [password della gestione password](password.md#password-riservatezza). La password si scrive due volte: sotto la conferma compare subito se le due coincidono.
 
 > [!WARNING]
@@ -38,6 +39,10 @@ I campi **Utente della cartella di rete** e **Password** compaiono solo per le c
 **Ripristina…** chiede la tua password, verifica il backup e lo prepara; al riavvio i dati attuali vengono messi da parte in `recovery\pre-ripristino-<data>` (restano gli ultimi 3) e sostituiti. In caso di errore tornano al loro posto.
 
 Ripristinando un backup **Senza documenti**, i documenti presenti sul server **restano dove sono**: tornano database, impostazioni e chiavi del backup, mentre i file della pagina Documenti non vengono toccati. Le schede dei documenti sono nel database: se il backup è più vecchio, i file caricati dopo restano sul disco ma non compaiono più nella pagina finché non li carichi di nuovo, e i file eliminati dopo il backup compaiono ma non si aprono.
+
+## <a id="backup-posta"></a>Archivio della posta
+
+I messaggi della Posta stanno in pezzi chiusi, che non cambiano più: ogni pezzo chiuso e ogni allegato grande si copia **una sola volta** nella cartella `BlackHole-posta`, accanto ai backup. I backup successivi copiano solo il pezzo aperto e l'indice. **La cartella BlackHole-posta va trasferita insieme ai backup** (stesso disco, NAS o copia esterna): senza di essa il ripristino della posta è incompleto, e il programma dice quale casella non è completa. Se la cartella viene persa, al backup successivo i pezzi si copiano di nuovo dall'archivio del server, finché c'è. Cambiando la password dei backup o la cifratura, la copia nuova va in una cartella a parte (una per password, e una in chiaro): i backup più vecchi restano completi finché esistono, e la cartella vecchia si toglie quando nessun backup più vecchio la usa. Verificando un backup si controlla anche ogni pezzo della sua copia, e il messaggio dice quale casella e quale file manca o è danneggiato.
 
 ## <a id="backup-emergenza"></a>Ripristino di emergenza
 

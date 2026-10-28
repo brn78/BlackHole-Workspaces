@@ -8,7 +8,7 @@
 - **Controlla la posta adesso** è l'icona ↻ accanto al nome della cartella, sopra l'elenco (tasto <kbd>F9</kbd>, come in Outlook): gira finché il controllo non è finito. Di solito non serve, perché la posta si controlla da sola.
 - In **⋯ Altro** della pagina ci sono la scelta della visualizzazione e, quando hai già delle caselle, **Aggiungi una casella**. Senza caselle la pagina mostra solo l'invito ad aggiungerne una.
 - Le impostazioni di una casella non servono nel lavoro di ogni giorno: stanno nel suo **⋯**, a sinistra.
-- Nel menu a sinistra, accanto a **Posta**, c'è il numero dei messaggi da leggere di tutte le tue caselle: la posta nuova si vede da ogni pagina. Non contano Posta inviata, Bozze, Cestino e Spam.
+- Nel menu a sinistra, accanto a **Posta**, c'è il numero dei messaggi da leggere di tutte le tue caselle: la posta nuova si vede da ogni pagina. Non contano Posta inviata, Bozze, Cestino e Posta indesiderata.
 
 ## <a id="posta-caselle"></a>Caselle e cartelle
 
@@ -17,12 +17,12 @@
 - Un clic su una cartella mostra i suoi messaggi, anche se è di un'altra casella.
 - Il **⋯** della casella, o il tasto destro sulla casella, offre **Nuova cartella…** e **Impostazioni della casella…**, che apre la sua scheda (vedi [La scheda della casella](#posta-casella)). Chi può solo scrivere vede la sua firma al posto delle impostazioni; chi può solo leggere non ha il ⋯.
 - Il tasto destro su una cartella, o il suo **⋯** (compare passandoci sopra), offre:
-   - **Nuova sottocartella…**, per creare una cartella dentro quella: nella Posta in arrivo e nelle cartelle create da te, non nel Cestino, nello Spam, nelle Bozze o nella Posta inviata;
-   - **Rinomina…** ed **Elimina la cartella…**, solo per le cartelle create da te, non per Posta in arrivo, Posta inviata, Bozze, Cestino, Spam e Archivio, né per le cartelle speciali del server (su Gmail Tutti i messaggi, Speciali e Importanti) e quelle di altri utenti o condivise. Eliminando una cartella i messaggi che contiene vanno nel Cestino; se dentro ci sono altre cartelle, prima si eliminano quelle;
+   - **Nuova sottocartella…**, per creare una cartella dentro quella: nella Posta in arrivo e nelle cartelle create da te, non nel Cestino, nella Posta indesiderata, nelle Bozze o nella Posta inviata;
+   - **Rinomina…** ed **Elimina la cartella…**, solo per le cartelle create da te, non per Posta in arrivo, Posta inviata, Bozze, Cestino, Posta indesiderata e Archivio, né per le cartelle speciali del server (su Gmail Tutti i messaggi, Speciali e Importanti) e quelle di altri utenti o condivise. Eliminando una cartella i messaggi che contiene vanno nel Cestino; se dentro ci sono altre cartelle, prima si eliminano quelle;
    - **Segna tutti come letti**;
    - sul Cestino, **Svuota il cestino…** (vedi [Cestino ed eliminazione](#posta-eliminare)).
 - Nelle cartelle nuove si spostano i messaggi come nelle altre: trascinandoli, o con **Sposta in…**. Con una casella **IMAP** le cartelle si creano, si rinominano e si eliminano anche sul server della posta, e le ritrovi uguali sul telefono e negli altri programmi; con **POP3**, che sul server non ha cartelle, esistono solo in BlackHole.
-- Una cartella nuova non può chiamarsi come una di sistema (Posta in arrivo, Posta inviata, Bozze, Cestino, Spam, Archivio, anche in inglese): si confonderebbe con quella vera. Se una cartella con uno di questi nomi c'è già sul server, creata da un altro programma, resta una cartella tua e il cestino resta quello del server.
+- Una cartella nuova non può chiamarsi come una di sistema (Posta in arrivo, Posta inviata, Bozze, Cestino, Posta indesiderata o Spam, Archivio, anche in inglese): si confonderebbe con quella vera. Se una cartella con uno di questi nomi c'è già sul server, creata da un altro programma, resta una cartella tua e il cestino resta quello del server.
 - Se il server della posta non accetta una cartella nuova (per esempio dentro una cartella che non ne ammette altre), la cartella sparisce e i messaggi che ci avevi spostato tornano dov'erano. Se rinomini una cartella con un nome che sul server è già di un'altra, creata nel frattempo da un altro programma, la tua riprende il nome di prima. In tutti e due i casi il segno accanto alla casella dice che cosa è successo.
 - Il segno accanto al nome vuol dire che l'ultimo controllo della posta non è riuscito: passaci sopra per leggere il motivo.
 
@@ -57,7 +57,7 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 
 - Un clic sul messaggio lo apre (da tastiera <kbd>Invio</kbd>). La prima apertura lo segna come letto.
 - **‹** e **›** in alto passano al messaggio precedente o successivo dell'elenco; da tastiera le frecce <kbd>↑</kbd> e <kbd>↓</kbd>.
-- **Rispondi** è il solo pulsante blu. In **Altro** ci sono rispondi a tutti, inoltra, segna come letto o non letto, metti in evidenza, sposta in un'altra cartella, sposta nel cestino e scarica il messaggio (.eml).
+- **Rispondi** è il solo pulsante blu. In **Altro** ci sono rispondi a tutti, inoltra, segna come letto o non letto, metti in evidenza, **È posta indesiderata**, **Blocca il mittente…**, **Annulla l'iscrizione…** (nelle newsletter), sposta in un'altra cartella, sposta nel cestino e scarica il messaggio (.eml). Nella Posta indesiderata il pulsante blu è **Non è posta indesiderata** (vedi [Posta indesiderata, mittenti e iscrizioni](#posta-indesiderata)).
 - La **stella** ★ accanto all'oggetto mette il messaggio tra i tuoi [preferiti](area-di-lavoro.md#preferiti): dal menu o dalla Home lo riapri in una scheda sopra la pagina in cui sei. Se nel frattempo il messaggio è stato eliminato, la scheda lo dice e propone **Togli dai preferiti**.
 - Nelle caselle condivise con te o aziendali il messaggio si **assegna**, come nelle [attività](attivita.md): **Assegna a un collega…** oppure **Assegna a me**; la × toglie l'assegnazione.
 - Le **ricevute PEC** di un messaggio inviato stanno in una lista sola, una per riga (vedi [PEC e ricevute](#posta-pec)).
@@ -68,12 +68,22 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 
 ## <a id="posta-scrivere"></a>Scrivere
 
-- **Scrivi** (tasto <kbd>N</kbd>) apre un messaggio nuovo in una scheda a lato. In **Da** scegli la casella da cui parte. Mentre scrivi i destinatari, il programma propone i contatti della Rubrica, i clienti e gli indirizzi già usati nella posta. **Cc** e **Ccn** si aggiungono con i loro pulsanti.
-- **Allega dal PC** prende un file dal computer. **Allega da Documenti** apre una scheda a lato in cui cerchi il file per nome. Il messaggio ne manda una copia: il file resta dov'è.
+- **Scrivi** (tasto <kbd>N</kbd>) apre un messaggio nuovo in una scheda a lato. In **Da** scegli la casella da cui parte. Mentre scrivi i destinatari, il programma propone i contatti della Rubrica, i clienti e gli indirizzi già usati nella posta. **Cc** e **Ccn** si aggiungono con i loro pulsanti. Ogni destinatario si chiude con <kbd>Invio</kbd>, la virgola o il punto e virgola; un elenco incollato (*a@esempio.it; b@esempio.it*) diventa un destinatario per indirizzo.
+- Gli indirizzi si controllano come gli altri campi email: uno scritto male resta **in rosso** e sotto il campo c'è che cosa non va (per esempio *manca la @*). Un clic sull'indirizzo rosso lo rimette nel campo da correggere; finché ce n'è uno, il messaggio non parte. La spunta verde a destra dice che vanno bene tutti.
+- **Allegati**: nel riquadro tratteggiato **Scegli i file** li prende dal computer, oppure li trascini sulla scheda, anche sopra il testo. Insieme arrivano al massimo a 25 MB. **Allega da Documenti** apre una scheda a lato in cui cerchi il file per nome. Il messaggio ne manda una copia: il file resta dov'è.
 - La **firma** della casella va in fondo al messaggio ed è tua: ognuno ha la sua, anche nelle caselle condivise. Si cambia dal **⋯** della casella, linguetta **Firma**; chi può scrivere ma non gestire la casella vede lì soltanto **La tua firma**. In scrittura una riga ne mostra solo il testo.
 - Rispondendo o inoltrando, il messaggio originale sta in fondo, chiuso: **Messaggio originale** lo apre.
 - Chiudere la scheda con qualcosa di scritto chiede conferma. **Invia** dice subito se il server ha accettato il messaggio.
 - Se il messaggio non ha l'**oggetto**, o nel testo parli di un **allegato** («in allegato», «allego»…) ma non hai aggiunto nessun file, **Invia** chiede prima **Inviare lo stesso?**: **Torna al messaggio** (già scelto) ti riporta a scrivere, **Invia lo stesso** lo manda così.
+
+## <a id="posta-invia-da"></a>Invia da: le email che mandi dal programma
+
+Le email che mandi dalle altre pagine (documenti e solleciti delle vendite, ordini, richieste d'offerta e solleciti agli acquisti, lettere del recupero crediti, link del preventivo, condivisioni, riparazione pronta, informativa privacy) possono partire dalla tua casella della Posta. Nella finestra d'invio il campo **Invia da** propone la **tua casella** (prima le tue, poi quelle condivise con te in scrittura); in fondo all'elenco c'è il **Server di posta dell'azienda**, quello di Impostazioni → Email (il server dei servizi). Sotto il campo una riga dice che cosa succede con la scelta fatta; con una sola strada possibile il campo non c'è e resta solo la riga.
+
+- **Dalla tua casella**: il messaggio parte dal suo server con il suo indirizzo, come se lo scrivessi dalla Posta, e la copia resta nella sua **Posta inviata**; il cliente risponde lì.
+- **Dal server dei servizi**: per vendite, acquisti, recupero crediti e preventivi parte a tuo nome (il cliente risponde alla tua email del profilo e tu ne ricevi una copia); per condivisioni, assistenza e privacy a nome dell'azienda. Se la [casella dei servizi](impostazioni.md#impostazioni-posta) è nella Posta, la copia va nella sua Posta inviata.
+- Senza caselle da cui mandare il campo non c'è e vale il server dei servizi, come prima. Se non c'è nemmeno quello, la finestra lo dice. Le lettere in blocco e le PEC restano fuori: i provider di posta hanno limiti giornalieri, e la PEC ha la sua casella.
+- La casella non dà diritti in più: per mandare un documento servono comunque i permessi della sua pagina.
 
 ## <a id="posta-scorciatoie"></a>Scorciatoie
 
@@ -90,12 +100,13 @@ Valgono quando non stai scrivendo in un campo (vedi anche le [scorciatoie genera
 
 ## <a id="posta-casella"></a>La scheda della casella
 
-Si apre dal **⋯** della casella, a sinistra, con **Impostazioni della casella…**. Le sue parti stanno in quattro linguette:
+Si apre dal **⋯** della casella, a sinistra, con **Impostazioni della casella…**. Le sue parti stanno in cinque linguette:
 
 | Linguetta | Che cosa c'è |
 | --- | --- |
 | **Casella** | Indirizzo e password, il nome nell'elenco (per esempio *Posta di Mario*) e il nome del mittente (per esempio *Mario Rossi*), il tipo di ricezione (IMAP o POP3), se è una PEC, la copia nella posta inviata, ogni quanti minuti controllare la posta, i server di arrivo e di invio. **Prova la connessione** dice se la ricezione e l'invio rispondono, prima di salvare. |
 | **Sul server** | Che cosa fare dei messaggi sul server, il cestino del server e la data dell'ultimo backup che contiene la posta. |
+| **Posta indesiderata** | Se spostare lì lo spam e i messaggi che non superano i controlli del mittente, dopo quanti giorni svuotarla, i mittenti bloccati e fidati (con chi li ha decisi e quando) e le iscrizioni annullate. |
 | **Condivisione** | Chi vede la casella e con quale diritto: può leggere, può scrivere, può gestire. |
 | **Firma** | La firma che va in fondo ai messaggi che invii da questa casella. |
 
@@ -108,7 +119,7 @@ Si apre dal **⋯** della casella, a sinistra, con **Impostazioni della casella�
 
 Ogni casella usa uno dei due modi per ricevere la posta. Si sceglie nella linguetta **Casella**, in **Tipo di ricezione**:
 
-- **IMAP** (consigliato): la posta resta sul server e qui si vede la stessa cosa. Leggere, segnare, spostare o eliminare un messaggio si riflette sul server alla sincronizzazione successiva. Le cartelle sono quelle del server (Posta inviata, Bozze, Cestino, Spam, Archivio).
+- **IMAP** (consigliato): la posta resta sul server e qui si vede la stessa cosa. Leggere, segnare, spostare o eliminare un messaggio si riflette sul server alla sincronizzazione successiva. Le cartelle sono quelle del server (Posta inviata, Bozze, Cestino, Posta indesiderata, Archivio).
 - **POP3**: i messaggi si scaricano nella Posta in arrivo di BlackHole. Le cartelle sono solo quelle locali (Posta in arrivo, Posta inviata, Cestino).
 
 ## <a id="posta-server"></a>Che cosa succede dei messaggi sul server
@@ -137,7 +148,28 @@ Chi ha la casella condivisa può prendere un messaggio con **Assegna a me**, o a
 
 ## <a id="posta-allegati"></a>Allegati e Documenti
 
-Nella lettura il nome dell'allegato apre l'anteprima. Accanto, ⬇ scarica il file e **Salva in Documenti** lo mette nella cartella che scegli; per salvarlo serve il permesso di caricare documenti. Scrivendo, **Allega dal PC** prende un file dal computer e **Allega da Documenti** ne cerca uno nei Documenti: il messaggio ne manda una copia, il file resta dov'è.
+Nella lettura il nome dell'allegato apre l'anteprima. Accanto, ⬇ scarica il file e **Salva in Documenti** lo mette nella cartella che scegli; per salvarlo serve il permesso di caricare documenti. Scrivendo, il riquadro tratteggiato prende i file dal computer (**Scegli i file**, o trascinandoli sulla scheda) e **Allega da Documenti** ne cerca uno nei Documenti: il messaggio ne manda una copia, il file resta dov'è.
+
+## <a id="posta-indesiderata"></a>Posta indesiderata, mittenti e iscrizioni
+
+La **Posta indesiderata** è la cartella dove finisce ciò che non vuoi leggere. Il programma non guarda le parole del messaggio: decide solo con segnali sicuri, all'arrivo nella Posta in arrivo.
+
+- **Mittente bloccato**: il messaggio va nel **Cestino**.
+- **Mittente fidato**: il messaggio resta nella Posta in arrivo. Sono fidati senza fare nulla i clienti e i fornitori, i contatti della [Rubrica](rubrica.md) e chi ha già ricevuto un messaggio dalla casella; in più quelli resi fidati con **Non è posta indesiderata**.
+- **Iscrizione annullata**: se la newsletter scrive ancora dopo 10 giorni, il messaggio va nella Posta indesiderata.
+- **Spam o mittente non autentico**: va nella Posta indesiderata quello che il server della posta segna come spam e quello che non supera i controlli del mittente (DMARC, oppure SPF e DKIM insieme).
+- Le **PEC** e i messaggi inviati da BlackHole restano sempre dove sono.
+
+Il perché si legge in alto nel messaggio e nel suo storico. Nella Posta indesiderata collegamenti e immagini sono spenti, e il pulsante blu è **Non è posta indesiderata**: il messaggio torna nella Posta in arrivo e il mittente diventa fidato. Se il mittente è un cliente o un fornitore, un riquadro lo dice. Con una casella IMAP gli spostamenti valgono anche sul server; con POP3 la Posta indesiderata c'è solo in BlackHole.
+
+In **Altro** della lettura:
+
+- **È posta indesiderata** sposta il messaggio nella Posta indesiderata, senza bloccare il mittente.
+- **Blocca il mittente…** chiede se bloccare solo l'indirizzo o tutto il suo dominio, e se mettere nel cestino anche i suoi messaggi già arrivati. Il dominio delle caselle gratuite e dei gestori PEC (gmail.com, libero.it…) e quello della casella stessa non si bloccano: si blocca l'indirizzo. Un indirizzo fidato vale più del dominio bloccato.
+- **Sblocca il mittente** toglie il blocco; se il messaggio è nel cestino torna nella Posta in arrivo.
+- **Annulla l'iscrizione…** c'è nelle newsletter che dicono come farlo, mai nella Posta indesiderata (lì confermerebbe a chi manda spam che l'indirizzo è attivo). Prima dice a chi e come: BlackHole lo chiede direttamente al sito della lista, oppure invia dalla casella il messaggio di disiscrizione, oppure apre la pagina della lista dove confermi tu. Dopo, la voce dice in che giorno l'hai annullata.
+
+Nella linguetta **Posta indesiderata** della casella (vedi [La scheda della casella](#posta-casella)) chi la gestisce sceglie se spostare lo spam, dopo quanti giorni la cartella passa i messaggi al cestino (mai, 7, 14, 30 o 60; di serie 30, contati da quando il messaggio è entrato lì) e vede i mittenti bloccati e fidati e le iscrizioni annullate; la **×** toglie un mittente quando salvi.
 
 ## <a id="posta-eliminare"></a>Cestino ed eliminazione
 

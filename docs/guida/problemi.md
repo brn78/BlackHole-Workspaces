@@ -157,9 +157,16 @@ Il browser consente di svuotarli solo alle pagine aperte in `https://` o sul ser
 </details>
 
 <details>
-<summary><b>«Apri cartella» mostra il percorso invece di aprire la cartella</b></summary>
+<summary><b>L'icona della cartella mostra il percorso invece di aprire la cartella</b></summary>
 
 La cartella è sul server e la finestra si può aprire solo lì: vedi [Aprire la cartella sul server](archiviazione.md#archiviazione-apri). Da un altro computer usa **Copia percorso**.
+
+</details>
+
+<details>
+<summary><b>La cartella dei backup sul NAS apre Documenti</b></summary>
+
+Succedeva fino alla 1.168.5: il tuo utente di Windows non era collegato al NAS. Dalla 1.168.6 la piattaforma lo collega con l'utente salvato nei backup; se non ci riesce, il messaggio dice perché (vedi [Aprire la cartella sul server](archiviazione.md#archiviazione-apri)).
 
 </details>
 

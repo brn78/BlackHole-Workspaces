@@ -4,6 +4,95 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.168.8 · 27 ottobre 2026
+
+Le versioni dalla 1.168.3 alla 1.168.8 escono insieme, in un solo setup.
+
+**Novità**
+
+- **«Inviare lo stesso?»**: un messaggio senza oggetto, o che nel testo parla di un allegato («in allegato», «allego»)
+  senza nessun file, chiede conferma prima di partire; il pulsante già scelto è «Torna al messaggio».
+- **Avvisi in ordine**: in basso a destra se ne vedono al più tre; gli altri si raccolgono nella riga «Altri N avvisi»,
+  che li mostra con un clic. Sul telefono gli avvisi sono più bassi, con il testo su una riga, e non coprono più la
+  pagina.
+
+**Correzioni**
+
+- **Possibili doppioni**: dopo «Annulla» sulla conferma il cursore torna sul campo da correggere, con il testo già
+  selezionato. Prima restava sulla pagina e quello che si scriveva subito dopo andava perso.
+- **Posta, caselle nuove**: la prima lettura della posta parte subito, invece di aspettare fino a 30 secondi.
+- **Posta, nomi delle cartelle**: i caratteri che il server non accetta si segnalano già nella finestra del nome.
+- **Posta, Canc in una ricerca**: in una ricerca su tutta la casella, i messaggi che sono già nel cestino si eliminano
+  definitivamente invece di restare dove sono.
+- **Posta, tasto destro**: su una casella senza azioni (in sola lettura) lascia il menu normale del browser.
+- **Registro attività**: «Cartella eliminata» dice quale cartella.
+
+## 1.168.7 · 27 ottobre 2026
+
+**Correzioni**
+
+- **Posta, cartelle che il server non accetta**: una cartella rifiutata dal server (per esempio dentro una cartella che
+  non ne ammette altre) si toglie subito, con un avviso, e i messaggi spostati lì tornano dov'erano. Prima restava solo
+  nel programma e rallentava la lettura della posta.
+- **Posta, rinomina verso un nome già usato**: se sul server c'è già un'altra cartella con quel nome, o il server rifiuta
+  la rinomina, la cartella riprende il nome di prima. Prima finiva agganciata all'altra e i suoi messaggi si
+  riscaricavano come nuovi.
+- **Posta, spostamenti**: un messaggio non si sposta più in una cartella appena eliminata; letto e «In evidenza» messi su
+  un messaggio appena spostato arrivano anche sul server.
+
+## 1.168.6 · 27 ottobre 2026
+
+**Novità**
+
+- **Cartelle del server a un clic**: in *Sistema → Archiviazione* l'icona per aprire la cartella di lavoro è accanto al
+  «Percorso», al posto del pulsante in cima. L'icona di stato accanto all'orologio, e quella del programma avviato con
+  doppio clic, hanno «Apri la cartella di lavoro» e «Apri la cartella dei backup».
+
+**Correzioni**
+
+- **Cartella dei backup sul NAS**: aprirla dalla piattaforma mostrava Documenti, perché l'utente di Windows non era
+  collegato alla condivisione. Ora la piattaforma la collega in quella sessione di Windows con l'utente e la password
+  salvati nei backup, senza ricordarla al prossimo accesso; se il NAS non si raggiunge, il messaggio dice perché.
+- **Posta, cartelle di sistema al sicuro**: una cartella creata con il nome di una di sistema (per esempio «Cestino»
+  accanto al cestino del server) diventava il cestino e non si toglieva più. Ora quei nomi non si accettano, e le
+  sottocartelle si creano solo nella Posta in arrivo e nelle cartelle proprie.
+- **Posta, cartelle speciali di Gmail**: «Tutti i messaggi», «Speciali» e «Importanti», e le cartelle di altri utenti o
+  condivise, non si rinominano né si eliminano più. Eliminare «Tutti i messaggi» mandava nel cestino l'intera casella.
+- **Posta, messaggi da leggere**: il numero conta solo la Posta in arrivo e le cartelle proprie; su Gmail lo stesso
+  messaggio si contava fino a quattro volte.
+- **Prova della connessione**: non ripete più «Ricezione: Ricezione:».
+
+## 1.168.5 · 27 ottobre 2026
+
+**Novità**
+
+- **Cartelle proprie nella Posta**: con il tasto destro (o ⋯) su una casella o su una cartella si crea una cartella o
+  una sottocartella, si rinomina, si elimina, si segnano tutti i messaggi come letti e si svuota il cestino. Con IMAP le
+  cartelle si creano anche sul server; con POP3 restano nel programma.
+- **«Controlla la posta» a portata di mano**: è l'icona accanto al nome della cartella, oppure il tasto F9.
+- **Posta nuova nel menu**: accanto a «Posta» c'è il numero dei messaggi da leggere.
+- **Canc** manda nel cestino il messaggio selezionato.
+
+**Correzioni**
+
+- **Riga del copyright**: nella Posta resta sempre in vista in fondo alla pagina.
+
+## 1.168.4 · 27 ottobre 2026
+
+**Novità**
+
+- **Messaggi della Posta tra i preferiti**: la stella accanto all'oggetto mette il messaggio tra i preferiti. Il
+  preferito lo apre in una scheda sopra la pagina in cui sei, anche dopo che l'hai spostato in un'altra cartella.
+  «In evidenza» ora è la bandierina, così la stella resta ai preferiti.
+
+## 1.168.3 · 27 ottobre 2026
+
+**Novità**
+
+- **Password per l'invio che si toglie**: nella scheda della casella, sotto una password per l'invio salvata, c'è
+  «Rimuovi la password salvata»: l'invio torna a usare la password della casella. «Prova la connessione» usa la stessa
+  password dell'invio vero.
+
 ## 1.168.2 · 27 ottobre 2026
 
 **Correzioni**

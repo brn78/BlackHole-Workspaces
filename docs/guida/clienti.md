@@ -177,12 +177,12 @@ Serve per portare qui l'archivio di un altro gestionale con tutto quello che una
   { "code": "C00012", "kind": "company", "companyName": "ROSSI IMPIANTI SRL", "roles": ["customer", "supplier"],
     "vatNumber": "01234567897", "sdiCode": "M5UXCR1", "pec": "rossi@pec.esempio.it",
     "emails": ["info@esempio.it", { "label": "Amministrazione", "value": "amministrazione@esempio.it" }],
-    "phones": [["Ufficio", "02 1234567"], "333 1234567"],
+    "phones": [["Ufficio", "0932 123456"], "333 1234567"],
     "addresses": [
       { "label": "Sede legale", "street": "Via Roma 1", "postalCode": "97100", "city": "Ragusa", "province": "RG" },
       { "name": "NEGOZIO CENTRO", "street": "Corso Italia 5", "city": "Ragusa",
-        "contact": "Mario Rossi", "phone": "0932 333333" } ],
-    "people": [{ "name": "Maria Rossi", "role": "Amministrazione", "phone": "0932 555555" }],
+        "contact": "Mario Rossi", "phone": "0932 234567" } ],
+    "people": [{ "name": "Maria Rossi", "role": "Amministrazione", "phone": "0932 345678" }],
     "bankAccounts": [{ "iban": "IT60X0542811101000000123456", "bankName": "Banca Prova" }],
     "tags": ["VIP"], "notes": "Testo libero", "active": true },
   { "kind": "person", "lastName": "BIANCHI", "firstName": "LUCIA", "fiscalCode": "BNCLCU85M41H163Q" }

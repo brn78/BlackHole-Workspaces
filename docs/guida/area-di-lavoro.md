@@ -32,7 +32,8 @@ Le pagine e le schede che usi più spesso si tengono a un clic (dalla 1.161.0): 
 
 1. **Una pagina**: premi la stella ★ accanto al suo titolo. Il preferito ricorda la **linguetta** che stai guardando (per esempio *Clienti · Gruppi*); un preventivo aperto è quel preventivo.
 2. **Una scheda**: premi la stella nell'intestazione del pannello laterale, accanto alla X (un cliente, un fornitore, un impianto, una pratica, una fattura, un ordine, una richiesta di assistenza…). Le schede nuove la mostrano dopo il primo salvataggio.
-3. La stella diventa **gialla e piena**: il preferito compare nel menu, sotto **Il mio spazio → Preferiti**, e nel riquadro **Preferiti** della [Home](home.md). Premendola di nuovo lo togli.
+3. **Un messaggio della [Posta](posta.md)**: premi la stella accanto al suo oggetto. Il preferito apre il messaggio in una scheda sopra la pagina in cui sei, anche dopo che l'hai spostato in un'altra cartella.
+4. La stella diventa **gialla e piena**: il preferito compare nel menu, sotto **Il mio spazio → Preferiti**, e nel riquadro **Preferiti** della [Home](home.md). Premendola di nuovo lo togli.
 
 - **Nel menu** ci sono i primi otto; gli altri si aprono da **Tutti i preferiti**. Il tasto destro su un preferito del menu lo rinomina, lo sposta su o giù o lo toglie.
 - **Modifica**, nel riquadro della Home, apre l'elenco nel pannello laterale: un clic apre il preferito, il menu ⋯ lo rinomina, lo sposta o lo toglie.

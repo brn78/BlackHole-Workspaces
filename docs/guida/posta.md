@@ -5,15 +5,25 @@
 **Il mio spazio → Posta** legge e invia la posta delle tue caselle, dentro BlackHole: i messaggi restano nell'archivio, si cercano in tutta la casella e vanno nei backup. A sinistra ci sono le caselle con le loro cartelle, al centro l'elenco dei messaggi, accanto o sotto il messaggio aperto.
 
 - **Scrivi** è il solo pulsante blu della pagina (tasto <kbd>N</kbd>).
-- In **⋯ Altro** della pagina ci sono **Controlla la posta adesso**, la scelta della visualizzazione e, quando hai già delle caselle, **Aggiungi una casella**. Senza caselle la pagina mostra solo l'invito ad aggiungerne una.
+- **Controlla la posta adesso** è l'icona ↻ accanto al nome della cartella, sopra l'elenco (tasto <kbd>F9</kbd>, come in Outlook): gira finché il controllo non è finito. Di solito non serve, perché la posta si controlla da sola.
+- In **⋯ Altro** della pagina ci sono la scelta della visualizzazione e, quando hai già delle caselle, **Aggiungi una casella**. Senza caselle la pagina mostra solo l'invito ad aggiungerne una.
 - Le impostazioni di una casella non servono nel lavoro di ogni giorno: stanno nel suo **⋯**, a sinistra.
+- Nel menu a sinistra, accanto a **Posta**, c'è il numero dei messaggi da leggere di tutte le tue caselle: la posta nuova si vede da ogni pagina. Non contano Posta inviata, Bozze, Cestino e Spam.
 
 ## <a id="posta-caselle"></a>Caselle e cartelle
 
 - Ogni casella è una riga con l'avatar, il nome e il numero dei messaggi non letti. Sotto ci sono le sue cartelle, annidate come sul server.
 - La freccia accanto apre o chiude la casella o la cartella. Il programma ricorda che cosa hai aperto, in questo browser.
 - Un clic su una cartella mostra i suoi messaggi, anche se è di un'altra casella.
-- Il **⋯** della casella apre la sua scheda (vedi [La scheda della casella](#posta-casella)). Lo vede solo chi gestisce la casella.
+- Il **⋯** della casella, o il tasto destro sulla casella, offre **Nuova cartella…** e **Impostazioni della casella…**, che apre la sua scheda (vedi [La scheda della casella](#posta-casella)). Chi può solo scrivere vede la sua firma al posto delle impostazioni; chi può solo leggere non ha il ⋯.
+- Il tasto destro su una cartella, o il suo **⋯** (compare passandoci sopra), offre:
+   - **Nuova sottocartella…**, per creare una cartella dentro quella: nella Posta in arrivo e nelle cartelle create da te, non nel Cestino, nello Spam, nelle Bozze o nella Posta inviata;
+   - **Rinomina…** ed **Elimina la cartella…**, solo per le cartelle create da te, non per Posta in arrivo, Posta inviata, Bozze, Cestino, Spam e Archivio, né per le cartelle speciali del server (su Gmail Tutti i messaggi, Speciali e Importanti) e quelle di altri utenti o condivise. Eliminando una cartella i messaggi che contiene vanno nel Cestino; se dentro ci sono altre cartelle, prima si eliminano quelle;
+   - **Segna tutti come letti**;
+   - sul Cestino, **Svuota il cestino…** (vedi [Cestino ed eliminazione](#posta-eliminare)).
+- Nelle cartelle nuove si spostano i messaggi come nelle altre: trascinandoli, o con **Sposta in…**. Con una casella **IMAP** le cartelle si creano, si rinominano e si eliminano anche sul server della posta, e le ritrovi uguali sul telefono e negli altri programmi; con **POP3**, che sul server non ha cartelle, esistono solo in BlackHole.
+- Una cartella nuova non può chiamarsi come una di sistema (Posta in arrivo, Posta inviata, Bozze, Cestino, Spam, Archivio, anche in inglese): si confonderebbe con quella vera. Se una cartella con uno di questi nomi c'è già sul server, creata da un altro programma, resta una cartella tua e il cestino resta quello del server.
+- Se il server della posta non accetta una cartella nuova (per esempio dentro una cartella che non ne ammette altre), la cartella sparisce e i messaggi che ci avevi spostato tornano dov'erano. Se rinomini una cartella con un nome che sul server è già di un'altra, creata nel frattempo da un altro programma, la tua riprende il nome di prima. In tutti e due i casi il segno accanto alla casella dice che cosa è successo.
 - Il segno accanto al nome vuol dire che l'ultimo controllo della posta non è riuscito: passaci sopra per leggere il motivo.
 
 ## <a id="posta-visualizzazione"></a>Come stanno le colonne
@@ -33,7 +43,7 @@ In **⋯ Altro** della pagina scegli una delle tre visualizzazioni. Il programma
 ## <a id="posta-elenco"></a>L'elenco dei messaggi
 
 - Sopra l'elenco ci sono la **ricerca** e il **filtro**. La ricerca guarda tutti i messaggi della casella, non solo la cartella aperta. Il filtro mostra i non letti, quelli in evidenza, con allegati, solo PEC o assegnati a te.
-- **In evidenza** è il segno dei messaggi importanti: si mette e si toglie dal menu del messaggio. Non va confuso con i [preferiti](area-di-lavoro.md#preferiti) (la stella accanto al titolo della scheda, che la mette nel menu).
+- **In evidenza** è il segno dei messaggi importanti, la bandierina sulla riga: si mette e si toglie dal menu del messaggio. Non va confuso con i [preferiti](area-di-lavoro.md#preferiti) (la stella accanto all'oggetto, che mette il messaggio nel tuo menu).
 - **Scegli più messaggi** (l'icona a sinistra della barra) mostra le spunte. La casella in testa sceglie tutti i messaggi dell'elenco. <kbd>Maiusc</kbd>+clic sceglie tutti quelli tra l'ultimo scelto e quello cliccato.
 - Con dei messaggi scelti, **Altro** nella barra li segna come letti o non letti, li mette in evidenza o li toglie, li sposta in un'altra cartella, li mette nel cestino o, dal Cestino, li elimina definitivamente.
 - Il **tasto destro** su un messaggio apre lo stesso menu: per quel messaggio, o per tutti quelli scelti se è uno di loro.
@@ -48,6 +58,7 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 - Un clic sul messaggio lo apre (da tastiera <kbd>Invio</kbd>). La prima apertura lo segna come letto.
 - **‹** e **›** in alto passano al messaggio precedente o successivo dell'elenco; da tastiera le frecce <kbd>↑</kbd> e <kbd>↓</kbd>.
 - **Rispondi** è il solo pulsante blu. In **Altro** ci sono rispondi a tutti, inoltra, segna come letto o non letto, metti in evidenza, sposta in un'altra cartella, sposta nel cestino e scarica il messaggio (.eml).
+- La **stella** ★ accanto all'oggetto mette il messaggio tra i tuoi [preferiti](area-di-lavoro.md#preferiti): dal menu o dalla Home lo riapri in una scheda sopra la pagina in cui sei. Se nel frattempo il messaggio è stato eliminato, la scheda lo dice e propone **Togli dai preferiti**.
 - Nelle caselle condivise con te o aziendali il messaggio si **assegna**, come nelle [attività](attivita.md): **Assegna a un collega…** oppure **Assegna a me**; la × toglie l'assegnazione.
 - Le **ricevute PEC** di un messaggio inviato stanno in una lista sola, una per riga (vedi [PEC e ricevute](#posta-pec)).
 - Negli **allegati** il nome apre l'anteprima; accanto, il file si scarica o si salva in Documenti (vedi [Allegati e Documenti](#posta-allegati)).
@@ -62,6 +73,7 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 - La **firma** della casella va in fondo al messaggio ed è tua: ognuno ha la sua, anche nelle caselle condivise. Si cambia dal **⋯** della casella, linguetta **Firma**; chi può scrivere ma non gestire la casella vede lì soltanto **La tua firma**. In scrittura una riga ne mostra solo il testo.
 - Rispondendo o inoltrando, il messaggio originale sta in fondo, chiuso: **Messaggio originale** lo apre.
 - Chiudere la scheda con qualcosa di scritto chiede conferma. **Invia** dice subito se il server ha accettato il messaggio.
+- Se il messaggio non ha l'**oggetto**, o nel testo parli di un **allegato** («in allegato», «allego»…) ma non hai aggiunto nessun file, **Invia** chiede prima **Inviare lo stesso?**: **Torna al messaggio** (già scelto) ti riporta a scrivere, **Invia lo stesso** lo manda così.
 
 ## <a id="posta-scorciatoie"></a>Scorciatoie
 
@@ -73,10 +85,12 @@ Valgono quando non stai scrivendo in un campo (vedi anche le [scorciatoie genera
 | <kbd>↑</kbd> <kbd>↓</kbd> | Il messaggio precedente o successivo dell'elenco, sia nell'elenco sia nella lettura. |
 | <kbd>Invio</kbd> | Apre il messaggio scelto nell'elenco. |
 | <kbd>Spazio</kbd> | Con **Scegli più messaggi** attivo, sceglie il messaggio o lo toglie dalla scelta. |
+| <kbd>Canc</kbd> | Mette nel cestino il messaggio scelto, o quelli scelti; nel Cestino li elimina definitivamente, dopo la conferma. |
+| <kbd>F9</kbd> | Controlla la posta adesso, come l'icona ↻ sopra l'elenco. |
 
 ## <a id="posta-casella"></a>La scheda della casella
 
-Si apre dal **⋯** della casella, a sinistra. Le sue parti stanno in quattro linguette:
+Si apre dal **⋯** della casella, a sinistra, con **Impostazioni della casella…**. Le sue parti stanno in quattro linguette:
 
 | Linguetta | Che cosa c'è |
 | --- | --- |
@@ -129,11 +143,12 @@ Nella lettura il nome dell'allegato apre l'anteprima. Accanto, ⬇ scarica il fi
 
 - **Sposta nel cestino** mette il messaggio nella cartella **Cestino** della casella. Da lì lo rimetti dove vuoi con **Sposta in…** o trascinandolo.
 - **Elimina definitivamente** c'è solo nel Cestino e chiede conferma. Il messaggio non passa dal [cestino del programma](cestino.md): sparisce e non si recupera. Dal server della posta si cancella solo quando un backup lo contiene.
+- **Svuota il cestino…**, con il tasto destro sul Cestino, fa lo stesso con tutti i messaggi del cestino, dopo la conferma. Le PEC e le loro ricevute restano: non si eliminano mai definitivamente.
 - **Elimina la casella…** chiede se tenere l'archivio dei messaggi. Se scegli di cancellarlo, nemmeno l'archivio passa dal cestino: i messaggi non si recuperano, neanche dai backup in cui ci sono ancora.
 
 ## <a id="posta-da-sapere"></a>Da sapere
 
-- La **password per l'invio**, una volta salvata, non si toglie con un'opzione: per cambiarla si scrive quella nuova.
+- La **password per l'invio** salvata si cambia scrivendo quella nuova; **Rimuovi la password salvata**, sotto il campo, la toglie e l'invio usa la password della casella. Se il nome utente per l'invio è diverso da quello della ricezione, per toglierla svuota anche quel nome.
 - In scrittura la **firma** si vede solo come testo semplice: com'è davvero si vede nella linguetta **Firma** e nel messaggio inviato.
 - Il **colore** della casella non si cambia: l'avatar prende il colore dal nome.
 

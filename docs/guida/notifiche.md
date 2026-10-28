@@ -11,6 +11,7 @@ Le **notifiche** ti avvisano di ciò che ti riguarda nelle [attività](attivita.
 - Mentre carichi o scarichi documenti, in cima al pannello c'è la sezione **Trasferimenti**, con l'avanzamento di ciascun file; attorno alla campanella un anello mostra la percentuale complessiva. Lì ci sono anche i PDF che il server sta rendendo ricercabili, con le pagine lette. Vedi [Caricare e scaricare](documenti.md#documenti-caricare) e [Riconoscimento del testo](documenti.md#documenti-ocr).
 - In alto nell'elenco: **Segna tutte come lette**, 🗑 **Elimina le notifiche già lette** e ⚙ le [preferenze](#notifiche-preferenze). Le notifiche lette si eliminano comunque da sole dopo 90 giorni.
 - Mentre usi la piattaforma, una notifica nuova compare anche come **avviso in basso a destra**, una volta sola: un clic sull'avviso apre l'attività o la commessa. Aprendo la piattaforma, compaiono come avviso al massimo le tre più recenti tra quelle arrivate mentre non c'eri; le altre sono nella campanella.
+- In basso a destra restano in vista al più **tre avvisi** (notifiche, messaggi della chat, scadenze, la password da cambiare): gli altri si raccolgono nella riga **Altri N avvisi**, che con un clic li mostra tutti. Sul telefono gli avvisi sono più bassi e il testo sta in una riga.
 
 ## <a id="notifiche-tipi"></a>Che cosa arriva
 

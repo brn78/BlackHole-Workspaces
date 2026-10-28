@@ -34,13 +34,13 @@ Con il servizio, il setup installa un'icona nell'area di notifica, accanto all'o
 - **Rosso**: servizio fermo, oppure avviato ma la piattaforma non risponde. Se dura più di un minuto e mezzo compare un avviso di Windows, e un altro quando torna in funzione.
 - **Grigio**: servizio non installato.
 
-Doppio clic: apre la piattaforma. Clic destro: **Apri BlackHole Workspaces**, **Avvia il servizio** o **Riavvia il servizio** (Windows chiede la conferma da amministratore), **Aggiorna il programma…**, **Servizi di Windows**, **Chiudi l'icona**: il servizio continua a funzionare e l'icona ricompare al prossimo accesso a Windows, o subito dal menu Start. Dopo un aggiornamento l'icona passa da sola alla nuova versione. Su Server Core, senza area di notifica, non viene installata.
+Doppio clic: apre la piattaforma. Clic destro: **Apri BlackHole Workspaces**, **Apri la cartella di lavoro** e **Apri la cartella dei backup** (le apre in Esplora risorse la pagina [Archiviazione](archiviazione.md#archiviazione-apri), nel browser del server e dopo l'accesso se serve: solo per gli amministratori), **Avvia il servizio** o **Riavvia il servizio** (Windows chiede la conferma da amministratore), **Aggiorna il programma…**, **Servizi di Windows**, **Chiudi l'icona**: il servizio continua a funzionare e l'icona ricompare al prossimo accesso a Windows, o subito dal menu Start. Dopo un aggiornamento l'icona passa da sola alla nuova versione. Su Server Core, senza area di notifica, non viene installata.
 
 **Aggiorna il programma…** apre, nel browser del server, il riquadro **Aggiornamento del programma** della piattaforma (dopo l'accesso, se serve): dal server l'aggiornamento è sempre consentito. Quando su GitHub esce una [nuova versione](#server-nuove-versioni), la voce diventa **Aggiorna alla versione …** in grassetto, il numero compare in cima al menu e passando con il mouse, e un avviso di Windows lo segnala una volta sola per versione (un clic sull'avviso apre lo stesso riquadro).
 
 ## <a id="server-icona"></a>Avvio con doppio clic
 
-Avviato con doppio clic (senza servizio), il programma non apre finestre: compare un'**icona nell'area di notifica**. Clic destro per il menu: **Apri BlackHole Workspaces**, **Mostra la finestra dei messaggi**, **Apri la cartella dati**, **Esci e arresta il server**. Un secondo avvio non crea una seconda copia ma apre la piattaforma nel browser.
+Avviato con doppio clic (senza servizio), il programma non apre finestre: compare un'**icona nell'area di notifica**. Clic destro per il menu: **Apri BlackHole Workspaces**, **Mostra la finestra dei messaggi**, **Apri la cartella di lavoro**, **Apri la cartella dei backup**, **Esci e arresta il server**. Un secondo avvio non crea una seconda copia ma apre la piattaforma nel browser.
 
 > [!WARNING]
 > Avviato così il programma dipende dall'utente collegato: chiudendo la sessione di Windows si ferma. Per un server sempre attivo usa il **servizio di Windows** installato dal setup.

@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.168.8**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.171.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -82,6 +82,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Spostare trascinando](posta.md#posta-trascinare)
    - [Leggere un messaggio](posta.md#posta-lettura)
    - [Scrivere](posta.md#posta-scrivere)
+   - [Invia da: le email che mandi dal programma](posta.md#posta-invia-da)
    - [Scorciatoie](posta.md#posta-scorciatoie)
    - [La scheda della casella](posta.md#posta-casella)
    - [IMAP o POP3](posta.md#posta-ricezione)
@@ -89,6 +90,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [PEC e ricevute](posta.md#posta-pec)
    - [Condivisione e diritti](posta.md#posta-condivisione)
    - [Allegati e Documenti](posta.md#posta-allegati)
+   - [Posta indesiderata, mittenti e iscrizioni](posta.md#posta-indesiderata)
    - [Cestino ed eliminazione](posta.md#posta-eliminare)
    - [Da sapere](posta.md#posta-da-sapere)
 10. [Password](password.md)

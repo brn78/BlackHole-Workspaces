@@ -4,6 +4,89 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.171.0 · 28 ottobre 2026
+
+Le versioni dalla 1.168.9 alla 1.171.0 escono insieme, in un solo setup.
+
+**Novità**
+
+- **«Invia da»**: documenti e solleciti delle vendite, ordini, richieste d'offerta e solleciti agli acquisti, lettere
+  del recupero crediti, link del preventivo, condivisioni, riparazione pronta e informativa privacy partono, di serie,
+  dalla tua casella della Posta: dal suo server, con il suo indirizzo, e restano nella sua Posta inviata; le risposte
+  arrivano lì. Il server di posta dell'azienda resta tra le scelte, e una riga sotto il campo dice che cosa succede. Le
+  lettere in blocco e le PEC partono come prima.
+- **Icona di stato in ordine**: il menu dell'icona accanto all'orologio, sul server, è diviso in gruppi, con un'icona
+  per voce e il pallino dello stato in cima.
+- **Codice per l'aggiornamento**: quando il server non può confrontare il setup con quello pubblicato, la nuova voce
+  «Mostra il codice per l'aggiornamento…» dell'icona di stato chiede la conferma di Windows e mostra il codice, già
+  copiato negli appunti.
+
+**Correzioni**
+
+- **Codice per l'aggiornamento**: la finestra diceva solo in quale file si trova, che il Blocco note aperto normalmente
+  non riesce a leggere. Ora spiega le due strade: l'icona di stato, o il Blocco note avviato come amministratore.
+
+## 1.170.0 · 28 ottobre 2026
+
+**Novità**
+
+- **La casella dei servizi nella Posta**: in *Impostazioni → Email* l'amministratore può mostrare nella Posta la casella
+  con cui la piattaforma manda le email. È una casella aziendale, che si condivide come le altre; indirizzo, mittente e
+  server di invio sono quelli delle impostazioni e si aggiornano quando le salvi; il server di arrivo è proposto dal
+  dominio e si può usare la stessa password.
+- **Copia nella Posta inviata**: i messaggi a clienti e fornitori mandati dalla piattaforma (vendite, acquisti, recupero
+  crediti, preventivi, condivisioni, riparazione pronta, informativa privacy) restano nella Posta inviata di quella
+  casella. Inviti, recupero della password e notifiche ai colleghi no.
+
+## 1.169.1 · 28 ottobre 2026
+
+**Correzioni**
+
+- **Ordini e richieste d'offerta**: scegliendo «Per telefono», «Stampato» o «In altro modo» l'email al fornitore
+  partiva lo stesso. Ora vale il modo scelto.
+- **Ordini chiusi o annullati**: non si mandano più (prima l'email partiva e il rifiuto arrivava dopo).
+- **Richieste d'offerta e solleciti a più fornitori**: se uno non parte, quelli già mandati restano registrati; la
+  risposta dice chi manca e rimandando va solo a lui.
+- **Riparazione pronta**: l'avviso al cliente controlla permessi e stato della scheda prima di partire.
+- **Recupero crediti in blocco**: un errore su una lettera non ferma più le altre.
+- **Email partite**: un errore dopo l'invio (chiusura della connessione, copia nella Posta) non segna più il messaggio
+  come non inviato.
+- **Annullare l'iscrizione per email**: la conferma mostra indirizzo, oggetto e testo, e avvisa se l'indirizzo è di un
+  altro dominio.
+
+## 1.169.0 · 28 ottobre 2026
+
+**Novità**
+
+- **Posta indesiderata**: all'arrivo, senza filtri a parole. I messaggi dei mittenti bloccati vanno nel cestino; quelli
+  segnalati come spam dal server, quelli che non superano i controlli sull'autenticità del mittente e le newsletter
+  disiscritte da più di 10 giorni vanno nella Posta indesiderata. I mittenti fidati (clienti e fornitori, Rubrica, chi
+  ha già ricevuto un messaggio dalla casella, le tue regole) restano in arrivo. Le PEC e la posta che c'era già quando
+  hai collegato la casella non si toccano.
+- **Lettura al sicuro**: nella Posta indesiderata collegamenti e immagini sono spenti; il pulsante «Non è posta
+  indesiderata» rimette il messaggio in arrivo e rende fidato il mittente. La storia del messaggio dice perché è finito
+  lì.
+- **Mittenti bloccati e fidati**: dal menu «Altro» del messaggio, «È posta indesiderata», «Blocca il mittente…»
+  (l'indirizzo o tutto il dominio, anche per i messaggi già arrivati) e «Sblocca il mittente».
+- **Annulla l'iscrizione…**: per le newsletter, nel modo che la newsletter indica.
+- **Scheda della casella**: la linguetta «Posta indesiderata» raccoglie il filtro, dopo quanti giorni svuotarla, i
+  mittenti bloccati e fidati e le iscrizioni annullate.
+- La cartella si chiama «Posta indesiderata» anche nell'elenco delle cartelle (prima «Spam»).
+
+## 1.168.9 · 28 ottobre 2026
+
+**Novità**
+
+- **Destinatari controllati**: nella Posta un indirizzo scritto male resta in rosso, con il motivo sotto il campo, e il
+  messaggio non parte finché c'è; un clic lo rimette nel campo da correggere; la spunta verde dice che vanno bene tutti.
+  Un elenco incollato diventa un destinatario per indirizzo, e gli indirizzi lunghi non si tagliano più.
+- **Allegati da trascinare**: il riquadro «Scegli i file o trascinali qui»; i file si lasciano su tutta la scheda,
+  anche sopra il testo. Oltre i 25 MB insieme lo dice subito.
+
+**Correzioni**
+
+- **Finestre di conferma**: chiusa la finestra, il cursore non si perde più sulla pagina.
+
 ## 1.168.8 · 27 ottobre 2026
 
 Le versioni dalla 1.168.3 alla 1.168.8 escono insieme, in un solo setup.

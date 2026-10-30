@@ -2,7 +2,7 @@
 
 # <a id="privacy"></a>Privacy
 
-**Sistema → Privacy** (solo amministratori; si apre anche da Impostazioni → Server) raccoglie ciò che chiede il Regolamento UE 2016/679 (GDPR) a un'azienda che tiene i dati di clienti, fornitori e dipendenti: le **informative**, il **registro dei trattamenti**, le **richieste degli interessati**, le **violazioni dei dati** e le **nomine**. La pagina ha sei linguette:
+**Sistema → Privacy** (solo amministratori) raccoglie ciò che chiede il Regolamento UE 2016/679 (GDPR) a un'azienda che tiene i dati di clienti, fornitori e dipendenti: le **informative**, il **registro dei trattamenti**, le **richieste degli interessati**, le **violazioni dei dati** e le **nomine**. La pagina ha sei linguette:
 
 - **Stato**: quante schede di clienti e fornitori hanno l'informativa, quanti hanno dato il consenso alle comunicazioni commerciali, quanti dipendenti hanno ricevuto la loro, le richieste aperte e quelle in ritardo, le violazioni aperte e da notificare, i responsabili esterni senza accordo firmato (un clic sui riquadri apre la linguetta). In rosso in cima la violazione da notificare al Garante con il termine. Sotto, le schede ancora senza informativa (le più recenti) e quelle da rivedere per la [conservazione](#privacy-conservazione): un clic apre la scheda.
 - **Informative**: i testi per clienti e fornitori e per dipendenti e collaboratori, con il referente per la privacy e l'eventuale responsabile della protezione dei dati (DPO).
@@ -28,13 +28,13 @@ Nella scheda di un cliente, potenziale cliente o fornitore, la linguetta **Priva
 
 - **Invia per email** (quando la [posta](impostazioni.md#impostazioni-posta) è configurata): l'indirizzo è il primo della scheda e si può cambiare; parte un'email nello stile della piattaforma con tutto il testo, e l'informativa risulta fornita oggi «per email».
 - **Stampa da firmare**: il testo con, in fondo, il riquadro del consenso alle comunicazioni commerciali e lo spazio per luogo, data e firma. Firmata, si segna con **Segna come fornita → Oggi, firmata**.
-- **Segna come fornita**: oggi (firmata, consegnata a mano, per email, sul sito o in altro modo) oppure **In un altro giorno…**, per esempio quando era già stata fornita con il vecchio gestionale. **Togli** la riporta a non fornita.
+- **Segna come fornita**: oggi (firmata, consegnata a mano, per email, sul sito o in altro modo) oppure **In un altro giorno…**, per esempio quando era già stata fornita con il vecchio gestionale. **Togli la consegna** la riporta a non fornita.
 
 **Comunicazioni commerciali** registra il consenso a ricevere offerte e informazioni (art. 6.1.a): **Non chiesto**, **Acconsente** o **Non acconsente**, con la data della scelta. Il consenso è facoltativo e si può revocare: senza, al cliente si scrive solo per preventivi, contratti e assistenza. Segnare l'informativa e il consenso richiede il permesso di modificare la scheda; chi la vede soltanto legge lo stato. Ogni scelta finisce nel [registro attività](registro.md).
 
 ## <a id="privacy-dipendenti"></a>Informativa ai dipendenti
 
-In fondo ai **Dati** della [scheda del personale](personale.md#personale-scheda), il riquadro **Privacy** mostra se l'informativa per dipendenti e collaboratori è stata consegnata: **Stampa** la prepara da firmare, **Segna consegnata oggi** registra la consegna (**Togli** la annulla). Lo vede chi vede il personale e lo segna chi lo gestisce. Nella linguetta Stato della pagina Privacy si contano i dipendenti in forza.
+In fondo ai **Dati** della [scheda del personale](personale.md#personale-scheda), il riquadro **Privacy** mostra se l'informativa per dipendenti e collaboratori è stata consegnata: **Stampa** la prepara da firmare, **Segna consegnata oggi** registra la consegna (**Togli la consegna** la annulla). Lo vede chi vede il personale e lo segna chi lo gestisce. Nella linguetta Stato della pagina Privacy si contano i dipendenti in forza.
 
 ## <a id="privacy-registro"></a>Registro dei trattamenti
 

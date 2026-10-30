@@ -20,7 +20,7 @@ Le schede di rete del server, una alla volta (si sceglie sotto le linguette, con
 
 ## <a id="strumenti-rete-prove"></a>Prove della connessione
 
-**Prova la connessione**, in alto, misura in circa 20 secondi la connessione del server: latenza, jitter e perdita verso il **gateway** (la rete locale) e verso **internet** (1.1.1.1), il tempo di risposta del **DNS** e, se scelto, la velocità di **download** e **upload** verso i server di prova di Cloudflare. Sotto i numeri, una nota dice per che cosa basta la connessione (navigazione, videochiamate, telefonia, telecamere da remoto, streaming); poi il grafico del download nel tempo e la storia delle prove. In **⋯ Altro → Impostazioni delle prove** si sceglie la **prova automatica**, che il server fa da solo ogni tante ore (si vede quando il provider rallenta), e se misurare download e upload, che muovono qualche decina di MB: con una connessione a consumo, toglili.
+**Prova la connessione**, in alto, misura in circa 20 secondi la connessione del server: latenza, jitter e perdita verso il **gateway** (la rete locale) e verso **internet** (1.1.1.1), il tempo di risposta del **DNS** e, se scelto, la velocità di **download** e **upload** verso i server di prova di Cloudflare. Sotto i numeri, una nota dice per che cosa basta la connessione (navigazione, videochiamate, telefonia, telecamere da remoto, streaming); poi il grafico del download nel tempo e la storia delle prove. In alto, con il pulsante **Impostazioni**, si sceglie la **prova automatica**, che il server fa da solo ogni tante ore (si vede quando il provider rallenta), e se misurare download e upload, che muovono qualche decina di MB: con una connessione a consumo, toglili.
 
 ---
 

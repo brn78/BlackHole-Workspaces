@@ -2,7 +2,7 @@
 
 # <a id="ricerca"></a>Ricerca
 
-Una sola casella per trovare qualsiasi cosa: clienti, documenti e cartelle, attività, commesse, impianti, certificazioni, rapporti di manutenzione, richieste di assistenza (anche dal ticket del cliente o dal telefono di chi ha chiamato), personale, mezzi e attrezzature, voci del listino, preventivi, DDT, fatture e note di credito, ordini e richieste d'offerta, fatture dei fornitori (per numero, cliente o fornitore, partita IVA, oggetto, commessa, righe; dalla 1.113.0), controlli del monitoraggio, appunti, password, colleghi, i file dell'[archivio di rete](archivio-rete.md) e le pagine di questa guida. Dei documenti cerca anche il [testo scritto dentro i file](documenti.md#documenti-testo). Si cerca solo in ciò che puoi vedere, con le stesse regole delle pagine.
+Una sola casella per trovare qualsiasi cosa: clienti, documenti e cartelle, attività, progetti, commesse, impianti, certificazioni, rapporti di manutenzione, richieste di assistenza (anche dal ticket del cliente o dal telefono di chi ha chiamato), personale, mezzi e attrezzature, voci del listino, preventivi, DDT, fatture e note di credito, ordini e richieste d'offerta, fatture dei fornitori (per numero, cliente o fornitore, partita IVA, oggetto, commessa, righe; dalla 1.113.0), controlli del monitoraggio, appunti, password, colleghi, i file dell'[archivio di rete](archivio-rete.md) e le pagine di questa guida. Dei documenti cerca anche il [testo scritto dentro i file](documenti.md#documenti-testo). Si cerca solo in ciò che puoi vedere, con le stesse regole delle pagine.
 
 ## <a id="ricerca-aprire"></a>Aprire la ricerca
 

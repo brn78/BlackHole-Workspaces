@@ -26,7 +26,7 @@ In alto ci sono:
 Un clic apre la voce. Il tasto destro (o ⋯) offre:
 
 - lo storico dei prezzi;
-- il listino del fornitore da cui viene la voce;
+- **Apri il listino del fornitore**, da cui viene la voce;
 - **Stampa le etichette** (per i materiali);
 - **Duplica**;
 - **Togli dal listino** (o **Rimetti a listino**);

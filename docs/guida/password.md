@@ -4,7 +4,7 @@
 
 **Il mio spazio → Password** è il gestore di password della piattaforma: conserva le credenziali di accessi a siti e programmi, server e dispositivi, reti Wi-Fi, caselle di posta, database, chiavi API, licenze, con tutto ciò che serve per usarle (dove si usano, link, cliente, etichette, note). Password, note riservate, chiavi della verifica in due passaggi e campi riservati sono **cifrati sul server**. Una voce è **personale** finché non la condividi con colleghi, gruppi o tutti. Per usare il servizio serve il permesso **Usare la gestione password** (vedi [Permessi](#password-permessi)).
 
-La pagina ha quattro viste, ciascuna con il suo numero: **Tutte**, **Preferite**, **Controllo** (le password da sistemare) e **Cestino**. In alto ci sono **Esporta CSV** (per chi ne ha il permesso), **Importa**, **Tipi delle password** (per chi gestisce i tipi), **Generatore**, **Nuova cartella** e **Nuova password**. Le password si mettono in ordine nelle [cartelle](#password-cartelle).
+La pagina ha quattro viste, ciascuna con il suo numero: **Tutte**, **Preferite**, **Controllo** (le password da sistemare) e **Cestino**. In alto ci sono **Esporta** (per chi ne ha il permesso), **Importa**, **Tipi delle password** (per chi gestisce i tipi), **Generatore**, **Nuova cartella** e **Nuova password**. Le password si mettono in ordine nelle [cartelle](#password-cartelle).
 
 ## <a id="password-cartelle"></a>Le cartelle
 
@@ -144,7 +144,7 @@ Per fogli e documenti c'è poi il **controllo delle voci**: una riga per passwor
 
 Al massimo 5 MB e 5.000 righe per file. Un codice di verifica in due passaggi non riconosciuto non ferma la riga: la voce viene importata senza, e l'esito lo segnala.
 
-**Esporta CSV** ⬇ (con il permesso **Esportare le password**) scarica in un file CSV **in chiaro** le password che vedi, escluse quelle nel cestino: tutte, oppure solo quelle mostrate dai filtri. Chiede la **password del tuo account**. Le colonne sono quelle che leggono browser e gestori: `name`, `url`, `username`, `password`, `totp`, `notes`, più `email`, `location`, `customer`, `tags` e `type`. L'esportazione resta nel registro attività e nello storico di ogni voce esportata.
+**Esporta** ⬇ (con il permesso **Esportare le password**) scarica in un file CSV **in chiaro** le password che vedi, escluse quelle nel cestino: tutte, oppure solo quelle mostrate dai filtri. Chiede la **password del tuo account**. Le colonne sono quelle che leggono browser e gestori: `name`, `url`, `username`, `password`, `totp`, `notes`, più `email`, `location`, `customer`, `tags` e `type`. L'esportazione resta nel registro attività e nello storico di ogni voce esportata.
 
 > [!WARNING]
 > Un file CSV di password è leggibile da chiunque lo apra: dopo un'importazione o un'esportazione **eliminalo** (e svuota il cestino del computer). Non inviarlo per email e non lasciarlo in cartelle condivise.

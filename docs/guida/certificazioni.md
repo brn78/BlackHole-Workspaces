@@ -20,7 +20,7 @@ Le certificazioni di un impianto si trovano anche nella linguetta **Certificazio
 - I **campi del modello**, divisi in sezioni; quelli con l'\* vanno compilati prima di emettere. Sotto un campo può esserci un suggerimento su che cosa scrivere; mentre scrivi, i campi di testo propongono i valori già scritti nelle altre certificazioni, prima quelle dello stesso modello, e uscendo dal campo il valore prende le maiuscole del campo.
 - **Note interne**: per l'ufficio (consegna al cliente, deposito, promemoria). Non vanno in stampa.
 - Le linguette **Allegati** (vedi [Allegati](#certificazioni-allegati)), **Anteprima** (il foglio come esce in stampa, con quello che è scritto nella scheda anche prima di salvare) e **Storico**.
-- In fondo **Stampa**, **Salva la bozza** (o **Salva**) e **Emetti**, per chi può emettere; nel menu **⋯ Duplica** (una bozza nuova con gli stessi dati, per lo stesso impianto), la pagina dell'impianto, la cartella in Documenti, **Riporta in bozza**, **Annulla la certificazione**, **Ripristina come bozza** ed **Elimina**.
+- In fondo **Stampa**, **Salva la bozza** (o **Salva**) e **Emetti**, per chi può emettere; nel menu **⋯ Duplica** (una bozza nuova con gli stessi dati, per lo stesso impianto), **Apri la pagina dell'impianto**, **Apri in Documenti**, **Riporta in bozza**, **Annulla la certificazione**, **Ripristina come bozza** ed **Elimina**.
 
 ## <a id="certificazioni-emissione"></a>Emettere, correggere, annullare
 

@@ -160,7 +160,7 @@ In **Configurazione → Modelli**:
 - **Impianti e assistenza**: commesse puntuali, assistenza nei tempi, richieste dopo la posa, commesse in ritardo, ore sulle commesse, manutenzioni (tutti calcolati dal programma);
 - **Ufficio**: preventivi accettati e loro valore, giorni medi di incasso, crediti scaduti, fatture scartate, fatturato.
 
-Un modello aggiunge solo le misure e gli indicatori con un nome che non c'è ancora; quelli con le misure di una sezione spenta si saltano; senza il dettaglio per persona, ciò che è per persona diventa per reparto. **Esporta la configurazione** scrive in un file JSON misure e indicatori (senza i valori), da caricare con **Importa una configurazione** su un'altra installazione.
+Un modello aggiunge solo le misure e gli indicatori con un nome che non c'è ancora; quelli con le misure di una sezione spenta si saltano; senza il dettaglio per persona, ciò che è per persona diventa per reparto. **Esporta** scrive in un file JSON misure e indicatori (senza i valori), da caricare con **Importa** su un'altra installazione.
 
 ## <a id="indicatori-permessi"></a>Permessi e responsabili
 

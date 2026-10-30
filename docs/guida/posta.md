@@ -12,7 +12,7 @@
 
 ## <a id="posta-caselle"></a>Caselle e cartelle
 
-- Ogni casella è una riga con l'avatar, il nome e il numero dei messaggi non letti. Sotto ci sono le sue cartelle, annidate come sul server.
+- Ogni casella è una riga con l'avatar, il nome e il numero dei messaggi non letti. Sotto ci sono le sue cartelle, annidate come sul server. Una cartella che il server usa solo per raccoglierne altre e non apre (su Gmail *[Gmail]*) non compare: le cartelle che contiene sì.
 - La freccia accanto apre o chiude la casella o la cartella. Il programma ricorda che cosa hai aperto, in questo browser.
 - Un clic su una cartella mostra i suoi messaggi, anche se è di un'altra casella.
 - Il **⋯** della casella, o il tasto destro sulla casella, offre **Nuova cartella…** e **Impostazioni della casella…**, che apre la sua scheda (vedi [La scheda della casella](#posta-casella)). Chi può solo scrivere vede la sua firma al posto delle impostazioni; chi può solo leggere non ha il ⋯.
@@ -56,6 +56,7 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 ## <a id="posta-lettura"></a>Leggere un messaggio
 
 - Un clic sul messaggio lo apre (da tastiera <kbd>Invio</kbd>). La prima apertura lo segna come letto.
+- Per leggerlo più grande: **doppio clic** sul messaggio, oppure tasto destro e **Apri in una scheda**. La scheda si apre sopra la Posta; trascinandone il bordo sinistro la allarghi, la linguetta con le frecce la porta a tutto schermo, e la larghezza resta per le volte dopo.
 - **‹** e **›** in alto passano al messaggio precedente o successivo dell'elenco; da tastiera le frecce <kbd>↑</kbd> e <kbd>↓</kbd>.
 - **Rispondi** è il solo pulsante blu. In **Altro** ci sono rispondi a tutti, inoltra, segna come letto o non letto, metti in evidenza, **È posta indesiderata**, **Blocca il mittente…**, **Annulla l'iscrizione…** (nelle newsletter), sposta in un'altra cartella, sposta nel cestino e scarica il messaggio (.eml). Nella Posta indesiderata il pulsante blu è **Non è posta indesiderata** (vedi [Posta indesiderata, mittenti e iscrizioni](#posta-indesiderata)).
 - La **stella** ★ accanto all'oggetto mette il messaggio tra i tuoi [preferiti](area-di-lavoro.md#preferiti): dal menu o dalla Home lo riapri in una scheda sopra la pagina in cui sei. Se nel frattempo il messaggio è stato eliminato, la scheda lo dice e propone **Togli dai preferiti**.
@@ -63,7 +64,7 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 - Le **ricevute PEC** di un messaggio inviato stanno in una lista sola, una per riga (vedi [PEC e ricevute](#posta-pec)).
 - Negli **allegati** il nome apre l'anteprima; accanto, il file si scarica o si salva in Documenti (vedi [Allegati e Documenti](#posta-allegati)).
 - Lo **storico**, in fondo, dice chi ha letto, risposto, inoltrato, assegnato, spostato o eliminato il messaggio, e quando.
-- Le **immagini** che arrivano da internet restano bloccate, perché farle arrivare dice al mittente che hai aperto il messaggio: **Mostra le immagini** le fa vedere per quel messaggio.
+- Le **immagini** che arrivano da internet restano bloccate, perché farle arrivare dice al mittente che hai aperto il messaggio: **Mostra le immagini** le fa vedere per quel messaggio. Le immagini dentro il messaggio (non da internet) si vedono sempre.
 - Un messaggio con la scritta *Solo nell'archivio* non è più sul server della posta: lo trovi solo in BlackHole.
 
 ## <a id="posta-scrivere"></a>Scrivere
@@ -94,6 +95,7 @@ Valgono quando non stai scrivendo in un campo (vedi anche le [scorciatoie genera
 | <kbd>N</kbd> | Un messaggio nuovo, come **Scrivi**. |
 | <kbd>↑</kbd> <kbd>↓</kbd> | Il messaggio precedente o successivo dell'elenco, sia nell'elenco sia nella lettura. |
 | <kbd>Invio</kbd> | Apre il messaggio scelto nell'elenco. |
+| Doppio clic | Apre il messaggio in una scheda, più grande (come **Apri in una scheda** del tasto destro). |
 | <kbd>Spazio</kbd> | Con **Scegli più messaggi** attivo, sceglie il messaggio o lo toglie dalla scelta. |
 | <kbd>Canc</kbd> | Mette nel cestino il messaggio scelto, o quelli scelti; nel Cestino li elimina definitivamente, dopo la conferma. |
 | <kbd>F9</kbd> | Controlla la posta adesso, come l'icona ↻ sopra l'elenco. |

@@ -36,7 +36,7 @@ La linguetta **Doppioni** confronta l'inventario con il monitoraggio:
 
 Ogni doppione ha i pulsanti per aprire i dispositivi e i controlli. La linguetta **Scansioni** elenca le scansioni, a mano e automatiche, con quanti dispositivi hanno trovato e quanti nuovi.
 
-## <a id="rete-locale-impostazioni"></a>Reti e impostazioni
+## <a id="rete-locale-impostazioni"></a>Impostazioni
 
 - **Reti da scansionare**, una per riga (*192.168.1.0/24*, al massimo /20 per rete): **Proponi le reti del server** aggiunge quelle delle sue schede di rete. Con **Anche le reti dei gruppi del monitoraggio** si scansionano anche quelle scritte nei gruppi, con la loro VLAN. Nessuna rete si scansiona finché non la scegli. Le reti dei gruppi che non si possono scansionare si saltano, con il motivo scritto nella pagina, nelle impostazioni e nella storia delle scansioni, e le altre si scansionano lo stesso: troppo grandi (oltre /20), 127.x (è il server stesso), 169.254 (indirizzi automatici senza DHCP), multicast.
 - **Scansione automatica**: solo a mano, oppure ogni 30 minuti, ora, 4 ore, 12 ore o ogni giorno; la storia delle scansioni si tiene per i giorni scelti (di serie 90).

@@ -87,7 +87,7 @@ Il browser lascia eliminare i file del PC solo con Chrome o Edge e da un indiriz
 </details>
 
 <details>
-<summary><b>Da una cartella: l'assistente non ha compilato la scheda tecnica</b></summary>
+<summary><b>Importa da una cartella: l'assistente non ha compilato la scheda tecnica</b></summary>
 
 Succede se il tipo dell'impianto non propone un [modello di scheda](impianti.md#impianti-modelli), se i dati non sono scritti nei documenti (o sono in una scansione senza testo) o se i documenti non sono entrati nella misura del modello (la revisione lo dice: conviene un contesto più grande in Impostazioni → Assistente AI). I dati trovati sono comunque nell'elenco **Dati trovati nei documenti**, in fondo, da copiare. Vedi [Da una cartella del PC](impianti.md#impianti-cartella).
 

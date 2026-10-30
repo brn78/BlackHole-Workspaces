@@ -2,7 +2,7 @@
 
 # <a id="pulizia-file"></a>Pulizia dei file
 
-**Sistema → Pulizia dei file** (solo amministratori; si apre anche da Impostazioni → Server) analizza i **dati della piattaforma**, cioè la cartella di lavoro sul server, e propone che cosa togliere. L'archivio di rete non si guarda e non si tocca mai. In alto si sceglie da quanti anni un file non si apre (1, 2, 3, 5 o 10) e **Analizza** rifà l'analisi; le caselle del riepilogo portano alla loro linguetta.
+**Sistema → Pulizia dei file** (solo amministratori) analizza i **dati della piattaforma**, cioè la cartella di lavoro sul server, e propone che cosa togliere. L'archivio di rete non si guarda e non si tocca mai. In alto si sceglie da quanti anni un file non si apre (1, 2, 3, 5 o 10) e **Analizza** rifà l'analisi; le caselle del riepilogo portano alla loro linguetta.
 
 - **File zombi**: file sul disco che non appartengono più a niente, rimasti per un intoppo (un file in uso, il servizio fermato a metà): contenuti di documenti eliminati, conversioni in PDF e DXF, cartelle e allegati di schede del personale, mezzi e produttori eliminati, immagini di clienti e voci del listino tolte, temporanei rimasti da più di un giorno, cartelle vuote sul disco. Sono tutti proposti; con ⬇ si scaricano per vedere che cosa sono.
 - **Doppioni**: documenti con lo stesso contenuto in posti diversi. Per ogni gruppo ne resta uno (quello collegato a una scheda, altrimenti il primo caricato), le altre copie sono proposte. Il contenuto è salvato una volta sola: le copie non occupano spazio in più, ma confondono chi cerca.

@@ -29,7 +29,7 @@ Con l'[assistente AI](assistente-ai.md) attivo, **✨ Da un testo** (per chi pu�
 
 ## <a id="personale-scheda"></a>La scheda
 
-- **Dati**: la **foto** (dal PC, incollata o da un indirizzo web, vedi [Immagini, loghi e foto](interfaccia.md#interfaccia-immagini); la ritagli prima di salvarla), nome e cognome, genere, data e luogo di nascita e il **codice fiscale**, controllato mentre scrivi: **Calcola** lo ricava dall'anagrafica e da un codice già scritto si leggono data, genere e luogo (**Compila i dati mancanti**). Sotto, il **lavoro**: matricola (facoltativa e unica), azienda del gruppo, **mansione** e **reparto** (si sceglie tra quelli già usati oppure se ne scrive uno nuovo), tipo di contratto, data di assunzione, **scadenza del contratto** (per i contratti a termine: è una scadenza, con il promemoria 30 giorni prima), **data di cessazione** e note. In fondo l'[accesso alla piattaforma](#personale-accesso), la stessa persona tra i clienti ([Anche cliente](#personale-cliente)), a chi può vedere mezzi e attrezzature ciò che la persona ha **in consegna** (un clic apre la scheda del bene) e il riquadro **Privacy** con l'[informativa ai dipendenti](privacy.md#privacy-dipendenti).
+- **Dati**: la **foto** (dal PC, incollata o da un indirizzo web, vedi [Immagini, loghi e foto](interfaccia.md#interfaccia-immagini); la ritagli prima di salvarla), nome e cognome, genere, data e luogo di nascita e il **codice fiscale**, controllato mentre scrivi: **Calcola** lo ricava dall'anagrafica e da un codice già scritto si leggono data, genere e luogo (**Compila i dati mancanti**). Sotto, il **lavoro**: matricola (facoltativa e unica), azienda del gruppo, **mansione** e **reparto** (si scelgono dai loro elenchi, vedi [Reparti e mansioni](#personale-reparti)), tipo di contratto, data di assunzione, **scadenza del contratto** (per i contratti a termine: è una scadenza, con il promemoria 30 giorni prima), **data di cessazione** e note. In fondo l'[accesso alla piattaforma](#personale-accesso), la stessa persona tra i clienti ([Anche cliente](#personale-cliente)), a chi può vedere mezzi e attrezzature ciò che la persona ha **in consegna** (un clic apre la scheda del bene) e il riquadro **Privacy** con l'[informativa ai dipendenti](privacy.md#privacy-dipendenti).
 - **Contatti** e **Indirizzi**: email e telefoni in una linguetta, gli indirizzi (residenza, domicilio…) con la mappa nell'altra, come nei clienti e con gli stessi controlli.
 - **Orario e costo**: l'[orario di lavoro](#personale-orario) (a fasce oppure le ore al giorno e alla settimana), la **tariffa oraria di vendita** e, per chi ha il permesso dei costi, il **costo aziendale**.
 - **Formazione**, **Documenti** e **Visite**: le [voci](#personale-voci) della persona; sulla linguetta, quante sono e un pallino se c'è qualcosa da guardare.
@@ -75,6 +75,15 @@ In un'installazione nuova il catalogo è vuoto; dove il programma è partito con
 
 > [!NOTE]
 > **Le durate proposte sono indicative.** Validità e obbligatorietà dei corsi dipendono dalle norme (D.Lgs. 81/2008, accordi Stato-Regioni, che cambiano nel tempo), dal settore e dalla valutazione dei rischi dell'azienda: verificale con il vostro consulente per la sicurezza e correggile nel catalogo. La periodicità delle visite la stabilisce il medico competente.
+
+## <a id="personale-reparti"></a>Reparti e mansioni
+
+**Reparti** e **Mansioni**, in **Altro** nella pagina, sono i due elenchi da cui si scelgono il reparto e la mansione nella scheda del personale e dell'utente (il **ruolo aziendale**), la **qualifica** della manodopera nel [listino](listino.md) e il reparto dei responsabili e dei premi negli [indicatori](indicatori.md). Nella scelta, in fondo, **Nuovo reparto…** o **Nuova mansione…** crea la voce che manca senza chiudere la scheda; **Gestisci l'elenco…** (<kbd>F2</kbd>) apre l'elenco completo.
+
+- All'inizio gli elenchi contengono i reparti e le mansioni già scritti nelle schede; un nome che arriva da un'importazione entra nell'elenco da solo.
+- **Rinominare** una voce la cambia in tutte le schede che la usano: personale, utenti, manodopera del listino, responsabili, valori degli indicatori e piani premi ancora aperti (quelli chiusi restano come sono stati chiusi).
+- **Eliminare** un reparto o una mansione lo toglie dalle persone, che restano senza; una mansione che è la qualifica di voci di manodopera del listino non si elimina finché non le cambi.
+- Gli elenchi li gestisce chi ha il permesso dei corsi, documenti e visite, chi modifica gli utenti e, per i reparti, chi gestisce gli indicatori, per le mansioni chi modifica il listino.
 
 ## <a id="personale-accesso"></a>Accesso alla piattaforma
 

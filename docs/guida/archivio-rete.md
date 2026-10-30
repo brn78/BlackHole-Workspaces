@@ -36,7 +36,7 @@ Sopra l'elenco c'è lo **stato dell'indice** della cartella: quanti file e carte
 
 - **Aggiorna** (la cartella che stai guardando) e **Aggiorna tutto** in alto: lanciano subito l'aggiornamento a mano, come da Sistema → Archivio di rete; mentre gira compare **Ferma**, e alla fine l'elenco si rilegge da solo.
 
-In **Sistema → Archivio di rete**, in testa, il riquadro **Informazioni di sistema**, lo stesso delle [Impostazioni](impostazioni.md): versione, server, modalità (servizio di Windows o applicazione), cartella dati e schema del database; processore e memoria in quel momento (aggiornati ogni 3 secondi, con quanto usa la piattaforma e quanto gli altri programmi) e lo spazio sul disco dei dati. Serve a capire se il server è già impegnato prima di lanciare un aggiornamento pesante. Si chiude con un clic sul titolo, e resta chiuso la volta dopo.
+Le **informazioni di sistema** non stanno più in questa pagina: il riquadro si trova in **Impostazioni → Server**: versione, server, modalità (servizio di Windows o applicazione), cartella dati e schema del database; processore e memoria in quel momento (aggiornati ogni 3 secondi, con quanto usa la piattaforma e quanto gli altri programmi) e lo spazio sul disco dei dati. Serve a capire se il server è già impegnato prima di lanciare un aggiornamento pesante.
 
 Quando un file sparisce dalla cartella condivisa (eliminato, spostato o rinominato), al primo aggiornamento completo dell'archivio se ne vanno anche le sue annotazioni; se una parte della cartella non si è potuta leggere, si aspetta l'aggiornamento successivo.
 

@@ -4,7 +4,7 @@
 
 **Archivio → Documenti** è l'archivio dei file dell'azienda: progetti, disegni, manuali, programmi e setup, certificazioni, offerte, foto. I file stanno in **cartelle**, conservano tutte le **revisioni** precedenti, si collegano a un **cliente** e si ritrovano con **categorie**, **etichette**, **produttore** e **modello**. Il [visualizzatore](#documenti-visualizzatore) apre nella pagina PDF, Word, Excel, immagini, disegni CAD e modelli 3D; l'[editor](#documenti-editor) crea documenti Word e file di testo senza uscire dalla piattaforma. La pagina compare a chi ha almeno il permesso **Visualizzare i documenti** (vedi [Permessi e cartelle riservate](#documenti-permessi)).
 
-Sopra l'elenco ci sono il **percorso** della cartella aperta (un clic su un nome risale, fino a **Documenti**), la scelta tra **Elenco** e **Griglia** con le anteprime di immagini, PDF e disegni, e i filtri. Ogni file ha un'icona con la sigla del suo tipo (PDF, DOCX, XLSX, DWG, EXE…) in un colore che lo distingue a colpo d'occhio.
+Sopra l'elenco ci sono il **percorso** della cartella aperta (un clic su un nome risale, fino a **Documenti**), la scelta tra **Elenco** e **Schede** con le anteprime di immagini, PDF e disegni, e i filtri. Ogni file ha un'icona con la sigla del suo tipo (PDF, DOCX, XLSX, DWG, EXE…) in un colore che lo distingue a colpo d'occhio.
 
 ## <a id="documenti-cartelle"></a>Cartelle, file e azioni
 
@@ -68,7 +68,7 @@ La ricerca (quella in alto e quella dei Documenti) trova anche le parole scritte
 - Contano solo le versioni correnti fuori dal cestino: una revisione nuova sostituisce il testo vecchio, un file nel cestino non si trova più (ripristinato, si ritrova).
 - Le regole sono quelle di sempre: i file delle cartelle riservate li trova solo chi le vede.
 - Le scansioni (PDF senza testo, foto) non hanno testo da leggere: prima [Rendi ricercabile](#documenti-ocr) con l'OCR.
-- Gli amministratori, con **Testo dei file** in alto nella pagina, vedono quanti file sono stati letti, quanti sono in coda, senza testo o non letti (protetti, rovinati o oltre 60 MB) e possono **Rifare l'indice** da capo. Il testo sta in un indice a parte, fuori dalle copie di sicurezza: se si perde si rifà da solo.
+- Gli amministratori, con **Leggi il testo dei file** in alto nella pagina, vedono quanti file sono stati letti, quanti sono in coda, senza testo o non letti (protetti, rovinati o oltre 60 MB) e possono **Rifare l'indice** da capo. Il testo sta in un indice a parte, fuori dalle copie di sicurezza: se si perde si rifà da solo.
 
 ## <a id="documenti-revisioni"></a>Revisioni
 

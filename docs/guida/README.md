@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.171.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.173.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -31,6 +31,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Icone di aiuto](interfaccia.md#interfaccia-aiuto)
    - [Notifiche e avvisi](interfaccia.md#interfaccia-notifiche)
    - [Campi che si controllano e si compilano da soli](interfaccia.md#interfaccia-campi)
+   - [Date, ore e tendine](interfaccia.md#interfaccia-date-tendine)
    - [Maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato)
    - [Suggerimenti mentre scrivi](interfaccia.md#interfaccia-suggerimenti)
    - [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni)
@@ -286,6 +287,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Orario e costo](personale.md#personale-orario)
    - [Corsi, documenti e visite](personale.md#personale-voci)
    - [Il catalogo](personale.md#personale-catalogo)
+   - [Reparti e mansioni](personale.md#personale-reparti)
    - [Accesso alla piattaforma](personale.md#personale-accesso)
    - [Anche cliente](personale.md#personale-cliente)
    - [Il tesserino di riconoscimento](personale.md#personale-tesserino)
@@ -410,7 +412,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [I dispositivi](rete-locale.md#rete-locale-dispositivi)
    - [Fissi, di passaggio e nuovi](rete-locale.md#rete-locale-valutazione)
    - [Nel monitoraggio e doppioni](rete-locale.md#rete-locale-monitoraggio)
-   - [Reti e impostazioni](rete-locale.md#rete-locale-impostazioni)
+   - [Impostazioni](rete-locale.md#rete-locale-impostazioni)
    - [Sistema operativo, servizi, IPv6 e porte](rete-locale.md#rete-locale-servizi)
 41. [Strumenti di rete](strumenti-rete.md)
    - [Diagnostica](strumenti-rete.md#strumenti-rete-diagnostica)

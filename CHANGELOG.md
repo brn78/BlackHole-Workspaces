@@ -4,6 +4,65 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.173.0 · 30 ottobre 2026
+
+Le versioni dalla 1.172.0 alla 1.173.0 escono insieme, in un solo setup.
+
+**Novità**
+
+- **Stili e allineamenti in ordine dappertutto**: tutte le pagine, le linguette, le schede e i menu sono stati rivisti
+  uno per uno. Campi, pulsanti e caselle della stessa riga sono alti uguali e in asse; numeri e importi stanno sempre a
+  destra, con la loro intestazione; i titoli delle sezioni hanno tutti la loro icona; gli elenchi e le sezioni vuote
+  dicono che cosa manca; in ogni vista c'è un solo pulsante blu; lo stesso stato ha lo stesso colore in ogni pagina.
+- **Schede e barre di scorrimento**: barre sottili, con l'aspetto della piattaforma, che non spostano il contenuto quando
+  compaiono; la testata e i pulsanti in fondo alle schede restano fermi mentre il resto scorre.
+- **Menu scritti allo stesso modo**: «Esporta», «Importa», «Impostazioni», «Apri …» in tutte le pagine; le azioni che
+  cancellano stanno in fondo, in rosso; «Altro» non ripete i pulsanti già a vista e si chiude quando si apre una
+  scheda. La guida usa i nomi nuovi.
+- **Piccoli dettagli**: le percentuali si scrivono ovunque «22 %»; le date vuote sono in grigio; i campi spenti si
+  riconoscono; il piè degli elenchi dice «1 contatto su 8» al singolare.
+
+**Correzioni**
+
+- **Dati dimostrativi**: la cartella dell'Archivio di rete e qualche documento di vendita contenevano ancora dei
+  riferimenti reali; ora sono inventati come il resto.
+
+## 1.172.1 · 29 ottobre 2026
+
+**Novità**
+
+- **Messaggio in una scheda**: nella Posta il doppio clic su un messaggio, o «Apri in una scheda» del tasto destro, lo
+  apre in una scheda che si può allargare fino a tutto lo schermo.
+
+**Correzioni**
+
+- **Messaggi bianchi**: alcuni messaggi scritti con Outlook si aprivano vuoti; ora si leggono, e se dal testo formattato
+  non resta niente si vede il testo semplice.
+- **Immagini nei messaggi**: le immagini da internet non comparivano neanche dopo «Mostra le immagini».
+- **Cartella «[Gmail]»**: la cartella che contiene le altre, che il server elenca ma non apre, dava un avviso a ogni
+  sincronizzazione; ora non si mostra, le sue cartelle sì.
+
+## 1.172.0 · 28 ottobre 2026
+
+**Novità**
+
+- **Tendine e calendario della piattaforma**: ogni elenco a scelta apre il menu della piattaforma, sulla voce scelta,
+  e si salta alle voci scrivendo le prime lettere; date e ore aprono il calendario della piattaforma, con il lunedì in
+  testa, oggi, i festivi, i mesi e gli anni, e per le ore l'elenco delle mezz'ore.
+- **Elenchi modificabili senza uscire dalla scheda**: serie dei preventivi, tipi di attività delle presenze, livelli
+  dei solleciti, indicatori e misure, piano dei conti, conti correnti e gruppi del monitoraggio hanno in fondo
+  «Nuovo…» e «Gestisci l'elenco…» (anche con F2).
+- **Reparti e mansioni**: diventano elenchi gestiti, in «Altro» del Personale, riempiti con i nomi già scritti;
+  rinominarli aggiorna personale, utenti, listino e indicatori.
+- **Coordinate**: il pulsante della mappa sta nel campo; se il campo è vuoto apre la mappa e, al ritorno, prende le
+  coordinate copiate.
+- **Numeri**: senza frecce e senza la rotella del mouse; i campi con l'unità accanto sono allineati a destra.
+
+**Correzioni**
+
+- **Menu**: un menu aperto e chiuso nello stesso istante faceva chiudere il menu seguente al primo clic, anche su una
+  voce.
+
 ## 1.171.0 · 28 ottobre 2026
 
 Le versioni dalla 1.168.9 alla 1.171.0 escono insieme, in un solo setup.

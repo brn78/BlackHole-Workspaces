@@ -8,7 +8,7 @@
 
 - Nella linguetta **In corso** ogni progetto è una scheda nella colonna della sua fase: **Primo contatto**, **Sopralluogo**, **Preventivo** (in preparazione o inviato), **Trattativa** (si discute il prezzo o i tempi). Si **trascina** da una colonna all'altra; trascinandolo, sotto compaiono **Accettato** e **Rifiutato**. In testa a ogni colonna il valore e il valore pesato.
 - Ogni fase propone la sua **probabilità** (10, 30, 50, 70%): cambiando fase la probabilità la segue, a meno che tu non l'abbia cambiata a mano.
-- La scheda ha il **prossimo passo** (rosso quando il giorno è arrivato) e, con il bordo rosso, quelli con la chiusura prevista già passata. **Tabella**, accanto a Kanban, mostra gli stessi progetti in righe con i totali.
+- La scheda ha il **prossimo passo** (rosso quando il giorno è arrivato) e, con il bordo rosso, quelli con la chiusura prevista già passata. **Elenco**, accanto a Kanban, mostra gli stessi progetti in righe con i totali.
 - In alto: il valore in corso, il **pesato** (valore × probabilità), quanto si pensa di chiudere entro il mese, quanti hanno il prossimo passo da fare (un clic li filtra) e quanti accettati sono ancora **Senza commessa**. I filtri **Miei** e **Da fare** e il commerciale valgono anche per la previsione.
 
 ## <a id="trattative-scheda"></a>La scheda del progetto

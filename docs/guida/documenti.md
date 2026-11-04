@@ -46,11 +46,11 @@ La **scheda** (la voce **Scheda** del menu ⋯ o del tasto destro, o il pulsante
 - **Nome**: l'estensione resta quella del file, perché il tipo non cambia rinominando.
 - **Categoria**: Progettazione, Software, Manuale, Scheda tecnica, Certificazione, Contratto, Offerta, Foto e video, Altro. Chi ha il permesso **Gestire le categorie dei documenti** le aggiunge, le rinomina, ne sceglie icona e colore e le elimina con **Altro** › **Categorie dei documenti** della pagina, nel pannello dei [tipi e delle categorie](interfaccia.md#interfaccia-tipi); eliminando una categoria i file restano, senza categoria.
 - **Cliente**: collega il file o la cartella a un cliente. Il nome del cliente compare nell'elenco e il file si ritrova nella scheda **Documenti** del cliente, vedi [Documenti e stampa del cliente](clienti.md#clienti-documenti).
-- **Produttore** e **Prodotto**: a che cosa si riferisce il file, per esempio produttore *Microsoft* e prodotto *Office Pro*, oppure *Siemens* e *S7-1200* per un manuale o una scheda tecnica. Mentre scrivi compaiono i valori già usati. Per programmi e pacchetti di installazione, se li lasci vuoti, si leggono dal file.
+- **Produttore** e **Prodotto**: a che cosa si riferisce il file, per esempio produttore *Microsoft* e prodotto *Office Pro*, oppure il nome del produttore e il modello per un manuale o una scheda tecnica. Mentre scrivi compaiono i valori già usati. Per programmi e pacchetti di installazione, se li lasci vuoti, si leggono dal file.
 - **Versione**: c'è solo per programmi e pacchetti di installazione e non si scrive a mano, perché la legge il server dal file della revisione corrente; nell'elenco compare accanto al produttore (*v. 1.3.1*). Le versioni scritte a mano prima della 1.4 su altri tipi di file sono state spostate nella **Descrizione**.
 - **Etichette**: parole libere (fino a 20). Un clic su un'etichetta nell'elenco mostra tutti i file che la hanno.
 - **Descrizione** e, per le cartelle, il **colore**.
-- **Dettagli**: tipo, dimensione, percorso, chi ha creato e modificato e quando, e per i programmi le informazioni di versione e la **firma digitale** (chi ha firmato il setup, oppure *Non firmato*). **Stampa scheda** stampa questi dati.
+- **Dettagli**: tipo, dimensione, percorso, chi ha creato e modificato e quando, e per i programmi le informazioni di versione e la **firma digitale** (chi ha firmato il setup, oppure *Non firmato*). **Stampa la scheda** stampa questi dati.
 
 Se due persone modificano la stessa scheda, chi salva per secondo riceve un messaggio e nulla viene sovrascritto di nascosto: riapri la scheda per vedere la versione aggiornata.
 

@@ -6,7 +6,7 @@ Le cartelle dell'ufficio che stanno sul server o in rete (la cartella condivisa 
 
 ## <a id="archivio-rete-cartelle"></a>Le cartelle
 
-**Sistema → Archivio di rete**, riservata agli amministratori. **Nuova cartella** e, per ognuna:
+**Sistema → Cartelle dell'archivio**, riservata agli amministratori. **Nuova cartella** e, per ognuna:
 
 - **Nome**: come compare nella ricerca e nelle linguette dell'archivio (*Archivio ufficio*, *Manuali*). **Attiva**: tolta la spunta, la cartella non si aggiorna e non si trova.
 - **Percorso**, come lo vede il server: una cartella del server (*D:\\Archivio*) o della rete (*\\\\server\\condivisione\\cartella*), scritta o scelta con **Sfoglia** tra i dischi del server e le cartelle condivise dei NAS (se il NAS chiede chi entra, «Sfoglia» chiede utente e password e li riporta qui sotto). **Prova** controlla che si raggiunga e che se ne legga il contenuto, e dice quante cartelle e quanti file ci sono al primo livello; se il contenuto è negato o la cartella risulta vuota, lo dice con l'account con cui il server l'ha letta. Non si può scegliere la cartella di lavoro della piattaforma né una che la contiene.
@@ -34,7 +34,7 @@ Il cestino 🗑, in basso nel pannello, toglie la cartella dall'archivio e il su
 
 Sopra l'elenco c'è lo **stato dell'indice** della cartella: quanti file e cartelle, quanto pesano e quando è stata aggiornata, oppure, mentre si aggiorna, quanti elementi ha già letto. Gli amministratori hanno anche:
 
-- **Aggiorna** (la cartella che stai guardando) e **Aggiorna tutto** in alto: lanciano subito l'aggiornamento a mano, come da Sistema → Archivio di rete; mentre gira compare **Ferma**, e alla fine l'elenco si rilegge da solo.
+- **Aggiorna** (la cartella che stai guardando) e **Aggiorna tutto** in alto: lanciano subito l'aggiornamento a mano, come da Sistema → Cartelle dell'archivio; mentre gira compare **Ferma**, e alla fine l'elenco si rilegge da solo.
 
 Le **informazioni di sistema** non stanno più in questa pagina: il riquadro si trova in **Impostazioni → Server**: versione, server, modalità (servizio di Windows o applicazione), cartella dati e schema del database; processore e memoria in quel momento (aggiornati ogni 3 secondi, con quanto usa la piattaforma e quanto gli altri programmi) e lo spazio sul disco dei dati. Serve a capire se il server è già impegnato prima di lanciare un aggiornamento pesante.
 

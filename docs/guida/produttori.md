@@ -2,7 +2,7 @@
 
 # <a id="produttori"></a>Produttori
 
-**Anagrafiche → Produttori** raccoglie le **marche** dei materiali, distinte dai fornitori che li vendono: il listino METEL di Vimar è del produttore Vimar, mentre il grossista da cui comprate è il fornitore. La pagina la vede chi lavora con clienti, documenti, impianti o listino; i produttori li crea e li modifica chi gestisce il listino o i clienti. Non sono dati riservati: costi e sconti restano nel [listino](listino.md#listino-permessi).
+**Anagrafiche → Produttori** raccoglie le **marche** dei materiali, distinte dai fornitori che li vendono: il listino METEL di un produttore è di quel produttore, mentre il grossista da cui comprate è il fornitore. La pagina la vede chi lavora con clienti, documenti, impianti o listino; i produttori li crea e li modifica chi gestisce il listino o i clienti. Non sono dati riservati: costi e sconti restano nel [listino](listino.md#listino-permessi).
 
 ## <a id="produttori-importa"></a>Importare ed esportare con Excel
 
@@ -23,10 +23,10 @@ Le sigle METEL possono essere più d'una nella stessa cella, separate da virgola
 
 - **Logo**: dal PC, incollato (Incolla, oppure Ctrl+V in qualunque punto della scheda) o da un indirizzo web (vedi [Immagini, loghi e foto](interfaccia.md#interfaccia-immagini)); prima di salvarlo lo ritagli.
 - **Nome** e **partita IVA**.
-- **Sigle METEL**: le tre lettere con cui firma i suoi listini, per esempio VIM. Servono a riconoscerlo quando importi un suo listino, e si aggiungono da sole importando.
+- **Sigle METEL**: le tre lettere con cui firma i suoi listini, per esempio ABC. Servono a riconoscerlo quando importi un suo listino, e si aggiungono da sole importando.
 - **Categoria merceologica** principale e **altre categorie**, scelte tra le [categorie del listino](listino.md#listino-categorie). Quella principale si propone agli articoli che metti nel listino da un suo listino METEL. Le categorie si creano e si modificano in **Listino → Categorie**, oppure da qui con **Gestisci le categorie** (**Crea le categorie** se non ce n'è ancora nessuna), sotto la scelta: le nuove compaiono subito, senza chiudere la scheda.
 - **Sito**.
-- **Indirizzo della scheda prodotto**: apri sul sito la pagina di un prodotto qualsiasi, copia l'indirizzo e metti `{codice}` al posto del codice, per esempio `https://www.esempio.it/prodotto/{codice}`. Così ogni articolo di questo produttore nel listino ha il pulsante **Scheda del produttore**. **Prova** apre la pagina con un codice che scrivi tu.
+- **Indirizzo della scheda prodotto**: apri sul sito la pagina di un prodotto qualsiasi, copia l'indirizzo e metti `{codice}` al posto del codice, per esempio `https://www.example.com/prodotto/{codice}`. Così ogni articolo di questo produttore nel listino ha il pulsante **Scheda del produttore**. **Prova** apre la pagina con un codice che scrivi tu.
 - **Link utili**: catalogo online, configuratore, area riservata, assistenza tecnica…
 - **Referente o agente**, con telefono ed email, e le note.
 

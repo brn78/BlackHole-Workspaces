@@ -130,6 +130,27 @@ Sul server, da un prompt dei comandi **come amministratore** nella cartella di i
 
 Reimposta la password, riabilita l'account e disattiva la sua verifica in due passaggi; se l'utente non esiste lo crea come amministratore. Funziona anche con il servizio in esecuzione.
 
+## <a id="server-modello-conteggio"></a>Un modello di conteggio da un file (dalla 1.177.1)
+
+`BlackHoleWorkspaces.exe --count-model <file.json> [--default]`
+
+Mette nel server un [modello di conteggio](presenze.md#presenze-modelli) scritto in un file JSON (`{ "name": …, "params": { … } }`, gli stessi dati della pagina), con gli stessi controlli; se c'è già un modello con quel nome lo aggiorna. Con `--default` diventa il predefinito. Serve a chi prepara il modello per un'azienda e lo porta sul suo server; funziona anche con il servizio in esecuzione e scrive il riepilogo del modello.
+
+## <a id="server-storico-presenze"></a>Lo storico delle presenze da un altro programma (dalla 1.178.0)
+
+`BlackHoleWorkspaces.exe --import-field <file.json> [--check]`
+
+Porta nel server lo storico delle [presenze](presenze.md) di un altro programma, preparato in un file JSON: il nome della fonte (`source`), le persone, i mezzi, i clienti con le sedi dei cantieri, le attività e le richieste di ferie e permessi, ognuna con la sua chiave nella fonte (`ref`). Con `--check` prova tutto e non scrive niente: il riepilogo dice che cosa entrerebbe. Senza, scrive tutto in una volta sola (se qualcosa va storto non resta niente a metà). Conviene fare prima un backup.
+
+- **Persone**: quelle che hanno già una scheda del personale si riconoscono dal nome e cognome (in qualsiasi ordine e senza badare a maiuscole e accenti); le altre ricevono una scheda nuova, con sesso, data di nascita, telefono ed email se sono validi, le ore al giorno e la data di uscita per chi non c'è più. Le chat di Telegram **non si collegano**: nessuno riceve messaggi finché non lo collega l'ufficio.
+- **Mezzi**: dalla targa tra quelli dei Mezzi, altrimenti una scheda nuova con il numero dell'azienda (o il primo libero se è già usato); quelli non più in servizio entrano dismessi.
+- **Clienti e cantieri**: dal nome tra i clienti (*ACME SRL* e *Acme S.r.l.* sono lo stesso), altrimenti un cliente nuovo con l'etichetta **Dallo storico delle presenze**, da completare. Ogni cantiere è una sede del cliente con le coordinate, così il bot lo riconosce dalla posizione; due cantieri dello stesso cliente con lo stesso nome e la stessa città, o a meno di 50 metri, sono la stessa sede.
+- **Attività**: con il cantiere (una sede di un cliente, la sede dell'azienda o un lavoro generico), il mezzo, i pasti e la reperibilità. Se la fonte ha il viaggio calcolato quando l'attività è stata registrata, resta quello (come un viaggio scritto dall'ufficio: aveva la velocità e il dislivello di allora); altrimenti si stima dalle posizioni. Lavoro e lavoro notturno si calcolano con le regole di adesso. Le attività eliminate nella fonte entrano eliminate: restano nello storico e non contano. Non entrano, e il riepilogo le elenca per nome e giorno perché l'ufficio le aggiunga a mano se servono, quelle ancora aperte, quelle con la fine prima dell'inizio o lunghe più di 24 ore e quelle sovrapposte a un'altra attività della stessa persona.
+- **Ferie e permessi**: entrano con lo stato che avevano (valide, rifiutate, revocate, eliminate); una richiesta mai decisa entra rifiutata, con il motivo, così nessuno deve deciderla adesso e nessuno riceve un esito.
+- Ogni attività e ogni richiesta ha nello storico la riga *Importata dallo storico*, e nel dettaglio *Registrata dallo storico importato*; si correggono come le altre.
+
+Ripetere l'importazione con la stessa fonte aggiunge solo quello che manca: ogni riga ricorda la sua chiave. Così, finché l'altro programma resta in uso, si può riportare più volte quello che c'è di nuovo, e alla fine un'ultima volta prima di passare del tutto. Il comando funziona anche con il servizio in esecuzione e scrive un riepilogo descrittivo di quello che è entrato, di quello che non è entrato e del perché.
+
 ---
 
 [← Profilo e sicurezza](profilo.md) · [Indice](README.md) · [Buone pratiche di sicurezza →](sicurezza.md)

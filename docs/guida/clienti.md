@@ -4,6 +4,10 @@
 
 **Anagrafiche → Clienti** raccoglie persone fisiche e aziende: i clienti e i potenziali clienti. La pagina gemella **Anagrafiche → Fornitori** mostra le schede dei fornitori: è la stessa anagrafica, e un'azienda che è insieme cliente e fornitore ha una scheda sola (vedi [Ruoli: clienti, potenziali clienti e fornitori](#clienti-ruoli)). L'elenco si cerca per nome, codice, gruppo, partita IVA, codice fiscale, città, email o telefono e si filtra per ruolo, tipo, gruppo, [categoria](#clienti-categorie) e stato; sotto le linguette **Clienti** (o **Fornitori**), **Gruppi** e **Cestino**, i **filtri rapidi** scelgono la visibilità: **Tutti**, **Condivisi** e **Miei privati**. **Esporta** e **Importa** scambiano le schede con Excel e con altri programmi: vedi [Esportare i clienti in un file CSV](#clienti-esporta) e [Importare i clienti da un file CSV o JSON](#clienti-importa).
 
+## <a id="clienti-ricerca-dentro"></a>La ricerca anche dentro le schede (dalla 1.181.0)
+
+La ricerca guarda anche quello che sta **dentro** la scheda e l'elenco non mostra: i **nomi e gli indirizzi delle sedi**, i referenti, tutte le email e i telefoni, le coordinate bancarie e le note. Sotto il nome si legge dove ha trovato il testo, per esempio *Trovato nella scheda: sede «Magazzino», Ragusa*: un punto vendita o un cantiere che è una sede di un altro cliente si ritrova subito. Lo stesso nella scelta del cliente dei moduli (attività, documenti, presenze), dopo i nomi. Creando una scheda nuova, l'avviso dei possibili doppioni dice anche quando il nome scritto è già **una sede di un'altra scheda** (*ha già la sede «Magazzino» a Ragusa*): è un avviso, non un doppione certo, perché una catena può avere tante sedi.
+
 ## <a id="clienti-ruoli"></a>Ruoli: clienti, potenziali clienti e fornitori
 
 Ogni scheda ha uno o più **ruoli**, scelti in cima alla scheda con i pulsanti **Cliente** , **Potenziale** e **Fornitore** :
@@ -30,7 +34,7 @@ Scegli **Azienda** (ragione sociale, forma giuridica) oppure **Persona fisica** 
 - Sotto la **data di nascita** di una persona compare il suo **segno zodiacale** (anche nella stampa della scheda): solo un'informazione in più. Lo stesso nelle schede del personale e degli utenti.
 - **Attivo**, nella fascia dei pulsanti in basso: una scheda non attiva resta in archivio e si nasconde con il filtro **Attivi**.
 
-Mentre scrivi il nome, il codice fiscale o la partita IVA, se esiste già un cliente o fornitore con gli stessi dati compare l'avviso **Possibile doppione** con il link alla scheda; i nomi solo simili (*Rossi Impianti* accanto a *Rossi S.r.l.*) compaiono come informazione. Creando la scheda viene chiesta conferma: vedi [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni).
+Mentre scrivi il nome, il codice fiscale o la partita IVA, se esiste già un cliente o fornitore con gli stessi dati compare l'avviso **Possibile doppione** con il link alla scheda; i nomi solo simili (*Rossi Mario S.r.l.* accanto a *Rossi S.r.l.*) compaiono come informazione. Creando la scheda viene chiesta conferma: vedi [Avviso dei possibili doppioni](interfaccia.md#interfaccia-doppioni).
 
 **Duplica** (nel menu della riga e in fondo alla scheda, per chi può creare schede o ha la rubrica personale) apre una **scheda nuova** con gli stessi dati, comoda per un'altra sede o un'altra società dello stesso gruppo: ruoli, anagrafica, categorie, gruppo, etichette, contatti, indirizzi (con le coordinate), coordinate bancarie, referenti e note. Non si copia ciò che identifica la scheda: **codice** (se ne assegna uno nuovo), **codice fiscale**, **partita IVA**, **codice SDI**, **PEC** e immagine. Al nome si aggiunge «(copia)»: cambialo, completa i dati fiscali e premi **Crea**. La copia di un tuo contatto privato resta privata.
 
@@ -134,7 +138,7 @@ Nella sezione **Visibilità** un cliente può essere **condiviso** (lo vede chi 
 
 ## <a id="clienti-importa"></a>Importare i clienti da un file CSV, Excel o JSON
 
-**Importa** ⬆ aggiunge all'archivio i clienti elencati in un file: quelli esportati da un'altra installazione, quelli di un altro programma, un elenco preparato con Excel (file **CSV** o direttamente il foglio **.xlsx**, **.xls**, **.ods**) oppure l'intero archivio di un vecchio gestionale, con più indirizzi, recapiti, referenti e banche per cliente (file **JSON**). L'importazione **aggiunge soltanto**: non modifica e non sostituisce mai un cliente già presente e, ripetuta sullo stesso file, non crea doppioni.
+**Importa** ⬆ aggiunge all'archivio i clienti elencati in un file: quelli esportati da un'altra installazione, quelli di un altro programma, un elenco preparato con Excel (file **CSV** o direttamente il foglio **.xlsx**, **.xls**, **.ods**) oppure l'intero archivio di un altro programma, con più indirizzi, recapiti, referenti e banche per cliente (file **JSON**). L'importazione **aggiunge soltanto**: non modifica e non sostituisce mai un cliente già presente e, ripetuta sullo stesso file, non crea doppioni.
 
 1. **Scegli il file** o trascinalo nella finestra. Se puoi creare sia clienti condivisi sia contatti privati, indica prima in **Importa come** se saranno **Clienti condivisi** oppure **Miei contatti privati**. In **Ruolo** scegli **Cliente**, **Potenziale** o **Fornitore**: è il ruolo delle righe che non lo dicono da sole con la colonna `Ruoli` (dalla pagina Fornitori parte già da **Fornitore**).
 2. Da un **foglio Excel**, o da un CSV con anche una sola colonna dal nome che il programma non conosce: scegli **che cosa c'è in ogni colonna** (quelle con il nome giusto sono già scelte; con l'assistente AI attivo, **✨ Proponi con l'assistente** le propone guardando i nomi e i primi valori). Serve il nome: *Ragione sociale*, oppure *Cognome* e *Nome proprio*, oppure *Nome intero*. Una colonna con la partita IVA di alcuni e il codice fiscale di altri (*P.IVA/C.F.*, frequente negli elenchi dei gestionali) è **Partita IVA o codice fiscale**: si divide da sola, 11 cifre vanno nella partita IVA e il resto nel codice fiscale. **Metti nelle note le colonne da non importare** (già spuntato) conserva il resto nelle note della scheda. Le partite IVA e i CAP che Excel ha trasformato in numeri riprendono gli zeri davanti. Un file con più fogli mostra prima i [fogli da importare](interfaccia.md#interfaccia-import-export); un foglio fatto con il **modello Excel** (o esportato da qui) salta questo passo e va dritto all'anteprima.
@@ -174,18 +178,18 @@ Serve per portare qui l'archivio di un altro gestionale con tutto quello che una
 
 ```
 { "customers": [
-  { "code": "C00012", "kind": "company", "companyName": "ROSSI IMPIANTI SRL", "roles": ["customer", "supplier"],
-    "vatNumber": "01234567897", "sdiCode": "M5UXCR1", "pec": "rossi@pec.esempio.it",
-    "emails": ["info@esempio.it", { "label": "Amministrazione", "value": "amministrazione@esempio.it" }],
-    "phones": [["Ufficio", "0932 123456"], "333 1234567"],
+  { "code": "C00012", "kind": "company", "companyName": "ROSSI SRL", "roles": ["customer", "supplier"],
+    "vatNumber": "01234567897", "sdiCode": "ABC1234", "pec": "rossi@pec.example.com",
+    "emails": ["info@example.com", { "label": "Amministrazione", "value": "amministrazione@example.com" }],
+    "phones": [["Ufficio", "0932 000000"], "333 1234567"],
     "addresses": [
       { "label": "Sede legale", "street": "Via Roma 1", "postalCode": "97100", "city": "Ragusa", "province": "RG" },
       { "name": "NEGOZIO CENTRO", "street": "Corso Italia 5", "city": "Ragusa",
-        "contact": "Mario Rossi", "phone": "0932 234567" } ],
-    "people": [{ "name": "Maria Rossi", "role": "Amministrazione", "phone": "0932 345678" }],
+        "contact": "Mario Rossi", "phone": "0932 000001" } ],
+    "people": [{ "name": "Anna Rossi", "role": "Amministrazione", "phone": "0932 000002" }],
     "bankAccounts": [{ "iban": "IT60X0542811101000000123456", "bankName": "Banca Prova" }],
     "tags": ["VIP"], "notes": "Testo libero", "active": true },
-  { "kind": "person", "lastName": "BIANCHI", "firstName": "LUCIA", "fiscalCode": "BNCLCU85M41H163Q" }
+  { "kind": "person", "lastName": "ROSSI", "firstName": "MARIO", "fiscalCode": "RSSMRA80A01H163U" }
 ] }
 ```
 

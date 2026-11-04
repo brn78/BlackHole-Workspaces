@@ -28,7 +28,7 @@ Nella scheda di un cliente, potenziale cliente o fornitore, la linguetta **Priva
 
 - **Invia per email** (quando la [posta](impostazioni.md#impostazioni-posta) è configurata): l'indirizzo è il primo della scheda e si può cambiare; parte un'email nello stile della piattaforma con tutto il testo, e l'informativa risulta fornita oggi «per email».
 - **Stampa da firmare**: il testo con, in fondo, il riquadro del consenso alle comunicazioni commerciali e lo spazio per luogo, data e firma. Firmata, si segna con **Segna come fornita → Oggi, firmata**.
-- **Segna come fornita**: oggi (firmata, consegnata a mano, per email, sul sito o in altro modo) oppure **In un altro giorno…**, per esempio quando era già stata fornita con il vecchio gestionale. **Togli la consegna** la riporta a non fornita.
+- **Segna come fornita**: oggi (firmata, consegnata a mano, per email, sul sito o in altro modo) oppure **In un altro giorno…**, per esempio quando era già stata fornita con un altro programma. **Togli la consegna** la riporta a non fornita.
 
 **Comunicazioni commerciali** registra il consenso a ricevere offerte e informazioni (art. 6.1.a): **Non chiesto**, **Acconsente** o **Non acconsente**, con la data della scelta. Il consenso è facoltativo e si può revocare: senza, al cliente si scrive solo per preventivi, contratti e assistenza. Segnare l'informativa e il consenso richiede il permesso di modificare la scheda; chi la vede soltanto legge lo stato. Ogni scelta finisce nel [registro attività](registro.md).
 

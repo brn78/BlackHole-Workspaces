@@ -5,6 +5,7 @@
 La prima area del menu laterale, **Il mio spazio**, sempre aperta, raccoglie il **lavoro di ogni giorno**: quello che ciascuno fa per sé e con i colleghi:
 
 - [Home](home.md) : il punto della situazione, con i numeri che contano, le ultime cose che ti riguardano e le scorciatoie. Per tutti.
+- [Bacheca](comunicazioni.md#bacheca) 📌: le comunicazioni dell'azienda per te (avvisi, circolari, riunioni, convocazioni), con la presa visione e «Ci sarò». Per tutti.
 - [Attività](attivita.md) : le cose da fare, da assegnare e da seguire, con scadenze, revisione, file e ore lavorate; si collegano, se serve, a un cliente e a una commessa. Per tutti.
 - [Appunti](appunti.md) : note ed elenchi di cose da ricordare, personali o condivisi con colleghi e gruppi. Per tutti.
 - [Rubrica](rubrica.md) : i tuoi contatti, personali o condivisi. Per tutti.
@@ -14,7 +15,7 @@ La prima area del menu laterale, **Il mio spazio**, sempre aperta, raccoglie il 
 Sotto, le **aree dell'azienda**, una per **reparto** come lavora l'azienda (dalla 1.160.0), ciascuna pagina con i suoi permessi:
 
 - **Anagrafiche**, comuni a tutti: [Clienti](clienti.md), [Fornitori](clienti.md#clienti-ruoli) e [Produttori](produttori.md);
-- **Azienda**: la reception con l'[Assistenza](assistenza.md) (le richieste dei clienti e il laboratorio) e la [Reperibilità](reperibilita.md); le squadre con le [Presenze](presenze.md), i [Mezzi e le Attrezzature](mezzi.md); poi il [Personale](personale.md), gli [Indicatori](indicatori.md) e le [Scadenze](scadenze.md);
+- **Azienda**: la reception con l'[Assistenza](assistenza.md) (le richieste dei clienti e il laboratorio) e la [Reperibilità](reperibilita.md); le squadre con le [Presenze](presenze.md), i [Mezzi e le Attrezzature](mezzi.md); poi il [Personale](personale.md), le [Comunicazioni](comunicazioni.md), gli [Indicatori](indicatori.md) e le [Scadenze](scadenze.md);
 - **Progettazione**, l'ufficio tecnico dal primo contatto al consuntivo: [Progetti](trattative.md), [Preventivi](preventivi.md), [Commesse](progetti.md), [Impianti](impianti.md), [Certificazioni](certificazioni.md), [Manutenzioni](manutenzioni.md) e [Pratiche](pratiche.md);
 - **Magazzino**, l'ufficio acquisti con il magazziniere: [Ordini fornitori](acquisti.md) (con la linguetta [Prezzi da verificare](acquisti.md#acquisti-prezzi)), [Listini fornitori](listini-fornitori.md) (prezzi e aggiornamenti dei prodotti dei fornitori), il [Listino aziendale](listino.md) (i prezzi dell'azienda: prezzario, articoli di magazzino, prestazioni, manodopera) e [Magazzino](magazzino.md) (giacenze, arrivi, inventari, riordino);
 - **Amministrazione**: [Fatturazione](vendite.md) (da fatturare, fatture emesse e [ricevute](fatture-fornitori.md), DDT, vendita al banco), [Incassi e pagamenti](incassi-pagamenti.md), [Banca](banca.md) e [Contabilità](contabilita.md);

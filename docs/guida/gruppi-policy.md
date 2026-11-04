@@ -82,6 +82,7 @@ Chi lavora sul campo non deve arrivare ai dati amministrativi. Per questo alcuni
 - **Costi del personale**: retribuzioni e costo aziendale.
 - **Documenti personali e visite mediche**.
 - **Costi di mezzi e attrezzature**: spese delle manutenzioni e totali.
+- **PIN delle carte carburante**: il PIN della carta di ogni mezzo.
 - **Vedere gli acquisti**: ordini ai fornitori con i prezzi d'acquisto.
 - **Vedere le vendite**: fatture, incassi e solleciti.
 - **Vedere le fatture dei fornitori**: fatture ricevute, IBAN e pagamenti.

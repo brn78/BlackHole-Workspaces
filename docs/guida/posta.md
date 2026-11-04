@@ -5,7 +5,7 @@
 **Il mio spazio → Posta** legge e invia la posta delle tue caselle, dentro BlackHole: i messaggi restano nell'archivio, si cercano in tutta la casella e vanno nei backup. A sinistra ci sono le caselle con le loro cartelle, al centro l'elenco dei messaggi, accanto o sotto il messaggio aperto.
 
 - **Scrivi** è il solo pulsante blu della pagina (tasto <kbd>N</kbd>).
-- **Controlla la posta adesso** è l'icona ↻ accanto al nome della cartella, sopra l'elenco (tasto <kbd>F9</kbd>, come in Outlook): gira finché il controllo non è finito. Di solito non serve, perché la posta si controlla da sola.
+- **Controlla la posta adesso** è l'icona ↻ accanto al nome della cartella, sopra l'elenco (tasto <kbd>F9</kbd>, come in Outlook): gira finché il controllo non è finito. Di solito non serve, perché la posta si controlla da sola. Mentre gira, la riga sotto l'elenco (e il suggerimento dell'icona) dice a che punto è: la cartella che sta controllando (*Controllo «Clienti» (12 di 30)*), i messaggi nuovi che sta scaricando e, se dura più di un minuto, da quanto; alla fine scrive l'ora dell'ultimo controllo.
 - In **⋯ Altro** della pagina ci sono la scelta della visualizzazione e, quando hai già delle caselle, **Aggiungi una casella**. Senza caselle la pagina mostra solo l'invito ad aggiungerne una.
 - Le impostazioni di una casella non servono nel lavoro di ogni giorno: stanno nel suo **⋯**, a sinistra.
 - Nel menu a sinistra, accanto a **Posta**, c'è il numero dei messaggi da leggere di tutte le tue caselle: la posta nuova si vede da ogni pagina. Non contano Posta inviata, Bozze, Cestino e Posta indesiderata.
@@ -62,14 +62,15 @@ Trascina un messaggio, o quelli scelti, su una cartella della stessa casella: la
 - La **stella** ★ accanto all'oggetto mette il messaggio tra i tuoi [preferiti](area-di-lavoro.md#preferiti): dal menu o dalla Home lo riapri in una scheda sopra la pagina in cui sei. Se nel frattempo il messaggio è stato eliminato, la scheda lo dice e propone **Togli dai preferiti**.
 - Nelle caselle condivise con te o aziendali il messaggio si **assegna**, come nelle [attività](attivita.md): **Assegna a un collega…** oppure **Assegna a me**; la × toglie l'assegnazione.
 - Le **ricevute PEC** di un messaggio inviato stanno in una lista sola, una per riga (vedi [PEC e ricevute](#posta-pec)).
-- Negli **allegati** il nome apre l'anteprima; accanto, il file si scarica o si salva in Documenti (vedi [Allegati e Documenti](#posta-allegati)).
+- La **stampa** 🖨, accanto alla stella, stampa il messaggio con in testa oggetto, mittente, destinatari, data e allegati, e le immagini come le vedi; dalla finestra del browser anche in PDF.
+- Gli **allegati** stanno sotto il testo, affiancati: il nome apre l'anteprima; accanto, il file si scarica o si salva in Documenti. Le immagini che stanno già nel testo (la firma, i loghi) sono raccolte in una riga, *N immagini nel testo del messaggio*, che si apre con un clic (vedi [Allegati e Documenti](#posta-allegati)).
 - Lo **storico**, in fondo, dice chi ha letto, risposto, inoltrato, assegnato, spostato o eliminato il messaggio, e quando.
 - Le **immagini** che arrivano da internet restano bloccate, perché farle arrivare dice al mittente che hai aperto il messaggio: **Mostra le immagini** le fa vedere per quel messaggio. Le immagini dentro il messaggio (non da internet) si vedono sempre.
 - Un messaggio con la scritta *Solo nell'archivio* non è più sul server della posta: lo trovi solo in BlackHole.
 
 ## <a id="posta-scrivere"></a>Scrivere
 
-- **Scrivi** (tasto <kbd>N</kbd>) apre un messaggio nuovo in una scheda a lato. In **Da** scegli la casella da cui parte. Mentre scrivi i destinatari, il programma propone i contatti della Rubrica, i clienti e gli indirizzi già usati nella posta. **Cc** e **Ccn** si aggiungono con i loro pulsanti. Ogni destinatario si chiude con <kbd>Invio</kbd>, la virgola o il punto e virgola; un elenco incollato (*a@esempio.it; b@esempio.it*) diventa un destinatario per indirizzo.
+- **Scrivi** (tasto <kbd>N</kbd>) apre un messaggio nuovo in una scheda a lato. In **Da** scegli la casella da cui parte. Mentre scrivi i destinatari, il programma propone i contatti della Rubrica, i clienti e gli indirizzi già usati nella posta. **Cc** e **Ccn** si aggiungono con i loro pulsanti. Ogni destinatario si chiude con <kbd>Invio</kbd>, la virgola o il punto e virgola; un elenco incollato (*a@example.com; b@example.com*) diventa un destinatario per indirizzo.
 - Gli indirizzi si controllano come gli altri campi email: uno scritto male resta **in rosso** e sotto il campo c'è che cosa non va (per esempio *manca la @*). Un clic sull'indirizzo rosso lo rimette nel campo da correggere; finché ce n'è uno, il messaggio non parte. La spunta verde a destra dice che vanno bene tutti.
 - **Allegati**: nel riquadro tratteggiato **Scegli i file** li prende dal computer, oppure li trascini sulla scheda, anche sopra il testo. Insieme arrivano al massimo a 25 MB. **Allega da Documenti** apre una scheda a lato in cui cerchi il file per nome. Il messaggio ne manda una copia: il file resta dov'è.
 - La **firma** della casella va in fondo al messaggio ed è tua: ognuno ha la sua, anche nelle caselle condivise. Si cambia dal **⋯** della casella, linguetta **Firma**; chi può scrivere ma non gestire la casella vede lì soltanto **La tua firma**. In scrittura una riga ne mostra solo il testo.
@@ -150,7 +151,7 @@ Chi ha la casella condivisa può prendere un messaggio con **Assegna a me**, o a
 
 ## <a id="posta-allegati"></a>Allegati e Documenti
 
-Nella lettura il nome dell'allegato apre l'anteprima. Accanto, ⬇ scarica il file e **Salva in Documenti** lo mette nella cartella che scegli; per salvarlo serve il permesso di caricare documenti. Scrivendo, il riquadro tratteggiato prende i file dal computer (**Scegli i file**, o trascinandoli sulla scheda) e **Allega da Documenti** ne cerca uno nei Documenti: il messaggio ne manda una copia, il file resta dov'è.
+Nella lettura gli allegati stanno sotto il testo del messaggio, in riquadri affiancati; le immagini della firma e dei loghi, che si vedono già nel testo, sono raccolte in una riga che si apre a richiesta. Il nome dell'allegato apre l'anteprima. Accanto, ⬇ scarica il file e **Salva in Documenti** lo mette nella cartella che scegli; per salvarlo serve il permesso di caricare documenti. Scrivendo, il riquadro tratteggiato prende i file dal computer (**Scegli i file**, o trascinandoli sulla scheda) e **Allega da Documenti** ne cerca uno nei Documenti: il messaggio ne manda una copia, il file resta dov'è.
 
 ## <a id="posta-indesiderata"></a>Posta indesiderata, mittenti e iscrizioni
 

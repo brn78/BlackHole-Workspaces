@@ -4,6 +4,705 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.199.0 · 4 novembre 2026
+
+Le versioni dalla 1.173.1 alla 1.199.0 escono insieme, in un solo setup.
+
+**Novità**
+
+- **Codice rivisto da cima a fondo**: le funzioni ripetute in più pagine sono diventate una sola, condivisa: date e ore,
+  importi e somme, testo per cercare senza accenti, scaricamento dei file, esportazioni in CSV, finestre di conferma,
+  caricamento dei componenti esterni, letture dal database e controlli dei testi. Lo stesso dato si comporta allo stesso
+  modo in tutte le pagine, e il programma ha meno codice da caricare.
+- **Esempi neutri**: guida, segnaposto, aiuti, esempi delle importazioni e testi di prova dell'assistente usano solo
+  nomi, aziende, indirizzi e luoghi d'esempio; tolte le marche e i prodotti dove non servono a riconoscere qualcosa.
+- **Dati dimostrativi aggiornati**: la demo ha le presenze di ottobre con cantieri, mezzi, pause e una reperibilità,
+  ferie, un permesso e una malattia, una richiesta da decidere, attrezzature su un mezzo e in magazzino, un furgone a
+  noleggio con la sua carta carburante, due comunicazioni in bacheca e i codici di alcuni moduli.
+
+**Correzioni**
+
+- **Date subito dopo mezzanotte**: alcune esportazioni prendevano la data del giorno prima nel nome del file, e
+  l'importazione di un documento con la data di oggi poteva dirlo «nel futuro»; ora conta sempre l'ora del PC.
+- **Numeri scritti con il punto**: nella calcolatrice della ricerca, nelle formule, nel disegno e nella misura nota,
+  il punto o la virgola scritti per ultimi sono i decimali, come negli importi («1.125» = 1,125; «1.125,65» = 1125,65).
+  La scala della misura nota con «0.90» o «1.5» ora è giusta.
+- **CSV delle ore delle Attività**: protetto dalle formule come le altre esportazioni.
+- **File di testo in UTF-16**: la lettura delle cartelle dei clienti e degli impianti ora li legge.
+- **Scelta di un file annullata**: ritagliare un'immagine o leggere un testo da un file non resta più in attesa se si
+  chiude la finestra senza scegliere.
+- **Download senza rete**: se il server non risponde, lo scaricamento di un file lo dice come le altre richieste.
+
+## 1.198.0 · 4 novembre 2026
+
+**Novità**
+
+- **Home personalizzabile**: ognuno sceglie che cosa vedere nella propria Home e in che ordine, partendo dalla Home
+  di serie preparata dall'amministratore. In *Altro → Personalizza la Home* si spuntano o si tolgono i blocchi, si
+  spengono intere parti (I miei numeri, Preferiti, L'azienda, Grafici, Riquadri) e si mettono in ordine
+  trascinandoli dalla maniglia. Da tastiera si usa Alt con le frecce, sul telefono i pulsanti a freccia. Salvando,
+  un riepilogo dice com'è disposta la Home.
+- **Home di serie per tutti**: l'amministratore può rendere la propria Home la Home di serie dell'azienda, oppure
+  togliere quella dell'azienda. Chi ha già una Home propria la tiene, e «Ripristina quella di serie» la riporta a
+  quella dell'azienda.
+- **Più leggera**: i blocchi nascosti non caricano più i loro dati, e restano visibili solo quelli a cui si ha
+  accesso.
+
+## 1.197.1 · 4 novembre 2026
+
+**Novità**
+
+- **Pulsante blu uguale in ogni pagina vuota**: quando una pagina o una linguetta è vuota, al centro compare lo
+  stesso pulsante blu della barra in alto, con al massimo un'azione grigia accanto. Con i dati il riquadro sparisce
+  e il blu resta in alto.
+
+**Correzioni**
+
+- **Blu sempre in alto**: nelle pagine vuote il pulsante blu della barra in alto non scompariva più.
+- **Previsione e Andamento**: senza dati, Progetti → Previsione e Fatturazione → Andamento mostrano un invito con il
+  pulsante blu, al posto dei riquadri a zero.
+
+## 1.197.0 · 4 novembre 2026
+
+**Novità**
+
+- **Comunicazioni al personale**: nuova sezione in *Azienda → Comunicazioni* per avvisi, comunicati, circolari,
+  riunioni, assemblee e convocazioni. Ogni comunicazione va a tutto il personale, a un reparto, a un gruppo di
+  utenti o a persone scelte, e prima di pubblicarla si vede chi la riceverà e con quali canali. Si può salvarla come
+  bozza, pubblicarla subito o in una data, metterla in evidenza, archiviarla in automatico e allegare file.
+  Pubblicare richiede un permesso dedicato.
+- **Bacheca**: in *Il mio spazio → Bacheca* ognuno trova le comunicazioni, con il numero nel menu, il riquadro nella
+  Home e l'avviso della campanella. Aprirla vale come lettura; si può dare presa visione oppure rispondere «Ci sarò»
+  o «Non ci sarò», e le risposte compaiono nel riepilogo.
+- **Email e Telegram**: l'email arriva con gli allegati e con un link personale per leggere e rispondere senza
+  accedere al programma. Su Telegram arrivano i file e i pulsanti HO LETTO, CI SARÒ e NON CI SARÒ, che si tolgono
+  quando si risponde, all'archiviazione o all'inizio della riunione. Valgono gli interruttori degli invii e l'elenco
+  di chi usa il bot.
+- **Chi ha letto**: il dettaglio mostra chi ha letto e risposto, permette di sollecitare chi manca e di segnare a mano
+  una risposta, e conserva lo storico. Per le riunioni arriva un promemoria il giorno prima. Si stampano
+  la comunicazione e le prese visione.
+
+## 1.196.0 · 3 novembre 2026
+
+**Novità**
+
+- **Aggiornamento da Excel**: mezzi e attrezzature già in archivio si aggiornano da un foglio, con proprietà, tipo,
+  immatricolazione, km e scadenze, tutti insieme invece che scheda per scheda. Il foglio trova ogni scheda dal
+  numero, dalla targa o dal telaio; le celle compilate sostituiscono i dati attuali, e quelle vuote li lasciano come
+  sono. Ogni riga è indipendente: una riga sbagliata viene segnalata e non blocca le altre, e prima di applicare si
+  vede un'anteprima dei cambiamenti.
+- **Km e scadenze**: i km si indicano come dati iniziali o come lettura di oggi. Le scadenze si scrivono per nome e
+  spostano quella aperta oppure ne aprono una nuova; quando cambiano tipo, immatricolazione, acquisto o km, le
+  scadenze del tipo che mancano si aggiungono da sole.
+- **Importazioni che aggiornano**: tutte le importazioni da foglio possono aggiornare le schede già presenti.
+  L'anteprima dice quali righe verranno aggiornate e che cosa cambia, e il pulsante blu indica quante nuove e quante
+  aggiornate.
+- **Esportazione**: l'elenco dei mezzi e delle attrezzature esporta anche acquisto, immatricolazione, alimentazione,
+  gestore della carta e scadenze aperte, e il file si può reimportare così com'è.
+
+## 1.195.1 · 3 novembre 2026
+
+**Novità**
+
+- **Scadenze a chilometri senza lettura**: una scadenza a chilometri di un mezzo che non ha ancora una lettura dei
+  km compare ora anche nello scadenzario, con «Km da registrare» e il promemoria «mancano i km attuali del mezzo».
+  Dal menu della riga si apre subito la lettura dei km, senza lasciare la pagina. Finché non si sa quanto manca,
+  nessun avviso parte.
+- **Home**: compare la voce «Km da registrare» quando serve, e il rosso resta solo per le scadenze scadute o
+  mancanti.
+
+## 1.195.0 · 3 novembre 2026
+
+**Novità**
+
+- **PIN della carta carburante**: sulla scheda del mezzo si può salvare il PIN della tessera carburante, così si
+  risale subito al PIN della carta assegnata. Lo vede e lo cambia solo chi ha il permesso «PIN delle carte
+  carburante»; senza permesso non compare nemmeno. Va da 4 a 12 cifre, è conservato in modo cifrato, e ogni lettura
+  resta nello storico del mezzo, senza il PIN. Non compare mai negli elenchi, nelle ricerche, nelle stampe o nelle
+  esportazioni. Cambiando numero di carta, il PIN resta segnato come «della carta di prima».
+- **Responsabili di mezzi e attrezzature**: nella pagina Mezzi e attrezzature, da *Altro → Responsabili*, si
+  indicano una o più persone che ricevono per email e/o su Telegram tutte le scadenze dell'elenco, con dove o con
+  chi sta il bene, oltre a chi ce l'ha in consegna. La finestra dice che cosa manca a ciascuno (indirizzo, bot,
+  accesso). La campanella va ai responsabili che hanno l'accesso al programma, al posto di chi gestisce i beni.
+- **Nella scheda**: i responsabili compaiono negli avvisi delle scadenze e nelle stampe, e i primi passi spiegano
+  come sceglierli.
+
+## 1.194.0 · 3 novembre 2026
+
+**Novità**
+
+- **Noleggio, leasing e comodato**: mezzi e attrezzature si indicano come di proprietà o a noleggio, in leasing o in
+  comodato d'uso, con chi li dà, il periodo e il canone (il canone si vede solo a chi vede i costi). A fine periodo
+  compare una scadenza che segue i dati della scheda: se la data cambia, la scadenza si sposta; se si toglie,
+  sparisce. Il preavviso è di 30 giorni, e di 7 giorni quando mancano meno di tre mesi.
+- **Restituzione o rinnovo**: alla scadenza il bene si segna come restituito, e finisce tra i dismessi come
+  «Restituito», con la consegna chiusa e le attrezzature a bordo liberate; oppure si rinnova fino a una nuova data,
+  e il rinnovo porta alla nuova scadenza anche la carta carburante collegata. Dismettere un mezzo libera le
+  attrezzature a bordo.
+- **Avvisi a chi ha il bene**: chi ha in consegna un mezzo o un'attrezzatura riceve il preavviso e l'avviso di
+  scadenza passata per email e/o su Telegram, nel rispetto degli interruttori degli invii e di chi usa il bot. La
+  campanella resta, senza un secondo messaggio.
+
+## 1.193.1 · 3 novembre 2026
+
+**Correzioni**
+
+- **Piè delle stampe**: al posto del nome del modello di stampa e del nome del programma, che non dicevano nulla,
+  c'è il codice del modulo, che identifica il documento. A sinistra stanno il codice e la revisione, poi il testo
+  del modello se c'è, chi ha stampato e il numero di pagina. Vale anche per la ricevuta del laboratorio e per il
+  report del mese in PDF.
+
+## 1.193.0 · 3 novembre 2026
+
+**Novità**
+
+- **Codici dei moduli**: ogni stampa riporta in fondo il codice e la revisione del suo modulo, come le
+  certificazioni. Il codice appartiene al documento e non al modello di stampa: lo stesso documento ha sempre lo
+  stesso codice.
+- **Gestione dei codici**: in *Sistema → Modelli di stampa* c'è la linguetta «Codici dei moduli», con il campo cerca
+  per cambiare codice e revisione di ciascun documento. È riservata agli amministratori, e ogni cambiamento resta
+  nel registro delle attività.
+
+## 1.192.1 · 3 novembre 2026
+
+**Novità**
+
+- **Anteprima prima della stampa**: anche gli elenchi e le schede aprono l'anteprima, come i documenti. Lì si cambia
+  al volo il modello (quando ce ne sono più d'uno per elenchi e schede), la carta e i colori, e si vede quanti fogli
+  usciranno; «Stampa» apre poi la stampa del browser.
+- **Stampe dirette**: restano senza anteprima le etichette, i cartellini, i tesserini, le ricevute, i messaggi della
+  Posta e i file, che si stampano così come sono.
+
+## 1.192.0 · 3 novembre 2026
+
+**Novità**
+
+- **Stampe degli elenchi e delle schede**: passano dai Modelli di stampa, con il tipo nuovo «Elenchi e schede».
+  Hanno intestazione con il logo e i dati dell'azienda, carta, colori, margini, carattere e piè come i documenti, e
+  le firme dove servono. I preventivi si stampano solo con un modello di stampa.
+
+**Correzioni**
+
+- **Etichette**: il pulsante delle schede dice «Stampa la scheda» ovunque, e l'informativa privacy ha un pulsante
+  «Stampa» che stampa davvero.
+- **Ore per cliente**: i minuti sono scritti senza secondi, come nel report della persona e negli orari stampati,
+  così non nasce più una differenza di un minuto.
+- **Sul telefono**: la griglia delle Impostazioni non supera lo spazio disponibile, i percorsi della guida e le
+  pillole «Da controllare» del Periodo vanno a capo, le tendine restano nello schermo, e nelle schede degli elenchi
+  la colonna dei numeri parte sotto il pulsante «⋯».
+
+## 1.191.0 · 3 novembre 2026
+
+**Novità**
+
+- **Ore per cliente**: nel report delle presenze la voce «Per cliente» dà una riga per cliente, con cantieri,
+  persone, giorni, lavoro, viaggio, reperibilità e totale. Il pannello di ogni cliente mostra i cantieri, chi ci ha
+  lavorato e il giorno per giorno; la ricerca funziona anche dentro cantieri e persone.
+- **Orari arrotondati al quarto d'ora**: per ogni persona e giorno, le ore registrate su ogni cantiere si
+  arrotondano secondo la regola scelta nelle impostazioni delle presenze (0, 5, 10, 15, 30 o 60 minuti).
+- **Stampe ed esportazione**: la stampa per il committente riporta ore, nomi e firme, mai i costi; la stampa di
+  tutti i clienti e l'esportazione hanno una riga per persona e giorno.
+- **Stima dei costi**: è facoltativa e visibile solo a chi vede i costi del personale o il consuntivo delle
+  commesse. Le ore si valutano con il costo orario della scheda, della mansione o con la media.
+- **Dai clienti e dalle commesse**: la voce «Ore presso il cliente» è nel menu dei Clienti e delle Commesse.
+
+## 1.190.1 · 3 novembre 2026
+
+**Novità**
+
+- **Indicatori delle presenze più veloci**: il conto di ogni mese si fa una volta sola, e si riusa finché non
+  cambiano attività, richieste, chiusure, persone o modelli. I mesi prima dei primi dati restano vuoti, e gli
+  indicatori si aprono subito anche con molti dati.
+
+**Correzioni**
+
+- **PDF del report del mese**: le ore tolte dalle finestre e dagli arrotondamenti compaiono una sola volta.
+- **Giornate da controllare**: l'attività unica e più lunga della giornata è segnalata in una frase sola.
+
+## 1.190.0 · 2 novembre 2026
+
+**Novità**
+
+- **Presenze e ferie negli indicatori**: gli indicatori leggono ora il report delle presenze, mese per mese e con le
+  chiusure. Ci sono nuove misure automatiche: ore lavorate, straordinario, viaggio, notturno, reperibilità, ore
+  lavorabili, giorni e giornate da controllare per persona; ferie, permessi, malattia, assenze e ore da giustificare
+  per reparto e per azienda. Prima le ore di assenza andavano inserite a mano. C'è anche il modello «Presenze e
+  ferie».
+- **Primi passi**: nuovi per Presenze, Indicatori, Attività, Posta, Fornitori, Utenti e Backup.
+
+**Correzioni**
+
+- **Pagine controllate una per una**: corretti i primi passi del Listino e degli Ordini; in Progetti il passo sulla
+  commessa si segna da solo; il commerciale si sceglie con il campo persona standard; la pagina delle cartelle
+  indicizzate si chiama «Cartelle dell'archivio».
+
+## 1.189.0 · 2 novembre 2026
+
+**Correzioni**
+
+- **Bot, pulsanti**: a procedura conclusa i pulsanti si tolgono. Dopo «REPORT INVIATO», il riepilogo del mese
+  conservava ancora i suoi pulsanti. Ora vale una regola per tutto il bot: si fa una procedura alla volta, e quella
+  finita, annullata o scaduta non lascia pulsanti. Un comando dal menu o «ANNULLA» chiude quelli rimasti, e le
+  domande scadute si chiudono dicendo il perché.
+
+## 1.188.1 · 2 novembre 2026
+
+**Correzioni**
+
+- **Report del mese in PDF**: nelle giornate senza attività la riga ambra «Da controllare» ripeteva le ore da
+  giustificare già scritte nella riga del giorno, e il PDF si allungava. Ora il motivo compare una volta sola.
+
+## 1.188.0 · 2 novembre 2026
+
+**Novità**
+
+- **Riepilogo del mese leggibile**: nel bot il riepilogo è diviso in righe e gruppi (ore, assenze, fuori sede), con
+  le giornate fino a ieri da controllare e il perché: attività rimaste aperte, ore da giustificare, giornata molto
+  lunga, pausa mancante, una sola attività, buchi, attività di pochi minuti. Così si vede subito se ci sono errori
+  di timbratura e si può avvisare l'ufficio in tempo. Ci sono i pulsanti «RICEVI IL REPORT» e «SEGNALA UN ERRORE».
+- **Ricevi il report**: si sceglie uno dei tre report (riepilogo, giorno per giorno, con i cantieri) e il modo di
+  averlo: PDF in chat, email all'indirizzo dell'utente (o a quello della scheda, se manca) oppure un link da
+  scaricare, valido 7 giorni. Il PDF usa il modello di stampa Presenze di serie, con intestazione, piè e firme, e le
+  giornate da controllare all'inizio. Non resta salvato sul server: il file si crea al momento, e il link lo rifà a
+  ogni apertura.
+- **Segnala un errore**: il testo della persona arriva a chi gestisce le presenze, con il link al suo report del
+  mese, e il bot risponde con il resoconto. Chi gestisce le presenze ne è avvisato con una notifica, regolabile
+  nelle preferenze.
+
+## 1.187.2 · 1° novembre 2026
+
+**Novità**
+
+- **Riepilogo del mese nel bot**: nel menu del bot c'è la voce RIEPILOGO DEL MESE, subito dopo il riepilogo di oggi.
+  Riporta gli stessi conti della pagina Report: giorni lavorati, ordinario, straordinario, festivo, viaggio,
+  notturno, reperibilità, assenze, ore da giustificare, pasti e pernotti. Il mese in corso arriva fino a oggi, con
+  la chiusura dell'ufficio se c'è.
+- **Mese prima e dopo**: le frecce ‹ › cambiano mese sullo stesso messaggio, fino a un anno indietro. Ognuno vede
+  solo il proprio.
+
+## 1.187.1 · 1° novembre 2026
+
+**Novità**
+
+- **Interruttori degli invii**: in cima alle impostazioni ci sono due interruttori, uno per le email e uno per
+  Telegram. Con l'email spenta non parte nessuna email dal server (notifiche, inviti, recupero della password,
+  monitoraggio, esiti delle richieste, messaggi a clienti e fornitori), nemmeno dalla casella dei servizi nella
+  Posta; le caselle personali continuano a funzionare. Con Telegram spento il bot tace; Telegram si accende solo se
+  il bot è collegato, e un nuovo collegamento lo riaccende.
+- **Notifiche in attesa**: quelle nate mentre un canale era spento non partono nemmeno dopo la riaccensione, e
+  restano nella campanella.
+
+**Correzioni**
+
+- **Telegram spento**: l'avviso di accesso, il benvenuto delle presenze e alcuni messaggi partivano lo stesso anche
+  con Telegram spento. Ora no, e il controllo del bot dice che è spento.
+
+## 1.187.0 · 1° novembre 2026
+
+**Novità**
+
+- **Causali delle assenze**: oltre a ferie, permesso e malattia si possono creare altre causali, in *Altro →
+  Causali*, ognuna con il suo modo di contare: ferie, permesso o assenza. Per ciascuna si decide se la persona può
+  chiederla dal bot oppure se la registra solo l'ufficio, anche nei giorni passati. Nei report contano nella colonna
+  del loro modo di contare, e nel «Chi c'è» compaiono come assenza, come la malattia.
+- **Una sola «Nuova richiesta»**: in Presenze c'è un unico pulsante blu «Nuova richiesta», al posto di «Chiedi ferie
+  o permesso» e «Registra per una persona». La persona si cerca con il campo grande come quello del Cliente, e la
+  causale si sceglie dall'elenco delle causali.
+- **Bot**: per ogni causale che la persona può chiedere compare un pulsante «CHIEDI» con il nome della causale.
+- **Giornate da controllare**: lo straordinario non è più da controllare, perché lo conta già il report. La giornata
+  molto lunga è quella oltre 12 ore di lavoro con una giornata di 8 ore, e la pillola dice il totale della giornata.
+
+**Correzioni**
+
+- **Suggerimenti nei pannelli**: quando un pannello laterale scorre, l'elenco dei suggerimenti segue il campo invece
+  di chiudersi.
+
+## 1.186.0 · 1° novembre 2026
+
+**Novità**
+
+- **Porte che vanno e vengono**: una porta della Rete locale che nell'ultima settimana ha già cambiato stato almeno
+  due volte, come quella di un PC che va in sospensione, non genera più un avviso a ogni cambiamento. Il cambiamento
+  resta nella storia della porta. Se nella stessa scansione c'è un cambiamento vero, la porta viene nominata nel
+  riepilogo come «di nuovo aperta (va e viene)». Dopo sette giorni di calma la porta torna ad avvisare, e la scheda
+  del dispositivo la elenca tra «Vanno e vengono».
+
+## 1.185.0 · 1° novembre 2026
+
+**Novità**
+
+- **Giornate da controllare**: in Presenze compare l'elenco delle giornate da controllare, per persona e per giorno,
+  ognuna con il perché scritto: straordinario, giornata molto lunga (oltre tre ore in più dell'orario), senza pausa
+  oltre sei ore, una sola attività in un giorno di lavoro passato senza ferie né permessi, un'attività più lunga
+  della giornata, un buco di più di due ore, un'attività di meno di dieci minuti. Nella Giornata c'è il filtro «Da
+  controllare»; nel Periodo il filtro delle giornate e una colonna nei totali per persona. Il margine si regola in
+  Ore e attività.
+- **Prefestivo il sabato**: il prefestivo è il sabato, perché la settimana di lavoro va dal lunedì al venerdì, e lo
+  indica la pillola nella Giornata. Il venerdì prima di una festa resta lavorativo, ma lo ricorda.
+- **Campo cerca delle persone**: ovunque si sceglie una persona c'è il campo di ricerca con la lente, uguale in
+  tutto il programma. Sostituisce anche le tendine delle ore, dell'assegnatario delle attività e del tecnico
+  dell'assistenza.
+- **Notturno dal modello**: il lavoro notturno segue la fascia e il minimo del modello di conteggio della persona in
+  quel giorno, sia nelle attività sia nel resoconto del bot. Le impostazioni non mostrano più la fascia, e il
+  notturno già registrato si rifà una volta.
+
+## 1.184.0 · 1° novembre 2026
+
+**Novità**
+
+- **Ore per cantiere di tutte le persone**: nel report delle presenze, con tutte le persone, si sceglie tra «Per
+  persona» e «Per cantiere». Ogni cantiere mostra le ore, chi ci ha lavorato (prima chi ne ha di più) e le attività
+  giorno per giorno; un clic su una persona apre il suo mese.
+- **Stampe ed esportazione**: «Stampa le ore del cantiere» dà una pagina in orizzontale con le firme del committente
+  e dell'azienda; «Stampa le ore per cantiere» mette le persone sotto ogni cantiere; «Esporta» dà una riga per
+  cantiere e persona. Nei modelli di stampa Presenze ci sono gli esempi «Per cantiere» e «Un cantiere».
+- **Mesi chiusi**: per i mesi chiusi si usano i numeri della chiusura. Il riepilogo scritto dice quanti cantieri,
+  persone e ore ci sono, quale cantiere ha più ore e quali mesi sono chiusi o cambiati dopo.
+
+## 1.183.0 · 1° novembre 2026
+
+**Novità**
+
+- **Chiusura del mese**: dal report di una persona si chiude il mese. Chiudere non blocca niente: attività, ferie e
+  permessi si correggono sempre. Il mese chiuso mostra il report salvato e dice che cosa è cambiato da allora; «Vedi
+  com'è adesso» mostra quello aggiornato.
+- **Aggiornare, riaprire, storico**: «Aggiorna la chiusura» salva una nuova revisione con la nota dei cambiamenti;
+  «Riapri il mese» chiede il motivo; lo storico conserva tutte le revisioni.
+- **Chiudi per tutti**: «Chiudi il mese per tutti» chiude il mese per chi non l'aveva ancora chiuso, con il
+  riepilogo scritto.
+- **Stampe**: nelle stampe compare lo stato del mese (chiuso da chi e quando, oppure aperto), con l'elenco dei mesi
+  chiusi.
+
+## 1.182.0 · 1° novembre 2026
+
+**Novità**
+
+- **Dettaglio con i cantieri**: nuova stampa «Dettaglio con i cantieri», in orizzontale. Una riga per giorno, con le
+  attività numerate (cantiere, tipo, orari registrati e contati, viaggio, km, mezzo, chi guidava, reperibilità,
+  pasti), poi l'arrotondamento della giornata, il totale del mese, le ore per cantiere, i totali, il riepilogo e le
+  firme. Si trova in *Altro* della linguetta Report.
+- **Pausa nel report**: il report mostra quanto dura la pausa, cioè il tempo tra la fine di un gruppo di attività e
+  l'inizio del successivo, più le pause dichiarate, senza la reperibilità. È una colonna nel report e nel dettaglio,
+  e compare nel riepilogo scritto. È solo informativa: non cambia le ore.
+- **Firme a scelta**: nei modelli di stampa di preventivi, DDT, assistenza, manutenzioni e presenze c'è una sezione
+  Firme con «Stampa lo spazio per le firme», che si può attivare o no. Gli spazi vuoti si tolgono, e le firme già
+  raccolte restano. Nei preventivi lo spazio per l'accettazione si toglie, salvo la firma online.
+
+## 1.181.6 · 1° novembre 2026
+
+**Correzioni**
+
+- **Intestazioni di sicurezza**: tutte le pagine del programma, compresi i suoi file, ricevono le intestazioni che
+  il browser richiede per isolarle dagli altri siti, senza bloccare le mappe o i contenuti esterni. Il vecchio
+  filtro di sicurezza del browser, ormai superato, è spento: la protezione è affidata alle regole sui contenuti.
+
+## 1.181.5 · 1° novembre 2026
+
+**Correzioni**
+
+- **Accesso da fuori**: con un servizio di nome pubblico davanti al programma, la connessione è riconosciuta come
+  sicura. I cookie di accesso viaggiano solo su HTTPS, e il browser ricorda di usare sempre la connessione sicura.
+- **Isolamento dagli altri siti**: le finestre aperte dal programma non hanno più un collegamento con la pagina di
+  partenza, e il programma isola meglio le risorse che apre da altri siti.
+
+## 1.181.4 · 1° novembre 2026
+
+**Novità**
+
+- **Report di tutti**: nel report con tutte le persone compaiono tutte le schede in forza nel mese, anche senza
+  Telegram e senza attività. Prima c'erano solo quelle con il bot collegato, con attività o richieste. Chi è entrato
+  dopo il mese o è uscito prima non compare.
+- **Nessuna attività**: chi non ha attività nel mese ha la dicitura «nessuna attività» sotto il nome, anche nella
+  stampa, e in fondo alla tabella c'è quante persone sono senza attività.
+
+## 1.181.3 · 1° novembre 2026
+
+**Novità**
+
+- **Totali del Periodo**: la ricerca (per persona, cantiere, tipo, mezzo o nota) vale anche per i totali per persona
+  e per mezzo, non solo per l'elenco. Arrivando da Clienti o Commesse con il nome del cliente, le ore sono quelle
+  delle sole attività di quel cliente, e sotto i totali si legge «solo le attività con …».
+- **Persona scelta**: sopra il periodo scritto compare una riga con quante attività e giorni trova la ricerca, con
+  lavoro, reperibilità, viaggio, notturno e km. Il periodo scritto resta quello di tutto il periodo, con la voce
+  «Tutto il periodo, senza la ricerca».
+
+## 1.181.2 · 1° novembre 2026
+
+**Correzioni**
+
+- **Attività inserite dall'ufficio**: non si accettano più se si sovrappongono a un'altra della stessa persona, se
+  il giorno deve ancora venire o la scheda non è in forza, o se viaggio o pausa sono negativi o il viaggio supera
+  l'attività. Un'attività lunga zero minuti non occupa tempo.
+- **Periodo scritto**: le date sono le stesse per elenco, richieste e testo; si contano solo i giorni in forza; le
+  attività nei giorni non lavorativi sono elencate a parte, e ferie, permessi e malattia compaiono nel periodo. Un
+  avviso segnala le attività in giorni di assenza intera.
+- **Giornata e persone uscite**: chi non era ancora assunto non compare nella giornata; un'attività in un giorno di
+  ferie o malattia intera finisce in «Da sistemare». Chi è uscito da meno di 92 giorni resta tra le persone da
+  scegliere, con la data di cessazione.
+- **Omonimi**: due persone con lo stesso nome si distinguono dalla mansione sotto il nome, e i totali del Periodo
+  sono per scheda.
+- **Collegamenti**: da Personale, Clienti e Commesse si arriva direttamente al report, al periodo o alle presenze di
+  quella persona o di quel cliente.
+
+## 1.181.1 · 31 ottobre 2026
+
+**Correzioni**
+
+- **Nuova attività**: cliccando su chi non ha attività nella Giornata si apre il menu della persona, con «Nuova
+  attività» per prima, invece di creare subito un'attività già compilata. Nel menu non ci sono più doppioni.
+- **Orari proposti**: la nuova attività propone la giornata della persona con un'ora di pausa già scritta. Prima
+  08:00–17:00 senza pausa faceva comparire subito l'avviso delle nove ore senza pausa. Dopo l'aggiunta compare il
+  riepilogo scritto.
+
+## 1.181.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Giornata più chiara**: i riquadri Lavoro e Viaggio diventano una riga che dice anche che giorno è: festivo con
+  il nome, prefestivo con la festa di domani, lavorativo o no secondo l'orario. Nei giorni non lavorativi chi non ha
+  attività è a riposo e non conta tra i «Senza attività».
+- **Mappa**: è la terza vista, accanto a Elenco e Schede, alta quanto lo spazio che resta. Un fumetto appare al
+  passaggio del mouse e un clic apre l'attività (sul telefono il primo tocco mostra il fumetto). Con una persona
+  sola, il percorso in linea d'aria è numerato, con frecce e chilometri.
+- **Persona da cercare**: la persona si cerca con il campo di ricerca al posto della tendina «Tutte le persone», nel
+  Periodo, in Ferie e permessi e nel Report. Il menu della persona è lo stesso in tutte le linguette: report del
+  mese, periodo, giornata, percorso, nuova attività, ferie e permessi, scheda, chiama, scrivi.
+- **Periodo di una persona**: il periodo è scritto in parole. Indica i giorni con attività sui lavorativi e quelli
+  che mancano, con il motivo; il lavoro con la media, il viaggio, i km alla guida e da passeggero, il notturno e i
+  pasti. I mezzi hanno i km separati.
+- **Report che resta in vista**: il mese si cambia con le frecce, c'è il pulsante «Questo mese», e il mese scelto
+  non si perde cambiando i filtri.
+- **Ricerca dentro le schede**: clienti e fornitori trovano anche sedi, indirizzi, referenti, recapiti, IBAN e note,
+  e la scheda trovata è indicata con «Trovato nella scheda», anche nella scelta del cliente nei moduli e nella
+  ricerca generale. Il Personale cerca negli altri recapiti, negli indirizzi, nel codice fiscale e nelle note;
+  l'avviso dei doppioni dice se il nome è già una sede di un'altra scheda.
+
+## 1.180.1 · 31 ottobre 2026
+
+**Correzioni**
+
+- **Cambiamenti della rete**: ogni scansione ricorda le porte che ha provato. Una porta aperta conta come
+  cambiamento solo se anche la scansione precedente la provava: dopo l'aggiornamento, o dopo aver aggiunto porte
+  nelle impostazioni, la prima scansione non riempie più i Cambiamenti di «porta aperta».
+
+## 1.180.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Cambiamenti della rete**: nella Rete locale c'è la linguetta Cambiamenti, con quello che è cambiato a ogni
+  scansione: dispositivi nuovi (indirizzo, produttore, tipo, porte), dispositivi ricomparsi dopo un'assenza,
+  dispositivi cambiati (indirizzo, nome, porte aperte e chiuse) e dispositivi assenti, ma solo dopo due scansioni di
+  fila senza risposta. Il server non viene mai segnalato come assente. Nome, produttore e sistema già noti non si
+  perdono, e alla prima scansione non ci sono avvisi.
+- **Fiducia e riepilogo**: ogni dispositivo è da classificare, affidabile (quello già noto) o sospetto. Quando
+  ricompare un sospetto l'avviso è di livello «attenzione». Il riepilogo sta in una riga, e il numero dei
+  cambiamenti da vedere compare accanto alla voce del menu, che si azzera aprendo la pagina.
+- **Riconoscere i dispositivi**: il programma riconosce più dispositivi, grazie a un insieme di porte predefinite,
+  ai nomi della rete, alle pagine web e ai servizi che offrono. Riconosce anche router, Smart TV, dispositivi per la
+  casa e telefoni, con il tipo scritto per esteso. Molti dispositivi hanno ora un nome, ricavato senza attese
+  lunghe.
+- **Porte con pazienza**: le porte si provano con un'attesa che cresce con il tempo di risposta del dispositivo.
+  Quelle che erano aperte e non rispondono si riprovano, e restano segnate come aperte finché non mancano per più
+  scansioni di fila. Nelle prime tre scansioni di un dispositivo le porte in più si imparano senza segnalarle. Non
+  compaiono più «porta chiusa» e «porta aperta» inventati dai piccoli moduli Wi-Fi economici.
+- **Pagina Cambiamenti**: ci sono «Segna tutto come visto» e «Presenti» al posto di «Online»; la fiducia compare
+  nell'elenco, nei filtri e nella scheda, e un avviso segnala i cambiamenti che arrivano con la pagina aperta.
+
+## 1.179.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Chi usa il bot**: in *Impostazioni → Telegram e presenze* si sceglie se il bot è per tutto il personale o solo
+  per le persone scelte, con un elenco a spunta e la ricerca. Alle altre persone il bot non scrive e non risponde:
+  niente esiti, neanche per email, niente avvisi, benvenuto, codici di attivazione né collegamenti.
+- **Calendario nel bot**: il calendario segue l'orario di lavoro e i festivi. I giorni in cui non si lavora non si
+  scelgono; OGGI e DOMANI compaiono solo se si lavora; gli orari proposti sono quelli di lavoro, e per oggi partono
+  da adesso.
+- **Richieste controllate subito**: una data o un'ora non valida, le ferie fuori dai giorni liberi e i permessi
+  fuori orario si rifiutano al passo in cui si scelgono, con il perché. CONFERMA compare solo se la richiesta conta
+  davvero. Un permesso di oggi non comincia prima della mezz'ora in corso. ANNULLA chiude la richiesta, ed ELIMINA
+  vale per la versione vista.
+- **Mai senza risposta**: i messaggi arrivati durante un aggiornamento o un riavvio, negli ultimi dieci minuti,
+  vengono eseguiti; quelli più vecchi si scartano e la persona lo sa. Un errore nel registrare una risposta chiude
+  la domanda e lo dice. L'esito di una richiesta parte anche subito dopo un riavvio, e la pagina avvisa l'ufficio se
+  Telegram non l'ha preso.
+
+## 1.178.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Storico delle presenze da un altro sistema**: lo storico si può portare nel programma in un solo passaggio, con
+  persone, mezzi, clienti con le sedi dei cantieri, attività e richieste, ognuno con il suo riferimento nel sistema
+  di partenza. Si lancia dal server, anche con il programma in funzione. Prima si può controllare senza scrivere
+  niente: il programma dice che cosa entra, che cosa no e perché.
+- **Riconoscere ciò che c'è già**: le persone si riconoscono dal nome, i mezzi dalla targa e i clienti dal nome; due
+  sedi a meno di 50 metri, o con lo stesso nome e la stessa città, valgono come una. Ripetere l'importazione
+  aggiunge solo quello che manca.
+- **Attività e richieste**: il viaggio calcolato dalla fonte resta, altrimenti è stimato dalle posizioni. Le
+  attività ancora aperte, quelle oltre 24 ore e quelle con la fine prima dell'inizio o sovrapposte non entrano, e il
+  programma le elenca per nome e giorno. Le richieste entrano con lo stato che avevano; una mai decisa entra come
+  rifiutata, con il motivo.
+- **Nessun messaggio**: durante l'importazione non parte nessun messaggio, né su Telegram né per email.
+
+## 1.177.2 · 31 ottobre 2026
+
+**Correzioni**
+
+- **Permessi e ferie fuori orario**: un permesso tutto fuori dall'orario di lavoro (di sabato se non si lavora, in
+  un festivo, o dalle 19 alle 21) e le ferie che cadono solo in giorni non lavorativi si rifiutano, dal bot come
+  dalla pagina, con il perché scritto.
+
+## 1.177.1 · 31 ottobre 2026
+
+**Novità**
+
+- **Modello di conteggio da file**: un modello di conteggio preparato a parte si può portare nel server da un file,
+  anche con il programma in funzione. Con lo stesso nome aggiorna quello presente; con la scelta «predefinito»
+  diventa il modello predefinito, e si applicano gli stessi controlli della pagina.
+
+## 1.177.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Report del mese**: nella linguetta Report di Presenze, il mese di una persona mostra gli orari registrati e
+  quelli contati, la spiegazione di ogni giorno e il pulsante «Giustifica». Per l'ufficio c'è il report di tutte le
+  persone, da esportare in Excel. Il report conta il tempo senza mai riscrivere le attività registrate.
+- **Modelli di conteggio**: il tempo si conta con un modello scelto per tutta l'azienda o per una persona,
+  sostituibile nel tempo. Ci sono modelli di serie («Giornaliero 8 ore», «A mezz'ore con fasce») e si può vedere
+  l'anteprima con un altro modello. Si trovano in *Altro → Modelli di conteggio*.
+- **Come si conta**: il modello distingue i viaggi (nulli, ordinari o interprovinciali, con le città d'eccezione e
+  la provincia dove si è dormito), arrotonda le giornate, divide gli straordinari in due fasce, considera il sabato
+  tutto straordinario e i festivi, il notturno, la reperibilità con un gettone per uscita, ferie, permessi e
+  malattia approvati, e i pasti.
+- **Stampe del mese**: nuovo tipo di modello di stampa «Presenze», con riepilogo e firme, dettaglio in orizzontale e
+  tabella.
+- **Ufficio**: l'ufficio scrive anche città e province di un'attività, e registra ferie e permessi nei giorni
+  passati.
+
+## 1.176.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Consegna delle attrezzature**: un'attrezzatura si consegna a una persona, si mette su un mezzo o si deposita in
+  un luogo, come il magazzino, con le scelte «A una persona», «Su un mezzo» e «In un luogo». Ogni passaggio ha una
+  data: un nuovo passaggio chiude la consegna aperta dello stesso giorno, e il programma rifiuta una data prima di
+  quella attuale o la stessa destinazione di adesso.
+- **Storico e chi l'aveva**: lo storico registra «Messo sul mezzo», «Depositato in» e «Tolto da». Da lì si risale a
+  chi l'aveva o a dove stava in un dato giorno; se era su un mezzo e c'è un'ora, si vede anche chi lo guidava, per
+  chi vede le presenze di tutti.
+- **Schede ed elenco**: la scheda del mezzo elenca le attrezzature a bordo; la linguetta Consegne mostra mezzo e
+  luogo; l'elenco ha la colonna «Dove o a chi», e la linguetta Utilizzi dell'attrezzatura riepiloga chi l'ha avuta e
+  quando.
+
+## 1.175.0 · 31 ottobre 2026
+
+**Novità**
+
+- **Chi aveva il mezzo**: quando arriva una multa, il verbale riporta targa, giorno e ora. Nella scheda del mezzo la
+  nuova linguetta Utilizzi dice chi era alla guida e chi a bordo in quel momento, dalle attività delle presenze, per
+  addebitare le spese. Se in quel momento non c'era un'attività, mostra l'ultimo utilizzo prima e il primo dopo
+  nello stesso giorno, e la consegna di quel giorno. La ricerca è riservata a chi vede le presenze di tutti.
+- **Avvisi sulla guida**: il risultato segnala i casi da verificare, come due persone alla guida, nessuno alla guida
+  o una guida non dichiarata, e include un riepilogo scritto da tenere con il verbale. Ogni ricerca finisce nel
+  registro delle attività.
+- **Diario del mezzo**: in un periodo il diario mostra chi ha usato il mezzo e i km di ciascuno. Si stampano il
+  risultato della ricerca e il diario, e un clic su una riga apre l'attività nelle Presenze.
+
+## 1.174.5 · 31 ottobre 2026
+
+**Correzioni**
+
+- **Lavoro notturno dal minimo**: i minuti nella fascia notturna (di serie dalle 22 alle 6) sono lavoro notturno
+  solo se nella giornata della persona arrivano al minimo, di serie tre ore e modificabile (con zero conta ogni
+  minuto). Chi entra alle 05:00, esce alle 12:00, rientra alle 13:00 e finisce alle 16:00 ha un'ora nella fascia, ma
+  è la sua giornata normale e non fa lavoro notturno.
+- **Il conto è sulla giornata**: il turno dalle 21:00 alle 23:50 e dalle 00:30 alle 03:00 raggiunge il minimo con la
+  seconda parte, e contano entrambe. Ricalcola rifà il notturno giorno per giorno, e nel resoconto del bot compare
+  il totale della giornata quando più attività hanno lavoro notturno.
+
+## 1.174.4 · 30 ottobre 2026
+
+**Novità**
+
+- **Lavoro notturno**: in *Ore e attività → Lavoro notturno* si sceglie la fascia notturna (di serie dalle 22 alle
+  6, anche oltre la mezzanotte; con due ore uguali la fascia si spegne). Per ogni attività il programma calcola la
+  parte che cade nella fascia, di lavoro o di viaggio, anche in reperibilità: dalle 21:30 alle 01:15 fa 3 ore e 15
+  su 3 ore e 45. Ricalcola rifà il conto.
+- **Presenze**: la giornata, il Periodo e i totali per persona hanno la colonna Notturno, e il dettaglio di ogni
+  attività ne riporta la riga.
+- **Bot**: il lavoro notturno compare nel resoconto della chiusura e in «Oggi».
+
+## 1.174.3 · 30 ottobre 2026
+
+**Novità**
+
+- **Reperibilità solo fuori dalla giornata**: nella modalità automatica il programma guarda l'orario di lavoro della
+  persona, o quello dell'azienda, con i festivi. Un'attività che tocca l'orario, o che comincia entro il margine
+  dalla fine dell'orario o della precedente, fa parte della giornata che continua, anche con lo straordinario, e il
+  bot non chiede niente. Chiede solo per un'attività fuori orario e staccata dalla giornata (per esempio alle 18:35,
+  dopo una giornata finita alle 18:00) e per una che riparte subito dopo un'attività in reperibilità.
+- **Il perché**: il bot spiega per esteso perché chiede, per esempio festivo, giorno senza lavoro, prima o dopo
+  l'orario, pausa, di notte, «staccata di 35 minuti dalla precedente» o «subito dopo l'attività in reperibilità».
+- **Margine**: in Impostazioni il margine dalla giornata, di serie 30 minuti e regolabile da 0 a 240 minuti,
+  sostituisce la fascia della notte e le spunte di sabato, domenica e festivi. La modalità automatica diventa
+  quella di serie.
+
+## 1.174.2 · 30 ottobre 2026
+
+**Novità**
+
+- **Giorni lavorativi**: il calendario di lavoro usa l'orario della persona o, se non c'è, quello dell'azienda, con
+  i festivi e il loro nome. Ferie e permessi si contano sui giorni lavorativi (la mezza giornata vale 0,5), e i
+  permessi si misurano anche in ore di lavoro. I giorni che non contano sono scritti, per esempio «5 giorni
+  lavorativi su 8 di calendario (non contano sabato e domenica, in cui non lavori)».
+- **Nel bot e in pagina**: il conto compare nella conferma del bot, con l'orario usato. Nella pagina Presenze
+  l'elenco mostra i giorni lavorativi, e mentre si scelgono le date una nota spiega il conto.
+
+## 1.174.1 · 30 ottobre 2026
+
+**Novità**
+
+- **Permessi su più giorni**: un permesso ha un inizio (giorno e ora) e una fine (giorno e ora), anche su più giorni
+  e tra mesi. Il programma controlla che la fine venga dopo l'inizio e segnala le sovrapposizioni. In Presenze, «Al
+  giorno» vale anche per il permesso.
+- **Calendario nel bot**: per ferie e permessi il bot mostra il calendario del mese, con le frecce ‹ › per cambiarlo
+  fino a due anni avanti (solo le settimane con giorni da scegliere) e i pulsanti OGGI e DOMANI. Gli orari si
+  propongono ogni mezz'ora. Per il permesso si sceglie da quale giorno e ora comincia, in quale giorno finisce
+  (STESSO GIORNO) e a che ora. Le risposte già date stanno in cima alla scheda.
+- **Resoconto a ogni operazione**: ogni operazione dal bot finisce con un resoconto scritto, che riporta «Stai
+  chiedendo…», RICHIESTA INVIATA, REGISTRATA, CAMBIATA, ELIMINATA o ANNULLATA, con il dettaglio della richiesta, gli
+  esiti dell'ufficio e chi ha deciso, e gli avvisi dell'ufficio. Un'attività appena iniziata spiega come chiuderla,
+  riaprirla o eliminarla; un nuovo cantiere dice che cliente e sede sono stati creati.
+
+## 1.174.0 · 30 ottobre 2026
+
+**Novità**
+
+- **Bot Telegram più pulito**: niente icone nei messaggi, nei pulsanti e negli avvisi su Telegram, come gli esiti di
+  ferie e permessi, l'attività eliminata o il compleanno. Le icone restano solo nelle voci del menu dei comandi.
+- **Pulsanti in maiuscolo**: le parole dei pulsanti del bot sono in maiuscolo; cantieri, clienti, sedi, lavori
+  generici e mezzi sono scritti come in archivio. Per i pasti i pulsanti sono «PRANZO: SÌ» e «PRANZO: NO».
+- **Posizione**: la risposta alla posizione conferma l'indirizzo e toglie la tastiera.
+- **Resoconto scritto**: il resoconto di una giornata riporta giorno, cantiere e tipo, orari e luoghi, distanza dal
+  cantiere, pausa, lavoro e viaggio, km con velocità media e dislivello, mezzo con numero e targa, pasti,
+  reperibilità e controlli dell'ufficio. Fa da riepilogo da confermare e da resoconto finale, nella stessa scheda.
+  «Oggi» è scritto a paragrafi, con il totale.
+- **Mezzi nei pulsanti**: i mezzi compaiono con il numero, il modello e la targa, nella forma «numero · modello
+  (targa)».
+
+## 1.173.1 · 30 ottobre 2026
+
+**Novità**
+
+- **Controllo della posta**: il server tiene il punto del giro (la fase, la cartella «N di M», i messaggi nuovi
+  scaricati) e lo mostra nell'elenco delle caselle e nella riga sotto l'elenco. La pagina lo aggiorna ogni due
+  secondi e mezzo, e a fine giro la rotellina si ferma da sola.
+- **Stampa del messaggio**: c'è un'icona accanto alla stella; il documento riporta oggetto, mittente, destinatari,
+  data e allegati.
+- **Allegati e testata**: gli allegati stanno sotto il testo, in riquadri affiancati, e le immagini della firma sono
+  raccolte in una riga che si apre a richiesta. La testata della lettura è in asse: frecce, stella, stampa, pulsanti
+  e oggetto stanno sulla stessa linea.
+
 ## 1.173.0 · 30 ottobre 2026
 
 Le versioni dalla 1.172.0 alla 1.173.0 escono insieme, in un solo setup.
@@ -618,13 +1317,13 @@ Comprende anche le novità delle versioni dalla 1.151.1 alla 1.158.2.
 
 - **Il genere dai nomi impara dalle tue schede**: un nome a cui hai dato il genere una volta (a mano o con
   genderize.io) viene proposto subito le volte dopo, senza chiedere niente fuori e anche con genderize.io spento: «Proposto
-  come le altre 3 schede con il nome Bruno». Se le schede non sono d'accordo vale la maggioranza (almeno 3 su 4); il
+  come le altre 3 schede con il nome Andrea». Se le schede non sono d'accordo vale la maggioranza (almeno 3 su 4); il
   codice fiscale conta più di tutto.
 - **Genere compilato da solo**: salvando o importando un cliente, una scheda del personale o un utente senza genere, il
   genere si compila dal codice fiscale o dalle altre schede con lo stesso nome. Un nome che nessuna scheda conosce resta
   vuoto.
 - **Sistema i generi** (Impostazioni → Servizi esterni): mostra i generi vuoti da compilare e quelli da correggere,
-  perché diversi dal codice fiscale o in minoranza netta (tre Bruno maschi e uno femmina: la scheda femmina diventa
+  perché diversi dal codice fiscale o in minoranza netta (tre Andrea maschi e uno femmina: la scheda femmina diventa
   maschio). Togli la spunta a quelle da lasciare e premi Sistema; oppure accendi **Sistema i generi da solo ogni notte**.
 - **Codice fiscale**: la spunta verde o l'avviso rosso stanno dentro il campo, come per email e telefono (anche partita
   IVA, codice SDI e IBAN). Scrivendo il codice fiscale, o aprendo una scheda nuova con il codice già messo (per esempio
@@ -808,7 +1507,7 @@ prova; istruzioni nel README e in `BlackHoleWorkspaces-demo-LEGGIMI.txt`. Da ora
 - **Possibile doppione** (avviso arancione): stesso nome, anche scritto con maiuscole, punteggiatura o forma societaria
   diverse, oppure stesso codice che identifica la scheda (partita IVA, codice fiscale, targa, matricola, codice
   dell'articolo, codice a barre, email…). Creando la scheda, il programma chiede conferma prima di salvarla.
-- **Schede simili** (avviso azzurro): nomi che si somigliano, per esempio «Rossi Impianti» e «Rossi». È solo
+- **Schede simili** (avviso azzurro): nomi che si somigliano, per esempio «Rossi Mario S.r.l.» e «Rossi». È solo
   un'informazione.
 - **Dove**: clienti e fornitori, rubrica, listino, produttori, mezzi e attrezzature, personale, impianti (dello stesso
   cliente), progetti e utenti.
@@ -891,7 +1590,7 @@ Correzioni di sicurezza, da un controllo del codice. Si consiglia di aggiornare.
   cestino tanti contatti insieme; nel cestino si ripristinano o si eliminano.
 - **Impianti**: la cartella in Documenti si chiama come il tipo (*Antintrusione*), il nome dell'impianto resta una
   descrizione; la linguetta Documenti mostra il percorso vero della cartella. Il modello di partenza dell'antintrusione
-  non crea più la cartella *Tecnoalarm*.
+  non crea più una cartella con il nome di una marca.
 - **Cliente dalla Rubrica**: la scheda nasce normale, non più privata (la cartella in Documenti non è riservata).
 - **Primi passi** in basso a sinistra, accanto al menu: una linguetta che sale col mouse sopra, e il riquadro che sale
   dal bordo.

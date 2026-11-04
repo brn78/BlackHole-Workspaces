@@ -10,7 +10,7 @@ Si scrive come si parla; numeri, orari, date e sigle li legge il motore. Pochi s
 
 | Scrivi | Che cosa succede |
 | --- | --- |
-| **\*Impianti Rossi\*** | Le parole tra asterischi si dicono con **enfasi** (pulsante **Enfasi** sulle parole scelte). |
+| **\*Rossi S.r.l.\*** | Le parole tra asterischi si dicono con **enfasi** (pulsante **Enfasi** sulle parole scelte). |
 | **[pausa]**, **[pausa 2s]**, **[pausa 500ms]** | Una **pausa**: un secondo, oppure quanto scrivi (fino a 10 secondi). |
 | una riga vuota | Fine del paragrafo: la pausa del paragrafo del modello. |
 

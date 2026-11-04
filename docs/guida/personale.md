@@ -6,7 +6,7 @@
 
 ## <a id="personale-elenco"></a>L'elenco
 
-Le linguette **In forza** e **Cessati** dicono quante persone ci sono; se ci sono [altre aziende del gruppo](impostazioni.md#impostazioni-gruppo), sotto si sceglie l'azienda (**Tutte** o una sola). La ricerca trova nome, matricola, mansione, reparto, telefono, email e utente; i due elenchi scelgono una mansione o un reparto. Ogni riga ha la persona (foto o iniziali, matricola, azienda), la mansione con il reparto e la colonna **Scadenze**: quante voci sono **scadute**, quante **in scadenza** (entro il preavviso) e quante obbligatorie **mancano**, oppure **In regola**; a finestra larga anche telefono, utente della piattaforma, **ore e tariffa** (le ore alla settimana, la tariffa di vendita e, per chi vede i costi, il costo orario), assunzione e ultima modifica. In alto **Stampa** (l'elenco come lo stai guardando, oppure i [tesserini di riconoscimento](#personale-tesserino) delle persone in forza mostrate), **Catalogo del personale** e **Nuova scheda**. Un clic apre la scheda; il tasto destro (o ⋯) apre la scheda alla linguetta Formazione, Documenti o Visite, la stampa della scheda, il tesserino, **Duplica** ed **Elimina**.
+Le linguette **In forza** e **Cessati** dicono quante persone ci sono; se ci sono [altre aziende del gruppo](impostazioni.md#impostazioni-gruppo), sotto si sceglie l'azienda (**Tutte** o una sola). La ricerca trova nome, matricola, mansione, reparto, telefono, email e utente e, dalla 1.181.0, anche dentro la scheda: gli altri telefoni ed email, gli indirizzi, il codice fiscale e le note, con sotto il nome dove l'ha trovato (*Trovato nella scheda: indirizzo …*); i due elenchi scelgono una mansione o un reparto. Ogni riga ha la persona (foto o iniziali, matricola, azienda), la mansione con il reparto e la colonna **Scadenze**: quante voci sono **scadute**, quante **in scadenza** (entro il preavviso) e quante obbligatorie **mancano**, oppure **In regola**; a finestra larga anche telefono, utente della piattaforma, **ore e tariffa** (le ore alla settimana, la tariffa di vendita e, per chi vede i costi, il costo orario), assunzione e ultima modifica. In alto **Stampa** (l'elenco come lo stai guardando, oppure i [tesserini di riconoscimento](#personale-tesserino) delle persone in forza mostrate), **Catalogo del personale** e **Nuova scheda**. Un clic apre la scheda; il tasto destro (o ⋯) apre la scheda alla linguetta Formazione, Documenti o Visite, la stampa della scheda, il tesserino, **Duplica** ed **Elimina**.
 
 ## <a id="personale-importa"></a>Importare ed esportare con Excel
 
@@ -125,4 +125,4 @@ Il **tesserino di riconoscimento** che i lavoratori espongono negli appalti, nei
 
 ---
 
-[← Preventivi](preventivi.md) · [Indice](README.md) · [Reperibilità →](reperibilita.md)
+[← Preventivi](preventivi.md) · [Indice](README.md) · [Comunicazioni →](comunicazioni.md)

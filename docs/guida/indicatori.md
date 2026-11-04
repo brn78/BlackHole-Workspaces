@@ -11,7 +11,7 @@ Chi può vedere che cosa lo dicono i [permessi](#indicatori-permessi): l'azienda
 
 ## <a id="indicatori-primi-passi"></a>Come si comincia
 
-1. in **Configurazione → Modelli** carica il modello più vicino al tuo lavoro: **Produzione (fabbrica)**, **Impianti e assistenza**, **Ufficio**. Aggiunge misure e indicatori con obiettivi di esempio; puoi caricarne più d'uno;
+1. in **Configurazione → Modelli** carica il modello più vicino al tuo lavoro: **Produzione (fabbrica)**, **Impianti e assistenza**, **Ufficio**, **Presenze e ferie**. Aggiunge misure e indicatori con obiettivi di esempio; puoi caricarne più d'uno;
 2. in **Configurazione → Indicatori** togli quelli che non ti servono (o togli «Attivo»), cambia nomi, obiettivi e soglie, aggiungine di tuoi con **Nuovo indicatore**;
 3. per le misure da inserire, scegli in ognuna **chi la inserisce**: riceverà il promemoria quando mancano i dati;
 4. inserisci (o importa) i dati dei mesi passati nella linguetta **Dati**: gli indicatori calcolati dal programma hanno già tutta la loro storia;
@@ -39,8 +39,10 @@ Le misure sono i numeri di partenza. Ce ne sono di due tipi:
 
 | Tipo | Che cosa sono |
 | --- | --- |
-| Calcolate dal programma | Commesse completate, completate entro la scadenza, aperte in ritardo; ore registrate (tutte o solo sulle commesse); richieste di assistenza aperte, risolte, con il primo intervento in tempo, su impianti installati da poco; manutenzioni fatte; preventivi inviati, accettati, rifiutati e il loro valore; fatturato, fatture emesse e scartate dallo SDI, crediti scaduti, giorni medi di incasso; ricavi, costi e risultato della contabilità; persone in forza, assunzioni, cessazioni, corsi scaduti. Compaiono solo quelle dei moduli accesi (la contabilità solo se è tenuta nel programma). Alcune hanno una scelta (il tipo di commessa, sul posto o in laboratorio, da quanti mesi è installato l'impianto). |
-| Inserite a mano o importate | Quello che il programma non sa: pezzi prodotti, metri quadri, rilavorazioni, ore lavorabili e ore di assenza (dal consulente del lavoro), infortuni, quasi-incidenti segnalati, ordini consegnati entro la data… Si creano con **Nuova misura**. |
+| Calcolate dal programma | Commesse completate, completate entro la scadenza, aperte in ritardo; ore registrate (tutte o solo sulle commesse); richieste di assistenza aperte, risolte, con il primo intervento in tempo, su impianti installati da poco; manutenzioni fatte; preventivi inviati, accettati, rifiutati e il loro valore; fatturato, fatture emesse e scartate dallo SDI, crediti scaduti, giorni medi di incasso; ricavi, costi e risultato della contabilità; persone in forza, assunzioni, cessazioni, corsi scaduti; dalle **presenze** (dalla 1.190.0) ore lavorate, straordinario, viaggio, lavoro notturno, reperibilità e gettoni, ore lavorabili, giorni con lavoro, giornate da controllare, ferie, permessi, malattia, ore di assenza e ore da giustificare. Compaiono solo quelle dei moduli accesi (la contabilità solo se è tenuta nel programma). Alcune hanno una scelta (il tipo di commessa, sul posto o in laboratorio, da quanti mesi è installato l'impianto, il viaggio pagato o tutto, le assenze con o senza le ferie). |
+| Inserite a mano o importate | Quello che il programma non sa: pezzi prodotti, metri quadri, rilavorazioni, ore lavorabili e ore di assenza (dal consulente del lavoro, se non usi le presenze), infortuni, quasi-incidenti segnalati, ordini consegnati entro la data… Si creano con **Nuova misura**. |
+
+Le misure delle **presenze** sono gli stessi conti del [report delle presenze](presenze.md#presenze-report), con il modello di conteggio di ognuno: un mese chiuso dall'ufficio conta con i conti della chiusura, quello in corso fino a oggi; i trimestri e gli anni sommano i mesi. Le **ore lavorabili** sono le ore attese dei giorni lavorativi in forza, il denominatore dei tassi. Le **assenze** (ferie, permessi, malattia, ore di assenza e da giustificare) si vedono solo per reparto e per l'azienda, mai per persona: la malattia è un dato sulla salute. Le **giornate da controllare** sono quelle del riepilogo del mese del bot: un'attività rimasta aperta, ore da giustificare o un controllo della Giornata.
 
 Una misura inserita ha:
 
@@ -158,7 +160,8 @@ In **Configurazione → Modelli**:
 
 - **Produzione (fabbrica)**: pezzi, metri quadri e ore per reparto, rilavorazioni, ordini consegnati e in tempo, infortuni, segnalazioni, ore lavorabili e di assenza, con produttività, rilavorazioni %, puntualità delle consegne, tasso di assenza;
 - **Impianti e assistenza**: commesse puntuali, assistenza nei tempi, richieste dopo la posa, commesse in ritardo, ore sulle commesse, manutenzioni (tutti calcolati dal programma);
-- **Ufficio**: preventivi accettati e loro valore, giorni medi di incasso, crediti scaduti, fatture scartate, fatturato.
+- **Ufficio**: preventivi accettati e loro valore, giorni medi di incasso, crediti scaduti, fatture scartate, fatturato;
+- **Presenze e ferie** (dalla 1.190.0): tasso di assenza, incidenza dello straordinario, ore da giustificare, giornate da controllare per persona, ore lavorate, ferie godute nell'anno, ore di reperibilità (tutti dal report delle presenze, niente da inserire).
 
 Un modello aggiunge solo le misure e gli indicatori con un nome che non c'è ancora; quelli con le misure di una sezione spenta si saltano; senza il dettaglio per persona, ciò che è per persona diventa per reparto. **Esporta** scrive in un file JSON misure e indicatori (senza i valori), da caricare con **Importa** su un'altra installazione.
 

@@ -42,7 +42,8 @@ documenti e senza abbonamenti: i dati restano sul tuo server.
 <td width="50%" valign="top">
 
 **🗓️ La mia giornata**<br>
-Home con i numeri che contano, attività con kanban, calendario e Gantt, appunti ed elenchi condivisi, gestione delle
+Home **personalizzabile** con i numeri che contano, la **bacheca** delle comunicazioni dell'azienda, attività con
+kanban, calendario e Gantt, appunti ed elenchi condivisi, gestione delle
 password cifrata con le cartelle aziendali e i codici della verifica in due passaggi, **rubrica** personale o condivisa
 importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic, e la **posta** come in
 Outlook: caselle IMAP o POP3 personali o condivise, tre visualizzazioni, messaggi da trascinare sulle cartelle, la PEC
@@ -50,7 +51,7 @@ con le ricevute, l'archivio compresso che entra nei backup.
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, **importazione ed esportazione
-universali** (Excel con tutti i suoi fogli, CSV, vCard, METEL, il modello da compilare, il vecchio gestionale),
+universali** (Excel con tutti i suoi fogli, CSV, vCard, METEL, il modello da compilare, un altro programma),
 l'**avviso dei possibili doppioni** mentre si scrive (in tutte le anagrafiche, dagli articoli alle
 password), e la **valutazione del cliente**: come paga, quanto è fedele, quanto lavoro porta e quanto si guadagna.
 
@@ -74,9 +75,11 @@ bilancio CEE.
 <td width="50%" valign="top">
 
 **👷 Azienda**<br>
-Personale con corsi, visite e documenti in scadenza, **indicatori** dell'azienda, dei reparti e delle persone con
+Personale con corsi, visite e documenti in scadenza, **presenze** dal bot di Telegram o dall'ufficio (cantieri, mezzi,
+viaggio, ferie e permessi, chiusura del mese, report per persona, cantiere e cliente), **comunicazioni** al personale con
+presa visione e risposte, **indicatori** dell'azienda, dei reparti e delle persone con
 obiettivi, valutazioni e premi di fine anno (facoltativi, con i nomi che si vogliono), mezzi e attrezzature con
-revisioni e tagliandi, un unico **scadenzario** con i promemoria (anche come calendario per Outlook, Google e il telefono), **privacy** (GDPR): informative, registro dei
+revisioni e tagliandi, noleggi e leasing, chi li ha in consegna e chi li aveva in un giorno, un unico **scadenzario** con i promemoria (anche come calendario per Outlook, Google e il telefono), **privacy** (GDPR): informative, registro dei
 trattamenti, richieste e violazioni.
 
 **📁 Documenti**<br>

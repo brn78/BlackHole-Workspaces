@@ -136,9 +136,9 @@ Nel file c'erano dati non validi: un nome nel campo del telefono, una partita IV
 </details>
 
 <details>
-<summary><b>Come porto qui i clienti del vecchio gestionale, con tutte le sedi e i referenti?</b></summary>
+<summary><b>Come porto qui i clienti di un altro programma, con tutte le sedi e i referenti?</b></summary>
 
-Con un file **JSON**: un elenco di clienti, ognuno con più indirizzi, recapiti, referenti e banche. Lo si prepara con un piccolo programma che legge l'archivio del vecchio gestionale (chiedi a chi gestisce il server) e si importa da **Clienti → Importa** come un CSV: vedi [Il formato del file JSON](clienti.md#clienti-importa).
+Con un file **JSON**: un elenco di clienti, ognuno con più indirizzi, recapiti, referenti e banche. Lo si prepara con un piccolo programma che legge l'archivio dell'altro programma (chiedi a chi gestisce il server) e si importa da **Clienti → Importa** come un CSV: vedi [Il formato del file JSON](clienti.md#clienti-importa).
 
 </details>
 

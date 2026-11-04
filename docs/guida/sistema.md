@@ -7,7 +7,7 @@ La voce **Sistema** , [in fondo al menu](interfaccia.md#interfaccia-menu), apre 
 | Area | Pagine |
 | --- | --- |
 | **Persone e accessi** | [Utenti](utenti.md), [Gruppi e Policy](gruppi-policy.md), [Registro attività](registro.md) |
-| **Dati e archivio** | [Backup](backup.md), [Archiviazione](archiviazione.md), [Archivio di rete](archivio-rete.md), [Pulizia dei file](pulizia-file.md), [Cestino](cestino.md) |
+| **Dati e archivio** | [Backup](backup.md), [Archiviazione](archiviazione.md), [Cartelle dell'archivio](archivio-rete.md), [Pulizia dei file](pulizia-file.md), [Cestino](cestino.md) |
 | **Documenti e regole** | [Modelli di stampa](modelli-stampa.md), [Privacy](privacy.md) |
 | **Programma** | [Impostazioni](impostazioni.md) (con l'aggiornamento del programma) |
 

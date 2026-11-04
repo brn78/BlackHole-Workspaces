@@ -2,7 +2,7 @@
 
 # <a id="listini-fornitori"></a>Listini fornitori
 
-**Magazzino → Listini fornitori** tiene i listini dei fornitori nel formato **METEL**, lo standard del materiale elettrico (si importano anche da [Excel, CSV e dal vecchio gestionale](#listini-fornitori-altri)). Sono file di testo che il fornitore manda o pubblica sul portale METEL, per esempio `VIMLSG021.TXT`: sigla dell'azienda, **LSG** per il listino al rivenditore o **LSP** per quello al pubblico, e la versione. Dentro ci sono, per ogni articolo:
+**Magazzino → Listini fornitori** tiene i listini dei fornitori nel formato **METEL**, lo standard del materiale elettrico (si importano anche da [Excel, CSV e da un altro programma](#listini-fornitori-altri)). Sono file di testo che il fornitore manda o pubblica sul portale METEL, per esempio `ABCLSG021.TXT`: sigla dell'azienda, **LSG** per il listino al rivenditore o **LSP** per quello al pubblico, e la versione. Dentro ci sono, per ogni articolo:
 
 - marchio, codice, EAN e descrizione;
 - prezzo al rivenditore e prezzo al pubblico;
@@ -33,18 +33,15 @@ Gli sconti non sono nel file: li concorda il fornitore e si scrivono qui, famigl
 
 Gli articoli si scrivono a blocchi: anche durante un listino grande gli altri possono continuare a salvare. Alcuni fornitori scrivono il file in UTF-8 contando le lettere accentate come un carattere solo: la piattaforma se ne accorge e rilegge quelle righe nel modo giusto.
 
-## <a id="listini-fornitori-altri"></a>Da Excel, da CSV, da PDF e dal vecchio gestionale
+## <a id="listini-fornitori-altri"></a>Da Excel, da CSV, da PDF e da un altro programma
 
 **Importa listini** accetta anche:
 
-- **Un foglio Excel (.xlsx, .xls, .ods) o un CSV**, un listino per file. Si sceglie che cosa c'è in ogni colonna: codice, descrizione (breve), **descrizione estesa**, codice a barre, unità di misura, prezzo al rivenditore, prezzo al pubblico, famiglia di sconto, sconto, pezzi nella confezione, marca, sigla METEL. Quelle con il nome giusto sono già scelte; con l'assistente AI attivo c'è anche **✨ Proponi con l'assistente**. Servono il codice, un prezzo e la **sigla del produttore** (VIM, BTI…: un listino nuovo con la stessa sigla aggiorna quello già importato). Uno sconto scritto per articolo diventa lo sconto della sua famiglia (quello della maggior parte degli articoli). Poi i passi sono quelli di un listino METEL. La **descrizione estesa** si vede nei dettagli dell'articolo, la trova la ricerca e passa alla voce del listino quando lo aggiungi; se manca la breve, vale l'inizio dell'estesa.
+- **Un foglio Excel (.xlsx, .xls, .ods) o un CSV**, un listino per file. Si sceglie che cosa c'è in ogni colonna: codice, descrizione (breve), **descrizione estesa**, codice a barre, unità di misura, prezzo al rivenditore, prezzo al pubblico, famiglia di sconto, sconto, pezzi nella confezione, marca, sigla METEL. Quelle con il nome giusto sono già scelte; con l'assistente AI attivo c'è anche **✨ Proponi con l'assistente**. Servono il codice, un prezzo e la **sigla del produttore** (per esempio ABC: un listino nuovo con la stessa sigla aggiorna quello già importato). Uno sconto scritto per articolo diventa lo sconto della sua famiglia (quello della maggior parte degli articoli). Poi i passi sono quelli di un listino METEL. La **descrizione estesa** si vede nei dettagli dell'articolo, la trova la ricerca e passa alla voce del listino quando lo aggiungi; se manca la breve, vale l'inizio dell'estesa.
 - **Un listino in PDF**: lo legge l'assistente, pagina per pagina, e diventa una tabella da controllare come un foglio Excel; vedi [Importare da un PDF](assistente-ai.md#importare-pdf).
-- **Il file JSON con più listini**: quello estratto dal vecchio gestionale (listini\_fornitori.json, con i listini caricati, uno per sigla, e gli sconti concordati) e quello di **Esporta → Tutti i listini**. Al posto del controllo c'è la tabella dei listini del file: per ognuno la sigla, il nome, gli articoli, gli sconti che porta e se è **nuovo** o **aggiorna** quello già importato (gli sconti già scritti restano); il **fornitore** (ritrovato dalla partita IVA, dal codice fiscale o dal codice dell'anagrafica, altrimenti creato, una volta sola anche se ha più listini) e il **produttore** (ritrovato dalla sigla o dal nome, altrimenti creato) sono già proposti. Si spuntano quelli da importare (**Tutti**, **Nessuno**, la ricerca) e **Importa** li importa uno dopo l'altro, con l'avanzamento; **Ferma dopo questo listino** si ferma senza lasciare un listino a metà. L'esito riassume listini importati e aggiornati, articoli nuovi, rincari e listini non importati, con il motivo.
+- **Il file JSON con più listini**: quello preparato da un altro programma (listini\_fornitori.json, con i listini caricati, uno per sigla, e gli sconti concordati) e quello di **Esporta → Tutti i listini**. Al posto del controllo c'è la tabella dei listini del file: per ognuno la sigla, il nome, gli articoli, gli sconti che porta e se è **nuovo** o **aggiorna** quello già importato (gli sconti già scritti restano); il **fornitore** (ritrovato dalla partita IVA, dal codice fiscale o dal codice dell'anagrafica, altrimenti creato, una volta sola anche se ha più listini) e il **produttore** (ritrovato dalla sigla o dal nome, altrimenti creato) sono già proposti. Si spuntano quelli da importare (**Tutti**, **Nessuno**, la ricerca) e **Importa** li importa uno dopo l'altro, con l'avanzamento; **Ferma dopo questo listino** si ferma senza lasciare un listino a metà. L'esito riassume listini importati e aggiornati, articoli nuovi, rincari e listini non importati, con il motivo.
 
 Un listino con la decorrenza più vecchia di quello già importato arriva senza spunta: i prezzi tornerebbero indietro.
-
-> [!TIP]
-> I listini del vecchio gestionale si portano così: sul PC con la cartella del vecchio gestionale si esegue esporta\_listini\_fornitori.py, che scrive listini\_fornitori.json, un riepilogo e, nella cartella listini\_altri, gli altri listini (non METEL) in CSV, da importare uno per volta scegliendo le colonne.
 
 ## <a id="listini-fornitori-esporta"></a>Esportare
 
@@ -64,7 +61,7 @@ Con un listino scelto filtra anche per famiglia di sconto. Gli articoli arrivano
 
 Un clic apre i dettagli dell'articolo. Con le caselle, **Aggiungi al listino** crea le voci: si scelgono la categoria e il ricarico (quello della categoria oppure uno per queste voci). Le voci nuove sono materiali collegati al listino del fornitore:
 
-- codice *marchio + codice*, per esempio «VIM 20001»;
+- codice *marchio + codice*, per esempio «ABC 20001»;
 - il produttore del listino come marca;
 - senza una categoria scelta, quella principale del produttore;
 - prezzo di listino e sconto presi da lì, e il costo che li segue;

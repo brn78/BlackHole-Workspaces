@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.199.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.202.3**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -83,6 +83,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Spostare trascinando](posta.md#posta-trascinare)
    - [Leggere un messaggio](posta.md#posta-lettura)
    - [Scrivere](posta.md#posta-scrivere)
+   - [Schede create da un messaggio](posta.md#posta-crea)
    - [Invia da: le email che mandi dal programma](posta.md#posta-invia-da)
    - [Scorciatoie](posta.md#posta-scorciatoie)
    - [La scheda della casella](posta.md#posta-casella)
@@ -350,6 +351,8 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Le manutenzioni](mezzi.md#mezzi-manutenzioni)
    - [Le consegne](mezzi.md#mezzi-consegne)
    - [Gli utilizzi e le multe (dalla 1.175.0)](mezzi.md#mezzi-utilizzi)
+   - [Le multe (dalla 1.201.0)](mezzi.md#mezzi-multe)
+   - [Tutte le multe (dalla 1.202.0)](mezzi.md#mezzi-multe-elenco)
    - [I tipi](mezzi.md#mezzi-tipi)
    - [Permessi](mezzi.md#mezzi-permessi)
 34. [Banca](banca.md)

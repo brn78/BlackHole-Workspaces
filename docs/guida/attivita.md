@@ -56,7 +56,7 @@ Una sottoattività la vede anche chi vede l'attività principale. Le attività d
 ## <a id="attivita-assegnare"></a>Assegnare e lavorare sulle attività
 
 - In **Assegnata a** scegli una o più persone (fino a 20) tra i colleghi con l'account abilitato; **Assegna a me** aggiunge te. Chi viene assegnato riceve una notifica e trova l'attività in **Le mie** e nella Home.
-- Il **Revisore** è chi controllerà il lavoro finito: vedi [Revisione](#attivita-revisione).
+- Il **Revisore** è chi controllerà il lavoro finito: si cerca scrivendo il nome e si sceglie dall'elenco (dalla 1.202.2; il campo vuoto vuol dire nessuno). Vedi [Revisione](#attivita-revisione).
 - Se l'attività è collegata a una **commessa riservata**, assegnatari e revisore si scelgono tra chi vede la commessa. Per collegare (o spostare) a una commessa riservata un'attività esistente anche chi l'ha creata deve vedere la commessa: altrimenti il salvataggio si ferma, con il suo nome.
 
 | Chi | Che cosa può fare |

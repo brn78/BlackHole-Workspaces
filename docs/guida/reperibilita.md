@@ -12,12 +12,12 @@ In alto, la riga **Adesso**: chi è reperibile in questo momento con il suo **te
 
 ## <a id="reperibilita-turni"></a>I turni
 
-**Nuovo turno** chiede il **reperibile** (tra gli utenti attivi), **dal** e **al** (la fine è esclusa: un turno fino alle 08:00 lascia il posto alle 08:00 a quello dopo) e le **note** (il furgone, le chiavi…); i pulsanti della **durata** (12 ore, 1, 2, 3 giorni, 1 o 2 settimane) mettono la fine partendo dall'inizio. Un turno dura al massimo 31 giorni. Più persone possono essere reperibili insieme (per esempio un elettricista e un tecnico delle reti), ma la stessa persona non può avere due turni che si sovrappongono. Chi riceve un turno (o se lo vede cambiare o togliere) riceve una [notifica](notifiche.md#notifiche-tipi), e il giorno prima il [promemoria](#reperibilita-impostazioni). Nel turno aperto c'è la **storia**: chi l'ha creato, cambiato, sostituito.
+**Nuovo turno** chiede il **reperibile** (tra gli utenti attivi: dalla 1.202.2 si cerca scrivendo il nome, con il telefono sotto il nome nei suggerimenti), **dal** e **al** (la fine è esclusa: un turno fino alle 08:00 lascia il posto alle 08:00 a quello dopo) e le **note** (il furgone, le chiavi…); i pulsanti della **durata** (12 ore, 1, 2, 3 giorni, 1 o 2 settimane) mettono la fine partendo dall'inizio. Un turno dura al massimo 31 giorni. Più persone possono essere reperibili insieme (per esempio un elettricista e un tecnico delle reti), ma la stessa persona non può avere due turni che si sovrappongono. Chi riceve un turno (o se lo vede cambiare o togliere) riceve una [notifica](notifiche.md#notifiche-tipi), e il giorno prima il [promemoria](#reperibilita-impostazioni). Nel turno aperto c'è la **storia**: chi l'ha creato, cambiato, sostituito.
 
 ## <a id="reperibilita-cambi"></a>Cambi e sostituzioni
 
 - **Cambio**: nel turno si sceglie un altro reperibile; il turno resta com'è e porta scritto *al posto di* chi era previsto. Tutti e due ricevono un avviso.
-- **Sostituzione per una parte**: un collega copre solo un pezzo del turno (una notte, un pomeriggio): si sceglie chi e da quando a quando, dentro il turno. Il turno si divide: prima e dopo restano di chi era, la parte in mezzo diventa un turno del collega, con scritto al posto di chi.
+- **Sostituzione per una parte**: un collega copre solo un pezzo del turno (una notte, un pomeriggio): si sceglie chi (scrivendo il nome, tra tutti tranne chi ha il turno) e da quando a quando, dentro il turno. Il turno si divide: prima e dopo restano di chi era, la parte in mezzo diventa un turno del collega, con scritto al posto di chi.
 - **Elimina** (il cestino rosso) toglie il turno; resta nella storia e chi lo aveva riceve un avviso.
 
 ## <a id="reperibilita-rotazione"></a>I turni a rotazione

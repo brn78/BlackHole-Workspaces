@@ -46,8 +46,9 @@ Home **personalizzabile** con i numeri che contano, la **bacheca** delle comunic
 kanban, calendario e Gantt, appunti ed elenchi condivisi, gestione delle
 password cifrata con le cartelle aziendali e i codici della verifica in due passaggi, **rubrica** personale o condivisa
 importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic, e la **posta** come in
-Outlook: caselle IMAP o POP3 personali o condivise, tre visualizzazioni, messaggi da trascinare sulle cartelle, la PEC
-con le ricevute, l'archivio compresso che entra nei backup.
+Outlook: caselle IMAP o POP3 personali o condivise, tre visualizzazioni, messaggi da trascinare sulle cartelle e da
+scrivere con le immagini, richieste, attività e preventivi creati da un messaggio, la PEC con le ricevute, l'archivio
+compresso che entra nei backup.
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, **importazione ed esportazione
@@ -79,7 +80,8 @@ Personale con corsi, visite e documenti in scadenza, **presenze** dal bot di Tel
 viaggio, ferie e permessi, chiusura del mese, report per persona, cantiere e cliente), **comunicazioni** al personale con
 presa visione e risposte, **indicatori** dell'azienda, dei reparti e delle persone con
 obiettivi, valutazioni e premi di fine anno (facoltativi, con i nomi che si vogliono), mezzi e attrezzature con
-revisioni e tagliandi, noleggi e leasing, chi li ha in consegna e chi li aveva in un giorno, un unico **scadenzario** con i promemoria (anche come calendario per Outlook, Google e il telefono), **privacy** (GDPR): informative, registro dei
+revisioni e tagliandi, noleggi e leasing, chi li ha in consegna e chi li aveva in un giorno, le **multe** con i
+termini per pagare e l'addebito a chi guidava, un unico **scadenzario** con i promemoria (anche come calendario per Outlook, Google e il telefono), **privacy** (GDPR): informative, registro dei
 trattamenti, richieste e violazioni.
 
 **📁 Documenti**<br>

@@ -16,16 +16,18 @@ La pagina ha tre viste, ciascuna con il numero dei suoi appunti: **Appunti** (qu
 
 ## <a id="appunti-formattare"></a>Testo formattato e caselle da spuntare
 
-Sopra il testo c'è la barra dell'editor, la stessa dei [documenti Word](documenti.md#documenti-editor) in versione ridotta:
+Sopra il testo c'è la barra dell'editor. Dalla 1.202.1 è la stessa ovunque si scrive un testo: negli appunti, nella descrizione di attività e commesse, nel leggimi degli impianti e nei messaggi della [Posta](posta.md), con gli strumenti nello stesso ordine. Cambia solo quello che il testo può tenere: qui la casella da spuntare, nei messaggi l'immagine.
 
-- **Stile del paragrafo**: **Normale** oppure **Titolo 1**, **2** e **3**;
+- **Annulla** e **Ripeti** (<kbd>Ctrl</kbd>+<kbd>Z</kbd> e <kbd>Ctrl</kbd>+<kbd>Y</kbd>);
+- **Stile del paragrafo**: **Normale** oppure **Titolo 1**, **2** e **3**, e la **dimensione** del testo (piccolo, normale, grande, enorme);
 - **grassetto** (<kbd>Ctrl</kbd>+<kbd>B</kbd>), *corsivo* (<kbd>Ctrl</kbd>+<kbd>I</kbd>), sottolineato (<kbd>Ctrl</kbd>+<kbd>U</kbd>) e barrato;
 - **colore del testo** ed **evidenziato**, con le tinte della piattaforma (fermando il mouse su un quadratino compare il nome del colore; il primo, barrato, toglie il colore). I colori del testo si leggono sia con il tema chiaro sia con quello scuro; sul tema scuro il testo evidenziato diventa scuro, come un evidenziatore su carta;
 - **casella da spuntare** : trasforma la riga in una casella; un clic sulla casella la spunta e la riga diventa barrata. Così in un appunto di testo puoi mettere qualche cosa da fare in mezzo alle note, senza farne un [elenco](#appunti-elenchi);
-- **elenco puntato** ed **elenco numerato**;
+- **elenco puntato** ed **elenco numerato**, con **Riduci rientro** e **Aumenta rientro**;
+- **allineamento** (a sinistra, al centro, a destra, giustificato) e **citazione**;
 - **collegamento** (<kbd>Ctrl</kbd>+<kbd>K</kbd>): seleziona il testo e scrivi l'indirizzo, che deve iniziare con `https://`, `http://`, `mailto:` o `tel:`. Nel riquadro il collegamento si apre in una nuova scheda del browser;
 - **Togli la formattazione** riporta il testo selezionato a testo semplice;
-- in fondo a destra, se puoi usare l'assistente AI, **Migliora testo** ✨: corregge, chiarisce, accorcia o traduce il testo (o la parte selezionata), con la proposta da accettare. La stessa barra c'è nella descrizione di attività e commesse; vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
+- in fondo a destra, se puoi usare l'assistente AI, **Migliora testo** ✨: corregge, chiarisce, accorcia o traduce il testo (o la parte selezionata), con la proposta da accettare; vedi [Migliora testo nei moduli](assistente-ai.md#assistente-moduli).
 
 Il riquadro mostra il testo con la sua formattazione (titoli, grassetto, colori, caselle). Il testo incollato da altri programmi conserva solo questi formati: immagini e tabelle non entrano negli appunti (per quelle c'è un [documento Word](documenti.md#documenti-editor)). Gli indirizzi web scritti senza usare il pulsante **Collegamento** restano testo.
 

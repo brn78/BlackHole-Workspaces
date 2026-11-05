@@ -241,6 +241,13 @@ Ricarica la pagina (<kbd>F5</kbd>) per usare la versione nuova.
 </details>
 
 <details>
+<summary><b>Dopo un aggiornamento una pagina dice «Impossibile caricare la pagina»</b></summary>
+
+I file della pagina sono di due versioni diverse: quella di prima, rimasta nel browser, e quella nuova. Dalla 1.202.1 il programma se ne accorge e si ricarica da solo; se succede ancora, la pagina lo dice con il pulsante blu **Ricarica la pagina** (o premi <kbd>F5</kbd>). Prima di ricaricare, salva le modifiche aperte.
+
+</details>
+
+<details>
 <summary><b>L'aggiornamento dalla piattaforma non è disponibile</b></summary>
 
 Serve il servizio di Windows installato dal setup e bisogna collegarsi dalla rete locale con l'indirizzo interno del server. Il riquadro spiega il motivo esatto; il pulsante **Apri la piattaforma locale** apre l'indirizzo interno per te, se il tuo PC è nella rete locale o nella VPN.

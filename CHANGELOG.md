@@ -4,6 +4,101 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.202.3 · 5 novembre 2026
+
+Le versioni dalla 1.200.0 alla 1.202.3 escono insieme, in un solo setup.
+
+**Novità**
+
+- **Codice rivisto prima della pubblicazione**: altre funzioni ripetute in più pagine sono diventate una sola, condivisa
+  (giorno e ora scritti nei moduli, allegati della Posta salvati nelle schede, la persona già scelta che resta tra le
+  scelte anche quando non è più nell'elenco).
+- **Dati dimostrativi aggiornati**: due multe dei furgoni, una pagata e addebitata al conducente e una appena notificata
+  con le sue scadenze.
+
+**Correzioni**
+
+- **Importi delle multe**: chi modifica i mezzi senza vedere i costi, salvando una multa, ne cancellava gli importi.
+  Ora restano quelli scritti da chi vede i costi.
+- **Multa di nuovo da pagare**: se il ricorso non va e la multa torna «Da pagare», la scadenza del pagamento si riapre
+  nello scadenzario.
+- **Chi guidava**: un nome scritto ma non scelto dall'elenco del personale ora ferma il salvataggio e dice che cosa fare.
+- **Scheda nata da un messaggio**: da quale messaggio è nata lo vede solo chi vede la scheda.
+
+## 1.202.2 · 5 novembre 2026
+
+**Novità**
+
+- **La persona si cerca per nome in tutte le schede**: le ultime tendine con l'elenco delle persone diventano il campo
+  con la lente, come il Cliente. Si scrive il nome, la mansione o il reparto e si sceglie dai suggerimenti. Vale per il
+  tecnico della richiesta di assistenza e per chi ha lavorato nell'intervento, il revisore di un'attività, il reperibile
+  di un turno e chi lo sostituisce (con il telefono sotto il nome), «Per» nei modelli di conteggio delle Presenze, il
+  proprietario di un contatto privato, il commerciale del progetto e del preventivo, il responsabile della commessa,
+  chi segue una pratica, chi inserisce una misura, i responsabili di reparto e «Di chi» negli Indicatori (con l'azienda
+  e i reparti in cima ai suggerimenti).
+- **Nome scritto ma non scelto**: la scheda non si salva e dice che cosa fare. Dove il campo vuoto vuol dire «nessuno»
+  o «tutta l'azienda», basta svuotarlo.
+
+**Correzioni**
+
+- **Persona cambiata e non salvata**: chiudendo la scheda il programma ora chiede se salvare, come per gli altri campi.
+- **Responsabile della commessa**: è sempre richiesto, e la scheda lo chiede prima di salvare invece di sceglierlo da
+  sola.
+
+## 1.202.1 · 5 novembre 2026
+
+**Novità**
+
+- **Un editor solo**: la stessa barra dei testi nella Posta, negli appunti, nelle attività, nei progetti e negli impianti
+  (annulla e ripeti, stile e dimensione, colori, elenchi e rientri, allineamento, citazione, collegamento).
+  L'assistente ✨ c'è anche nei messaggi della Posta.
+- **Persona da cercare** anche nella consegna di un mezzo o di un'attrezzatura e nella nuova attività delle Presenze.
+
+**Correzioni**
+
+- **Pagine che non si aprivano dopo un aggiornamento**: alcune pagine davano errore finché non si ricaricava il
+  programma. Ora prendono i file della versione giusta e, se una pagina non si carica lo stesso, il programma si ricarica
+  da solo una volta.
+
+## 1.202.0 · 5 novembre 2026
+
+**Novità**
+
+- **Elenco di tutte le multe**: nella pagina dei Mezzi la linguetta «Multe» mostra le multe di tutti i mezzi. I numeri
+  in testa filtrano quelle da pagare, in ricorso, con i dati di chi guidava da comunicare e da addebitare; ci sono i
+  filtri per stato, addebito, chi guidava e anno, e un riepilogo scritto dice quanto c'è da pagare, il primo termine, a
+  chi addebitare e quanto. Si stampa con l'anteprima e si esporta in Excel o CSV. «Nuova multa» chiede prima il mezzo.
+
+**Correzioni**
+
+- **«Altro» nelle finestre sul telefono**: resta sulla stessa riga di Annulla e del pulsante blu quando c'è posto; va su
+  una seconda riga solo se non ci sta.
+
+## 1.201.0 · 4 novembre 2026
+
+**Novità**
+
+- **Multe dei mezzi**: nella scheda del mezzo la linguetta «Multe» raccoglie il verbale (numero, ente, giorno e ora,
+  luogo, infrazione, importo, punti, notifica), chi guidava (una persona del personale o un nome; «Chi aveva il mezzo?»
+  lo cerca nelle presenze), il pagamento (da pagare, pagata, in ricorso, annullata), l'addebito al conducente e i file
+  della multa.
+- **Scadenze delle multe**: dalla notifica nascono da sole la scadenza per pagare e, se ci sono punti, quella per
+  comunicare i dati di chi guidava. Si chiudono quando la multa è pagata, annullata o i dati sono comunicati, e «Fatta»
+  nello scadenzario aggiorna la multa.
+
+## 1.200.0 · 4 novembre 2026
+
+**Novità**
+
+- **Crea dal messaggio**: in «Altro» di un messaggio della Posta si crea una richiesta di assistenza, un'attività, un
+  preventivo o una scadenza dell'azienda, già compilati dall'assistente oppure dal messaggio (oggetto, testo senza la
+  citazione, cliente dal mittente). Gli allegati scelti vanno nei file della scheda o in Documenti; la scheda dice da
+  quale messaggio arriva e il messaggio ricorda che cosa è stato creato.
+- **Immagini nei messaggi**: nei messaggi e nelle firme si inseriscono immagini, anche incollate o trascinate, ridotte
+  da sole, con misura, posizione e descrizione. Arrivano dentro il messaggio, non come allegati. In più: dimensione del
+  testo, allineamento, rientri e citazione, e i collegamenti si scrivono in una finestra che completa da sola sito,
+  email e telefono.
+
 ## 1.199.0 · 4 novembre 2026
 
 Le versioni dalla 1.173.1 alla 1.199.0 escono insieme, in un solo setup.

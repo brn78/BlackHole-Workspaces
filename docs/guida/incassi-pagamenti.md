@@ -7,7 +7,7 @@
 - **Da incassare**: le rate dalla più vecchia, le scadute in rosso, con i solleciti già mandati. **Incassa** registra quanto è arrivato, quando e con che cosa (bonifico, contanti, carta, assegno, altro), anche in parte (vedi [Incassi e solleciti](vendite.md#vendite-incassi)). Un clic sulla riga apre la fattura.
 - **Da pagare**: le rate delle fatture dei fornitori in ordine di scadenza; **Paga** registra il pagamento, anche in parte (vedi [Pagamenti e note di credito](fatture-fornitori.md#fatture-fornitori-pagamenti)). Le note di credito si usano dalla nota stessa.
 - **Prossime settimane**: per lo scaduto e per ognuna delle prossime otto settimane (da lunedì a domenica, la prima da oggi) quanto entra, quanto esce e la **differenza**, in rosso quando escono più soldi di quanti ne entrano. Sotto, la tabella con le stesse cifre e quanto scade più avanti.
-- **Anche le incassate** (o le pagate) mostra anche le rate chiuse; **Stampa** stampa le rate da incassare o da pagare.
+- **Anche le incassate** (o le pagate) mostra anche le rate chiuse, che dalla 1.205.0 si leggono solo quando la spunti; **Stampa** stampa le rate da incassare o da pagare.
 
 ---
 

@@ -4,6 +4,99 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.205.1 · 6 novembre 2026
+
+Le versioni dalla 1.203.0 alla 1.205.1 escono insieme, in un solo setup.
+
+**Novità**
+
+- **Codice rivisto prima della pubblicazione**: le parti ripetute in più punti sono diventate una sola, condivisa (i
+  programmi esterni che convertono i file, i nomi dei file, gli allegati in PDF delle email, «Mostra altre», la scelta
+  dell'anno degli elenchi, i conteggi della Home).
+
+**Correzioni**
+
+- **PDF dei documenti**: se il primo browser del server si blocca, il programma prova il secondo, invece di fermarsi.
+  Quando un PDF riesce, *Sistema → Modelli di stampa* dice che i PDF si fanno, anche se la prova all'avvio non era
+  andata (per esempio con Chrome installato dopo).
+- **Posta e documenti con testi costruiti apposta**: un messaggio o un documento pieno di tag o di stili lasciati aperti
+  poteva tenere occupato il controllo per minuti. Ora la pulizia richiede pochi millesimi di secondo, qualunque sia il
+  testo.
+- **Banca, ultimi due anni**: i movimenti già abbinati degli anni prima non compaiono più tra quelli da abbinare.
+- **Fatturazione, ultimi due anni**: le fatture rifiutate dalla Pubblica Amministrazione degli anni prima restano in vista
+  tra quelle da sistemare.
+- **Preventivi, ultimi due anni**: un preventivo degli anni prima accettato o chiuso di recente resta tra gli Accettati
+  o i Chiusi.
+- **Scelta dell'anno**: passando dalle fatture ai DDT l'anno scelto resta, anche se in quella linguetta non ci sono
+  documenti di quell'anno.
+- **Incassi e pagamenti**: se le rate già chiuse non arrivano, la tabella torna a quelle di prima invece di restare in
+  caricamento.
+
+## 1.205.0 · 6 novembre 2026
+
+**Novità**
+
+- **Gli elenchi lunghi si aprono sugli ultimi due anni**: fatture emesse e ricevute, DDT, preventivi, assistenze chiuse e
+  movimenti di banca mostrano l'anno in corso e quello prima, più quello che degli anni prima è ancora da sbrigare
+  (bozze, fatture da incassare o da mandare allo SDI, DDT da fatturare, fatture da controllare o da pagare, preventivi
+  aperti, assistenze aperte o da fatturare, movimenti da abbinare). I numeri sulle linguette restano giusti. Con
+  «Tutti gli anni», o scegliendo un anno più vecchio, l'elenco si carica intero. La scelta dell'anno resta sempre in
+  vista nella barra dell'elenco.
+- **Incassi e pagamenti** legge le rate già incassate o pagate solo con «Anche le incassate» o «Anche le pagate».
+- **Home più leggera**: clienti, impianti, certificazioni e scadenze si contano sul server, senza scaricare gli elenchi
+  interi.
+
+## 1.204.0 · 6 novembre 2026
+
+**Novità**
+
+- **Pronta per tanti anni di lavoro**: misurata su un'azienda di prova con dieci anni di dati (9.000 preventivi, 19.200
+  documenti di vendita, 9.000 richieste di assistenza, 254.000 attività delle presenze). «Da fatturare» passa da 35
+  secondi a meno di uno; Indicatori, Contabilità, Preventivi e Home si aprono in una frazione del tempo di prima.
+- **Elenchi più leggeri**: il browser riceve gli elenchi grandi in una forma compatta, da metà a un sesto del peso di
+  prima, senza che cambi niente nelle pagine.
+- **Da fatturare** mostra le prime voci di ogni parte, con «Mostra altre».
+
+## 1.203.3 · 6 novembre 2026
+
+**Novità**
+
+- **Prestazioni misurate su un archivio vero**: le pagine si aprono in pochi decimi di secondo. Report del mese, ore per
+  cantiere e ore per cliente sono fino a quattro volte più veloci; le Presenze non scaricano più tutte le attività del
+  periodo per un solo numero.
+
+**Correzioni**
+
+- **Pagine ferme che lavoravano**: alcune pagine, anche senza fare niente, ricalcolavano di continuo la loro
+  impaginazione e tenevano occupato il processore. Ora restano ferme.
+- **Comunicazioni programmate**: tengono di nuovo i secondi dell'ora scelta; una comunicazione programmata tra pochi
+  secondi non parte più subito.
+
+## 1.203.2 · 5 novembre 2026
+
+**Correzioni**
+
+- **PDF quando il programma gira come servizio di Windows**: se lì non si riesce a preparare il PDF, la pagina dei
+  modelli di stampa e le finestre d'invio dicono di installare Google Chrome e riavviare il servizio. La guida spiega la
+  differenza tra programma e servizio.
+
+## 1.203.1 · 5 novembre 2026
+
+**Correzioni**
+
+- **PDF dei documenti anche come servizio di Windows**: come servizio Microsoft Edge può non preparare il PDF; il
+  programma prova allora Google Chrome e si ricorda quello che funziona.
+
+## 1.203.0 · 5 novembre 2026
+
+**Novità**
+
+- **I documenti partono in PDF per email**: DDT, fatture, note di credito e solleciti delle vendite, ordini, richieste
+  d'offerta e solleciti degli acquisti, link del preventivo e informativa privacy si mandano con il documento allegato in
+  PDF, uguale alla stampa: stesso modello, carta intestata, caratteri, colori e codice del modulo. Il messaggio fa da
+  lettera di accompagnamento.
+- **Sistema → Modelli di stampa** dice con quale browser del server si fanno i PDF, o perché non si possono fare.
+
 ## 1.202.3 · 5 novembre 2026
 
 Le versioni dalla 1.200.0 alla 1.202.3 escono insieme, in un solo setup.

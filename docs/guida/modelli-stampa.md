@@ -18,6 +18,17 @@ Il modello si cambia nel pannello a destra, con accanto l'**anteprima** dei fogl
 
 I fogli li compone il programma, uguali in anteprima e in stampa: il piè resta in fondo a ogni foglio, anche all'ultimo, le tabelle si dividono tra i fogli ripetendo la riga dei titoli, i titoli e i capitoli non restano soli in fondo a un foglio e il blocco finale (accettazione, firme) sta in fondo all'ultimo foglio. Per non perdere il filo sfogliando: dal secondo foglio in cima tornano numero, data e validità del documento; nelle righe con i prezzi, in fondo al foglio **A riportare** con la somma degli importi fin lì e in cima al foglio dopo **Riporto** con lo stesso valore; un capitolo che continua sul foglio dopo si ripete in cima con «(segue)». Lo stesso piè fermo in fondo vale anche per le stampe degli elenchi e delle schede. Un modello eliminato va nel [cestino](cestino.md) con la sua carta intestata.
 
+## <a id="documenti-pdf"></a>I documenti in PDF per email
+
+Dalla 1.203.0 i documenti che partono per email vanno in allegato in **PDF**, con il modello di stampa di serie del loro tipo: sono gli stessi fogli dell'anteprima di stampa, con la carta intestata digitale se il modello ce l'ha, i caratteri, i colori e il codice del modulo. Chi li riceve ha esattamente il documento che si stampa, e il messaggio fa da lettera di accompagnamento: i dati principali (totale, scadenze, IBAN, consegna) senza ripetere le righe.
+
+- **Vendite**: il DDT, la fattura e la nota di credito (**Manda la copia di cortesia**, con l'XML se si vuole) e il **sollecito di pagamento**, che porta con sé la fattura.
+- **Acquisti**: l'ordine, la richiesta d'offerta (la stessa per tutti i fornitori) e il sollecito per email.
+- **Preventivi**: il link per vedere e accettare online parte anche con il PDF, fatto dagli stessi fogli che il cliente apre dal link.
+- **Privacy**: l'informativa per email porta anche il PDF con gli spazi per firmarla.
+
+La finestra d'invio lo dice («In allegato la fattura in PDF, con il modello di stampa …») e **Anteprima dell'email** mostra il messaggio com'è con l'allegato. Il PDF lo prepara il server con un browser senza finestra: **Microsoft Edge**, che su Windows c'è già, oppure **Google Chrome**. Quando la piattaforma è installata come **servizio di Windows** Edge non prepara i PDF, e serve Google Chrome sul server. I fogli passano prima da un filtro che toglie script, collegamenti a file e indirizzi esterni, e il browser non scarica niente. Qualche secondo dopo l'avvio la piattaforma prova a fare un PDF e lo scrive nel registro eventi di Windows. In cima a questa pagina una riga dice con che cosa si fanno i PDF; se non si fanno, la riga e la finestra d'invio dicono che cosa fare e l'email porta il documento nel testo, come prima.
+
 ## <a id="modelli-stampa-codici"></a>Codici dei moduli
 
 Dalla 1.193.0, per il sistema di gestione (qualità ISO 9001, attestazione SOA), ogni stampa ha il suo **codice del modulo** e la sua **revisione**, nella linguetta **Codici dei moduli** di questa pagina. Sono del documento, non della grafica: lo stesso DDT ha sempre lo stesso codice, qualunque modello di stampa si scelga nell'anteprima.

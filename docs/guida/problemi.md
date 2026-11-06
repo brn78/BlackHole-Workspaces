@@ -38,6 +38,13 @@ Prova con le ultime cifre del numero da cui chiama (si cercano anche i numeri de
 </details>
 
 <details>
+<summary><b>Il documento per email parte senza il PDF, o la finestra dice che il PDF non si può allegare</b></summary>
+
+Il PDF lo prepara il server della piattaforma con Microsoft Edge o Google Chrome: se non ci riesce, la finestra d'invio e **Sistema → Modelli di stampa** lo dicono e l'email porta il documento nel testo. Se la piattaforma gira come servizio di Windows, installa **Google Chrome** sul server (lì Edge non prepara i PDF) e riavvia il servizio; altrimenti basta Microsoft Edge. Se il PDF non riesce una volta, l'email non parte: riprova; intanto il documento si stampa o si salva in PDF dall'anteprima di stampa. Vedi [I documenti in PDF per email](modelli-stampa.md#documenti-pdf).
+
+</details>
+
+<details>
 <summary><b>Il cliente ci ha mandato il numero del suo ticket: dove lo scrivo?</b></summary>
 
 Nel campo **Ticket del cliente** della richiesta di assistenza (anche dopo, con **Modifica**): la ricerca la ritrova da quel numero e compare nel rapporto, nella ricevuta e nell'email al cliente.

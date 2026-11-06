@@ -69,8 +69,8 @@ consuntivo e fatturazione, reperibilità con turni, cambi e avvisi fuori orario.
 Listino aziendale con ricarichi e storico dei prezzi, listini dei fornitori **METEL**, progetti dal primo contatto
 all'accettazione, **preventivi** con firma online
 del cliente, magazzino con furgoni e matricole, ordini e richieste d'offerta, DDT e **fatture elettroniche** (FatturaPA)
-inviate allo SDI con la PEC, fatture dei fornitori, incassi e solleciti, banca, **contabilità** in partita doppia fino al
-bilancio CEE.
+inviate allo SDI con la PEC, **documenti per email in PDF** uguali alla stampa, fatture dei fornitori, incassi e
+solleciti, banca, **contabilità** in partita doppia fino al bilancio CEE.
 
 </td>
 <td width="50%" valign="top">
@@ -101,7 +101,7 @@ annunci e video, chat interna e notifiche anche su **Telegram**.
 **⚙️ Pensato per il server**<br>
 Servizio di Windows con icona di stato, backup automatici cifrati, aggiornamento dalla piattaforma con l'avviso delle
 nuove versioni e l'avviso a chi è collegato, **sezioni del menu** da spegnere se l'azienda non le usa, verifica in due
-passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono.
+passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono, veloce anche con dieci anni di dati.
 
 </td>
 </tr>

@@ -26,7 +26,7 @@ Le informative partono da un **modello** già scritto (artt. 13 e 14 GDPR: titol
 
 Nella scheda di un cliente, potenziale cliente o fornitore, la linguetta **Privacy** mostra se l'informativa è stata fornita, quando e come. Si fornisce in tre modi:
 
-- **Invia per email** (quando la [posta](impostazioni.md#impostazioni-posta) è configurata): l'indirizzo è il primo della scheda e si può cambiare; parte un'email nello stile della piattaforma con tutto il testo, e l'informativa risulta fornita oggi «per email».
+- **Invia per email** (quando la [posta](impostazioni.md#impostazioni-posta) è configurata): l'indirizzo è il primo della scheda e si può cambiare; parte un'email nello stile della piattaforma con tutto il testo e, in allegato, la stessa informativa in [PDF](modelli-stampa.md#documenti-pdf) con gli spazi per firmarla; l'informativa risulta fornita oggi «per email».
 - **Stampa da firmare**: il testo con, in fondo, il riquadro del consenso alle comunicazioni commerciali e lo spazio per luogo, data e firma. Firmata, si segna con **Segna come fornita → Oggi, firmata**.
 - **Segna come fornita**: oggi (firmata, consegnata a mano, per email, sul sito o in altro modo) oppure **In un altro giorno…**, per esempio quando era già stata fornita con un altro programma. **Togli la consegna** la riporta a non fornita.
 

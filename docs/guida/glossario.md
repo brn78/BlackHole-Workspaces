@@ -4,7 +4,7 @@
 
 - **Appunto**: Nota di testo o elenco di voci da spuntare, personale oppure condiviso con colleghi e gruppi: lo vedono solo il proprietario e i destinatari.
 - **Archivio (appunti)**: La vista in cui ciascuno mette da parte gli appunti che non gli servono sott'occhio: vale solo per chi archivia.
-- **Aree del menu**: Le sezioni del menu laterale, una per reparto: Il mio spazio, Anagrafiche, Azienda, Progettazione, Magazzino, Amministrazione, Archivio e Strumenti; le pagine di gestione della piattaforma sono nel menu del pulsante Sistema. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
+- **Aree del menu**: Le sezioni del menu laterale, una per reparto: Il mio spazio, Anagrafiche, Azienda, Progettazione, Magazzino, Amministrazione, Archivio e Strumenti; le pagine di gestione della piattaforma sono nella pagina Sistema, nel menu dell'account degli amministratori. Vedi [Il mio spazio e le aree](area-di-lavoro.md).
 - **Assistente AI**: La chat della barra in alto che risponde con un modello linguistico sul server: domande, attività, rapportini, riassunti, supporto tecnico. Vedi [Assistente AI](assistente-ai.md).
 - **Attività condivisa**: Un'attività che chi può modificarla fa vedere a colleghi e gruppi, in sola lettura o con la modifica: chi la riceve ci lavora comunque (stato, voci, commenti, file, ore).
 - **Avviso**: Messaggio in basso a destra che segnala qualcosa arrivato da altri: un messaggio della chat, un appunto condiviso con te, una notifica di attività e commesse.

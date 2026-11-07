@@ -22,7 +22,7 @@ Sotto, le **aree dell'azienda**, una per **reparto** come lavora l'azienda (dall
 - **Archivio**: i [Documenti](documenti.md), le [Condivisioni](condivisioni.md), i link per far vedere file, cartelle e la documentazione degli impianti a chi non ha un account, e l'[Archivio di rete](archivio-rete.md#archivio-rete-sfogliare), le cartelle dell'ufficio in sola lettura;
 - **Strumenti**: [Monitoraggio](monitoraggio.md), [Rete locale](rete-locale.md), [Strumenti di rete](strumenti-rete.md) e [Voce da testo](voce-da-testo.md).
 
-Le pagine di gestione della piattaforma (utenti, policy, backup, impostazioni) sono nella pagina **Sistema**, che si apre dalla voce in fondo alla barra.
+Le pagine di gestione della piattaforma (utenti, policy, backup, impostazioni) sono nella pagina **Sistema**, che gli amministratori aprono dal menu del loro account, il nome in alto a destra.
 
 > [!TIP]
 > **Attività o elenco negli appunti?** Un [elenco](appunti.md#appunti-elenchi) negli appunti basta per le cose da ricordare, tue o di pochi colleghi: si spunta e basta. Un'**attività** serve quando contano chi la fa ed entro quando: ha persone assegnate, scadenza, stato, promemoria e notifiche, revisione, file e ore, e si collega a un cliente o a una commessa.

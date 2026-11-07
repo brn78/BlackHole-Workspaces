@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.205.1**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.206.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -25,7 +25,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Il menu laterale](interfaccia.md#interfaccia-menu)
    - [L'area informativa](interfaccia.md#interfaccia-area-informativa)
    - [La radio](interfaccia.md#interfaccia-radio)
-   - [Tema, carattere e sfondo](interfaccia.md#interfaccia-aspetto)
+   - [Tema, colore, sfondo e carattere](interfaccia.md#interfaccia-aspetto)
    - [Modifiche non salvate](interfaccia.md#interfaccia-non-salvate)
    - [Scorciatoie da tastiera](interfaccia.md#interfaccia-scorciatoie)
    - [Icone di aiuto](interfaccia.md#interfaccia-aiuto)
@@ -515,7 +515,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Accesso remoto](impostazioni.md#impostazioni-remoto)
    - [Modelli tra server (esporta e importa)](impostazioni.md#impostazioni-modelli)
 60. [Profilo e sicurezza](profilo.md)
-   - [Aspetto: tema, densità, ombre e carattere](profilo.md#profilo-aspetto)
+   - [Aspetto: tema, colore, sfondo, densità, ombre e carattere](profilo.md#profilo-aspetto)
    - [Nel calendario del telefono](profilo.md#profilo-calendario)
 61. [Server e installazione](server.md)
    - [Installazione](server.md#server-installazione)

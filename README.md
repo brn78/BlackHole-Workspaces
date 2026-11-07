@@ -101,7 +101,8 @@ annunci e video, chat interna e notifiche anche su **Telegram**.
 **⚙️ Pensato per il server**<br>
 Servizio di Windows con icona di stato, backup automatici cifrati, aggiornamento dalla piattaforma con l'avviso delle
 nuove versioni e l'avviso a chi è collegato, **sezioni del menu** da spegnere se l'azienda non le usa, verifica in due
-passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono, veloce anche con dieci anni di dati.
+passaggi, registro attività, tema chiaro e scuro con colori e sfondi a scelta, app installabile sul telefono, veloce
+anche con dieci anni di dati.
 
 </td>
 </tr>
@@ -139,7 +140,7 @@ passaggi, registro attività, tema chiaro e scuro, app installabile sul telefono
 <td align="center"><img src="docs/immagini/sistema.png" alt="Pagina Sistema"><br><b>Sistema</b>: utenti, permessi, backup e impostazioni</td>
 </tr>
 <tr>
-<td align="center"><img src="docs/immagini/home-chiaro.png" alt="Home con il tema chiaro"><br><b>Tema chiaro o scuro</b>, anche automatico</td>
+<td align="center"><img src="docs/immagini/home-chiaro.png" alt="Home con il tema chiaro"><br><b>Tema chiaro o scuro</b>, con colori e sfondi a scelta</td>
 <td align="center"><img src="docs/immagini/accesso.png" alt="Pagina di accesso"><br><b>Accesso protetto</b>, con verifica in due passaggi</td>
 </tr>
 <tr>

@@ -229,14 +229,14 @@ Gli amministratori non fanno parte dei gruppi: hanno già tutti i permessi e le 
 <details>
 <summary><b>Nel menu non trovo una pagina</b></summary>
 
-Le pagine di gestione della piattaforma (utenti, gruppi, policy, registro, archiviazione, backup, impostazioni) sono nel menu del pulsante **Sistema** , in fondo al menu laterale: un clic lo apre (con il menu ridotto alle icone, un clic sullo scudo). Se di un'area (Anagrafiche, Progettazione, Archivio…) vedi solo il titolo (o, nel menu ridotto, solo la freccia), è chiusa: un clic la riapre. Una pagina che non puoi usare non compare: chiedi a un amministratore. Vedi [Il menu laterale](interfaccia.md#interfaccia-menu).
+Le pagine di gestione della piattaforma (utenti, gruppi, policy, registro, archiviazione, backup, impostazioni) sono nella pagina **Sistema** , che gli amministratori aprono dal menu del loro account (il nome in alto a destra); chi non è amministratore trova lì il Cestino e le altre pagine di gestione che può aprire. Se di un'area (Anagrafiche, Progettazione, Archivio…) vedi solo il titolo (o, nel menu ridotto, solo la freccia), è chiusa: un clic la riapre. Una pagina che non puoi usare non compare: chiedi a un amministratore. Vedi [Il menu laterale](interfaccia.md#interfaccia-menu).
 
 </details>
 
 <details>
-<summary><b>Il tema o il carattere che ho scelto non ci sono su un altro computer</b></summary>
+<summary><b>Il tema, il colore o il carattere che ho scelto non ci sono su un altro computer</b></summary>
 
-Sono preferenze del browser, non dell'account: vanno scelte su ogni computer e in ogni browser che usi. Vedi [Aspetto: tema e carattere](profilo.md#profilo-aspetto).
+Sono preferenze del browser, non dell'account: vanno scelte su ogni computer e in ogni browser che usi. Vedi [Aspetto: tema, colore e carattere](profilo.md#profilo-aspetto).
 
 </details>
 

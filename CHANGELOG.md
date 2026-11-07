@@ -4,6 +4,22 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.206.0 · 7 novembre 2026
+
+**Novità**
+
+- **Colori e sfondi a scelta**: oltre al tema chiaro, scuro o automatico si sceglie il colore d'accento (Blu, Indaco,
+  Viola, Verde acqua o Grafite) e lo sfondo (Fresco, Neutro o Caldo, color carta, riposante dopo tante ore allo schermo).
+  Si cambiano con un clic da *Profilo → Aspetto* o dal menu in alto, con il tema chiaro e con quello scuro, e valgono per
+  il browser che stai usando. Rosso, verde e ambra restano quelli di errori, cose fatte e avvisi, e i colori scelti per
+  categorie, cartelle e progetti non cambiano.
+- **Sistema nel menu dell'utente**: si apre dal menu in alto a destra, non più dal fondo del menu laterale. Gli
+  amministratori trovano la voce *Sistema*, con il pallino e il numero quando c'è una versione da installare; gli altri
+  utenti vedono soltanto le pagine di gestione che possono aprire.
+- **Freccia per tornare a Sistema**: nelle pagine di gestione (Utenti, Backup, Impostazioni…) la freccia davanti al titolo
+  riporta a Sistema, senza riaprire il menu dell'utente.
+- **Menu dell'aspetto più ordinato**: in alto ci sono Tema, Colore, Sfondo e Densità; i caratteri hanno un menu loro.
+
 ## 1.205.1 · 6 novembre 2026
 
 Le versioni dalla 1.203.0 alla 1.205.1 escono insieme, in un solo setup.

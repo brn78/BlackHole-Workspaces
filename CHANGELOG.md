@@ -4,6 +4,30 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.209.0 · 8 novembre 2026
+
+Le tendine si usano come il campo dei clienti: si scrive quello che si cerca, invece di aprire e scorrere.
+
+**Novità**
+
+- **Tendine in cui si scrive**: aperta una tendina (elenchi, tipi, modelli, categorie, conti, reparti…), si scrive
+  direttamente nel campo e sotto restano solo le voci che contengono quello che si è scritto, in qualsiasi punto, senza
+  badare a maiuscole e accenti. Con più parole restano le voci che le hanno tutte, in qualsiasi ordine: «computer
+  fondo» trova «Fondo ammortamento computer». Le frecce si spostano tra le voci rimaste, Invio sceglie la prima, Esc
+  chiude lasciando la scelta di prima, Tab passa al campo dopo. Basta anche scrivere sulla tendina chiusa: si apre con
+  la ricerca già avviata. Il menu non copre mai il campo e, mentre si accorcia, resta attaccato.
+- **La gestione resta com'è**: spunta, pallini colorati, «Nuova voce…» e «Gestisci l'elenco…» (F2) restano in fondo
+  anche mentre si cerca. Se la voce non c'è, «Nuovo «testo scritto»…» la crea partendo da quel nome.
+- **Menu più rapidi**: tutti i menu della piattaforma si aprono in circa metà del tempo di prima.
+
+## 1.208.1 · 8 novembre 2026
+
+**Correzioni**
+
+- **Righe dei documenti**: nelle righe libere di vendite, acquisti e magazzino la descrizione occupa di nuovo tutta la
+  colonna «Voce» (restava larga un terzo), e sotto ogni voce non compare più «pz», doppione dell'unità che sta già nel
+  campo della quantità.
+
 ## 1.208.0 · 8 novembre 2026
 
 Una prova pratica della contabilità e dei documenti, usati come farebbe chi non li conosce: date e importi scritti nei

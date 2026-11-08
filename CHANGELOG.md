@@ -4,6 +4,38 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.208.0 · 8 novembre 2026
+
+Una prova pratica della contabilità e dei documenti, usati come farebbe chi non li conosce: date e importi scritti nei
+modi più strani, operazioni ripetute, passaggi saltati. Qui le correzioni di quello che non andava.
+
+**Correzioni**
+
+- **Anno scritto con due cifre**: scrivendo «08/11/26» il browser registrava l'anno 26 dopo Cristo e la fattura usciva
+  con una numerazione a parte, fuori dalla contabilità. Ora, uscendo dal campo, un anno di due cifre si completa da solo
+  come in Excel (26 diventa 2026), e vendite, acquisti, contabilità e magazzino rifiutano le date prima del 2000 e dopo
+  il 2100.
+- **Esercizi fantasma**: una scrittura con una data sbagliata, per esempio nel 2099 o prima dell'inizio della
+  contabilità, apriva un esercizio vuoto che poi impediva di chiudere l'anno vero. Ora la data viene rifiutata con il
+  motivo, e gli esercizi rimasti vuoti fuori dagli anni della contabilità si tolgono da soli. Per i cespiti le date
+  partono dal 1950.
+- **Note di credito**: la stessa fattura si poteva stornare per intero due volte, e una nota poteva avere la quantità al
+  contrario. Ora una nota di credito storna al massimo quello che resta della fattura, e il controllo si ripete quando
+  la nota viene emessa.
+- **Incassi e pagamenti**: si potevano registrare con una data di anni prima della fattura o prima dell'inizio della
+  contabilità, così la fattura risultava pagata ma la contabilità non lo sapeva; un incasso negativo veniva accettato.
+  Ora la data deve stare nel periodo giusto, anche negli abbinamenti della banca, e l'incasso si scrive positivo: per
+  togliere gli incassi di una rata basta scrivere 0.
+- **Fatture a totale zero**: non hanno più una rata da 0 € nello scadenzario.
+- **Importi enormi**: un importo con più di 12 cifre prima della virgola dava «Errore interno del server». Ora il
+  programma dice quale campo è troppo grande e fino a quanto si può scrivere (999.999.999.999).
+- **Fatture elettroniche dei fornitori**: un importo scritto «1.234,56» invece che come prevede il tracciato diventava
+  0 €; date dell'anno 26 o nel futuro e aliquote oltre il 100% passavano; un file vuoto spariva senza avviso. Ora queste
+  fatture restano fuori dall'importazione, ciascuna con il suo motivo.
+- **Scrittura libera in contabilità**: una riga con l'importo ma senza conto spariva alla registrazione, mentre il piede
+  diceva «quadra». Ora il programma si ferma e indica la riga; con il totale a zero il piede non dice più «quadra».
+- **Dati dimostrativi**: nelle righe dei canoni di manutenzione i mesi sono in italiano.
+
 ## 1.207.2 · 8 novembre 2026
 
 Le versioni dalla 1.206.1 alla 1.207.2 escono insieme, in un solo setup.

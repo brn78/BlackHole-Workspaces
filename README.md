@@ -70,7 +70,8 @@ Listino aziendale con ricarichi e storico dei prezzi, listini dei fornitori **ME
 all'accettazione, **preventivi** con firma online
 del cliente, magazzino con furgoni e matricole, ordini e richieste d'offerta, DDT e **fatture elettroniche** (FatturaPA)
 inviate allo SDI con la PEC, **documenti per email in PDF** uguali alla stampa, fatture dei fornitori, incassi e
-solleciti, banca, **contabilità** in partita doppia fino al bilancio CEE.
+solleciti, banca, **contabilità** in partita doppia fino al bilancio CEE, con **importi a prova di errore**: un importo
+scritto male non si salva.
 
 </td>
 <td width="50%" valign="top">

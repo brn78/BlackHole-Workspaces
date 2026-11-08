@@ -4,6 +4,58 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.207.2 · 8 novembre 2026
+
+Le versioni dalla 1.206.1 alla 1.207.2 escono insieme, in un solo setup.
+
+**Correzioni**
+
+- **Schede in sola lettura**: in un documento emesso una data vuota, per esempio la data dell'ordine del cliente,
+  mostrava «gg/mm/aaaa» come se fosse scritta. Ora resta vuota come gli altri campi.
+
+## 1.207.1 · 7 novembre 2026
+
+**Correzioni**
+
+- **PDF dei documenti senza accessi falliti a Windows**: per preparare i PDF il programma usa Edge o Chrome senza
+  finestra. A ogni stampa il browser controlla se la password di Windows è cambiata e, quando gli sembra di sì, prova ad
+  accedere con la password vuota: per Windows è un accesso fallito e, se l'account si blocca dopo pochi errori, poteva
+  chiudere fuori chi lavora su quel computer. Succedeva solo con il computer molto carico e con il programma avviato da
+  un utente, non come servizio. Ora il programma prepara il profilo del browser prima di ogni stampa e il browser non
+  riprova più.
+
+## 1.207.0 · 7 novembre 2026
+
+**Novità**
+
+- **Importi a prova di errore**: un importo scritto male non si salva più. Il programma si ferma, porta il cursore sul
+  campo e dice che cosa non va, anche se il campo sta in una linguetta che non si vede e anche salvando con Ctrl+S o dal
+  menu *Altro*. Chiudere, annullare ed eliminare restano sempre possibili.
+- **«1.000» non passa più in silenzio**: in un importo non si capisce se sono mille o uno, quindi il programma chiede di
+  scriverlo per intero (1.000,00 oppure 1,00). Nei prezzi vale quando la terza cifra è zero, come in «1.200»; un prezzo
+  a quattro decimali come «1.125» resta 1,125.
+- **Tutti i campi in euro controllati**: dare e avere, prezzi e costi delle righe di fatture, ordini, preventivi,
+  offerte e assistenza, incassi, pagamenti, rate, saldo iniziale dei conti, importi da abbinare in banca, acconto IVA e
+  premi.
+- **Euro e unità dentro il campo**: il simbolo € o %, e le unità come pz o ore, stanno dentro il campo come le icone
+  degli altri campi. Uscendo dal campo il numero si scrive in forma, «1.250,50»; rientrando i punti delle migliaia
+  spariscono e si correggono solo le cifre.
+- **Righe dei documenti leggibili**: nelle fatture e negli ordini prezzo e quantità si leggono sempre per intero; si
+  accorcia la descrizione della voce, con i puntini, e la tabella non scorre di lato.
+
+**Correzioni**
+
+- **Preventivi**: un «1.000» scritto in un prezzo diventava 1 senza nessun avviso.
+
+## 1.206.1 · 7 novembre 2026
+
+**Correzioni**
+
+- **Ordine del cliente**: nelle fatture e negli altri documenti di vendita il numero e la data dell'ordine del cliente
+  hanno ciascuno il suo campo, con la sua etichetta; prima la data stava attaccata al numero e non si capiva a che cosa
+  servisse.
+- **Freccia per tornare a Sistema**: ora è allineata al titolo della pagina.
+
 ## 1.206.0 · 7 novembre 2026
 
 **Novità**

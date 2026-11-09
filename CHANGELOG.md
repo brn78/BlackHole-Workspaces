@@ -4,6 +4,68 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.212.2 · 9 novembre 2026
+
+**Correzioni**
+
+- **Finestra dei filtri**: nella finestra che si apre dall'imbuto, premendo su una tendina la finestra si chiudeva subito
+  e non lasciava scegliere niente (succedeva dalla 1.209.0, in tutti i browser). Ora le tendine, i campi a colori e le
+  caselle si usano di nuovo, e un clic sullo sfondo chiude la finestra come prima.
+
+## 1.212.1 · 9 novembre 2026
+
+**Novità**
+
+- **Provato in Firefox**: tutte le pagine del menu, anche sul telefono, le schede, l'anteprima di stampa e la stampa
+  dei documenti funzionano in Firefox come in Chrome ed Edge. Mancano solo due comodità: la lettura dei codici a barre
+  con la fotocamera (resta il lettore USB o Bluetooth) ed «Elimina dal PC dopo il caricamento». La guida lo dice.
+
+**Correzioni**
+
+- **Preventivi**: nell'elenco, il collegamento alla commessa e al progetto di un preventivo ora si apre in tutti i
+  browser.
+
+## 1.212.0 · 9 novembre 2026
+
+La modulistica controllata come la chiede il sistema di gestione (ISO 9001, SOA): di ogni modulo si sa quale revisione
+vale, chi l'ha approvata e da quando, e di ogni documento uscito con quale revisione è uscito.
+
+**Novità**
+
+- **Approvazione dei moduli**: sono controllati i documenti che hanno il codice del modulo. Salvare codice e revisione
+  vale come approvazione, senza passaggi in più, e la colonna **In vigore** dice «dal … · approvato da …». Approva
+  l'amministratore o chi ha il nuovo permesso riservato **Approvare i moduli**, da dare al responsabile della qualità:
+  vede i codici dei moduli e il registro, mentre la grafica dei modelli resta all'amministratore.
+- **Registro delle stampe**: una nuova linguetta in *Sistema → Modelli di stampa* annota ogni documento controllato che
+  esce: quando, quale documento, il modulo con codice e revisione di quel momento, il modello di stampa usato, come
+  (stampa, email, PEC, Telegram, link), a chi e chi l'ha fatto. Vale per le stampe dall'anteprima, i preventivi, la
+  ricevuta del laboratorio, i documenti partiti in PDF per email o con la PEC e i report del mese del bot. Si apre sugli
+  ultimi due anni, si cerca, si stampa e non si cancella mai da solo.
+- **Ristampe**: un documento ristampato dopo un cambio di revisione esce con la revisione in vigore, e il registro dice
+  con quale era uscito la prima volta. Si può stampare anche con un modello diverso da quello di serie (per esempio su
+  carta intestata): il registro annota quale.
+
+## 1.211.0 · 9 novembre 2026
+
+**Novità**
+
+- **Lettere del recupero crediti in PDF**: promemoria, solleciti e diffida, per email o con la PEC, anche quando si
+  mandano insieme, partono con la lettera in PDF, fatta con il modello di stampa delle vendite come le fatture: carta
+  intestata, indirizzo del cliente nella finestra della busta, fatture con scadenze e importi, interessi, IBAN e il
+  codice del modulo nel piè. Nella finestra della lettera, **Stampa** (in **⋯ Altro**) apre l'anteprima di stampa, per
+  vederla prima o per spedirla con la raccomandata.
+
+## 1.210.0 · 9 novembre 2026
+
+**Correzioni**
+
+- **Modelli di stampa che non arrivano**: se al momento della stampa i modelli non arrivavano dal server (server lento,
+  rete che cade), il documento usciva senza dirlo con l'impaginazione del programma, senza carta intestata e senza codice
+  e revisione del modulo. Ora si apre una finestra che lo dice, con il motivo: **Riprova** li chiede di nuovo, **Annulla**
+  non stampa niente. Vale per documenti, elenchi, schede, preventivi (anche il link per il cliente) e ricevuta del
+  laboratorio. Negli invii per email, se i modelli mancano, un avviso giallo dice che il documento parte nel testo
+  invece che in PDF.
+
 ## 1.209.0 · 8 novembre 2026
 
 Le tendine si usano come il campo dei clienti: si scrive quello che si cerca, invece di aprire e scorrere.

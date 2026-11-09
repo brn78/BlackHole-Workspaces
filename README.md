@@ -102,8 +102,9 @@ annunci e video, chat interna e notifiche anche su **Telegram**.
 **⚙️ Pensato per il server**<br>
 Servizio di Windows con icona di stato, backup automatici cifrati, aggiornamento dalla piattaforma con l'avviso delle
 nuove versioni e l'avviso a chi è collegato, **sezioni del menu** da spegnere se l'azienda non le usa, verifica in due
-passaggi, registro attività, tema chiaro e scuro con colori e sfondi a scelta, app installabile sul telefono, veloce
-anche con dieci anni di dati.
+passaggi, registro attività, **modulistica controllata** (codice e revisione di ogni modulo, approvazione e registro
+delle stampe, per ISO 9001 e SOA), tema chiaro e scuro con colori e sfondi a scelta, app installabile sul telefono,
+veloce anche con dieci anni di dati.
 
 </td>
 </tr>

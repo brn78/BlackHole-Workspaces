@@ -5,7 +5,7 @@
 La piattaforma è composta da due parti:
 
 - **Il server**, installato su un PC o server Windows sempre acceso: conserva tutti i dati in una [cartella di lavoro](archiviazione.md) (database, documenti, impostazioni) e ne fa il backup.
-- **Le pagine web** che stai usando: si aprono da qualsiasi browser recente (Edge, Chrome, Firefox, Safari; Internet Explorer non è supportato) su PC, tablet o telefono, all'indirizzo `http://<nome-o-IP-del-server>:5180`. Più persone lavorano insieme, ciascuna con il proprio account.
+- **Le pagine web** che stai usando: si aprono da qualsiasi browser recente (Edge, Chrome, Firefox, Safari; Internet Explorer non è supportato) su PC, tablet o telefono, all'indirizzo `http://<nome-o-IP-del-server>:5180`. Più persone lavorano insieme, ciascuna con il proprio account. In Firefox (provato con la 159) funziona tutto, stampe comprese; mancano solo due comodità che hanno Chrome ed Edge: la lettura dei codici a barre con la fotocamera (resta il lettore USB o Bluetooth) ed «Elimina dal PC dopo il caricamento».
 
 ## <a id="panoramica-concetti"></a>I concetti chiave
 

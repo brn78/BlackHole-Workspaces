@@ -47,7 +47,7 @@ Nella scheda di una policy i permessi sono raggruppati per area, ciascuno con la
 | Password | Usare la gestione password · Condividere le password · Gestire tutte le password condivise · Gestire i tipi delle password · Esportare le password (vedi [Password](password.md#password-permessi)) |
 | Assistente AI | Usare l'assistente AI (vedi [Assistente AI](assistente-ai.md)) |
 | Utenti | Visualizzare gli utenti · Creare utenti · Modificare gli utenti · Eliminare gli utenti · Gestire la sicurezza degli utenti (vedi [Utenti](utenti.md#utenti-ruoli)) |
-| Sistema | Consultare il registro attività · Esportare il registro attività |
+| Sistema | Consultare il registro attività · Esportare il registro attività · Approvare i moduli (riservato: codici dei moduli e registro delle stampe) |
 
 - **Permessi compresi**: alcuni permessi ne comprendono altri. Chi può *Modificare tutti i clienti* può anche modificare i propri e visualizzarli; chi può *Eliminare qualsiasi cliente* può eliminare anche i propri; creare, modificare, eliminare e gestire i gruppi comprendono sempre il visualizzare. Spuntando un permesso, quelli che comprende si spuntano da soli, con la dicitura *compreso*, e restano bloccati finché serve.
 - **Propri o tutti**: «creati da sé» vale per i clienti creati con il proprio account. Così si può dare a un collaboratore la gestione dei soli clienti che inserisce lui.

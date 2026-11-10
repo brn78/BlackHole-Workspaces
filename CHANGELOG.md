@@ -4,6 +4,52 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.213.0 · 10 novembre 2026
+
+**Novità**
+
+- **Assistenza, «Esporta»**: in ogni linguetta (Da fare, Laboratorio, Chiuse, Da fatturare) **Esporta** scarica le
+  richieste in Excel o in CSV: quelle mostrate con i filtri oppure tutte, con le colonne a scelta. Ogni linguetta propone
+  le sue; in «Da fatturare» sono quelle per l'amministrazione, al posto del vecchio «Scarica in CSV».
+- **Ricerca: scadenze dell'azienda e listini dei fornitori**: la ricerca generale trova le scadenze dell'azienda
+  (assicurazioni, DURC, certificazioni, rinnovi…), in una linguetta **Scadenze** con lo stato di ognuna, e i listini dei
+  fornitori per nome, fornitore e produttore. Il risultato apre la scheda della scadenza o il listino, dove si cercano
+  gli articoli.
+- **Consuntivo dell'assistenza**: la colonna **Costo** mostra il costo della riga (quantità per costo di un'unità, con
+  l'unitario scritto sotto), da confrontare con l'importo accanto. La somma della colonna è il costo del consuntivo.
+
+**Correzioni**
+
+- **Rubrica**: importando un file, i contatti che vedi perché li condivide un collega non risultano più «nuovi»: sono
+  «già in rubrica», con scritto da chi sono condivisi, e non nascono doppioni. «Aggiungi i dati nuovi» vale per i tuoi
+  contatti, «Creali comunque» ne fa una copia tua.
+- **Importa fornitori**: la finestra parla di fornitori («Fornitori condivisi», «Importa 2 fornitori») e non più di
+  clienti.
+- **Ricerca**: una parola trovata in una scadenza, in un listino o in una manutenzione programmata non fa più comparire
+  un «Forse cercavi» fuori luogo.
+
+## 1.212.3 · 10 novembre 2026
+
+Una giornata d'ufficio provata per intero sui dati dimostrativi (dalla richiesta di assistenza alla prima nota,
+dall'ordine al fornitore alle giacenze), con ogni elenco esportato e reimportato e ogni scheda cercata nella ricerca
+generale. Corretto quello che è uscito.
+
+**Correzioni**
+
+- **Rubrica**: l'importazione da un foglio con la colonna delle etichette restava ferma su «Lettura del file…».
+- **CSV esportati e reimportati**: i telefoni che iniziano con «+39» tornavano con un apostrofo davanti, e il contatto
+  non veniva riconosciuto come già presente.
+- **Password**: reimportare lo stesso file raddoppiava le voci. Ora quelle già presenti, uguali, si saltano, e
+  l'anteprima dice quante sono.
+- **Giacenze**: il foglio esportato si reimporta per un inventario senza scegliere le colonne a mano.
+- **Clienti e fornitori**: l'Excel esportato con tutte le colonne si reimporta così com'è, come il CSV.
+- **Ricerca**: le manutenzioni programmate si trovano anche quando non hanno ancora un rapporto.
+- **Assistenza**: nel consuntivo della scheda i pulsanti non finiscono più sopra il titolo, e matita e cestino restano
+  in vista.
+
+Provati in Firefox anche la stampa, il caricamento dei file e i trascinamenti: nessun difetto. Nei dati dimostrativi
+gli indirizzi di rete degli esempi sono tutti nella rete 192.168.1.x.
+
 ## 1.212.2 · 9 novembre 2026
 
 **Correzioni**

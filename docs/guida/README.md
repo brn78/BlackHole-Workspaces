@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.213.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.217.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -201,6 +201,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Codici a barre ed etichette](listino.md#listino-codici)
    - [Costo e prezzo](listino.md#listino-prezzi)
    - [Categorie e ricarico predefinito](listino.md#listino-categorie)
+   - [Listini riservati ai clienti](listino.md#listino-riservati)
    - [Aliquote IVA](listino.md#listino-iva)
    - [Manodopera dal personale](listino.md#listino-manodopera)
    - [Più voci insieme](listino.md#listino-insieme)
@@ -242,6 +243,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Le fatture](vendite.md#vendite-fatture)
    - [Vendita al banco](vendite.md#vendite-banco)
    - [Incassi e solleciti](vendite.md#vendite-incassi)
+   - [Note di credito: rate che si chiudono, compensazioni e rimborsi](vendite.md#vendite-note-credito)
    - [Recupero crediti](vendite.md#vendite-crediti)
    - [La fattura elettronica](vendite.md#vendite-sdi)
    - [Invio diretto allo SDI con la PEC](vendite.md#vendite-pec)
@@ -516,7 +518,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Accesso remoto](impostazioni.md#impostazioni-remoto)
    - [Modelli tra server (esporta e importa)](impostazioni.md#impostazioni-modelli)
 60. [Profilo e sicurezza](profilo.md)
-   - [Aspetto: tema, colore, sfondo, densità, ombre e carattere](profilo.md#profilo-aspetto)
+   - [Aspetto: tema, colore, sfondo, densità, righe degli elenchi, ombre e carattere](profilo.md#profilo-aspetto)
    - [Nel calendario del telefono](profilo.md#profilo-calendario)
 61. [Server e installazione](server.md)
    - [Installazione](server.md#server-installazione)

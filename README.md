@@ -66,7 +66,8 @@ Richieste dei clienti con priorità e scadenze, interventi pianificati, laborato
 consuntivo e fatturazione, reperibilità con turni, cambi e avvisi fuori orario.
 
 **💶 Commerciale e amministrazione**<br>
-Listino aziendale con ricarichi e storico dei prezzi, listini dei fornitori **METEL**, progetti dal primo contatto
+Listino aziendale con ricarichi e storico dei prezzi, **listini riservati** ai clienti (sconti, ricarichi e prezzi
+concordati), listini dei fornitori **METEL**, progetti dal primo contatto
 all'accettazione, **preventivi** con firma online
 del cliente, magazzino con furgoni e matricole, ordini e richieste d'offerta, DDT e **fatture elettroniche** (FatturaPA)
 inviate allo SDI con la PEC, **documenti per email in PDF** uguali alla stampa, fatture dei fornitori, incassi e
@@ -103,7 +104,8 @@ annunci e video, chat interna e notifiche anche su **Telegram**.
 Servizio di Windows con icona di stato, backup automatici cifrati, aggiornamento dalla piattaforma con l'avviso delle
 nuove versioni e l'avviso a chi è collegato, **sezioni del menu** da spegnere se l'azienda non le usa, verifica in due
 passaggi, registro attività, **modulistica controllata** (codice e revisione di ogni modulo, approvazione e registro
-delle stampe, per ISO 9001 e SOA), tema chiaro e scuro con colori e sfondi a scelta, app installabile sul telefono,
+delle stampe, per ISO 9001 e SOA), tema chiaro e scuro con colori e sfondi a scelta, elenchi a righe alternate, app
+installabile sul telefono,
 veloce anche con dieci anni di dati.
 
 </td>

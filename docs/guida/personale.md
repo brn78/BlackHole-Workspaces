@@ -2,7 +2,7 @@
 
 # <a id="personale"></a>Personale
 
-**Azienda → Personale** raccoglie le **persone dell'azienda**, anche quelle che non usano la piattaforma (per esempio chi lavora solo in cantiere): anagrafica, mansione e reparto, contratto, contatti, foto, [orario di lavoro, tariffa e costo](#personale-orario), e per ciascuno i **corsi** con gli attestati, i **documenti personali** e le **visite mediche**, ognuno con la sua scadenza. Il [catalogo](#personale-catalogo) dice quanto vale ogni corso e per quali mansioni è obbligatorio: così la piattaforma sa chi è in regola, che cosa sta per scadere e che cosa manca. La pagina compare a chi può **Vedere il personale** (vedi [Permessi](#personale-permessi)).
+**Anagrafiche → Personale** raccoglie le **persone dell'azienda**, anche quelle che non usano la piattaforma (per esempio chi lavora solo in cantiere): anagrafica, mansione e reparto, contratto, contatti, foto, [orario di lavoro, tariffa e costo](#personale-orario), e per ciascuno i **corsi** con gli attestati, i **documenti personali** e le **visite mediche**, ognuno con la sua scadenza. Il [catalogo](#personale-catalogo) dice quanto vale ogni corso e per quali mansioni è obbligatorio: così la piattaforma sa chi è in regola, che cosa sta per scadere e che cosa manca. La pagina compare a chi può **Vedere il personale** (vedi [Permessi](#personale-permessi)).
 
 ## <a id="personale-elenco"></a>L'elenco
 

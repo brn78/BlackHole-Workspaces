@@ -21,7 +21,7 @@ Le due pagine funzionano allo stesso modo. Le linguette **In uso** e **Dismessi*
 
 Per una scheda **nuova** niente si perde: un valore che non va (un tipo che non c'è, uno stato o un'alimentazione sconosciuti, una data o dei km illeggibili) non ferma la riga, finisce nelle **note** della scheda dopo «Da controllare:».
 
-Si importa nell'elenco aperto: dalla pagina Mezzi i mezzi, da Attrezzature le attrezzature. Il **tipo** si riconosce dal nome e porta le sue **scadenze proposte**, come in una scheda nuova (la revisione dalla data di immatricolazione, le scadenze a km dai km iniziali). C'è anche una colonna per ogni scadenza che i tipi propongono (**Revisione**, **Bollo**, **Assicurazione**, **Tagliando**…): la data della prossima o, per i mezzi, i km.
+Si importa nell'elenco aperto: dalla pagina Mezzi i mezzi, da Attrezzature le attrezzature. Il **tipo** si riconosce dal nome e porta le sue **scadenze proposte**, come in una scheda nuova (la revisione dalla data di immatricolazione, le scadenze a km dai km iniziali). C'è anche una colonna per ogni scadenza che i tipi propongono (**Revisione**, **Bollo**, **Assicurazione**, **Tagliando**…): la data della prossima o, per i mezzi, i km. Dalla 1.216.0 **Esporta** scrive anche la data d'acquisto e, per i mezzi, l'alimentazione, il gestore e la scadenza della carta carburante: un elenco esportato e importato su un'altra installazione li ritrova.
 
 ### Aggiornare i beni che ci sono già (dalla 1.196.0)
 

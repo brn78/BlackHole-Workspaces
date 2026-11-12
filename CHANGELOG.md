@@ -4,6 +4,117 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.217.0 · 12 novembre 2026
+
+**Novità**
+
+- **Righe alternate negli elenchi**: una riga sì e una no ha il fondo appena più scuro, così l'occhio segue la riga fino
+  in fondo anche con tante colonne. Vale per tutti gli elenchi a righe e per l'elenco dei Documenti; non per le
+  **Schede**, non sul telefono (dove ogni riga è già una scheda) e non nelle tabelle in cui si scrive, come le righe di
+  una fattura o di un ordine.
+- **«Righe alternate» nel menu della riga**: è l'ultima voce del menu che si apre con il tasto destro o con ⋯, con la
+  spunta quando sono accese. Toglierle o rimetterle vale per tutti gli elenchi, nel browser in uso, e un avviso lo
+  ricorda. La stessa scelta è in *Profilo → Aspetto*, alla voce **Righe degli elenchi**.
+- **Tasto destro sugli elenchi senza un menu loro**: sulle tabelle di sola lettura e sulle intestazioni delle colonne
+  mostra la voce **Righe alternate**.
+
+Nei dati dimostrativi c'è ora un listino riservato d'esempio, «Clienti fedeli», usato da due clienti.
+
+## 1.216.0 · 11 novembre 2026
+
+Il programma provato partendo da zero, su due installazioni nuove e senza dati: ogni pagina guardata vuota, i dati creati
+compilando i moduli uno per uno, ogni elenco esportato da una installazione e importato nell'altra. Corretto quello che è
+uscito.
+
+**Novità**
+
+- **Pagine vuote tutte uguali**: una pagina o una linguetta senza dati lo dice sempre allo stesso modo, in un riquadro,
+  con un titolo della stessa forma («Il laboratorio è vuoto», «Nessun indicatore») e una riga di spiegazione. Quando
+  sono la ricerca o i filtri a non trovare niente, il titolo è sempre «Nessun risultato».
+- **Cestini**: in tutte le pagine la stessa striscia grigia sopra l'elenco ricorda che gli elementi si eliminano da soli
+  dopo 30 giorni.
+- **IBAN**: nel conto corrente dell'azienda, nel mandato SDD e nella fattura l'IBAN viene controllato e messo in forma
+  mentre lo scrivi, come nelle schede dei clienti.
+- **Provincia**: si compila da sola anche scrivendo città e CAP a mano, quando la città ne ha una sola.
+- **Mezzi, «Esporta»**: il foglio ha anche la data di acquisto, l'alimentazione, il gestore e la scadenza della carta
+  carburante.
+
+**Correzioni**
+
+- **Avvisi delle operazioni**: comparivano sopra «Altro» e sopra il pulsante principale della pagina; in un preventivo,
+  dopo aver aggiunto due voci, «Salva» non si poteva premere finché non sparivano. Ora compaiono appena sotto.
+- **Valutazione del cliente**: un cliente appena creato, con il primo preventivo, risultava «Attenzione» perché non
+  aveva ancora lavori. Nel primo anno il lavoro si giudica solo quando c'è un fatturato o ci sono delle ore.
+- **Fornitori**: nel modulo del fornitore il campo si chiamava «Codice cliente».
+- **Maiuscole**: il nome della banca e il luogo di nascita del personale prendono le maiuscole come nelle altre schede.
+- **Nuovo impianto**: alla prima apertura il cursore finiva nella Sede invece che nel Cliente.
+- **Fatturazione, DDT**: senza documenti, il riquadro vuoto era tagliato e aveva una barra di scorrimento accanto.
+- **«Scegli più righe»**: con l'elenco vuoto resta al suo posto ma spenta.
+- **Contatori delle linguette**: mostrano lo zero anche in Multe, Pratiche, Magazzini, Nomine e Codici dei moduli, dove
+  restavano vuoti.
+- **Importazioni**: un preventivo ancora senza righe, esportato e reimportato, risultava «con errori» invece di «già
+  presente»; il riepilogo diceva «1 attività nuovo importato».
+
+## 1.215.0 · 11 novembre 2026
+
+Ogni pagina provata sui dati dimostrativi: i moduli riempiti con testi difficili (accenti, virgolette, emoji, parole
+lunghissime), le stampe misurate foglio per foglio e la contabilità ricalcolata da capo con un controllo indipendente.
+
+**Novità**
+
+- **Note di credito che chiudono le rate**: una nota di credito emessa si compensa da sola con le rate ancora aperte
+  della fattura stornata, dalla prima che scade. Prima quelle rate restavano da incassare nello scadenzario, nei
+  solleciti e nell'esposizione del cliente. Quello che avanza, se la fattura era già incassata, resta **Da
+  rimborsare**: si rimborsa oppure si compensa con un'altra fattura dello stesso cliente. Gli stati sono «Stornata»,
+  «Da rimborsare» e «Chiusa»; riportare in bozza la nota riapre le rate. Le note già emesse si sistemano al primo
+  avvio.
+- **Incassi e pagamenti**: le note di credito compaiono con il meno, con il totale «Da rimborsare»; il conto clienti
+  della contabilità coincide con lo scadenzario.
+
+**Correzioni**
+
+- **Importi**: un importo con il terzo decimale non viene più arrotondato di nascosto: va corretto prima di salvare
+  (incassi, rimborsi, compensazioni, scritture libere e di fine anno, pagamenti ai fornitori). «12 50» in un campo
+  importo non diventa più 1250. Poche rate su pochi centesimi non danno più una rata a zero.
+- **Campi obbligatori**: in tutti i moduli un campo obbligatorio lasciato vuoto si segnala allo stesso modo, con
+  l'avviso, il bordo rosso e il cursore sul campo.
+- **Stampa**: quando nel menu c'è una sola stampa per la linguetta, parte subito; se non c'è niente da stampare, lo
+  dice invece di non fare niente.
+- **Stampe con parole lunghissime**: un nome, un indirizzo email o un sito senza spazi allargava la tabella oltre il
+  foglio e le ultime colonne restavano fuori dalla carta (Clienti, Fornitori, Mezzi, Multe, Scadenze, Impianti,
+  Rapporti di manutenzione, Registro dei trattamenti). Ora la parola va a capo.
+- **Scissione dei pagamenti**: una fattura mai incassata non risulta più «Incassata in parte».
+
+## 1.214.1 · 10 novembre 2026
+
+**Novità**
+
+- **Personale in Anagrafiche**: nel menu la pagina Personale passa dall'area Azienda all'area Anagrafiche, dopo
+  Produttori, insieme a Clienti e Fornitori. Cambia solo il posto nel menu: la pagina, i permessi, i collegamenti e i
+  preferiti restano gli stessi.
+
+## 1.214.0 · 10 novembre 2026
+
+**Novità**
+
+- **Listini riservati ai clienti**: prezzi riservati ai clienti che fanno lavorare di più. Un listino riservato non
+  copia le voci del listino aziendale: ne tiene le regole e ricava ogni prezzo dal listino aziendale di quel momento,
+  così lo segue quando costi e prezzi cambiano.
+- **Regole**: uno sconto (anche in cascata, «10+5») sul prezzo di listino oppure un ricarico diverso sul costo, per
+  tutto il listino e per categoria; prezzi netti concordati sulle singole voci, che restano fermi; validità dal/al e
+  l'interruttore «In uso». Con lo sconto si sceglie come entra nei documenti: il prezzo di listino con lo sconto nella
+  sua colonna, oppure il prezzo già scontato.
+- **Dove vale**: nei preventivi, nelle vendite e nell'assistenza le voci arrivano già con il prezzo del cliente, con
+  scritto da dove viene. In un preventivo, **Altro › Prezzi del listino del cliente** riporta le righe già scritte ai
+  suoi prezzi. I documenti già fatti non cambiano.
+- **Dove si trovano**: **Listini riservati** in «Altro» della pagina del listino, con le linguette Regole, Prezzi
+  concordati e Clienti, un esempio con i numeri e **Duplica**. Nella scheda del cliente c'è il riquadro **Listino
+  riservato**; dalla pagina del listino si vedono, si stampano e si esportano i prezzi da dare al cliente. Ogni cliente
+  ha un solo listino riservato.
+- **Chi li vede**: chi vede il listino; li gestisce chi gestisce il listino. Ricarichi, costi e «sotto costo» solo a
+  chi vede i costi. Un listino riservato eliminato va nel cestino e si ripristina con regole e clienti.
+- **Assistenza**: la ricerca del materiale da mettere nel consuntivo è più rapida.
+
 ## 1.213.0 · 10 novembre 2026
 
 **Novità**

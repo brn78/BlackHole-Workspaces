@@ -109,6 +109,33 @@ Ogni categoria ha un **colore**, con il pallino accanto al nome: si sceglie nell
 
 Quando cambia un ricarico, o una categoria si sposta, i prezzi delle voci che lo seguono si ricalcolano e il cambio finisce nel loro storico. Eliminare una categoria non elimina le voci: le sue voci e le sue sottocategorie passano alla categoria sopra. In cima al riquadro c'è il **ricarico predefinito** con l'IVA proposta per le voci nuove; si cambia anche dal pulsante **Ricarico** della pagina.
 
+## <a id="listino-riservati"></a>Listini riservati ai clienti
+
+Un **listino riservato** serve per i clienti a cui fai prezzi diversi dal listino aziendale: un gruppo che fa lavorare tanto, i rivenditori, un cliente con un accordo quadro. Si aprono da **Altro** → **Listini riservati** della pagina del listino.
+
+Un listino riservato **non è una copia** del listino aziendale: tiene solo le regole e ricava ogni prezzo dal listino aziendale di quel momento. Quando un costo o un prezzo cambia (un listino nuovo del fornitore, un ricarico), il prezzo riservato lo segue da solo, e le voci non compaiono due volte nelle ricerche. Ha tre linguette:
+
+- **Regole**: il nome, come si ricava il prezzo e per quanto tempo vale. **Sconto sul prezzo di listino**: il cliente paga il prezzo del listino aziendale meno lo sconto, anche in cascata (10+5 vuol dire il 10 % e poi il 5 %). **Ricarico sul costo**: il prezzo si rifà dal costo con un ricarico più basso del solito; lo sceglie chi vede i costi. Sotto, le **regole per categoria**: una categoria con uno sconto (o un ricarico) diverso da quello generale, che vale anche per le sue sottocategorie; con lo sconto, **0** vuol dire che quella categoria non ha sconto anche se quello generale c'è, per esempio la manodopera. Un riquadro mostra un esempio con i numeri scritti.
+- **Prezzi concordati**: il prezzo netto trattato su una singola voce. Vince sulle regole e **resta fermo** anche quando il listino aziendale cambia, finché non lo cambi tu. Accanto si legge quanto dista dal prezzo di listino e, a chi vede i costi, se è sotto costo.
+- **Clienti**: chi ha questi prezzi. Per un gruppo con più società si aggiungono tutte. Ogni cliente ha un solo listino riservato: aggiunto qui, lascia quello che aveva.
+
+Per ogni voce vale, nell'ordine: il prezzo concordato, la regola della sua categoria (o della prima categoria sopra che ne ha una), la regola generale. Una voce senza nessuna regola, o senza costo quando la regola è un ricarico, resta al prezzo del listino aziendale.
+
+Con lo sconto si sceglie anche come entra **nei documenti**: **Listino e sconto** scrive nella riga il prezzo del listino aziendale con lo sconto nella sua colonna, così il cliente vede lo sconto che gli fai; **Prezzo già scontato** scrive solo il prezzo netto. I prezzi concordati e quelli dal ricarico sul costo entrano sempre come prezzo netto.
+
+Da quel momento, quando scegli quel cliente in un [preventivo](preventivi.md#preventivi-righe), in un [DDT](vendite.md#vendite-ddt) o in una [fattura](vendite.md#vendite-fatture), o registri un intervento dell'[assistenza](assistenza.md#assistenza-consuntivo), le voci prese dal listino arrivano già con il suo prezzo: nella ricerca si legge da quale listino riservato viene. Vale anche per la manodopera e le prestazioni, quindi si può riservare una tariffa oraria. Nei preventivi vale anche per gli articoli presi dai listini dei fornitori: con lo sconto prendono lo sconto generale, con il ricarico il ricarico generale (a meno che il preventivo abbia un ricarico suo). I documenti già scritti non cambiano: tengono i prezzi che avevano.
+
+Le date **Valido dal** e **Valido fino al** sono facoltative: prima e dopo il listino riservato non si applica e i suoi clienti hanno i prezzi del listino aziendale. Lo stesso con l'interruttore **In uso** spento. Nell'elenco ogni listino riservato ha la pillola del suo stato: in vigore, spento, non ancora valido, scaduto.
+
+Per **vedere, stampare o esportare** i prezzi di un listino riservato, nella barra dell'elenco del listino scegli il suo nome al posto di «Prezzi del listino aziendale»: la colonna **Prezzo** mostra il prezzo riservato con sotto da dove viene (concordato, categoria, regola generale) e il prezzo di listino; chi vede i costi ha il ricarico che resta e i prezzi sotto costo in rosso. **Stampa** e il CSV escono con quei prezzi e con il nome del listino riservato: è il listino da dare al cliente.
+
+**Duplica** apre un listino riservato nuovo con le stesse regole e gli stessi prezzi concordati, senza i clienti: per un altro cliente basta cambiare le percentuali. Un listino riservato eliminato va nel [cestino](cestino.md): per 30 giorni si ripristina com'era, con i suoi clienti. Un listino riservato si trova anche dalla [ricerca](ricerca.md) generale con il suo nome, e con la stella in alto nella scheda va tra i preferiti.
+
+Il listino riservato si sceglie anche dalla **scheda del cliente**, nella linguetta Anagrafica: il riquadro **Listino riservato** dice quale ha e, con **Cambia**, se ne sceglie un altro, se ne crea uno per lui o si torna al listino aziendale. Lì la scelta si salva subito.
+
+> [!TIP]
+> Un preventivo nato da un modello o da una copia ha i prezzi di quando è stato scritto. Per portare le sue righe ai prezzi del cliente: **Altro** → **Prezzi del listino del cliente**. Cambiano solo le righe prese dal listino; quelle scritte a mano restano come sono.
+
 ## <a id="listino-iva"></a>Aliquote IVA
 
 **Aliquote IVA**, dalla pagina del listino, elenca le aliquote che scelgono le voci del listino, le righe dei preventivi e le righe delle fatture. Dalla scelta dell'IVA di una voce o di una riga si crea un'aliquota nuova con **Nuova aliquota…** e si gestisce l'elenco con **Gestisci l'elenco… (F2)**, senza chiudere la scheda. Ognuna ha:
@@ -171,9 +198,9 @@ Costi e ricarichi sono dati riservati: la pagina e i suoi dati li vede solo chi 
 
 | Permesso | Consente |
 | --- | --- |
-| Vedere il listino | Le voci con il prezzo di vendita e l'IVA, lo storico dei prezzi senza i costi, gli articoli dei listini dei fornitori con il prezzo al pubblico. Niente costi, sconti, ricarichi né margini. |
-| Costi e ricarichi del listino | In più: costi, prezzi di listino e sconti dei fornitori, ricarichi e margini, la stampa con i costi. |
-| Gestire il listino | Creare, modificare ed eliminare voci e categorie, cambiare ricarichi e prezzi anche di più voci insieme, importare i listini dei fornitori e scriverne gli sconti. |
+| Vedere il listino | Le voci con il prezzo di vendita e l'IVA, lo storico dei prezzi senza i costi, gli articoli dei listini dei fornitori con il prezzo al pubblico, i listini riservati con i loro sconti e i loro prezzi. Niente costi, sconti dei fornitori, ricarichi né margini. |
+| Costi e ricarichi del listino | In più: costi, prezzi di listino e sconti dei fornitori, ricarichi e margini, la stampa con i costi, i ricarichi dei listini riservati e i loro prezzi sotto costo. |
+| Gestire il listino | Creare, modificare ed eliminare voci e categorie, cambiare ricarichi e prezzi anche di più voci insieme, importare i listini dei fornitori e scriverne gli sconti, creare i listini riservati e dare a un cliente il suo. |
 
 ---
 

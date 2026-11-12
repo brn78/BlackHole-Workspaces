@@ -10,6 +10,13 @@ Usa [Password dimenticata](accesso.md#accesso-recupero); se la posta non è conf
 </details>
 
 <details>
+<summary><b>Il cliente ha un listino riservato, ma la riga ha il prezzo del listino aziendale</b></summary>
+
+Controlla tre cose nel [listino riservato](listino.md#listino-riservati): che sia **in vigore** (interruttore «In uso» acceso e data di oggi dentro la validità), che il cliente sia tra i suoi **Clienti**, e che la voce abbia una regola: senza sconto generale, senza regola della sua categoria e senza prezzo concordato resta al prezzo del listino aziendale. Le righe scritte prima non cambiano da sole: nel preventivo si aggiornano con **Altro** → **Prezzi del listino del cliente**.
+
+</details>
+
+<details>
 <summary><b>Ho perso il telefono con l'app dei codici</b></summary>
 
 Usa un codice di recupero. Se non li hai, un amministratore può **reimpostare** la tua verifica in due passaggi dalla scheda dell'utente, sezione Sicurezza.

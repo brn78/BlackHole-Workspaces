@@ -4,6 +4,28 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.217.5 · 13 novembre 2026
+
+Ritocchi dell'interfaccia nati dall'uso di tutti i giorni: l'Archivio di rete e l'editor dei modelli di stampa.
+
+**Novità**
+
+- **Archivio di rete**: il percorso della cartella non sta più nella barra dell'elenco, che torna uguale a quella degli
+  altri elenchi, ma nella fascia sopra: la cartella dell'archivio in grassetto e una freccia tra una cartella e
+  l'altra, fino a quella aperta. Davanti ci sono le frecce per spostarsi: **Indietro** e **Avanti** tra le cartelle già
+  aperte (anche dopo essere entrati da un risultato della ricerca nelle sottocartelle) e **Su di un livello**. A destra,
+  nella stessa fascia, lo stato dell'indice.
+- **Modelli di stampa**: l'anteprima dei fogli resta a vista accanto alle impostazioni mentre si scorre il pannello;
+  prima spariva dopo la prima schermata.
+
+**Correzioni**
+
+- **Modelli di stampa, intestazione**: caselle e campi in ordine (logo, dati dell'azienda, poi posizione e altezza del
+  logo sulla stessa riga). Senza intestazione le sue scelte si nascondono; l'altezza del logo si vede solo con il logo.
+- **Modelli di stampa, busta con la finestra**: con «Nessuna busta con la finestra» le misure e le caselle della busta
+  non restano più a vista; su carta intestata non compare più la sezione dell'intestazione, che lì non serve.
+- **Voce da testo**: il titolo proposto per un audio non ha più spazi doppi al posto di una pausa.
+
 ## 1.217.4 · 13 novembre 2026
 
 Chiuse le questioni rimaste aperte dopo la quarta prova e fatta una quinta ondata di sedici utenti simulati sulle funzioni

@@ -16,7 +16,7 @@ Sotto le linguette si sceglie **Tutte**, solo il **Personale**, solo **Mezzi e a
 
 **Nuova scadenza**, per chi può **Gestire le scadenze dell'azienda**: che cosa scade (per esempio *Certificazione UNI EN ISO 9001 – sorveglianza annuale*, *Attestazione SOA – verifica triennale*, *DURC*, *Polizza RC*), la categoria, l'azienda del gruppo, la data, **ogni quanto si ripete** (una volta sola, ogni mese, 3, 4 o 6 mesi, ogni anno, 2, 3 o 5 anni, oppure un numero di mesi a scelta), il preavviso in giorni e le note.
 
-- **Fatta**, con la data e una nota (per esempio il numero della nuova polizza): una scadenza che si ripete passa da sola alla **successiva** (la data più il periodo, fino a superare il giorno in cui è stata fatta); una che non si ripete si **chiude** e resta nella linguetta Dell'azienda, con **Riapri**.
+- **Fatta**, con la data e una nota (per esempio il numero della nuova polizza): una scadenza che si ripete passa da sola alla **successiva** (la data più il periodo, fino a superare il giorno in cui è stata fatta); una che non si ripete si **chiude** e resta nella linguetta Dell'azienda, con **Riapri**. I promemoria ancora da leggere di quella scadenza si segnano letti da soli, per tutti.
 - Lo **storico** della scadenza ricorda quando è stata creata, cambiata e fatta, da chi e con quale nota.
 
 ## <a id="scadenze-da-testo"></a>Una scadenza da un testo

@@ -4,6 +4,40 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.217.4 · 13 novembre 2026
+
+Chiuse le questioni rimaste aperte dopo la quarta prova e fatta una quinta ondata di sedici utenti simulati sulle funzioni
+ancora mai usate. Nessun errore del server; corretto quello che è uscito.
+
+**Novità**
+
+- **Ferie e permessi**: chi gestisce le presenze può approvare anche una propria richiesta (nelle aziende piccole è
+  spesso l'unico che può), ma resta scritto: accanto allo stato compare «decisa da chi l'ha chiesta», e così nello
+  storico della richiesta, nella stampa e nel registro. Vale anche per le richieste già decise in questo modo.
+  Nell'elenco, sotto lo stato, ora si legge anche chi ha deciso.
+- **Scadenze**: con «Fatta» i promemoria di quella scadenza che qualcuno aveva ancora da leggere nella campanella si
+  segnano letti da soli, per tutti.
+- **Elenchi senza risultati**: quando nella casella di ricerca c'è del testo, sotto «Nessun risultato» compare
+  «Togli la ricerca», che riporta all'elenco intero.
+- **Menu «Altro»**: una voce che apre un secondo menu lo dice con i puntini («Stampa…»).
+
+**Correzioni**
+
+- **Aziende del gruppo**: nella scheda di una nuova azienda del gruppo mancava il campo «Ragione sociale», e l'azienda
+  non si poteva creare.
+- **Date con l'anno scritto male** (1926, 2126): ora vengono rifiutate, con gli anni accettati nel messaggio, anche
+  negli ordini ai fornitori e nelle richieste d'offerta (un ordine del 1926 prendeva il numero dell'anno 1926), nella
+  scadenza di una password, nelle ferie e nei permessi, nel registro della privacy e nell'inizio del trasporto di un DDT.
+- **Valori che sparivano senza una parola**: le ore negative di un corso, i colli e il peso di un DDT fuori misura, il
+  moltiplicatore zero di un indicatore ora vengono segnalati, invece di essere tolti o cambiati in silenzio.
+- **Messaggi più chiari**: fido, valore stimato di un'opportunità, tariffa e costo orario, ore di chi ha lavorato in un
+  intervento, spese di un intervento, scrittura contabile con le righe a zero, risposta attesa di una richiesta
+  d'offerta dicono il campo e il limite. I messaggi sulle date non hanno più errori di concordanza.
+- **Mezzi**: i km negativi vengono fermati subito, prima della domanda «Meno km di prima?», che poi finiva in un errore.
+- **Voce da testo**: il nome proposto per il file non ha più il doppio punto prima dell'estensione.
+- **Cestino**: la pagina ricorda che anche la Rubrica ha il suo cestino nella propria pagina.
+- **Aggiornamento del programma**: il riquadro dice quando la versione installata è più recente dell'ultima pubblicata.
+
 ## 1.217.3 · 13 novembre 2026
 
 Una quarta prova con sedici utenti simulati, questa volta sulle funzioni che nelle prove precedenti nessuno aveva usato e

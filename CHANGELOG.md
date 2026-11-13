@@ -4,6 +4,104 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.217.3 · 13 novembre 2026
+
+Una quarta prova con sedici utenti simulati, questa volta sulle funzioni che nelle prove precedenti nessuno aveva usato e
+con le «prove cattive»: valori assurdi, doppi clic, cose eliminate mentre sono in uso, file sbagliati nelle importazioni,
+due persone sulla stessa scheda. Nessun errore del server; corretto quello che è uscito.
+
+**Novità**
+
+- **Arrivo merce**: se arriva più merce di quella che l'ordine aspetta ancora, prima di registrare il programma chiede
+  conferma con l'elenco delle voci in più.
+- **File vuoti**: ovunque si scelga o si trascini un file di 0 byte compare un avviso con il suo nome. Di solito vuol
+  dire che la copia non è riuscita.
+- **Assistenza**: chiudendo o annullando una richiesta, l'attività con cui l'intervento era pianificato si chiude da
+  sola, e nei suoi commenti resta scritto perché.
+
+**Correzioni**
+
+- **Personale**: un tipo di corso, documento o visita creato dopo aver aperto la scheda di una persona non compariva nel
+  menu; riaprendo una voce di quel tipo, al salvataggio ne veniva scritto un altro.
+- **DDT**: una quantità negativa creava ed emetteva il documento con il totale sotto zero. In un DDT le quantità sono
+  positive; nelle fatture le righe negative restano ammesse.
+- **Documenti**: la ricerca dell'elenco non ignorava gli accenti e le maiuscole accentate.
+- **Importazioni**: un'immagine o un PDF, anche con il nome cambiato in `.csv`, diventavano righe di simboli da abbinare
+  alle colonne. Ora il programma li riconosce e lo dice, in tutte le importazioni e nell'estratto conto della Banca.
+- **Valori incoerenti**: ora vengono rifiutati, con un messaggio che dice il limite, la dismissione di un cespite prima
+  dell'entrata in funzione, la consegna di un ordine prima della sua data, una riga del consuntivo dell'assistenza con
+  quantità zero, i punti della patente fuori da 0-15, un compleanno con l'anno impossibile, una soglia negativa nel
+  Monitoraggio, il periodo di un rateo che finisce prima di cominciare.
+- **Pratiche**: una pratica chiusa o respinta mostrava ancora in rosso i giorni di ritardo dei passi rimasti.
+- **Utenti**: per un nome utente già usato l'avviso offriva «Crea comunque», che poi non riusciva.
+- **Messaggi**: più chiari quelli della quantità troppo grande negli ordini, del ricarico fuori dai limiti,
+  dell'eliminazione di un intervento e dell'annullamento di un ordine.
+
+## 1.217.2 · 12 novembre 2026
+
+Una terza prova con sedici utenti simulati, un amministratore compreso, che hanno eseguito sezione per sezione le
+procedure della guida.
+
+**Novità**
+
+- **Archivio di rete, «Anche nelle sottocartelle»**: una spunta accanto alla ricerca. Il nome si cerca nella cartella
+  aperta e in tutto ciò che contiene, a qualsiasi profondità, e ogni risultato dice in quale sottocartella si trova.
+- **Archivio di rete, DWG e vecchi file di Office**: si aprono nel visualizzatore come nei Documenti, il DWG nel
+  visualizzatore dei disegni e DOC, XLS, PPT e simili in PDF. Il file di rete non viene toccato.
+- **Mezzi**: chi vede i mezzi senza gestirli non legge più chi guidava, l'addebito e le note di una multa, né il numero
+  intero della carta carburante.
+- **Commesse**: «Stima a finire» e «Ore fatte e stimate» dicono che cosa misurano; con le attività tutte finite e lo
+  stato ancora aperto la pagina lo fa notare.
+- **Personale**: salvando la data di cessazione, un avviso dice subito che cosa la persona ha ancora in consegna e se il
+  suo utente è ancora abilitato.
+- **Documenti**: un file vuoto chiede conferma prima di essere caricato.
+- **Contabilità**: una scrittura libera su un conto dell'IVA avvisa che non entra nei registri IVA.
+
+**Correzioni**
+
+- **Contabilità, Andamento**: il totale di «Dove vanno i costi» era al netto delle rettifiche (rimanenze finali,
+  risconti) e non tornava con le voci mostrate. Ora torna, con una riga per le rettifiche e il netto dell'anno.
+- **Assistenza**: chiudendo una richiesta, l'attività pianificata restava da fare al tecnico.
+- **Listino**: reimportando il file appena esportato, le voci con il prezzo calcolato dal ricarico diventavano a prezzo
+  fisso e risultavano aggiornate senza alcun cambiamento.
+- **Ordini fornitori**: nella linguetta Fornitori l'acquistato perdeva un centesimo rispetto all'ordinato.
+- **Clienti**: l'avviso delle schede simili scattava per le sedi chiamate «Sede», «Magazzino» o «Ufficio»; le iniziali
+  non prendono più parentesi e altri segni.
+- **Indicatori**: il valore si arrotonda ai decimali della misura, uguale in tutte le pagine.
+- **Rubrica**: l'importazione di un CSV qualunque va subito alla scelta delle colonne.
+- **Telefono**: la linguetta «Primi passi» resta intera, con il nome, sugli schermi da toccare.
+- **Ricerca**: lo stato di un DDT è lo stesso della sua pagina (Da fatturare, Fatturato).
+- **Piccole cose**: il numero sulle linguette della Fatturazione dice che cosa conta; il numero del registro delle
+  stampe c'è anche prima di aprirne la linguetta; gli interruttori senza testo hanno un nome per il lettore di schermo.
+
+## 1.217.1 · 12 novembre 2026
+
+Due prove con sedici utenti simulati, ognuno con il suo ruolo e un browser vero, e con il carico di 150 utenti insieme.
+Nessun errore del server in nessuna delle due; dopo le correzioni il 95% delle risposte arriva entro 44 millisecondi.
+
+**Correzioni**
+
+- **Fatturazione**: il riquadro «Scaduto» sommava tutto il residuo delle fatture con una rata scaduta, comprese le rate
+  non ancora scadute. Ora somma le sole rate scadute, come Incassi e pagamenti e la Home.
+- **Scadenze**: una nota di credito ancora da rimborsare compariva come un incasso da ricevere.
+- **Preventivi**: nella finestra «Rifiutato dal cliente» la conferma finiva in «Altro» e a vista restava solo «Annulla».
+- **Senza rete**: un problema della copia sul dispositivo veniva trattato come mancanza di rete, e la pagina restava su
+  «Senza rete» finché non si cancellavano i dati del sito.
+- **Utenti**: creando più utenti di seguito i salvataggi dei colleghi restavano fermi per qualche secondo.
+- **Home**: «Commesse in corso» contava anche le pianificate.
+- **IBAN**: nelle fatture e nelle impostazioni delle vendite si controllava solo la forma; ora una cifra sbagliata non
+  passa.
+- **Liquidazioni IVA chiuse**: dicevano «0 vendite · 0 acquisti» accanto agli importi.
+- **Bilancio CEE**: quando un conto movimentato non ha la voce del bilancio, la pagina dice quali conti sono rimasti
+  fuori e per quale importo.
+- **Cartelle riservate**: scegliendo chi vede una cartella senza accendere l'interruttore, le scelte si perdevano e la
+  cartella restava visibile a tutti. Ora scegliere chi la vede la riserva.
+- **Telefono**: una finestra con molte scelte usciva dallo schermo.
+- **Ordini a fornitore**: «Riapri» compariva anche su un ordine arrivato del tutto.
+- **Esportazioni**: i numeri di telefono che iniziano con «+» uscivano con un apostrofo davanti.
+- **Messaggi**: corretti alcuni testi di Personale, Ordini e Commesse.
+- **Più veloce con tante persone collegate**: le pagine aperte chiedono le novità al server molto meno spesso.
+
 ## 1.217.0 · 12 novembre 2026
 
 **Novità**

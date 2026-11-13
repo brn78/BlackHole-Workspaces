@@ -11,7 +11,7 @@
 
 Le linguette **In servizio** e **Dismessi** elencano gli impianti che vedi: in evidenza il **cliente** (l'impianto è suo), sotto il nome dell'impianto con il tipo (anche nel colore dell'icona), poi la sede, le commesse collegate e la data di installazione. La ricerca trova nome, cliente, sede, tipo e commesse; il filtro mostra un tipo, o quelli senza tipo. In alto **Nuovo impianto** e, in **Altro**, **Stampa**, **Tipi di impianto** (l'elenco dei [tipi](#impianti-tipi)) e **Modelli delle schede tecniche** (i [modelli](#impianti-modelli)). Un clic su un impianto apre la sua **pagina**:
 
-- in testa cliente (un clic apre la sua scheda), sede, tipo, stato, data di installazione e le **commesse** collegate, con i pulsanti **Condividi** (un link alla [documentazione dell'impianto](condivisioni.md#condivisioni-impianto), anche come etichetta con il QR code), **Stampa** (scheda, Leggimi e interventi), **Elimina**, **⋯** (nuovo intervento, **Apri in Documenti**, scheda del cliente, **Duplica**) e **Modifica**;
+- in testa cliente (un clic apre la sua scheda), sede, tipo, stato, data di installazione e le **commesse** collegate, con il pulsante **Modifica** e, in **Altro**, **Condividi** (un link alla [documentazione dell'impianto](condivisioni.md#condivisioni-impianto), anche come etichetta con il QR code), **Stampa** (scheda, Leggimi e interventi), nuovo intervento, **Apri in Documenti**, scheda del cliente, **Duplica** ed **Elimina**;
 - **Leggimi**: quello che serve sapere prima di intervenire;
 - **Scheda tecnica**: i [dati tecnici](#impianti-scheda-tecnica) dell'impianto, parte per parte (EVAC, TVCC…), con i dispositivi;
 - **Interventi**: le [attività collegate](#impianti-interventi), con il numero di quelle ancora aperte;

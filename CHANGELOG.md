@@ -4,6 +4,55 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.218.0 · 14 novembre 2026
+
+Riviste tutte le funzioni che leggono un file, con l'assistente e senza. Chi carica un documento ora vede sempre che
+cosa sta succedendo e quanto manca; e dove il documento ha già una tabella, le righe arrivano subito, senza aspettare
+l'assistente.
+
+**Novità**
+
+- **Tabelle senza assistente**: quando un documento ha la tabella delle voci, la scelta pronta è **Usa la tabella**: le
+  righe arrivano in un attimo, con le colonne riconosciute e i codici separati dalla descrizione. «Leggi con
+  l'assistente» resta la seconda scelta, pagina per pagina. Vale in tutte le importazioni da PDF e in *Preventivi → Da
+  un'offerta del fornitore*.
+- **Scansioni e foto in tabella**: un PDF scansionato o la foto di un documento non vengono più rifiutati perché «senza
+  testo». Il riconoscimento del testo dà le parole con la loro posizione, e righe e colonne si ricavano come da un PDF
+  normale. Parte da solo quando almeno metà delle pagine non ha testo.
+- **L'attesa a vista**: ogni proposta dell'assistente e ogni riconoscimento del testo aprono la stessa finestra. Dice
+  che cosa sta succedendo (in coda dietro un'altra richiesta, avvio del modello, lettura del testo, righe già scritte),
+  da quanto si aspetta e quanto dura di solito, e ha **Ferma**. Con l'assistente sul server una proposta può durare
+  minuti: adesso si vede, invece di un pulsante che gira.
+- **Riquadro dei file uguale ovunque**: «Scegli il file o trascinalo qui», con i formati accettati scritti sotto, in
+  tutte le finestre che chiedono un file. Il file si può lasciare in qualunque punto della finestra; se è del tipo
+  sbagliato viene detto subito; lasciato fuori da un riquadro non si apre più nel browser al posto della piattaforma.
+- **Fogli Excel fatti come un documento**: la riga con i nomi delle colonne viene trovata anche sotto un'intestazione
+  (titolo, cliente, data), i nomi scritti su due righe si uniscono, i dati scritti sopra la tabella diventano colonne e
+  le righe vuote o a zero si saltano.
+- **Offerta del fornitore nel preventivo**: accetta PDF, scansioni, foto, Excel e CSV. Se il codice è scritto
+  all'inizio della descrizione una casella lo separa; una riga senza quantità entra con 1 e un avviso; le righe dei
+  totali restano fuori.
+- **«Da un testo»** (clienti, mezzi, attività, pratiche, scadenze, preventivi): il testo si può prendere anche da un
+  file Excel, Word o di testo. Un testo più lungo di quanto il modello riesce a leggere non è più un errore:
+  l'assistente ne legge la prima parte e una nota lo dice.
+- **Importazioni, colonne riconosciute meglio**: più nomi di colonna capiti da soli nei listini e nelle anagrafiche
+  (codice articolo, prezzo unitario, listino al pubblico, quantità minima…), prima i nomi esatti e poi quelli simili;
+  letti anche i CSV separati dalla barra verticale. Un cliente o un fornitore scritto come «Nome - Codice» o
+  «Nome (Codice)» viene riconosciuto.
+- **Impostazioni → Assistente AI**: la prova ora dice la velocità del motore e i tempi da aspettarsi per una scheda e
+  per un documento.
+- **Posta → Crea dal messaggio** (richiesta di assistenza, attività, preventivo, scadenza): mentre l'assistente legge il
+  messaggio si può scegliere «Compila senza l'assistente» e proseguire subito con oggetto, testo e cliente.
+
+**Correzioni**
+
+- **Mezzo da un libretto**: targa, telaio e alimentazione si leggono direttamente dal testo, dove hanno una forma
+  fissa; l'assistente compila il resto. Prima poteva sbagliarli.
+- **Cliente da un testo**: un numero di iscrizione non finisce più tra i telefoni e la PEC non viene ripetuta tra le
+  email.
+- **Proposte lunghe con l'assistente sul server**: hanno più tempo prima di essere fermate, e una richiesta in coda
+  dice che sta aspettando il suo turno.
+
 ## 1.217.5 · 13 novembre 2026
 
 Ritocchi dell'interfaccia nati dall'uso di tutti i giorni: l'Archivio di rete e l'editor dei modelli di stampa.

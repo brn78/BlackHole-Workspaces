@@ -93,7 +93,8 @@ lettura.
 
 **🤖 Assistente AI**<br>
 Locale sul server oppure in cloud (Claude, OpenAI, Gemini): migliora i testi, compila le schede da un testo o da un PDF,
-legge i documenti con l'OCR, risponde con la guida.
+legge i documenti con l'OCR, risponde con la guida. Mentre lavora si vede che cosa sta facendo e quanto manca; le
+tabelle di PDF, scansioni e fogli Excel si leggono anche senza di lui.
 
 **🧰 Strumenti**<br>
 Monitoraggio di dispositivi e siti con la topologia, perdita e jitter, scanner della rete locale con IPv6, porte e
@@ -193,8 +194,8 @@ per provarla. Le novità di ogni versione sono nel [registro delle versioni](CHA
    l'amministratore, crealo dal browser sul PC del server (`http://localhost:5180`).
 3. **Crea gli utenti** da *Sistema → Utenti* e dai i permessi con gruppi e policy (ci sono policy già pronte per i ruoli
    più comuni).
-4. **Porta i dati**: clienti, personale, mezzi, listini e password si importano da Excel, CSV o PDF; i *Primi passi* di
-   ogni pagina guidano il resto.
+4. **Porta i dati**: clienti, personale, mezzi, listini e password si importano da Excel, CSV o PDF, anche
+   scansionati; i *Primi passi* di ogni pagina guidano il resto.
 
 Tutti i dettagli sono nella [guida utente](docs/guida/server.md).
 

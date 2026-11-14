@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.217.5**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.218.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -460,10 +460,11 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Quando disturbarmi](notifiche.md#notifiche-quando)
    - [Preferenze](notifiche.md#notifiche-preferenze)
 46. [Assistente AI](assistente-ai.md)
+   - [L'attesa: che cosa sta facendo l'assistente](assistente-ai.md#assistente-attesa)
    - [Fare una domanda](assistente-ai.md#assistente-chat)
    - [Le modalità](assistente-ai.md#assistente-modalita)
    - [Migliora testo nei moduli](assistente-ai.md#assistente-moduli)
-   - [Importare da un PDF](assistente-ai.md#importare-pdf)
+   - [Importare da un PDF, una scansione o una foto](assistente-ai.md#importare-pdf)
    - [Riservatezza e limiti](assistente-ai.md#assistente-riservatezza)
 47. [Sistema](sistema.md)
 48. [Utenti](utenti.md)

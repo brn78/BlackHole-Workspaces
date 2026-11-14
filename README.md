@@ -48,7 +48,8 @@ password cifrata con le cartelle aziendali e i codici della verifica in due pass
 importata dal telefono (vCard, CSV di Google), con le foto, che diventa cliente in un clic, e la **posta** come in
 Outlook: caselle IMAP o POP3 personali o condivise, tre visualizzazioni, messaggi da trascinare sulle cartelle e da
 scrivere con le immagini, richieste, attività e preventivi creati da un messaggio, la PEC con le ricevute, l'archivio
-compresso che entra nei backup.
+compresso che entra nei backup. Con <kbd>Ctrl</kbd>+<kbd>K</kbd> si cerca in tutta la piattaforma e si crea («nuovo
+preventivo»); i filtri di un elenco si salvano con un nome e si ritrovano a un clic.
 
 **🏢 Clienti e fornitori**<br>
 Un'anagrafica sola con ruoli, contatti privati o condivisi, gruppi e categorie, **importazione ed esportazione
@@ -93,8 +94,9 @@ lettura.
 
 **🤖 Assistente AI**<br>
 Locale sul server oppure in cloud (Claude, OpenAI, Gemini): migliora i testi, compila le schede da un testo o da un PDF,
-legge i documenti con l'OCR, risponde con la guida. Mentre lavora si vede che cosa sta facendo e quanto manca; le
-tabelle di PDF, scansioni e fogli Excel si leggono anche senza di lui.
+legge i documenti con l'OCR, risponde con la guida. Mentre lavora si vede che cosa sta facendo e quanto manca. Ogni
+funzione che legge un testo o un documento si usa in **due modi**: subito, senza assistente (tabelle di PDF, scansioni
+e fogli Excel, e i dati che si riconoscono dalla forma), oppure con l'assistente.
 
 **🧰 Strumenti**<br>
 Monitoraggio di dispositivi e siti con la topologia, perdita e jitter, scanner della rete locale con IPv6, porte e

@@ -21,7 +21,7 @@ Sotto le linguette si sceglie **Tutte**, solo il **Personale**, solo **Mezzi e a
 
 ## <a id="scadenze-da-testo"></a>Una scadenza da un testo
 
-Dalla 1.123.0, con l'[assistente AI](assistente-ai.md) attivo, **✨ Da un testo** (in alto nella pagina Scadenze, per chi gestisce le scadenze dell'azienda) apre un pannello dove incollare la **polizza**, il **certificato**, il **contratto** o l'**avviso** di un ente (anche da un PDF o da una scansione, con **Da un file**). L'assistente propone che cosa scade, la categoria, la **data**, ogni quanto si **ripete** (ogni anno per un tacito rinnovo annuale), il **preavviso** se il testo lo dice (per esempio la disdetta 60 giorni prima) e le note (numero della polizza, ente, importo). Si apre la scadenza nuova già compilata, da controllare e salvare.
+Si usa in [due modi](assistente-ai.md#assistente-senza), con l'[assistente AI](assistente-ai.md) o senza. **✨ Da un testo** (in alto nella pagina Scadenze, per chi gestisce le scadenze dell'azienda) apre un pannello dove incollare la **polizza**, il **certificato**, il **contratto** o l'**avviso** di un ente (anche da un PDF o da una scansione, con **Da un file**). L'assistente propone che cosa scade, la categoria, la **data**, ogni quanto si **ripete** (ogni anno per un tacito rinnovo annuale), il **preavviso** se il testo lo dice (per esempio la disdetta 60 giorni prima) e le note (numero della polizza, ente, importo). Si apre la scadenza nuova già compilata, da controllare e salvare.
 
 ## <a id="scadenze-promemoria"></a>I promemoria
 

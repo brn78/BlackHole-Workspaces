@@ -89,7 +89,7 @@ Una richiesta del cliente, un lavoro da fare, una domanda di preventivo, una pol
 - **Preventivo**: cliente e oggetto; le voci le scrivi tu, oppure le propone l'assistente.
 - **Scadenza** dell'azienda: che cosa scade dall'oggetto, il testo nelle note; la data la scrivi tu.
 
-- Con l'[assistente AI](assistente-ai.md) pronto, è lui a leggere il messaggio e a proporre i campi, come con **Da un testo**; se non risponde, i campi si compilano dal messaggio. In tutti e due i casi il testo citato dei messaggi di prima («Il giorno … ha scritto:») non conta, e in cima alla scheda una riga dice da quale messaggio arrivano i dati.
+- Con l'[assistente AI](assistente-ai.md) pronto, è lui a leggere il messaggio e a proporre i campi, come con **Da un testo**. Senza assistente, o con **Compila senza l'assistente** nella finestra dell'attesa, i campi si compilano subito con quello che si [riconosce dal testo](assistente-ai.md#assistente-senza): il cliente dalla partita IVA, dall'email o dal telefono, l'urgenza, le voci di un elenco, la data dopo «scadenza». In tutti i casi il testo citato dei messaggi di prima («Il giorno … ha scritto:») non conta, e in cima alla scheda una riga dice da quale messaggio arrivano i dati.
 - Se il messaggio ha degli **allegati**, prima si scelgono quelli da portare (tutti già spuntati): nella richiesta e nel preventivo si copiano tra i suoi file; per l'attività si salvano in Documenti, nella cartella che scegli, e si collegano.
 - Nulla si salva finché non premi il pulsante blu della scheda. Dopo, un messaggio dice che cosa è nato e dove sono finiti gli allegati.
 - La scheda ricorda da dove viene: in alto **Dal messaggio: …** riapre il messaggio. Chi non può leggere quella casella vede solo *Creata da un messaggio di posta*.

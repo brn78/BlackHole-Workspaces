@@ -25,7 +25,7 @@ Il nome si legge da «Cognome» e «Nome», oppure da una colonna sola «Cognome
 
 ## <a id="personale-da-testo"></a>Una scheda nuova da un testo
 
-Con l'[assistente AI](assistente-ai.md) attivo, **✨ Da un testo** (per chi può gestire il personale) apre un pannello dove incollare un **curriculum**, un'email, una lettera di assunzione o i dati di un documento. **Proponi i dati** chiede all'assistente nome e cognome, genere, data e luogo di nascita, codice fiscale, mansione, reparto, data di assunzione, email, telefoni e indirizzi, e apre la **scheda nuova già compilata**, da controllare e salvare come sempre. Come per i [clienti](clienti.md#clienti-da-testo): solo ciò che c'è nel testo, i dati in un formato sbagliato (una data impossibile, un codice fiscale che non ha 16 caratteri) tolti e scritti in cima alla scheda, la provincia dall'elenco dei comuni, niente salvato da solo e il testo non conservato.
+Si usa in [due modi](assistente-ai.md#assistente-senza), con l'[assistente AI](assistente-ai.md) o senza. **✨ Da un testo** (per chi può gestire il personale) apre un pannello dove incollare un **curriculum**, un'email, una lettera di assunzione o i dati di un documento. **Proponi con l'assistente** chiede all'assistente nome e cognome, genere, data e luogo di nascita, codice fiscale, mansione, reparto, data di assunzione, email, telefoni e indirizzi, e apre la **scheda nuova già compilata**, da controllare e salvare come sempre. Come per i [clienti](clienti.md#clienti-da-testo): solo ciò che c'è nel testo, i dati in un formato sbagliato (una data impossibile, un codice fiscale che non ha 16 caratteri) tolti e scritti in cima alla scheda, la provincia dall'elenco dei comuni, niente salvato da solo e il testo non conservato.
 
 ## <a id="personale-scheda"></a>La scheda
 
@@ -65,7 +65,7 @@ La **scadenza si propone** dalla validità del tipo nel catalogo (la data della 
 
 - **Rinnova** (dal menu ⋯ della voce; per le visite **Registra la visita successiva**) apre una voce nuova dello stesso tipo, con ente e ore già scritti: vale sempre la **più recente**, quella vecchia resta nello storico come **Rinnovato**. Per un aggiornamento non serve eliminare il corso di prima.
 - In cima a ogni linguetta, un avviso elenca le voci **obbligatorie** per tutti o per la mansione della persona che non sono mai state registrate: un clic su un nome apre la voce nuova di quel tipo.
-- **Dalla scansione** (dalla 1.103.0, con l'assistente attivo), in cima alla finestra di una voce nuova: scegli il PDF o la foto dell'attestato, del documento o del giudizio di idoneità e l'assistente compila tipo (dal catalogo), numero, ente o medico, date, ore, giudizio e note; il file finisce tra quelli da allegare e si carica con il salvataggio. Se il nome scritto sul documento non è quello della persona, lo dice.
+- **Dalla scansione**, in cima alla finestra di una voce nuova: scegli il PDF o la foto dell'attestato, del documento o del giudizio di idoneità e la voce si compila; il file finisce tra quelli da allegare e si carica con il salvataggio. Senza assistente, subito: il tipo (dalle parole del nome nel catalogo), il numero, le date scritte dopo «rilasciato il», «svolto il», «scadenza», «valido fino al», le ore del corso, il giudizio di idoneità. Con **Con l'assistente**, se è configurato, anche ente o medico e le prescrizioni. Se il nome scritto sul documento non è quello della persona, lo dice.
 
 ## <a id="personale-catalogo"></a>Il catalogo
 

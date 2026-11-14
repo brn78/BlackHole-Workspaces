@@ -3,7 +3,7 @@
 [← Torna alla presentazione](../../README.md) · [Scarica il setup](https://github.com/brn78/BlackHole-Workspaces/releases/latest)
 
 > [!NOTE]
-> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.218.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
+> È la stessa guida che si apre nella piattaforma con <kbd>F1</kbd> (menu **Guida utente**), aggiornata alla versione **1.220.0**. Nella piattaforma le icone **(?)** accanto ai campi portano direttamente al paragrafo giusto.
 
 BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico posto, protetto da accesso personale, in cui gestire attività, appunti, password, clienti, commesse, documenti, persone e, via via, gli altri servizi. Questa guida descrive ogni funzione così come la vedi a schermo e viene aggiornata a ogni nuova versione.
 
@@ -27,6 +27,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [La radio](interfaccia.md#interfaccia-radio)
    - [Tema, colore, sfondo e carattere](interfaccia.md#interfaccia-aspetto)
    - [Modifiche non salvate](interfaccia.md#interfaccia-non-salvate)
+   - [Il pulsante che conferma](interfaccia.md#interfaccia-fatto)
    - [Scorciatoie da tastiera](interfaccia.md#interfaccia-scorciatoie)
    - [Icone di aiuto](interfaccia.md#interfaccia-aiuto)
    - [Notifiche e avvisi](interfaccia.md#interfaccia-notifiche)
@@ -461,6 +462,7 @@ BlackHole Workspaces è la piattaforma web per i servizi dell'azienda: un unico 
    - [Preferenze](notifiche.md#notifiche-preferenze)
 46. [Assistente AI](assistente-ai.md)
    - [L'attesa: che cosa sta facendo l'assistente](assistente-ai.md#assistente-attesa)
+   - [Con l'assistente o senza: due modi](assistente-ai.md#assistente-senza)
    - [Fare una domanda](assistente-ai.md#assistente-chat)
    - [Le modalità](assistente-ai.md#assistente-modalita)
    - [Migliora testo nei moduli](assistente-ai.md#assistente-moduli)

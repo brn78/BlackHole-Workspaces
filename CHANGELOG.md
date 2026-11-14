@@ -4,6 +4,68 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.220.0 · 14 novembre 2026
+
+Quattro comodità per il lavoro di tutti i giorni negli elenchi e nella ricerca.
+
+**Novità**
+
+- **Filtri salvati**: una combinazione di filtri che usi spesso si salva con un nome. Messi i filtri (e, se serve, il
+  testo nella ricerca), premi **Salva…** accanto alle etichette dei filtri attivi, oppure **Salva questi filtri** nella
+  finestra dei filtri. Sotto la barra dell'elenco compare la fascia *Filtri salvati*: un clic li rimette. Sono tuoi e
+  li ritrovi su ogni computer, anche nel menu sotto *Il mio spazio* e nella Home, da dove aprono la pagina già
+  filtrata. La barra dell'elenco resta quella di sempre.
+- **Azioni nella ricerca veloce** (Ctrl+K oppure `/`): oltre a cercare si può fare. Scrivendo «nuovo preventivo»,
+  «nuova attività», «nuovo cliente», «nuova scadenza» e simili compare l'azione, e Invio apre la pagina con la scheda
+  nuova. Con «tema» si cambia tema, con «scorciatoie» si apre il loro elenco.
+- **Righe cambiate da un collega**: quando un elenco si aggiorna perché qualcun altro ha creato o cambiato una scheda,
+  le righe nuove o cambiate si illuminano per un momento, anche dopo *Ci sono dati nuovi → Aggiorna*. Si vede subito
+  che cosa è cambiato.
+- **Il pulsante che conferma**: dopo un salvataggio riuscito, o una copia negli appunti, il pulsante premuto diventa
+  per un momento verde con la spunta, lì dove hai cliccato. L'avviso in alto a destra resta.
+
+## 1.219.1 · 14 novembre 2026
+
+Tre rifiniture nate da una verifica di sicurezza della versione precedente.
+
+**Correzioni**
+
+- **Tempi del server**: l'indicazione di quanto ha impiegato il server per rispondere, che serve al piede degli
+  elenchi, arriva solo a chi è entrato; prima usciva anche sulle risposte senza accesso.
+- **Radio con la piattaforma in HTTPS**: le regole sui contenuti non ammettono più audio in chiaro nelle pagine in
+  HTTPS. Una radio che trasmette in http viene chiesta sul suo indirizzo sicuro, e l'avviso compare solo se non
+  risponde (prima compariva ogni volta). In rete locale, in HTTP, non cambia niente.
+- **Fatture elettroniche ricevute**: fatture, ricevute e metadati dello SDI si leggono tutti allo stesso modo, senza
+  dichiarazioni DTD e senza risorse esterne. Un file che ne porta una non si importa, e l'elenco dei file saltati dice
+  perché.
+
+## 1.219.0 · 14 novembre 2026
+
+Ogni funzione che legge un testo o un documento si usa ora in due modi, a scelta ogni volta: **senza assistente**,
+subito, oppure **con l'assistente AI**, se è configurato.
+
+**Novità**
+
+- **Senza assistente**: il programma compila quello che riconosce dalla forma di ciò che è scritto (partita IVA e
+  codice fiscale, email e PEC, telefoni, indirizzi, date, la ragione sociale con la forma giuridica, gli elenchi con
+  le quantità) e, nei documenti con una tabella, le righe così come sono. Risponde in un attimo e il testo non esce dal
+  server. Quello che non è scritto in modo riconoscibile resta vuoto, da completare. Poi fa le stesse ricerche di
+  prima: il cliente in anagrafica, l'impianto, gli ordini aperti, le voci del listino.
+- **«Da un testo»** in tutte le pagine (clienti e fornitori, personale, mezzi e attrezzature, assistenza, attività,
+  progetti, pratiche, scadenze, listino, preventivi): due pulsanti, **Senza assistente** e **Proponi con l'assistente**.
+  Il pulsante della pagina c'è anche quando l'assistente non è configurato.
+- **Carico di magazzino e arrivo merce da un documento**: se il DDT o la fattura ha la tabella delle righe, la scelta
+  pronta è **Usa la tabella**; tipo, numero, data e fornitore (dalla partita IVA) li ricava il programma. Nella proposta
+  si correggono le colonne e si può tornare a leggere il documento in un altro modo. **Leggi con l'assistente** resta.
+- **Risposta a una richiesta d'offerta dall'offerta del fornitore**: le righe dell'offerta si abbinano a quelle della
+  richiesta per codice, anche scritto in testa alla descrizione, poi per descrizione simile, e la nota lo dice.
+- **Corsi, documenti e visite del personale dalla scansione**: tipo, numero, date, ore e giudizio di idoneità subito;
+  con l'assistente anche ente o medico e prescrizioni.
+- **Posta → Crea dal messaggio**: senza assistente la scheda si compila con quello che si riconosce nel messaggio (il
+  cliente dalla partita IVA, dall'email o dal telefono, l'urgenza, le voci di un elenco).
+- **Da dove vengono i dati**: la scheda che si apre lo dice sempre, «letti dal testo, senza assistente» oppure
+  «proposti dall'assistente».
+
 ## 1.218.0 · 14 novembre 2026
 
 Riviste tutte le funzioni che leggono un file, con l'assistente e senza. Chi carica un documento ora vede sempre che

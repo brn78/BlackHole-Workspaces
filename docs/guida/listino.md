@@ -56,7 +56,7 @@ In basso ci sono **Elimina** e **Duplica**, che apre una voce nuova con gli stes
 
 ## <a id="listino-da-scheda"></a>Una voce da una scheda tecnica
 
-Dalla 1.103.0, con l'assistente attivo, **Da una scheda tecnica** (in alto nella pagina del listino, per chi lo modifica) apre un pannello dove incollare la scheda del produttore o una pagina di catalogo, oppure leggerla da un PDF o da una scansione con **Da un file**. L'assistente propone la **descrizione** breve da preventivo, la **descrizione estesa** con i dati tecnici utili (alimentazione, portata, grado di protezione, dimensioni…), la **marca**, il **codice del produttore**, l'**EAN** e l'unità; la piattaforma cerca il **produttore** tra quelli in anagrafica e la **categoria** dal tipo di prodotto. Si apre la voce nuova già compilata: aggiungi costo, prezzo e immagini e salva.
+Si usa in [due modi](assistente-ai.md#assistente-senza), con l'[assistente AI](assistente-ai.md) o senza. **Da una scheda tecnica** (in alto nella pagina del listino, per chi lo modifica) apre un pannello dove incollare la scheda del produttore o una pagina di catalogo, oppure leggerla da un PDF o da una scansione con **Da un file**. L'assistente propone la **descrizione** breve da preventivo, la **descrizione estesa** con i dati tecnici utili (alimentazione, portata, grado di protezione, dimensioni…), la **marca**, il **codice del produttore**, l'**EAN** e l'unità; la piattaforma cerca il **produttore** tra quelli in anagrafica e la **categoria** dal tipo di prodotto. Si apre la voce nuova già compilata: aggiungi costo, prezzo e immagini e salva.
 
 ## <a id="listino-immagini"></a>Le immagini
 

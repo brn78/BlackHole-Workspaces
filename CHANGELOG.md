@@ -4,6 +4,62 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.222.0 · 15 novembre 2026
+
+Correzioni e chiarimenti nati da due prove complete di tutte le pagine, anche con l'assistente AI: il programma dice
+meglio che cosa ha fatto, e alcuni dati non si perdono più in silenzio.
+
+**Novità**
+
+- **Schede compilate da un testo, da un documento o da un messaggio**: contano come non salvate finché non le salvi. Se
+  le chiudi per sbaglio, la piattaforma chiede prima: i dati letti (con l'assistente sul server, anche minuti di attesa)
+  non si perdono più con un clic.
+- **Pratiche da un testo**: la scadenza scritta nella lettera («entro il …») va nelle note e nell'avviso in alto. Se il
+  titolare non è in anagrafica, sotto il campo Cliente c'è **Crea … con i dati letti**: la scheda nasce già compilata
+  e la pratica la prende.
+- **Ricerca generale**: trova anche le comunicazioni della Bacheca indirizzate a te.
+- **Ricerca veloce** (Ctrl+K): le azioni «nuovo…» anche per fornitore, produttore, voce del listino, ordine a
+  fornitore, certificazione, comunicazione, controllo del monitoraggio, audio, turno di reperibilità, fattura, DDT,
+  utente, gruppo e policy; funzionano anche sul telefono.
+- **Migliora testo** anche nei testi del preventivo (premessa, pagamento, tempi, condizioni) e nelle note dei progetti.
+- **Sistema**: la voce **Modelli tra server (esporta e importa)** porta dritta al riquadro.
+
+**Correzioni**
+
+- **Preventivi**: dopo un *Salva* senza modifiche, cambiando pagina compariva «Modifiche non salvate». Le quantità delle
+  righe arrivano al massimo a 1.000.000 e una durata dei lavori negativa viene rifiutata invece che azzerata; nella
+  finestra delle voci dal listino una quantità sbagliata si dice subito, con un solo avviso.
+- **Numeri dei registri**: rapporti di manutenzione, certificazioni e richieste di assistenza non ridanno più il numero
+  di una scheda finita nel cestino (che poi non si poteva ripristinare).
+- **Indicatori**: i valori mensili con i decimali restano come scritti (25,5 diventava 26), anche nei campi dei Dati.
+- **Carico da un documento**: una riga con un'unità di misura diversa da quella della voce di magazzino (metri nel
+  documento, rotoli a magazzino) resta senza spunta e lo dice, invece di caricare 150 rotoli al posto di 150 metri.
+- **Ferie e permessi** dal menu della riga del personale si aprivano su un errore.
+- **Clienti appena creati**: si trovano subito nei campi «Cliente» delle altre schede, senza ricaricare la pagina.
+- **Campi con l'elenco** (persone, clienti): maiuscole, accenti e ordine delle parole non contano («Rossi Luca» trova
+  «Luca Rossi»); anche la ricerca del Personale non guarda gli accenti.
+- **Utenti**: un codice fiscale che non torna non si salva più (come per clienti e personale) e il nome è obbligatorio.
+- **Presenze**: *Salva* senza cambiare niente dice «Nessun dato cambiato» e non scrive una correzione vuota nello storico.
+- **Incassi**: *Togli l'incasso* dice che toglie tutto l'incassato della rata, con l'importo.
+- **Modelli di stampa**: *Duplica* copia anche la carta intestata; le misure fuori dai limiti, portate al limite, si dicono.
+- **Controlli dei valori**, con il limite scritto nel messaggio: obiettivi degli indicatori, budget delle commesse,
+  saldo iniziale dei conti, km dei mezzi, costi del listino, partita IVA dei produttori, data delle richieste privacy.
+- **Messaggi più chiari**: la Home dice che *Banche e cassa* è il saldo della prima nota, la Banca che il suo saldo viene
+  dagli estratti conto; il bilancio di verifica spiega la differenza tra attività e passività (il risultato non ancora
+  chiuso); il bilancio CEE avvisa quando una voce dell'attivo è negativa; *Sotto scorta* con un magazzino scelto dice se
+  quel magazzino non ha scorte minime; eliminare una scrittura della prima nota o una comunicazione è definitivo, e lo
+  si dice prima; un cliente trovato per telefono ma con un altro nome va controllato; *Duplica* del personale dice che
+  cosa copia; un responsabile esterno fuori dall'UE senza garanzie viene segnalato.
+- **Lettori senza assistente** più precisi: il nome di una persona scritto in una frase, le ore settimanali,
+  l'alimentazione e la marca di un mezzo, chi chiama e il ticket di una richiesta, «Urgente» nelle attività, la
+  chiusura prevista di un progetto, la compagnia di una polizza, il referente, il codice del produttore; il tipo di
+  corso non si sceglie più dal cognome della persona.
+- **Altre**: in Documenti compaiono anche le etichette dei filtri Tipo e Categoria; nel Cestino un clic sulla riga chiede
+  prima di ripristinare; *Ordina il materiale* con «Solo quello che manca» non mostra le voci già coperte; una scadenza
+  lontana dice dove ritrovarla; nell'assistenza la durata degli interventi non si confonde con le ore delle persone;
+  un'importazione dice quando nessuna colonna si riconosce; nella stampa dell'elenco dei DDT lo stato è in italiano;
+  sul telefono i pulsanti della finestra dei filtri stanno nello schermo; nella Voce da testo il nome del file è pulito.
+
 ## 1.221.0 · 15 novembre 2026
 
 L'assistente AI può rispondere anche da una macchina della rete, la piattaforma esamina il server prima di proporre un

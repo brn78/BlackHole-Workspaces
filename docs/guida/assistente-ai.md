@@ -9,11 +9,11 @@ L'**assistente AI** è una chat con un modello linguistico che gira sul server d
 Ogni volta che l'assistente prepara una proposta (una scheda **Da un testo**, un carico da un documento, la risposta di un fornitore, le colonne di un foglio, le pagine di un PDF, le password di un documento) si apre la stessa **finestra dell'attesa**:
 
 - **che cosa succede adesso**: *In coda* (sta rispondendo a un'altra richiesta: tocca a te appena finisce), *Avvio del modello sul server* (la prima richiesta dopo una pausa), *Sta leggendo il testo*, *Sta scrivendo la proposta* con i caratteri o le righe scritte finora;
-- **chi risponde**: il motore del server oppure il servizio esterno;
-- **da quanto aspetti** e, dalla seconda volta, **quanto ci mette di solito** una richiesta di quel tipo: la barra avanza su quel tempo. La prima volta non si sa, e la barra scorre senza misura;
+- **chi risponde**: il motore del server, il server della rete oppure il servizio in cloud;
+- **da quanto aspetti** e, dalla seconda volta, **quanto ci mette di solito** una richiesta di quel tipo: la barra avanza su quel tempo. Con il motore del server [misurato](impostazioni.md#impostazioni-ai-server) lo sa già dalla prima volta; altrimenti la prima volta non si sa, e la barra scorre senza misura;
 - **Ferma**: ferma la richiesta anche sul server, e si torna dov'eri senza aver perso niente.
 
-Con il **motore del server** i tempi dipendono dal processore: su un server senza scheda grafica una scheda da un biglietto da visita richiede circa un minuto, le righe di un documento di una pagina tre o quattro. Per questo, dove c'è una tabella, la piattaforma la legge [senza assistente](#importare-pdf). Se l'assistente serve spesso su documenti lunghi, un amministratore può mandare le sole analisi a un servizio esterno, più veloce ([Impostazioni → Assistente AI](impostazioni.md#impostazioni-ai), «Chi risponde a che cosa»).
+Con il **motore del server** i tempi dipendono dal processore: su un server senza scheda grafica una scheda da un biglietto da visita richiede circa un minuto, le righe di un documento di una pagina tre o quattro. Per questo, dove c'è una tabella, la piattaforma la legge [senza assistente](#importare-pdf). Se l'assistente serve spesso su documenti lunghi, un amministratore può mandare le sole analisi a un [server della rete](impostazioni.md#impostazioni-ai-rete) con la scheda video o a un servizio in cloud, più veloci ([Impostazioni → Assistente AI](impostazioni.md#impostazioni-ai), «Chi risponde a che cosa»).
 
 ## <a id="assistente-senza"></a>Con l'assistente o senza: due modi
 

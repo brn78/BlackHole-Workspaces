@@ -4,6 +4,31 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.221.0 · 15 novembre 2026
+
+L'assistente AI può rispondere anche da una macchina della rete, la piattaforma esamina il server prima di proporre un
+modello, e la pagina delle impostazioni dell'assistente mostra solo quello che usi.
+
+**Novità**
+
+- **Server della rete**: oltre al motore sul server e al cloud, l'assistente può usare una macchina dell'azienda con
+  **Ollama** o **LM Studio**, per esempio un PC con la scheda video che risponde per tutti. In *Chi risponde a che cosa*
+  si sceglie, per la chat, Migliora testo e le analisi, *Sul server*, *Server della rete* o *In cloud*, anche tutti e tre
+  insieme. Con Ollama la piattaforma imposta il contesto a ogni richiesta (i testi lunghi non vengono più tagliati senza
+  dirlo), chiede la forma delle proposte e spegne il ragionamento nascosto, più lento. Le richieste insieme aspettano in
+  coda nella piattaforma, e chi aspetta lo vede. Un Ollama o LM Studio della rete impostato prima come servizio esterno
+  passa da solo nel server della rete. La guida spiega come preparare la macchina.
+- **Analisi del server**: la pagina dell'assistente mostra com'è fatto il server (processore, memoria, scheda video,
+  macchina virtuale) e, per ogni modello, se ci sta con il contesto scelto e perché, e quanto scriverebbe al secondo. Il
+  modello consigliato è quello adatto a quel server. Cambiando il contesto si legge subito quanta memoria chiede.
+- **È tutto pronto?**: i controlli di ogni posto in uso, in verde, giallo o rosso, con accanto il pulsante per sistemare
+  quello che manca (installare il motore, scaricare il modello giusto, misurare).
+- **Misura e regola**: per qualche minuto il motore del server prova alcune impostazioni (quanti processori usare,
+  quanto testo leggere per volta) e tiene la più veloce, senza cambiare il modello o le risposte. Le velocità misurate
+  servono anche alla finestra d'attesa, che sa quanto ci vorrà già dalla prima richiesta.
+- **Pagina più leggibile**: in alto chi risponde a che cosa, poi *È tutto pronto?*, poi solo i riquadri dei posti che usi:
+  chi non usa il cloud non vede le impostazioni del cloud. Un solo *Salva* per tutta la configurazione dell'assistente.
+
 ## 1.220.1 · 14 novembre 2026
 
 Correzioni nate da una prova completa delle novità delle ultime versioni, con documenti veri.

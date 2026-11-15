@@ -93,7 +93,8 @@ Cartelle e file con revisioni, ricerca anche dentro i testi, visualizzatore per 
 lettura.
 
 **🤖 Assistente AI**<br>
-Locale sul server oppure in cloud (Claude, OpenAI, Gemini): migliora i testi, compila le schede da un testo o da un PDF,
+Sul server, su una macchina della rete con Ollama o LM Studio, oppure in cloud (Claude, OpenAI, Gemini), a scelta per
+ogni funzione; la piattaforma esamina il server e consiglia il modello che ci sta. Migliora i testi, compila le schede da un testo o da un PDF,
 legge i documenti con l'OCR, risponde con la guida. Mentre lavora si vede che cosa sta facendo e quanto manca. Ogni
 funzione che legge un testo o un documento si usa in **due modi**: subito, senza assistente (tabelle di PDF, scansioni
 e fogli Excel, e i dati che si riconoscono dalla forma), oppure con l'assistente.
@@ -182,7 +183,7 @@ per provarla. Le novità di ogni versione sono nel [registro delle versioni](CHA
 
 - **Server**: Windows 10 (1607 o successivo) o 11, oppure Windows Server 2016, 2019, 2022 o 2025 (anche Server Core), a
   64 bit, sempre acceso e in rete con le postazioni. Va bene anche un normale PC dell'ufficio; l'assistente AI locale
-  vuole più memoria (in alternativa si usa quello in cloud).
+  vuole più memoria (in alternativa una macchina della rete con Ollama, oppure il cloud).
 - **Postazioni**: un browser recente (Edge, Chrome, Firefox, Safari) su PC, tablet o telefono.
 - **Internet**: non serve. Serve solo per i servizi che scegli di collegare (PEC e SDI, assistente AI in cloud,
   Telegram, accesso da fuori).

@@ -27,7 +27,7 @@ Tutte le registrazioni del periodo scelto (questo mese, il mese scorso, il trime
 
 ## <a id="contabilita-iva"></a>Registri IVA e liquidazioni
 
-- **Registri IVA**: vendite e acquisti del periodo, un documento per riga con l'imponibile e l'imposta per aliquota (le scissioni e le inversioni contabili segnate), il riepilogo per aliquota; negli acquisti il **protocollo**, provvisorio finché il periodo non è liquidato, e la parte detraibile.
+- **Registri IVA**: vendite e acquisti del periodo, un documento per riga con l'imponibile e l'imposta per aliquota (le scissioni e le inversioni contabili segnate), il riepilogo per aliquota (nelle vendite, sotto, quanta IVA è in scissione dei pagamenti: la versa l'ente e non va nella liquidazione); negli acquisti il **protocollo**, provvisorio finché il periodo non è liquidato, e la parte detraibile.
 - **Liquidazioni IVA**, per ogni mese o trimestre dalla data di inizio: IVA sulle vendite (non quella in scissione) meno IVA detraibile sugli acquisti ricevuti nel periodo, più il **riporto** del periodo prima (il credito, o un debito sotto i 25,82 € che non si versa); per i trimestrali l'**1% di interessi** sul debito. La scadenza del versamento: il 16 del mese dopo (mensili); 16 maggio, 20 agosto, 16 novembre e 16 marzo (trimestrali).
 - **Chiudi** (chi gestisce la contabilità, un periodo finito, dopo quelli prima): fissa gli importi e il protocollo degli acquisti, registra il **giroconto** dell'IVA sull'*Erario c/IVA* e blocca le registrazioni con l'IVA del periodo. Nell'ultimo periodo dell'anno si toglie l'**acconto** di dicembre. **Versata** registra il pagamento con l'F24 dalla banca scelta. L'ultima liquidazione chiusa (non versata) si riapre.
 

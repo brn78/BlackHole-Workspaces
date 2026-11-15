@@ -4,6 +4,20 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.222.1 · 15 novembre 2026
+
+Una prova completa della contabilità con entrate e uscite di ogni tipo (vendite, acquisti, note di credito, incassi,
+pagamenti, estratti conto, liquidazioni IVA): tutto torna al centesimo. Due numeri che sembravano in disaccordo ora si
+spiegano da soli.
+
+**Correzioni**
+
+- **Fatturazione**: sotto «Da incassare» compaiono le note di credito ancora da rimborsare, che quel numero non toglie
+  e il conto Crediti verso clienti della contabilità sì.
+- **Registro IVA delle vendite**: una nota dice quanta IVA è di fatture in scissione dei pagamenti (la versa l'ente
+  pubblico) e quanta quindi entra nella liquidazione; la chiusura della liquidazione lo ricorda accanto all'IVA sulle
+  vendite. Nel riepilogo per aliquota torna lo spazio prima di «scissione» e «inversione contabile».
+
 ## 1.222.0 · 15 novembre 2026
 
 Correzioni e chiarimenti nati da due prove complete di tutte le pagine, anche con l'assistente AI: il programma dice

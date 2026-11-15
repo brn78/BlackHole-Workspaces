@@ -4,6 +4,28 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.220.1 · 14 novembre 2026
+
+Correzioni nate da una prova completa delle novità delle ultime versioni, con documenti veri.
+
+**Correzioni**
+
+- **Filtri salvati**: negli elenchi dove una scelta rapida o un filtro cambiano l'indirizzo della pagina (per esempio
+  le Attività, i Preventivi, il Listino) un filtro salvato spariva dalla fascia appena li si cambiava. Ora resta, e
+  funziona anche nelle scelte rapide del Registro attività. Provati tutti gli elenchi con la barra dei filtri.
+- **Voce del personale da un documento**: il tipo riconosciuto (con l'assistente o senza) cambiava il valore ma non il
+  nome a vista, e si poteva salvare un tipo diverso da quello che si vedeva. Senza assistente il tipo si riconosce
+  meglio, l'ente formatore è quello scritto sull'attestato e le prescrizioni della visita medica vanno nelle note.
+- **Pratiche «Da un testo» senza assistente**: il tipo di pratica si sceglie dall'ente che il documento nomina di più,
+  non da una parola qualsiasi; il titolare è il destinatario della lettera, mai l'ente né chi la firma, e la sua email
+  è quella scritta vicino al suo nome. Il codice della pratica si trova anche dopo «Convenzione».
+- **Scadenze «Da un testo» senza assistente**: il titolo viene dal tipo di documento (polizza con numero e compagnia,
+  attestazione SOA, DURC, certificazione ISO…) e non dalla prima riga, che in una polizza è spesso pubblicità. La
+  rateazione del premio non si scambia più per la frequenza del rinnovo; una polizza senza altre indicazioni si
+  rinnova ogni anno.
+- **Posta → Crea dal messaggio**: la scheda dice «Dati letti senza assistente dal messaggio di …» quando i dati non
+  vengono dall'assistente.
+
 ## 1.220.0 · 14 novembre 2026
 
 Quattro comodità per il lavoro di tutti i giorni negli elenchi e nella ricerca.

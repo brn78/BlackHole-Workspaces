@@ -4,6 +4,29 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.223.0 · 15 novembre 2026
+
+Spese e commissioni bancarie, stipendi, interessi e prelievi segnati «non da abbinare» in Banca non entravano in
+contabilità: andavano scritti a mano, e se ci si dimenticava il conto della banca in prima nota non tornava più con
+l'estratto conto. Ora si registrano dalla scheda del movimento.
+
+**Novità**
+
+- **Banca, «Registra anche in prima nota»**: segnando un movimento «non da abbinare» si sceglie il conto dall'altra
+  parte del conto corrente (per esempio Spese e commissioni bancarie, Debiti verso dipendenti, Cassa per un prelievo).
+  Sotto si vedono le due righe, in dare e in avere, prima di salvare. Il conto si propone da solo: quello usato l'ultima
+  volta per la stessa categoria, altrimenti dal nome dei conti; se la categoria ha già un conto usato, la spunta c'è già.
+- La registrazione la scrive la contabilità, come per incassi e pagamenti, con il giorno e l'importo del movimento.
+  Riaprendo il movimento, o con **Togli dalla prima nota**, sparisce da sola; cambiando conto si riscrive con lo stesso
+  numero. In un esercizio chiuso non cambia più. Dalla prima nota un clic porta al movimento.
+- Se in prima nota c'è già una scrittura sul conto della banca con lo stesso importo, a una settimana o meno (per
+  esempio scritta a mano), la scheda lo dice: così lo stesso movimento non si registra due volte.
+- I movimenti già segnati hanno il riquadro **Prima nota** per registrarli dopo; nell'elenco quelli in prima nota lo
+  dicono sotto la categoria. **Segna le spese riconosciute** mette in prima nota anche quelle delle categorie con un
+  conto già usato.
+- Per sbaglio non si possono usare i conti di clienti e fornitori (i loro movimenti si abbinano alle fatture) né
+  l'Erario c/IVA (il versamento si registra dalla liquidazione). Serve il permesso di registrare in contabilità.
+
 ## 1.222.1 · 15 novembre 2026
 
 Una prova completa della contabilità con entrate e uscite di ogni tipo (vendite, acquisti, note di credito, incassi,

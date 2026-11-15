@@ -27,6 +27,17 @@
 - Due movimenti che si annullano (un **giroconto** tra due conti, un **insoluto** o uno **storno** che riporta indietro un accredito) si propongono insieme: **Compensa** li abbina l'uno all'altro senza registrare incassi o pagamenti. La proposta è più forte se la descrizione dice insoluto, storno o giroconto, se i conti sono due e se i giorni sono vicini.
 - **Togli l'abbinamento** toglie gli incassi e i pagamenti registrati dall'abbinamento; quelli che c'erano già restano. La linguetta **Movimenti** li mostra tutti, con i filtri per entrate, uscite, abbinati e non da abbinare: di serie quelli degli [ultimi due anni](interfaccia.md#elenchi-anni) e quelli da abbinare degli anni prima, con **Tutti gli anni** nella scelta dell'anno per il resto.
 
+## <a id="banca-prima-nota"></a>Non da abbinare, anche in prima nota
+
+Spese e commissioni, interessi, stipendi, contributi, affitti, prelievi non hanno una fattura da abbinare, ma muovono il conto: perché la contabilità torni con l'estratto conto vanno anche in prima nota. Chi gestisce la banca e può registrare in contabilità, con la contabilità attiva e il conto corrente collegato al suo conto della contabilità (linguetta **Conti**, scheda del conto), trova nella scheda del movimento, sotto **Non da abbinare**:
+
+- **Registra anche in prima nota** con il **conto** dall'altra parte del conto corrente (per esempio *Spese e commissioni bancarie*, *Debiti verso dipendenti*, *Cassa* per un prelievo). Il conto si propone dalla categoria: quello usato l'ultima volta per la stessa categoria, altrimenti dal nome dei conti; sotto si vedono le due righe, in dare e in avere, prima di salvare. Se la categoria ha già un conto usato la spunta c'è già.
+- La registrazione la scrive la contabilità, come per incassi e pagamenti, con il giorno e l'importo del movimento: nella prima nota ha il collegamento al movimento. **Riapri** il movimento (o **Togli dalla prima nota**) e la registrazione sparisce da sola; con un altro conto si riscrive con lo stesso numero. In un esercizio chiuso non cambia più, e il movimento non si riapre.
+- Se in prima nota c'è già una scrittura sul conto della banca con lo stesso importo, a una settimana o meno (scritta a mano, o il versamento dell'IVA), la scheda lo dice: se è lo stesso movimento non va registrato di nuovo.
+- Non si usano i conti di clienti e fornitori (i loro movimenti si abbinano alle fatture) né l'*Erario c/IVA*: il versamento dell'IVA si registra da [Liquidazioni IVA](contabilita.md#contabilita-iva) con **Versa**, e il suo F24 si segna «non da abbinare» senza prima nota. Un movimento di prima dell'inizio della contabilità non va in prima nota.
+- Un movimento già segnato senza prima nota ha nella scheda il riquadro **Prima nota** con **Registra in prima nota**. Nell'elenco i movimenti in prima nota hanno la scritta *in prima nota* sotto la categoria.
+- **Segna le spese riconosciute** mette in prima nota anche quelle delle categorie con un conto già usato (la conferma dice quali e con che conto); le altre restano solo «non da abbinare».
+
 ## <a id="banca-distinte"></a>Distinte: RiBa, addebiti SEPA e bonifici ai fornitori
 
 Una **distinta** (dalla 1.120.0) mette in un file solo le rate da presentare alla banca: si carica nell'home banking invece di scriverle una per una, e quando arriva l'accredito (o l'addebito) il movimento si abbina alla distinta intera.

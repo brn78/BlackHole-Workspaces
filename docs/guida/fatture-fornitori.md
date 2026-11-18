@@ -32,7 +32,7 @@ Poi **Controllata**, oppure **Contesta al fornitore** con il motivo (va nelle no
 
 ## <a id="fatture-fornitori-pagamenti"></a>Pagamenti e note di credito
 
-- Le **rate** vengono dalla fattura; se il fornitore non le ha scritte, una sola alla data del documento. **Cambia le rate** (finché non ci sono pagamenti) le rifà: date, importi, modalità, IBAN.
+- Le **rate** vengono dalla fattura; se il fornitore non le ha scritte, una sola alla data del documento. **Cambia le rate** (finché non ci sono pagamenti) le rifà: date, importi, modalità, IBAN. Dalla 1.224.0 le rate devono fare il **da pagare** della fattura al centesimo: la finestra dice quanto manca o avanza, **Aggiungi una rata** propone il resto, e finché non tornano non si salva. È il debito verso il fornitore in contabilità: una rata più bassa lo toglierebbe dallo scadenzario. **Pagata in parte** si legge solo con un pagamento o una compensazione registrati, e **Paga** dice nel titolo quanto resta.
 - **Paga** (dalla fattura o da [Incassi e pagamenti](incassi-pagamenti.md)) registra un pagamento, anche in parte, con la data e il modo (bonifico, contanti, carta, assegno, altro); **Togli** lo annulla.
 - Una **nota di credito** si usa per pagare una fattura dello stesso fornitore: **Azioni → Usa per pagare una fattura**, tutto o una parte; tutte e due risultano pagate per quell'importo (compensazione). Togliendo la compensazione da una parte sparisce anche dall'altra.
 - Le rate scadute e quelle della settimana vanno nello [Scadenzario](scadenze.md) (area *Pagamenti*) e nei promemoria di chi paga le fatture.

@@ -4,6 +4,46 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.224.0 · 18 novembre 2026
+
+Correzioni e idee nate da una prova completa sui dati dimostrativi, con utenti di ogni livello: da chi consulta
+soltanto a chi segue un lavoro tra più pagine. La contabilità tornava al centesimo anche dopo la prova; una sola
+correzione tocca i conti.
+
+**Novità**
+
+- **Reperibilità e ferie**: il turno di chi in quei giorni è in ferie, in permesso o comunque assente lo dice, nel
+  calendario (bordo giallo), nell'elenco e nella scheda del turno: si vede quando, non il motivo. Chi registra, cambia
+  o approva l'assenza di una persona di turno riceve l'avviso, che arriva anche all'ufficio.
+- **Calendario del telefono**: riporta anche le proprie ferie e i permessi validi, le ferie a giorni interi e i
+  permessi con l'ora; malattia e causali particolari compaiono solo come «Assenza». Si sceglie dal Profilo.
+- **Ricerca senza accenti** in tutti gli elenchi e nelle scelte dei campi: «societa» trova «Società».
+- **Banca**: la proposta che è un incasso o un pagamento già registrato lo dice («già registrato») e il pulsante
+  diventa **Collega**: il movimento si lega a quello, senza una registrazione nuova. **Abbina quelli sicuri** dice
+  quanti movimenti sicuri sono rimasti fuori e perché.
+- **Fatture ricevute, «Cambia le rate»**: la finestra mostra quanto manca o avanza rispetto al «da pagare» e la rata
+  nuova propone il resto. **Paga** mostra quanto resta da pagare.
+- **Preventivi**: sotto il margine un avviso quando ci sono voci senza costo, che contano a costo zero e lo fanno
+  sembrare più alto; nella scelta dal listino il costo è indicato come tale.
+- **Documenti**: la scheda di un file nella cartella di un cliente dice di chi è.
+- **Ricerca veloce** (Ctrl+K): «Nuova attività di presenza» e «Nuova richiesta di ferie o permesso».
+
+**Correzioni**
+
+- **Rate delle fatture ricevute**: le rate devono fare il «da pagare» al centesimo. Prima si potevano salvare rate più
+  basse: la differenza restava nel debito verso il fornitore ma spariva dallo scadenzario. «Pagata in parte» compare
+  solo quando c'è un pagamento.
+- **Prima nota**: le registrazioni automatiche nascono in ordine di giorno; una nota di credito non prende più il
+  numero prima della sua fattura.
+- **Preventivi**: Dati e Testi si bloccano subito dopo l'invio, senza ricaricare la pagina, e si riaprono riportando
+  il preventivo in bozza. **Duplica** chiede l'oggetto.
+- **Clienti**: nelle «Schede» un'email lunga va a capo nella sua colonna invece di finire sopra quella accanto (vale
+  per tutti gli elenchi); sistemate le larghezze delle colonne nella stampa.
+- **Presenze**: le ore che mancano nella giornata in corso non sono più «da giustificare», si contano dal giorno dopo
+  se restano. Le Regole e i Modelli di conteggio aperti in sola lettura lo dicono.
+- **Messaggi più chiari**: la durata dei lavori del preventivo, una riga senza descrizione nelle vendite e negli
+  acquisti, una data con l'anno fuori intervallo, un file che non è un PDF né una foto dato alla lettura dei documenti.
+
 ## 1.223.0 · 15 novembre 2026
 
 Spese e commissioni bancarie, stipendi, interessi e prelievi segnati «non da abbinare» in Banca non entravano in

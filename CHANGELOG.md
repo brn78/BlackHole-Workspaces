@@ -4,6 +4,43 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.3 · 19 novembre 2026
+
+I modelli delle schede tecniche e delle certificazioni, provati a fondo: l'editor dice che cosa manca invece di
+scartarlo in silenzio, e le sezioni si riducono per spostarle più comodamente.
+
+**Novità**
+
+- **Sezioni che si riducono**: nell'editor dei modelli delle schede tecniche la freccia accanto al titolo riduce una
+  sezione alla sola testata, con il riassunto dei suoi campi. **Riduci tutte** le riduce insieme e poi diventa **Apri
+  tutte**: con le sezioni ridotte le frecce le spostano su e giù senza dover scorrere, e dopo ogni spostamento il
+  cursore resta sulla freccia premuta, per ripeterlo.
+- **Controlli prima di salvare**: se manca qualcosa (il nome del modello, il titolo di una sezione, l'etichetta di un
+  campo, le voci di una scelta) l'avviso dice in quale sezione, la scheda passa alla linguetta giusta e il cursore va
+  sul campo da sistemare, segnato in rosso. Le righe e le sezioni lasciate del tutto vuote non contano.
+- **Valore proposto**: si controlla secondo il tipo del campo mentre lo si scrive (numeri, importi, indirizzi IP e MAC,
+  siti, coordinate, codice fiscale, partita IVA), con il motivo sotto il campo. Per «Una scelta» la voce proposta si
+  sceglie da un elenco con le voci del campo.
+- **Anteprima del modello**: dice che cosa non è mostrato perché ancora da completare.
+- **Modelli delle certificazioni**: i campi seguono le stesse regole.
+
+**Correzioni**
+
+- **Campi senza etichetta**: un campo senza etichetta veniva scartato in silenzio, e il modello non si salvava con
+  l'avviso «La sezione non ha campi» anche con i campi sotto gli occhi. Un campo con il valore proposto e senza
+  etichetta spariva al salvataggio senza un segno.
+- **Singola e ripetibile**: passando una sezione dall'una all'altra sparivano i campi ancora senza etichetta e il nome
+  della riga.
+- **Singola e ripetibile su un modello già usato**: i dati scritti nelle schede degli impianti non si vedevano più e si
+  perdevano al primo salvataggio della scheda. Ora seguono il cambio: da singola a ripetibile ciò che era scritto
+  diventa la prima riga, da ripetibile a singola l'unica riga diventa i dati della sezione. Se in un impianto le righe
+  sono più di una il modello non si salva, e l'avviso dice in quale impianto.
+- **Valori proposti sbagliati**: una voce che non c'è tra le scelte o un numero che non è un numero venivano tolti senza
+  avviso. Ora il modello non si salva e dice il motivo.
+- **Anteprima**: guardarla non fa più comparire l'avviso delle modifiche non salvate, e la riga di esempio non ha più
+  pulsanti che non facevano nulla.
+- **Tipo del campo**: cambiandolo il cursore resta sull'elenco dei tipi.
+
 ## 1.225.2 · 19 novembre 2026
 
 Tre punti rimasti aperti dall'ultima prova: chi vede gli indicatori economici, i contratti a termine senza la data di

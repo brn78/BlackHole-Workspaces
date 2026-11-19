@@ -11,6 +11,8 @@
 - Le schede restano **30 giorni**, poi si tolgono da sole (la colonna «Si toglie» dice quando; il riquadro in alto conta quelle che scadono entro 3 giorni). **Elimina per sempre** (menu della riga) e **Svuota il cestino** le tolgono subito: le proprie, o tutte per l'amministratore.
 - Ripristinare e togliere dal cestino finiscono nel [registro attività](registro.md) (categoria «Cestino»).
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa le schede che si vedono nell'elenco.
+
 ---
 
 [← Firme sullo schermo](firme.md) · [Indice](README.md) · [Pulizia dei file →](pulizia-file.md)

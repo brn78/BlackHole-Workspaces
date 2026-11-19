@@ -386,6 +386,8 @@ Ogni **Stampa** 🖨 apre prima l'**anteprima**, la stessa dei documenti: i fogl
 
 Si apre la finestra di stampa del browser: lì scegli la stampante oppure **Salva come PDF**. Gli elenchi stampano le righe come le vedi, filtrate e ordinate; i filtri in uso sono scritti sotto il titolo.
 
+Dalla 1.225.1 la stampa di un elenco porta quello che la pagina mostra anche in fondo: la riga dei **totali**, quando l'elenco ce l'ha (le ore della Reperibilità, le attività delle Presenze, le fatture), e sotto il **conteggio**, che non finisce più da solo su un foglio in più. Un elenco **vuoto** (una ricerca che non trova niente) non apre un foglio vuoto: compare l'avviso «niente da stampare». Una tabella con tante colonne si **stringe** finché sta nel foglio, invece di uscire a destra. Nel sottotitolo ci sono il filtro e il testo cercato, così il foglio dice da solo che cosa contiene.
+
 ---
 
 [← Primo avvio e accesso](accesso.md) · [Indice](README.md) · [Il mio spazio e le aree →](area-di-lavoro.md)

@@ -4,6 +4,8 @@
 
 Le cartelle dell'ufficio che stanno sul server o in rete (la cartella condivisa di lavoro, i vecchi archivi, i manuali) si aggiungono alla [ricerca](ricerca.md): la piattaforma ne legge **in sola lettura** i nomi di file e cartelle, le dimensioni e le date, e li tiene in un indice. I file restano dove sono: la piattaforma non li sposta, non li copia, non li modifica e non ne legge il contenuto.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa il contenuto della cartella aperta come si vede, con il percorso nel sottotitolo.
+
 ## <a id="archivio-rete-cartelle"></a>Le cartelle
 
 **Sistema → Cartelle dell'archivio**, riservata agli amministratori. **Nuova cartella** e, per ognuna:

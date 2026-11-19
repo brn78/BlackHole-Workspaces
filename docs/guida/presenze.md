@@ -86,6 +86,8 @@ Dalla 1.224.0, se in quel periodo la persona è **di turno in reperibilità**, c
 
 **Il mezzo di solito** (dalla 1.156.0): chi usa quasi sempre lo stesso mezzo (3 delle ultime 5 attività) alla chiusura se lo vede proposto da solo, con alla guida o passeggero già nel pulsante; **ALTRO MEZZO** apre l'elenco intero.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa l'elenco delle richieste come si vede, con il periodo e lo stato scelti nel sottotitolo; nella **Giornata** e nel **Periodo** stampa le attività che si vedono. Il Report ha le sue stampe.
+
 ## <a id="presenze-pagina"></a>La pagina
 
 - **Giornata**: tutto il personale in forza, non solo chi ha Telegram. Sotto i filtri una riga dice **che giorno è** (dalla 1.181.0), con la sua pastiglia: lavorativo, **prefestivo** (dalla 1.185.0 è il sabato, come nel contratto dal lunedì al venerdì; con la festa di domani se c'è: *Sabato 31 ottobre: prefestivo, domani Ognissanti*), non lavorativo nell'orario dell'azienda, festivo con il nome (domeniche e feste). Il giorno feriale prima di una festa resta lavorativo e la ricorda: *Lunedì 7 dicembre: lavorativo nell'orario dell'azienda; domani Immacolata Concezione*. Nella stessa riga le ore di lavoro e di viaggio, i km, il notturno e la reperibilità delle righe che si vedono: cercando una persona sono le sue. Nei giorni non lavorativi chi non ha attività è a **riposo** e non conta tra i «Senza attività». Poi l'elenco con persona (con mansione e reparto), orari, cantiere, lavoro, viaggio e km. Oggi compare anche chi ha iniziato ieri e non ha ancora finito (*ieri 22:30–… in corso*). Le frecce e il calendario cambiano giorno.

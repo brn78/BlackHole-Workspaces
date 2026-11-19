@@ -12,6 +12,8 @@
 - **Cestino**: i contatti nel cestino li vede solo chi li ha creati; si ripristinano entro 30 giorni, poi vengono eliminati da soli.
 - **Più contatti insieme** (dalla 1.143.5): l'icona **Scegli più righe** a sinistra della ricerca mostra le caselle; con i contatti scelti la barra propone **Metti in evidenza**, **Togli dall'evidenza**, **Esporta in vCard** e **Sposta nel cestino** (solo per quelli creati da te: quelli condivisi dai colleghi restano, e il messaggio lo dice); nel **Cestino Ripristina** ed **Elimina definitivamente**.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa i contatti che si vedono nell'elenco, con l'etichetta e il testo cercato nel sottotitolo.
+
 ## <a id="rubrica-import"></a>Importare i contatti dal telefono o da Excel
 
 Con **Importa** (in **Altro**, o nella pagina ancora vuota) si carica il file esportato dal telefono o dal computer, oppure un **foglio Excel o CSV qualunque** con i nomi delle colonne nella prima riga: scegli che cosa c'è in ogni colonna (nome, cognome o nome e cognome insieme, azienda, ruolo, due email, cellulare, telefono, telefono dell'ufficio e di casa, fax, indirizzo, compleanno, sito, etichette, note) e poi segue la stessa anteprima. **Scarica il modello Excel** dà il foglio già pronto da compilare (vedi [Importare ed esportare](interfaccia.md#interfaccia-import-export)). Dal telefono:

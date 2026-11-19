@@ -26,17 +26,23 @@ Tutte le registrazioni del periodo scelto (questo mese, il mese scorso, il trime
 
 **Scrittura libera** (chi può registrare in contabilità): data, descrizione, documento e le righe con conto, dare o avere (sui conti di clienti e fornitori anche il nome). Sotto le righe si vede se quadra; una riga con l'importo ma senza conto ferma **Registra**, che dice quale riga completare. La data va dal giorno di inizio della contabilità alla fine dell'esercizio prossimo: un anno scritto male non apre un esercizio nuovo. I **modelli** riempiono i conti dei casi di tutti i giorni: versamento IVA e ritenute con l'F24, contributi, stipendi e loro pagamento, spese bancarie, imposta di bollo, prelievi e versamenti di contanti, la destinazione del risultato dopo l'approvazione del bilancio. Si modificano e si eliminano finché l'esercizio è aperto.
 
+Dalla 1.225.1 **Stampa** porta le registrazioni che si vedono: con una ricerca scritta stampa solo quelle, e lo dice nel sottotitolo. In fondo c'è la riga **Totale** con dare e avere, come nella pagina.
+
 ## <a id="contabilita-iva"></a>Registri IVA e liquidazioni
 
 - **Registri IVA**: vendite e acquisti del periodo, un documento per riga con l'imponibile e l'imposta per aliquota (le scissioni e le inversioni contabili segnate), il riepilogo per aliquota (nelle vendite, sotto, quanta IVA è in scissione dei pagamenti: la versa l'ente e non va nella liquidazione); negli acquisti il **protocollo**, provvisorio finché il periodo non è liquidato, e la parte detraibile.
 - **Liquidazioni IVA**, per ogni mese o trimestre dalla data di inizio: IVA sulle vendite (non quella in scissione) meno IVA detraibile sugli acquisti ricevuti nel periodo, più il **riporto** del periodo prima (il credito, o un debito sotto i 25,82 € che non si versa); per i trimestrali l'**1% di interessi** sul debito. La scadenza del versamento: il 16 del mese dopo (mensili); 16 maggio, 20 agosto, 16 novembre e 16 marzo (trimestrali).
 - **Chiudi** (chi gestisce la contabilità, un periodo finito, dopo quelli prima): fissa gli importi e il protocollo degli acquisti, registra il **giroconto** dell'IVA sull'*Erario c/IVA* e blocca le registrazioni con l'IVA del periodo. Nell'ultimo periodo dell'anno si toglie l'**acconto** di dicembre. **Versata** registra il pagamento con l'F24 dalla banca scelta. L'ultima liquidazione chiusa (non versata) si riapre.
 
+Dalla 1.225.1 la stampa di un registro ha la riga del **totale**, il **riepilogo per aliquota** in fondo e, per gli acquisti, la colonna **Detraibile**.
+
 ## <a id="contabilita-mastrini"></a>Mastrini e bilancio di verifica
 
 - **Mastrini**: i movimenti di un conto nel periodo con il saldo iniziale e il saldo progressivo; sui conti di clienti e fornitori anche di uno solo (**partitario**: quanto ci deve un cliente, quanto dobbiamo a un fornitore). Un clic su un movimento apre la registrazione.
 - **Bilancio di verifica**: per ogni conto dare, avere e saldo (i conti patrimoniali fino alla data, quelli economici nel periodo), raggruppati per natura e per mastro, con i totali; in testa ricavi, costi e **utile o perdita** del periodo e il controllo dare = avere; sotto i saldi di clienti e fornitori. Se il periodo comincia a metà esercizio, costi e ricavi di prima sono una riga a parte (**utile** o **perdita prima del periodo**): il loro effetto è già nei conti patrimoniali e così dare e avere quadrano. Un clic su un conto apre il suo mastrino.
 - **Esporta** scarica la prima nota del periodo in CSV (si apre con Excel) per il commercialista; **Stampa** stampa la linguetta che stai guardando.
+
+Dalla 1.225.1 la stampa del mastrino ha la riga **Totali e saldo finale** e i saldi in D e in A; quella del bilancio di verifica ha i **totali** di dare e avere e la riga dell'utile o della perdita **prima del periodo**, senza la quale le due colonne stampate non quadravano.
 
 ## <a id="contabilita-cee"></a>Bilancio CEE
 

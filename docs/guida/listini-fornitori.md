@@ -12,6 +12,8 @@
 
 Gli sconti non sono nel file: li concorda il fornitore e si scrivono qui, famiglia per famiglia. Un listino può avere decine di migliaia di articoli: per questo restano qui e nel [listino](listino.md) finiscono solo quelli che usate.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa gli articoli caricati nell'elenco, con il listino, il testo cercato e la famiglia nel sottotitolo. Un listino ha migliaia di articoli: il foglio dice quanti ne porta, e **Altri** nell'elenco ne carica ancora prima di stampare.
+
 ## <a id="listini-fornitori-importa"></a>Importare un listino
 
 1. **Importa listini** e scegli i file .TXT, oppure uno ZIP che li contiene. Insieme al listino puoi caricare il file delle famiglie di sconto (`…FSC.TXT`), che ne dà le descrizioni, e quello delle ricodifiche (`…RIC.TXT`). Un file `.EXE` autoestraente va prima aperto sul PC per estrarre i .TXT.

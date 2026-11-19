@@ -9,6 +9,8 @@ In alto i numeri: **Presenti** (nell'ultima scansione), **Nuovi** (comparsi negl
 > [!NOTE]
 > **Fin dove arriva.** Nella rete del server lo scanner vede tutti i dispositivi con il loro **MAC** e il **produttore**, anche quelli che non rispondono al ping. Nelle altre reti e VLAN, oltre il router, vede chi risponde al ping o ha una porta comune aperta, i nomi e le porte, ma il MAC solo dei PC Windows (con il NetBIOS): un dispositivo lì si riconosce dall'indirizzo.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa i dispositivi che si vedono nell'elenco, in orizzontale, con il filtro e il testo cercato nel sottotitolo.
+
 ## <a id="rete-locale-dispositivi"></a>I dispositivi
 
 L'elenco, con i filtri **Tutti**, **Presenti**, **Nuovi**, **Affidabili**, **Da classificare**, **Sospetti**, **Fissi**, **Di passaggio**, **Fissi non controllati** e **Ignorati** (dalla 1.180.0 con la fiducia: vedi [l'archivio della rete nel tempo](#rete-locale-cambiamenti)) e la ricerca per nome, indirizzo, MAC o produttore: il pallino verde se c'era nell'ultima scansione, il **dispositivo** con il tipo, l'**indirizzo** con la rete e la VLAN, il **MAC** con il produttore, la **valutazione**, **da quando è online** (o quando è stato visto l'ultima volta), le **porte** aperte e il **monitoraggio**. Il tipo lo propone lo scanner dal produttore, dalle porte aperte, dai nomi e dal titolo della pagina web: telecamera o videoregistratore, centrale d'allarme, rete (router, switch, access point), stampante, NAS, PC, server, telefono o tablet, domotica, dispositivo con pagina web.

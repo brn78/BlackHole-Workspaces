@@ -29,9 +29,13 @@ La linguetta **Andamento** mostra un riquadro per indicatore, per l'azienda, un 
 
 Un clic su un riquadro apre il **dettaglio**: 24 periodi di andamento, le misure della formula con i loro valori (per capire da dove viene il numero), l'azienda con i reparti e le persone che puoi vedere, e la tabella periodo per periodo. Un clic su un reparto o su un periodo aggiorna il dettaglio.
 
+Dalla 1.225.2 gli indicatori fatti con **dati riservati** (il fatturato, i crediti, i ricavi e i costi della contabilità, il valore dei preventivi, una misura segnata «Riservata») li vede solo chi può leggere quei dati: chi ha il permesso di vedere le vendite, la contabilità o i preventivi, oppure il permesso **Indicatori riservati**. Agli altri non compaiono nell'Andamento, nella Tabella, nella Home, nella scheda del personale né negli avvisi, e in fondo una riga dice **quanti non sono mostrati** e perché, così i numeri che mancano non passano per numeri che non ci sono. Vedi [Permessi e responsabili](#indicatori-permessi).
+
 ## <a id="indicatori-tabella"></a>La tabella
 
 La linguetta **Tabella** mette gli indicatori in righe e i periodi in colonne: **Mesi**, **Trimestri** o **Anni**, gli ultimi 6, 12 o 24 (nei filtri). Le celle sono colorate come lo stato. Un indicatore mensile si legge anche per trimestre e per anno (le misure si mettono insieme come detto nelle [misure](#indicatori-misure)); uno annuale non si divide in mesi. **Esporta** la scrive in Excel o CSV.
+
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa la tabella come si vede, in orizzontale: un indicatore per riga, un periodo per colonna, il gruppo nel sottotitolo.
 
 ## <a id="indicatori-misure"></a>Le misure
 
@@ -53,6 +57,8 @@ Una misura inserita ha:
 
 Le misure calcolate dal programma attribuiscono i numeri alle persone quando possono (il responsabile della commessa, chi ha la richiesta di assistenza, il commerciale del preventivo, chi ha registrato le ore: attraverso l'utente collegato alla scheda del personale) e quindi ai reparti. Quelle che non si possono dividere (fatturato, contabilità, manutenzioni) valgono per l'azienda: in un indicatore per reparto, per ogni reparto vale il totale.
 
+Dalla 1.225.2 una misura inserita a mano ha due caselle in più. **Può essere negativa**: accesa per un saldo o una variazione, che possono scendere sotto zero; spenta (come di partenza), un valore negativo non si salva, perché i pezzi prodotti o le ore non possono esserlo e un meno scritto per sbaglio cambierebbe tutti i conti. Le misure che avevano già valori negativi restano accese, e non si spegne finché quei valori ci sono. **Riservata**: i suoi valori e gli indicatori che la usano li vede solo chi ha **Indicatori riservati** (e chi la inserisce); la casella la cambia solo chi ha quel permesso. Nell'elenco delle misure e degli indicatori un lucchetto segna quelli riservati. Le misure calcolate dalle **Vendite** e dalla **Contabilità** e i **valori dei preventivi** sono riservati da sé: mentre costruisci la formula, sotto la misura c'è scritto.
+
 ## <a id="indicatori-dati"></a>Inserire e importare i dati
 
 La linguetta **Dati** c'è per chi ha **Inserire i dati degli indicatori** e per chi deve inserire una misura. Si sceglie la misura e l'anno: le righe sono i reparti o le persone (dalle schede del personale), le colonne i periodi. Scrivi i numeri (con la virgola per i decimali), poi **Salva**; una cella svuotata toglie il valore. Passando sopra una cella si vede chi l'ha scritta e quando. I periodi [chiusi](#indicatori-periodi) e quelli non ancora cominciati non si cambiano.
@@ -68,6 +74,8 @@ La linguetta **Dati** c'è per chi ha **Inserire i dati degli indicatori** e per
 | Nota | Facoltativa. |
 
 Le colonne si riconoscono dal nome (o si scelgono a mano, anche con l'assistente); **Controlla** dice quante righe sono buone e perché le altre si saltano, **Importa** le scrive. **Modello da compilare** scarica un file Excel con le colonne giuste e una riga per misura.
+
+Dalla 1.225.2 un valore **sotto zero** si scrive solo nelle misure che lo ammettono («Può essere negativa», nella scheda della misura): nelle altre la cella diventa rossa mentre scrivi, con il motivo, e **Salva** si ferma su quella cella; nell'importazione la riga si salta e **Controlla** dice perché. Una misura **riservata** la inserisce chi ne è il responsabile, oppure chi oltre a inserire i dati ha il permesso **Indicatori riservati**.
 
 ## <a id="indicatori-crearli"></a>Creare un indicatore
 
@@ -173,12 +181,15 @@ Un modello aggiunge solo le misure e gli indicatori con un nome che non c'è anc
 | Inserire i dati degli indicatori | Scrivere e importare i valori di tutte le misure inserite. |
 | Configurare gli indicatori | Misure, indicatori, impostazioni, responsabili, modelli, periodi chiusi. |
 | Indicatori delle persone | Con il dettaglio per persona acceso: le persone, le valutazioni, i colloqui (dati riservati). |
-| Premi | Il piano e i risultati con gli importi (dati riservati; comprende gli indicatori delle persone). |
+| Indicatori riservati | Anche gli indicatori fatti con dati riservati: le misure delle Vendite e della Contabilità, i valori dei preventivi e le misure inserite a mano segnate **Riservata**; segnare una misura come riservata (dati riservati). |
+| Premi | Il piano e i risultati con gli importi (dati riservati; comprende gli indicatori delle persone e quelli riservati). |
 | Responsabile di reparto | Senza permessi: il suo reparto e le sue persone (senza gli importi), le loro valutazioni e i colloqui. Si sceglie in **Configurazione → Impostazioni**. |
 | Chi inserisce una misura | Scrive e importa i dati di quella misura e ne riceve il promemoria. |
 | Ognuno vede i propri | Con la scheda del personale collegata al proprio utente: il proprio reparto e, con il dettaglio per persona, i propri indicatori, valutazioni e colloqui. |
 
 Nel [registro attività](registro.md), sotto «Indicatori», restano le modifiche a misure, indicatori, impostazioni, periodi e premi, i dati inseriti o importati, le valutazioni e i colloqui (mai i valori delle persone).
+
+**Indicatori con dati riservati** (dalla 1.225.2). Un indicatore lo vede chi può leggere tutte le misure della sua formula. Le misure delle **Vendite** (fatturato, fatture, crediti scaduti, giorni di incasso) chiedono il permesso *Vedere le vendite*, quelle della **Contabilità** (ricavi, costi, risultato) *Vedere la contabilità*, il **valore dei preventivi** *Vedere i preventivi*; una misura inserita a mano segnata **Riservata** chiede **Indicatori riservati**, che da solo apre anche tutte le altre. Vale per tutti allo stesso modo: chi vede l'azienda, i responsabili di reparto e chi vede i propri. Chi configura gli indicatori li trova comunque tutti nell'elenco, con il lucchetto e senza i valori, e gli avvisi di una soglia arrivano solo ai destinatari che quell'indicatore lo possono vedere. Prima il fatturato e i crediti si leggevano con il solo permesso di vedere gli indicatori: dopo l'aggiornamento, a chi deve continuare a vederli senza aprire le Vendite va dato **Indicatori riservati**.
 
 ---
 

@@ -4,6 +4,106 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.2 · 19 novembre 2026
+
+Tre punti rimasti aperti dall'ultima prova: chi vede gli indicatori economici, i contratti a termine senza la data di
+fine, i valori negativi negli Indicatori.
+
+> **Dopo l'aggiornamento**: chi vedeva il fatturato, i crediti o i ricavi negli Indicatori senza avere i permessi delle
+> vendite o della contabilità non li vede più. Per farglieli vedere ancora basta dargli il permesso nuovo
+> **Indicatori riservati** (Sistema → Policy). Per gli amministratori non cambia nulla.
+
+**Novità**
+
+- **Indicatori con dati riservati**: un indicatore lo vede chi può leggere i dati con cui è fatto. Le misure delle
+  Vendite chiedono il permesso di vedere le vendite, quelle della Contabilità di vedere la contabilità, i valori in euro
+  dei preventivi di vedere i preventivi. Vale nell'Andamento, nella Tabella, nel dettaglio, nella Home, nella scheda del
+  personale e negli avvisi delle soglie. La pagina e la stampa dicono quanti indicatori non sono mostrati e perché.
+- **Permesso «Indicatori riservati»**: per chi deve vedere quegli indicatori senza aprire le Vendite o la Contabilità.
+  Il permesso «Premi» lo comprende.
+- **Misure riservate**: una misura inserita a mano (un fatturato o un margine scritti a mano) si può segnare
+  **Riservata**: i suoi valori e gli indicatori che la usano li vede solo chi ha «Indicatori riservati», oltre a chi la
+  inserisce. Nell'elenco un lucchetto segna le misure e gli indicatori riservati; chi configura li trova comunque tutti,
+  senza i valori.
+- **Misure che possono essere negative**: la casella **Può essere negativa** nella scheda della misura, per un saldo o
+  una variazione. Spenta, come di partenza, un valore sotto zero non si salva.
+- **Contratto a termine senza la scadenza**: per un tempo determinato o un tirocinio senza la data di fine la scheda
+  del personale chiede conferma al salvataggio (**Scrivo la data** o **Salva senza la scadenza**). La scadenza che
+  manca compare come «Mancante» nelle Scadenze, nella Home e nell'elenco del personale, finché non viene scritta.
+
+**Correzioni**
+
+- **Indicatori, dati**: una misura accettava qualsiasi valore sotto zero, anche dove non ha senso (pezzi prodotti,
+  ore). Ora la cella diventa rossa mentre si scrive, con il motivo, e l'importazione salta la riga dicendo perché. Le
+  misure che avevano già valori negativi restano come sono.
+- **Personale**: un contratto a termine si salvava senza la data di fine e senza un segno, e la fine del contratto non
+  compariva da nessuna parte.
+
+## 1.225.1 · 18 novembre 2026
+
+Le correzioni di una prova dedicata alle stampe, pagina per pagina, sui dati dimostrativi. La contabilità tornava al
+centesimo anche dopo la prova.
+
+**Novità**
+
+- **Totali sul foglio**: la riga dei totali che la pagina mostra sotto un elenco (ore, turni, attività, fatture) va
+  anche nella stampa, con il conteggio subito sotto.
+- **Stampe della contabilità**: la prima nota con il totale di dare e avere; i registri IVA con il totale, il riepilogo
+  per aliquota e, per gli acquisti, la colonna Detraibile; il bilancio di verifica con i totali e il risultato prima del
+  periodo; il mastrino con «Totali e saldo finale»; le rate da incassare e da pagare con i totali e, a parte, le note di
+  credito da rimborsare.
+- **Che cosa c'è sul foglio**: il sottotitolo riporta il filtro, la vista e il testo cercato in ordini ai fornitori,
+  giacenze, fatture emesse e ricevute, Presenze, Rubrica, Cestino e Listini fornitori.
+- **Rete locale e Rubrica**: nella stampa le porte aperte sono separate e complete, il monitoraggio ha il suo stato, e
+  ogni contatto ha tutti i telefoni, le email e le etichette.
+
+**Correzioni**
+
+- **Elenco vuoto**: una ricerca senza risultati non apre più un foglio con zero righe: compare l'avviso «niente da
+  stampare».
+- **Prima nota**: la stampa ignorava la ricerca e riportava tutto il periodo senza dirlo. Ora stampa le registrazioni
+  che si vedono.
+- **Tabelle larghe**: una tabella con molte colonne (la scheda tecnica di un impianto) usciva dal foglio a destra. Ora
+  si stringe finché ci sta.
+- **Conteggio da solo**: il numero delle righe non finisce più da solo su un foglio in più.
+- **Reperibilità**: nella settimana del cambio dell'ora il riepilogo contava un'ora in meno dell'elenco dei turni. Le
+  ore di un turno sono quelle vere.
+- **Ordini ai fornitori**: lo stato nella stampa era in inglese; uno sconto scritto male toglieva la riga dal totale
+  senza un segno sul campo, che ora diventa rosso.
+- **Consuntivo dell'assistenza**: una riga ancora senza prezzo usciva a «0,00 €»; ora dice «da prezzare», con una nota
+  sotto il totale.
+- **Indicatori**: caricando un modello di settore compariva un errore accanto alla conferma e l'esito non si leggeva.
+- **Bonifici**: nei file per la banca i nomi dei beneficiari sono in maiuscolo.
+- **Testi**: «1 scaduta» nell'elenco del personale; un permesso senza l'ora di fine dice quale ora manca; nell'editor
+  dei modelli di stampa le caselle del piè di pagina e della ricevuta dicono che cosa fanno.
+
+## 1.225.0 · 18 novembre 2026
+
+I modelli di stampa arrivano dove mancavano: le pagine che non avevano la stampa, un tipo di modello per le lettere e
+le opzioni proprie di ogni tipo di documento.
+
+**Novità**
+
+- **Stampa in ogni elenco**: Reperibilità (i turni del mese, l'elenco dei turni, le ore), Presenze (la giornata, il
+  periodo, le richieste di ferie e permessi), Listini fornitori, Rubrica, Rete locale, Archivio di rete, Cestino e la
+  tabella degli Indicatori. Si trova in «Altro», usa i modelli di stampa e ha il suo codice tra i moduli.
+- **Modelli per le lettere**: un tipo nuovo, «Lettere», per l'informativa sulla privacy, le lettere di autorizzazione
+  e le comunicazioni al personale, con il destinatario nella finestra della busta. Finché non ne crei uno valgono i
+  modelli degli elenchi.
+- **Opzioni per tipo di documento**: nell'editor di un modello, un riquadro con le scelte proprie di quel tipo: la nota
+  in fondo a rapporti, manutenzioni, schede tecniche e presenze; chi ha stampato e quando, il conteggio in fondo e le
+  righe a colori alterni per gli elenchi; la nota in fondo e chi ha stampato per le lettere.
+- **Un esempio per ogni stampa**: l'anteprima del modello mostra ogni documento di quel tipo. Per i preventivi con i
+  prezzi, senza, a corpo e l'elenco dei materiali; per l'assistenza il rapporto, il laboratorio, il consuntivo e la
+  ricevuta; per gli elenchi la tabella, la scheda e il testo.
+- **Ricevuta del laboratorio**: segue il modello dell'assistenza, con la copia per il cliente e quella per l'azienda
+  ognuna sul suo foglio. Chi preferisce le due copie su un foglio solo lo sceglie nel modello.
+- **Tesserini**: prendono il colore del modello degli elenchi.
+
+**Correzioni**
+
+- **Informativa sulla privacy**: il titolo non resta più da solo sul primo foglio.
+
 ## 1.224.0 · 18 novembre 2026
 
 Correzioni e idee nate da una prova completa sui dati dimostrativi, con utenti di ogni livello: da chi consulta

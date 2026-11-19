@@ -16,6 +16,8 @@ In alto, la riga **Adesso**: chi è reperibile in questo momento con il suo **te
 
 Dalla 1.224.0 la Reperibilità conosce le [ferie, i permessi e le malattie](presenze.md#presenze-richieste) delle Presenze. Il turno di chi in quei giorni è **assente** lo dice: nel calendario ha il bordo giallo e l'avviso, nell'elenco e nella scheda del turno si legge «assente gio 19/11» (quando, non il motivo, che è della persona; «da approvare» se la richiesta aspetta ancora). Serve a mettere un [sostituto](#reperibilita-cambi): il turno resta suo finché non lo si cambia.
 
+Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa quello che la linguetta mostra: nel **Calendario** i turni del mese in ordine di inizio (chi è reperibile, da quando a quando, il telefono, le note: il foglio da appendere), nei **Turni** l'elenco come si vede, nelle **Ore** le ore e i giorni per persona del periodo. Chi è assente ha scritto quando, non il motivo.
+
 ## <a id="reperibilita-cambi"></a>Cambi e sostituzioni
 
 - **Cambio**: nel turno si sceglie un altro reperibile; il turno resta com'è e porta scritto *al posto di* chi era previsto. Tutti e due ricevono un avviso.
@@ -44,6 +46,8 @@ Dalla 1.224.0 la Reperibilità conosce le [ferie, i permessi e le malattie](pres
 ## <a id="reperibilita-ore"></a>Ore e giorni
 
 La linguetta **Ore** conta, per persona, i turni del mese (o dell'anno, con **Anno**): **turni**, **ore** (solo quelle dentro il periodo), **fuori orario** (le ore fuori dall'orario di lavoro: le altre sono già lavorate), i **giorni** di reperibilità, **feriali**, **non lavorativi** (i giorni senza fasce, di solito il sabato) e **domeniche e festivi**, e le **uscite**. Ogni 24 ore di turno, dal suo inizio, fanno un giorno, del giorno in cui cominciano: la settimana da lunedì alle 8 a lunedì alle 8 fa 5 giorni feriali, un sabato e una domenica; il fine settimana da venerdì alle 18 a lunedì alle 8 fa un feriale, un sabato e una domenica. Le **uscite** sono gli interventi dell'assistenza con la [reperibilità nel consuntivo](assistenza.md#assistenza-consuntivo) fatti durante il turno da chi era reperibile (dalla sua scheda del personale). **Esporta** scrive il riepilogo in Excel o CSV, per le buste paga.
+
+Dalla 1.225.1 le ore di un turno sono quelle **vere**: nella settimana in cui cambia l'ora un turno dura un'ora in più (a ottobre) o in meno (a marzo), e il riepilogo delle ore lo conta come l'elenco dei turni. Prima il riepilogo contava la differenza degli orari, un'ora in meno a ottobre.
 
 ## <a id="reperibilita-importa"></a>Importare ed esportare i turni
 

@@ -80,6 +80,8 @@ Il **rapporto** stampa manodopera, materiale e spese senza prezzi, da far firmar
 4. **Avvisa il cliente**: chiamalo (i suoi numeri sono a un clic) oppure mandagli l'email «riparazione pronta», se la posta è configurata e il cliente ha un indirizzo. Resta scritto quando e da chi è stato avvisato.
 5. **Consegnata al cliente**, con il nome di chi l'ha ritirata, chiude la richiesta: *Ritirata*. Il rapporto di riparazione si può stampare per la firma al ritiro.
 
+Dalla 1.225.0 la **ricevuta** si apre nell'anteprima come gli altri documenti ed esce con il modello di stampa dell'assistenza: una copia per il cliente e una per il laboratorio, una per foglio, ognuna con le sue firme. Chi preferisce le due copie su un foglio solo da tagliare lo sceglie nel modello ([Modelli di stampa](modelli-stampa.md) → Assistenza). Il cartellino da attaccare al pezzo resta com'è, nella sua misura.
+
 ## <a id="assistenza-permessi"></a>Permessi
 
 | Permesso | Consente |

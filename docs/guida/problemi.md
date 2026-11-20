@@ -75,7 +75,7 @@ Sono le [maiuscole e minuscole automatiche](interfaccia.md#interfaccia-formato):
 <details>
 <summary><b>Un campo ha il bordo rosso e non riesco a salvare</b></summary>
 
-Il valore non ha la forma giusta per quel campo: sotto il campo c'è che cosa non va (per esempio *al dominio manca l'estensione* per un'email, *non è un indirizzo IP*). Correggilo, oppure svuota il campo se il dato non c'è ancora: un campo vuoto non è mai sbagliato. Se invece il campo è vuoto ed è rosso, è un dato **obbligatorio** che manca: l'avviso in alto dice quale, e il bordo se ne va appena lo compili. Vedi [Controllo dei campi](interfaccia.md).
+Il valore non ha la forma giusta per quel campo: sotto il campo c'è che cosa non va (per esempio *al dominio manca l'estensione* per un'email, *non è un indirizzo IP*). Correggilo, oppure svuota il campo se il dato non c'è ancora: un campo vuoto non è mai sbagliato. Se invece il campo è vuoto ed è rosso, è un dato **obbligatorio** che manca: l'avviso in alto dice quale, e il bordo se ne va appena lo compili. Se il campo è un numero o una data, l'avviso dice il limite (il minimo, il massimo, l'anno che non va bene). Vedi [Controllo dei campi](interfaccia.md).
 
 </details>
 

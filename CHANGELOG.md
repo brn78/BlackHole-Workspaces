@@ -4,6 +4,50 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.5 · 20 novembre 2026
+
+La seconda parte della prova a tappeto: ogni modulo è stato confermato con valori sbagliati di ogni genere (lettere al
+posto dei numeri, date impossibili, testi smisurati, segni speciali, testi fatti apposta per forzare il database). Il
+programma ora indica il campo che non va anche quando il rifiuto arriva dopo il salvataggio, e ricerche e cestino sono
+più robusti.
+
+**Novità**
+
+- **Il campo rifiutato, segnato**: quando un salvataggio viene rifiutato per un valore che non va (un'email scritta
+  male, un nome già usato, una data con l'anno sbagliato), il campo di cui parla il messaggio prende il bordo rosso e
+  il cursore. Prima il messaggio diceva che cosa non andava, ma il campo andava cercato. Vale anche nei riquadri delle
+  Impostazioni e nella pagina di un preventivo.
+- **Numeri e date fuori misura**: un numero sotto il minimo o sopra il massimo, i decimali dove va un numero intero,
+  una data con l'anno fuori da 1900–2100 o lasciata a metà fermano il salvataggio prima che parta. L'avviso dice il
+  campo e il motivo.
+- **Orari a fasce**: un'ora scritta male o una fine prima dell'inizio fermano il salvataggio nella reperibilità, nei
+  gruppi, nel personale e nel profilo, con il campo segnato.
+- **Database**: tutte le letture e le scritture sono state ricontrollate una per una e provate con testi fatti apposta
+  per forzarle (SQL injection): nessun passaggio trovato. Il controllo ora si ripete a ogni versione.
+- **Guida**: il capitolo sull'interfaccia spiega i valori che non vanno.
+
+**Correzioni**
+
+- **Valori cambiati senza dirlo**: nelle regole delle presenze (ore dei pasti e del pernottamento, minuti di viaggio)
+  e nei ritocchi della voce da testo una lettera lasciava in silenzio il valore di prima, e un numero troppo grande
+  veniva portato al limite. Ora il salvataggio si ferma e dice quale campo.
+- **Valori sbagliati accettati**: il sito di un contatto della rubrica scritto male e la scadenza di un mezzo con un
+  anno impossibile venivano salvati. Ora vengono rifiutati.
+- **Ricerche con % e _**: nelle ricerche questi due segni facevano da jolly, e cercando «%» si trovava tutto. Ora si
+  cercano come sono scritti: in contabilità, registro delle attività, distinte, acquisti, preventivi, vendite,
+  assistenza, magazzino, fatture ricevute e posta.
+- **Ricerca dei documenti**: un tipo di file troppo lungo veniva scartato e la ricerca tornava senza filtro. Ora non
+  trova nulla.
+- **Cestino**: al ripristino il contenuto di una voce viene controllato prima di usarlo, e una voce alterata viene
+  rifiutata.
+- **Magazzino**: in un movimento la quantità o il costo da controllare e le matricole in più dei pezzi indicano il
+  campo della riga giusta.
+- **Fatture ricevute**: le rate che non fanno il totale indicano gli importi.
+- **Clienti e fornitori**: il codice si controlla prima di salvare, e sulla scheda di un fornitore il messaggio non
+  parla più del «Codice cliente».
+- **Modelli di stampa**: una misura che non si legge viene detta insieme a quelle fuori dai limiti.
+- **Documenti**: il nome doppio di una cartella dice «una cartella chiamata», non più «chiamato».
+
 ## 1.225.4 · 20 novembre 2026
 
 Una prova a tappeto di tutti i comandi del programma, pagina per pagina e tasto per tasto: ogni modulo ora indica il

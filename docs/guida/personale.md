@@ -57,7 +57,7 @@ Le modifiche finiscono nello **Storico** della scheda: quelle del costo le vede 
 
 ## <a id="personale-voci"></a>Corsi, documenti e visite
 
-Ogni linguetta elenca le sue voci, nell'ordine del catalogo, ciascuna con lo **stato**: **Scaduto**, **Scade il…** (entro il preavviso del suo tipo), **Valido fino al…**, **Senza scadenza** oppure **Rinnovato**. **Aggiungi** apre la finestra della voce:
+Ogni linguetta elenca le sue voci, nell'ordine del catalogo, ciascuna con lo **stato**: **Scaduto**, **Scade il…** (entro il preavviso del suo tipo), **Valido fino al…**, **Senza scadenza** oppure **Rinnovato**. **Aggiungi** apre la finestra della voce. Il **tipo va scelto**: una voce nuova parte da *Scegli…* e non si salva senza, così un corso o un documento non si registra per sbaglio con il primo tipo del catalogo (da una voce che manca e da un rinnovo il tipo è già quello giusto):
 
 - **Corso**: il tipo dal catalogo, la data del corso, le ore, l'ente formatore, il numero dell'attestato;
 - **Documento**: carta d'identità, patente, passaporto, permesso di soggiorno…, con numero, chi l'ha rilasciato, la data di rilascio e la scadenza stampata sul documento;

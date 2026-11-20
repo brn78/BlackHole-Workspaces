@@ -4,6 +4,32 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.4 · 20 novembre 2026
+
+Una prova a tappeto di tutti i comandi del programma, pagina per pagina e tasto per tasto: ogni modulo ora indica il
+campo da sistemare, e i difetti trovati lungo la strada sono corretti.
+
+**Novità**
+
+- **Il campo da sistemare, in tutti i moduli**: quando un salvataggio si ferma perché manca un dato o un valore non
+  va, l'avviso dice che cosa manca, il campo prende il bordo rosso e il cursore ci va sopra, anche se sta in una
+  linguetta che non stavi guardando. Il bordo se ne va appena scrivi o scegli. Prima in molti moduli compariva solo
+  l'avviso, e il campo andava cercato. Se i campi da sistemare sono più d'uno vengono segnati tutti.
+- **Righe dei documenti**: in ordini, fatture e DDT una riga con la quantità, il prezzo o lo sconto da correggere
+  viene indicata sul campo giusto, e una riga senza descrizione si segnala prima di salvare. Nei preventivi viene
+  indicata la riga a cui manca il titolo o il testo.
+- **Guida**: il capitolo sull'interfaccia spiega i campi obbligatori rimasti vuoti.
+
+**Correzioni**
+
+- **Documenti Word**: dopo aver guardato l'anteprima di un file Word, salvarlo dall'editor non riusciva e compariva un
+  errore. Ora si salva, in qualunque ordine si usino anteprima ed editor.
+- **Corsi, documenti e visite del personale**: una voce nuova aveva già scelto il primo tipo dell'elenco, e un «Salva»
+  dato per sbaglio registrava un corso mai fatto con la data del giorno. Ora il tipo va scelto.
+- **Preferiti**: sulla scheda di un preferito la stella appariva spenta, e un clic toglieva il preferito.
+- **Home**: le righe che non si possono aprire non si evidenziano più come quelle che si aprono.
+- **Impianti**: salvando senza il cliente, il campo del cliente non veniva indicato.
+
 ## 1.225.3 · 19 novembre 2026
 
 I modelli delle schede tecniche e delle certificazioni, provati a fondo: l'editor dice che cosa manca invece di

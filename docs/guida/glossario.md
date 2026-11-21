@@ -15,7 +15,7 @@
 - **Catalogo del personale**: L'elenco uguale per tutti dei corsi, dei documenti personali e delle visite, con la validità che propone la scadenza, il preavviso e per chi sono obbligatori. Vedi [Il catalogo](personale.md#personale-catalogo).
 - **Certificazione**: Una dichiarazione del registro (DiCo, DiRi, quadro elettrico…), numerata per modello e anno e legata a un impianto: in bozza si compila, emessa resta com'era all'emissione, annullata resta nel registro. Vedi [Certificazioni](certificazioni.md).
 - **Cestino (appunti)**: Dove finiscono gli appunti eliminati dal proprietario: si ripristinano entro 30 giorni, poi vengono eliminati da soli.
-- **Cestino (clienti)**: Dove finiscono le schede di clienti e fornitori eliminate: si ripristinano entro 30 giorni, poi vengono eliminate da sole; prima, solo chi ha il permesso «Svuotare il cestino dei clienti» le elimina per sempre. Vedi [Cestino](clienti.md#clienti-cestino).
+- **Cestino (clienti)**: Dove finiscono le schede di clienti e fornitori eliminate: si ripristinano entro 30 giorni, poi vengono eliminate da sole; prima, solo chi ha il permesso «Svuotare il cestino dei clienti» le elimina per sempre. Una scheda con fatture o registrazioni in contabilità non si elimina: si rende non attiva. Vedi [Cestino](clienti.md#clienti-cestino).
 - **Cestino (documenti)**: Dove finiscono file e cartelle tolti dall'archivio: si ripristinano entro 30 giorni, poi vengono eliminati da soli.
 - **Cestino (password)**: Dove finiscono le password tolte dal proprietario (o da chi gestisce le condivise): si ripristinano entro 30 giorni, poi vengono eliminate da sole.
 - **Codice catastale**: Il codice di quattro caratteri del comune (o dello stato estero) di nascita, parte del codice fiscale.

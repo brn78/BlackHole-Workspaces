@@ -4,6 +4,53 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.6 · 21 novembre 2026
+
+La terza parte della prova a tappeto: i comandi che eliminano, spediscono o cambiano lo stato dei dati, premuti uno per
+uno su dati di prova. Per ognuno è stato controllato che «Annulla» non scriva nulla, che la conferma dica davvero che
+cosa succede e che quello che va nel cestino torni com'era. Due correzioni riguardano la contabilità.
+
+> **Dopo l'aggiornamento**: la scheda di un cliente o di un fornitore che ha fatture, note di credito, DDT o
+> registrazioni in contabilità non si elimina più, nemmeno spostandola nel cestino. Per non vederla più negli elenchi
+> basta renderla «non attiva». Una scheda di questo genere già nel cestino ci resta finché non la ripristini. Le schede
+> senza documenti si eliminano come prima.
+
+**Novità**
+
+- **Schede con fatture o registrazioni**: una scheda cliente o fornitore con documenti di vendita emessi, fatture
+  ricevute o registrazioni contabili non va nel cestino e non si elimina per sempre: né una alla volta, né in gruppo, né
+  da sola allo scadere dei 30 giorni del cestino. Il messaggio dice che cosa ha la scheda e suggerisce di renderla «non
+  attiva». Prima si poteva eliminare, e fatture e crediti restavano senza intestatario.
+- **Elimina definitivamente, detto per intero**: la conferma dell'eliminazione definitiva di una scheda elenca tutto
+  quello che se ne va con lei: gli impianti con le loro certificazioni, le richieste di assistenza, le pratiche, i
+  solleciti e i mandati di addebito.
+- **Conferme dove mancavano**: «Togli il versamento» di una liquidazione IVA, «Ripristina quella di serie» della Home e
+  «Togli» della carta intestata di un modello di stampa ora chiedono conferma. Prima partivano subito.
+- **Guida**: aggiornati i capitoli sul cestino dei clienti, sulle liquidazioni IVA e sulla Home.
+
+**Correzioni**
+
+- **IVA in un esercizio chiuso**: togliere il versamento o riaprire una liquidazione eliminava registrazioni anche in
+  un esercizio già chiuso. Ora vengono rifiutati con il motivo: se serve davvero, prima si riapre l'esercizio da «Fine
+  anno».
+- **Liquidazioni chiuse senza il nome del periodo**: nella finestra del versamento e nel registro delle attività il
+  periodo di una liquidazione chiusa restava vuoto.
+- **Modello di stampa di serie**: ripristinando dal cestino un modello che era quello di serie, ne restavano due per lo
+  stesso genere di documento. Ora quello ripristinato torna l'unico.
+- **Banca**: «Registra in prima nota» senza aver scelto il conto dava un errore nella pagina. Ora il campo del conto
+  viene segnato.
+- **File di testo vuoti**: aprendo un file di testo vuoto compariva «Errore del server (416)». Ora si legge «Il file è
+  vuoto.».
+- **Commesse**: la conferma dell'eliminazione dice che la commessa resta 30 giorni nel cestino, e quella che elimina
+  anche le attività non dice più che non si potranno recuperare: tornano ripristinando la commessa.
+- **Frasi delle conferme**: corretti gli accordi quando la cosa da eliminare è una sola o ha un solo file («1 scheda,
+  che resterà senza categoria», «La voce non ci sarà più»), e alcune frasi nei tipi di mezzi, nelle multe, nei link
+  condivisi e nei modelli delle presenze.
+- **Campi vuoti senza avviso**: sei comandi con il campo vuoto mettevano solo il cursore nel campo, senza dire nulla:
+  il commento e la sottoattività di un'attività, l'email a cui mandare un link, il nome di un preferito, la durata di
+  un turno di reperibilità senza l'inizio, la prova del nome nelle Impostazioni. Ora compare l'avviso e il campo viene
+  segnato.
+
 ## 1.225.5 · 20 novembre 2026
 
 La seconda parte della prova a tappeto: ogni modulo è stato confermato con valori sbagliati di ogni genere (lettere al

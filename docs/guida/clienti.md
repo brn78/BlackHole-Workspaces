@@ -118,7 +118,8 @@ Al termine un messaggio dice quante schede sono cambiate. Le schede che non puoi
 
 - Nel cestino una scheda **non compare altrove**: non negli elenchi, nella ricerca, nei suggerimenti di documenti e attività o nei conteggi dei gruppi. Si apre in sola lettura.
 - **Ripristina** la rimette com'era, con gruppo, ruoli, recapiti e collegamenti. Serve lo stesso permesso che serve per spostarla nel cestino.
-- Dopo **30 giorni** nel cestino la scheda viene eliminata da sola, con la sua immagine; l'elenco del cestino dice il giorno.
+- Dopo **30 giorni** nel cestino la scheda viene eliminata da sola, con la sua immagine; l'elenco del cestino dice il giorno. Con la scheda se ne vanno i suoi impianti con le certificazioni, le richieste di assistenza, le pratiche, i solleciti e i mandati di addebito; preventivi, ordini, attività, commesse, documenti e password restano, senza il collegamento.
+- Una scheda che ha **fatture, note di credito o DDT emessi, fatture ricevute o registrazioni in contabilità** non va nel cestino e non si elimina: il programma lo dice, con il conto di quello che ha. Senza la scheda quei documenti resterebbero senza intestatario, e il credito o il debito in contabilità senza partitario. Per non vederla più negli elenchi rendila **non attiva**.
 - **Elimina definitivamente** (sulle schede scelte) e **Svuota cestino** cancellano per sempre, dopo una conferma: servono il permesso **Svuotare il cestino dei clienti** e quello di vedere la scheda; i propri contatti privati li elimina sempre il proprietario. Con la scheda se ne vanno anche i suoi [impianti](impianti.md) e le loro [certificazioni](certificazioni.md); le cartelle in Documenti restano.
 - Il **codice** di una scheda nel cestino resta suo: un'importazione con lo stesso codice si ferma e chiede di ripristinarla, oppure di lasciare vuoto il codice per crearne una nuova.
 

@@ -4,6 +4,40 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.7 · 21 novembre 2026
+
+L'ultima parte della prova a tappeto. Ogni funzione del server (sono 1.277) è stata chiamata direttamente, senza passare
+dalle pagine: senza accesso, con un utente senza alcun permesso, con dati che non esistono, scritti male o vuoti,
+controllando ogni volta che nei dati non cambiasse nulla. Nessuna ha risposto a chi non doveva e nessuna è andata in
+errore. Poi il codice delle pagine è stato confrontato con quello che compare sullo schermo, e sono stati provati a mano
+il calendario, la prima configurazione, le pagine senza alcun dato e le pagine pubbliche dei link.
+
+> **Dopo l'aggiornamento**: nei campi che hanno anche l'ora il tasto in fondo al calendario si chiama «Adesso» (nei
+> campi con la sola data resta «Oggi»). Il link online di un preventivo in bozza con la validità già passata non si crea
+> più: prima si cambia la validità o si fa una revisione.
+
+**Novità**
+
+- **Calendario**: nei campi che hanno anche l'ora il tasto che scrive il momento attuale si chiama «Adesso». Quando oggi
+  (o adesso) è fuori dai limiti del campo il tasto resta spento e dice perché. Prima scriveva un valore che poi veniva
+  rifiutato.
+- **Pagina di accesso e prima configurazione**: quando manca un dato o le due password non coincidono, oltre all'avviso
+  viene segnato il campo da sistemare, come nel resto del programma.
+- **Archivio di rete senza cartelle**: se non è ancora stata aggiunta nessuna cartella, la pagina lo dice e
+  all'amministratore offre il tasto per aggiungerle. Prima compariva «il tuo profilo non ha il permesso», anche
+  all'amministratore.
+- **Guida**: aggiornati i capitoli sulle date, sul link del preventivo e sull'Archivio di rete.
+
+**Correzioni**
+
+- **Preventivo online**: per una bozza con la validità già passata il link si creava lo stesso: il preventivo veniva
+  segnato «inviato» e il cliente riceveva un link già scaduto. Ora è rifiutato con il motivo e la bozza resta bozza.
+- **Preventivo online, pagina del cliente**: un'email scritta male nel campo facoltativo veniva rifiutata senza indicare
+  il campo. Ora il campo viene segnato. Il documento mostrato al cliente ha un controllo in più su ciò che può
+  contenere.
+- **Listini dei fornitori**: l'anteprima di un listino METEL chiesta senza alcun file rispondeva con un messaggio tecnico
+  in inglese. Ora dice «Nessun file ricevuto.».
+
 ## 1.225.6 · 21 novembre 2026
 
 La terza parte della prova a tappeto: i comandi che eliminano, spediscono o cambiano lo stato dei dati, premuti uno per

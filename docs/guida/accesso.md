@@ -26,7 +26,7 @@ Il codice **parte da solo alla sesta cifra** (dalla 1.225.14), scritto o incolla
 
 ## <a id="accesso-obblighi"></a>Cambio password e attivazione obbligatori
 
-L'amministratore o una policy possono richiedere di **scegliere una nuova password** (primo accesso, password scaduta) o di **attivare la verifica in due passaggi**. In quel caso, dopo la password, la pagina di accesso ti guida nel passaggio richiesto: finché non lo completi la piattaforma non si apre. Quando scegli la nuova password, sotto il campo di conferma compare subito se le due password coincidono.
+L'amministratore o una policy possono richiedere di **scegliere una nuova password** (primo accesso, password scaduta) o di **attivare la verifica in due passaggi**. In quel caso, dopo la password, la pagina di accesso ti guida nel passaggio richiesto: finché non lo completi la piattaforma non si apre. Quando scegli la nuova password, sotto il campo di conferma compare subito se le due password coincidono. Se una password viene rifiutata (quella attuale non è giusta, la nuova è troppo corta o uguale a quella di prima), oltre all'avviso si segna il campo da correggere (dalla 1.225.15; lo stesso nel link di recupero e nella configurazione iniziale).
 
 ## <a id="accesso-recupero"></a>Password dimenticata
 

@@ -4,6 +4,39 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.15 · 22 novembre 2026
+
+Un ultimo giro di prova sulle parti che finora si erano viste poco: «Importa da una cartella» degli impianti, le
+finestre della pagina di accesso (password dimenticata, cambio obbligatorio, prima configurazione), le Impostazioni e
+il piano dei premi.
+
+> **Dopo l'aggiornamento**: nel piano dei premi, con il fondo «percentuale del risultato», la percentuale va scritta:
+> un piano salvato con quel campo vuoto aveva il fondo a zero e non dava premi a nessuno, e ora al salvataggio viene
+> chiesta. In «Solo per i reparti» di una voce del piano si accettano solo i reparti delle schede del personale.
+
+**Correzioni**
+
+- **Premi, fondo dalla percentuale del risultato**: lasciando vuota la percentuale il piano si salvava lo stesso, con
+  il fondo a zero. Ora la percentuale è obbligatoria, da 0 a 100.
+- **Premi, limiti del piano**: un peso fuori misura, pesi delle tre parti tutti a zero o negativi, importi negativi
+  si segnano sul loro campo prima di salvare. Un nome scritto in «Solo per i reparti» che non è un reparto vero viene
+  rifiutato, con l'elenco dei reparti che ci sono: prima la voce si salvava e non valeva per nessuno.
+- **Importa da una cartella, telefono del cliente**: le cifre dentro una matricola (per esempio quella di un
+  registratore) potevano essere scambiate per un numero estero e proposte come telefono del cliente.
+- **Importa da una cartella, cartella di clienti**: un file «leggimi» o «INFO» lasciato in cima alla cartella dei
+  clienti la faceva leggere come un impianto solo, con dentro i file di tutti i clienti. Ora viene riconosciuta come
+  cartella di clienti.
+- **Importa da una cartella, «Torna alla revisione»**: se il cliente veniva rifiutato, tornando indietro si
+  ritrovavano i dati proposti e le correzioni fatte a mano erano perse. Ora il modulo torna com'era.
+- **Importa da una cartella, password**: una riga a cui si toglie la password non crea più una voce vuota nella
+  gestione password.
+- **Pagina di accesso**: quando una password o un codice vengono rifiutati (password attuale non giusta, nuova
+  password troppo corta, codice della configurazione iniziale sbagliato), oltre all'avviso si segna il campo da
+  correggere.
+- **Messaggi dei controlli**: nei campi con accanto il file da cui viene il dato, il messaggio riporta solo il nome
+  del campo.
+- **Guida**: aggiornati i capitoli su accesso, impianti e indicatori.
+
 ## 1.225.14 · 22 novembre 2026
 
 Finita la prova di ogni comando, sono stati ripresi i punti che erano rimasti aperti: quattro sono sistemati qui. In

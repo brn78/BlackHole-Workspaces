@@ -157,7 +157,7 @@ Facoltativi: si accendono in **Configurazione → Impostazioni** e la linguetta 
 - **Forme del premio**: come si può ricevere («Denaro», «Welfare», «Giorno di permesso»…); nei risultati si sceglie per ognuno;
 - **Reparti fuori dal piano**.
 
-Un numero del piano scritto male (un peso, una soglia, la percentuale di una fascia) ferma **Salva il piano** e si segna sul suo campo (dalla 1.225.11): prima c'era un avviso generico, e pesi o fasce scritti male si salvavano vuoti.
+Un numero del piano scritto male (un peso, una soglia, la percentuale di una fascia) ferma **Salva il piano** e si segna sul suo campo (dalla 1.225.11): prima c'era un avviso generico, e pesi o fasce scritti male si salvavano vuoti. Dalla 1.225.15 si segnano sul campo anche i limiti: il peso di una voce da 0,01 a 1.000, i pesi delle tre parti (mai negativi, non tutti a zero), premio pieno, fondo e massimo non negativi. Con il fondo dalla **percentuale del risultato** la percentuale va scritta, da 0 a 100: lasciata vuota il piano si salvava con il fondo a zero, e nessuno avrebbe preso il premio. In **Solo per i reparti** i nomi devono essere reparti delle schede del personale: un nome sbagliato farebbe valere la voce per nessuno, e il messaggio elenca quelli che ci sono.
 
 I **risultati** sono calcolati subito, provvisori: per ogni persona i punti delle tre parti (una parte senza voci non conta e le altre pesano di più), il totale, la fascia, la parte dell'anno in forza e il premio; sopra il fondo, quanto si è calcolato e la riduzione. Un clic su una persona mostra voce per voce valore, minimo, obiettivo e punti, e i dati che mancano. **Chiudi l'anno** ferma i risultati; **Riapri** li ricalcola. **Esporta** li scrive in Excel.
 

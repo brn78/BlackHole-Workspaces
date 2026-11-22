@@ -141,7 +141,7 @@ Con il **dettaglio per persona** acceso, gli indicatori «per persona» si leggo
 
 ## <a id="indicatori-valutazioni"></a>Valutazioni e colloqui
 
-Il responsabile del reparto (o chi ha **Indicatori delle persone**) valuta una persona ogni trimestre o ogni anno (si sceglie nelle impostazioni): un voto da **1 a 5** per ogni voce (le voci le scrive l'azienda: di partenza affidabilità, collaborazione, precisione e cura, rispetto delle procedure), «—» se una voce non si valuta, e la **motivazione**. La media dei voti va nel riepilogo e, se il piano lo prevede, nella parte individuale del premio. Nessuno valuta sé stesso; senza voti e senza motivazione la valutazione si toglie. Le **note dei colloqui** (giorno e testo) restano nella linguetta e nella stampa; le toglie chi le ha scritte o chi configura gli indicatori.
+Il responsabile del reparto (o chi ha **Indicatori delle persone**) valuta una persona ogni trimestre o ogni anno (si sceglie nelle impostazioni): un voto da **1 a 5** per ogni voce (le voci le scrive l'azienda: di partenza affidabilità, collaborazione, precisione e cura, rispetto delle procedure), «—» se una voce non si valuta, e la **motivazione**. La media dei voti va nel riepilogo e, se il piano lo prevede, nella parte individuale del premio. Nessuno valuta sé stesso; senza voti e senza motivazione la valutazione si toglie (e il programma lo dice, invece di «salvata»). Le **note dei colloqui** (giorno e testo) restano nella linguetta e nella stampa; le toglie chi le ha scritte o chi configura gli indicatori. Il giorno di un colloquio arriva fino a oggi: con una data nel futuro la nota finiva nell'anno dopo e non si vedeva più nell'elenco (dalla 1.225.11).
 
 ## <a id="indicatori-premi"></a>Premi
 
@@ -156,6 +156,8 @@ Facoltativi: si accendono in **Configurazione → Impostazioni** e la linguetta 
 - **Da punti a premio**: le fasce, da quanti punti in su e quanta parte del premio pieno (per esempio sotto 60 niente, da 60 il 50%, da 75 il 100%, da 90 il 130%), ognuna con il suo nome;
 - **Forme del premio**: come si può ricevere («Denaro», «Welfare», «Giorno di permesso»…); nei risultati si sceglie per ognuno;
 - **Reparti fuori dal piano**.
+
+Un numero del piano scritto male (un peso, una soglia, la percentuale di una fascia) ferma **Salva il piano** e si segna sul suo campo (dalla 1.225.11): prima c'era un avviso generico, e pesi o fasce scritti male si salvavano vuoti.
 
 I **risultati** sono calcolati subito, provvisori: per ogni persona i punti delle tre parti (una parte senza voci non conta e le altre pesano di più), il totale, la fascia, la parte dell'anno in forza e il premio; sopra il fondo, quanto si è calcolato e la riduzione. Un clic su una persona mostra voce per voce valore, minimo, obiettivo e punti, e i dati che mancano. **Chiudi l'anno** ferma i risultati; **Riapri** li ricalcola. **Esporta** li scrive in Excel.
 

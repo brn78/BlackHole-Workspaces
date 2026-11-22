@@ -4,6 +4,166 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.13 · 21 novembre 2026
+
+Ancora la prova sui comandi che nei giri precedenti non erano mai comparsi sullo schermo: la chiusura del mese delle
+presenze, ferie e permessi, i DDT con le matricole, la fattura dal preventivo quando parte del materiale è già uscita
+con un DDT, manutenzioni e scadenze. Una sola correzione, la stessa già fatta nei mezzi con la 1.225.12.
+
+**Correzioni**
+
+- **Scadenze dell'azienda e manutenzioni degli impianti**: scegliendo la ripetizione «Altro…» senza scrivere i mesi, la
+  voce si salvava come «non si ripete», senza dirlo. Ora i mesi vengono chiesti, da 1 a 120.
+- **Guida**: aggiornato il capitolo sulle scadenze.
+
+## 1.225.12 · 21 novembre 2026
+
+La prova è passata da mezzi e multe, attività, commesse, documenti, profilo e vendite. Il difetto più serio riguarda il
+saldo di un preventivo dopo un acconto stornato.
+
+> **Dopo l'aggiornamento**: in «Fattura… → Saldo» dal preventivo si detraggono solo gli acconti rimasti in piedi: un
+> acconto stornato con una nota di credito non viene più tolto dal saldo. In «Salva come modello» di una commessa il
+> codice scritto e le due spunte ora valgono: un modello salvato senza «Mantieni le persone assegnate alle attività»
+> nasce davvero senza le persone.
+
+**Correzioni**
+
+- **Saldo dopo un acconto stornato**: il saldo dal preventivo toglieva tutti gli acconti fatturati, anche quelli già
+  stornati con una nota di credito. Dopo un acconto fatturato per errore e stornato, al cliente si fatturava meno del
+  preventivo. Ora di ogni acconto si detrae quello che resta, al centesimo, anche quando lo storno è parziale.
+- **Salva come modello (commesse)**: il codice scritto nella finestra, «Copia i membri» e «Mantieni le persone assegnate
+  alle attività» non avevano effetto: il modello prendeva sempre il codice successivo, con i membri e con le persone.
+  Ora il codice è quello scritto (se è già usato lo dice) e le due scelte fanno quello che dicono.
+- **Scadenze dei mezzi e delle attrezzature**: con la ripetizione «Altro…» e i mesi non scritti, la scadenza si salvava
+  come «non si ripete».
+- **Fattura d'acconto**: una percentuale scritta male viene segnata sul campo, con i limiti (da 1 a 100).
+- **Profilo, «Quando disturbarmi»**: ritardo del mattino e anticipo della sera lasciati vuoti vengono segnati.
+- **Guida**: aggiornati i capitoli su saldo e acconti, modelli di commessa e scadenze dei mezzi.
+
+## 1.225.11 · 21 novembre 2026
+
+La prova è passata da comunicazioni, presenze, schede tecniche degli impianti e indicatori (premi e schede delle
+persone).
+
+> **Dopo l'aggiornamento**: se tra i modelli di conteggio delle presenze c'erano dei doppioni dei due modelli di serie
+> (due «Giornaliero 8 ore», due «A mezz'ore con fasce»), al primo avvio spariscono: solo quelli identici, mai cambiati e
+> mai assegnati a qualcuno. I modelli creati o modificati da voi non vengono toccati.
+
+**Correzioni**
+
+- **Modelli di conteggio doppi**: alla prima apertura del report delle presenze i due modelli di serie potevano nascere
+  due volte, tutti e due «predefiniti». Ora nascono una volta sola.
+- **Modelli di conteggio, numeri fuori misura**: un valore fuori dai limiti veniva rifiutato con un messaggio in minuti
+  per un campo in ore, e veniva segnato un altro campo dal nome simile; un campo lasciato vuoto valeva zero. Ora ogni
+  numero ha i suoi limiti scritti nel messaggio e si segna il campo giusto. Il giorno da cui vale un'assegnazione deve
+  avere un anno sensato.
+- **Comunicazioni, riunioni**: giorno, ora, fine dopo l'inizio e link della videochiamata si controllano prima della
+  conferma di pubblicazione, con il campo segnato. Prima lo si scopriva a conferma già data.
+- **Premi**: un peso, una soglia o la percentuale di una fascia scritti male si salvavano vuoti. Ora il campo viene
+  segnato.
+- **Schede delle persone**: la nota di un colloquio accettava un giorno nel futuro e finiva nell'anno dopo, fuori
+  dall'elenco. Ora il giorno arriva fino a oggi. Una valutazione salvata senza voti né motivazione non dice più
+  «salvata».
+- **Guida**: aggiornati i capitoli su comunicazioni, modelli di conteggio, valutazioni e premi.
+
+## 1.225.10 · 21 novembre 2026
+
+La prova è passata dalle finestre interne di preventivi, acquisti, magazzino e contabilità: quelle che si aprono da
+un'altra finestra e che i giri precedenti non avevano mai raggiunto. Le correzioni che contano sono sui conti.
+
+> **Dopo l'aggiornamento**: nel registro IVA degli acquisti una fattura con righe a detraibilità diversa (per esempio
+> un'auto al 40% e il resto al 100%) ha una riga per ogni detraibilità. Le registrazioni già fatte restano come sono
+> finché la fattura non viene salvata di nuovo. Il cliente di un preventivo collegato a un progetto o a una commessa non
+> si cambia più: prima va tolto il collegamento. Nei solleciti ai fornitori il giorno «Da risentire il» non può essere
+> già passato.
+
+**Novità**
+
+- **Bilancio di verifica**: quando una scrittura libera ha mosso il conto dei clienti o dei fornitori senza indicare il
+  nome, sotto i saldi compare la riga «Senza cliente» o «Senza fornitore»: è la differenza tra il saldo del conto e la
+  somma dei nomi.
+- **Scrittura libera**: una riga sul conto dei clienti o dei fornitori senza il nome chiede conferma prima di
+  registrare.
+- **Guida**: aggiornati i capitoli su prima nota, registri IVA, bilancio di verifica, preventivi, acquisti e stati di
+  avanzamento.
+
+**Correzioni**
+
+- **IVA detraibile riga per riga**: con righe della stessa aliquota a detraibilità diversa, la parte non detraibile
+  veniva calcolata con una percentuale media arrotondata e scartava di qualche centesimo, di più al crescere
+  dell'importo. Ora ogni detraibilità ha la sua riga nel registro, con la sua parte di imponibile e di imposta, e
+  l'imposta detraibile è proprio la percentuale scritta accanto.
+- **Conti delle righe di una fattura d'acquisto**: una detraibilità lasciata vuota o scritta male diventava 100% senza
+  dirlo. Ora il campo viene segnato.
+- **Liquidazione IVA**: l'acconto di dicembre scritto male o negativo non vale più zero: la chiusura si ferma e segna il
+  campo.
+- **Scrittura libera**: il nome di un cliente o di un fornitore scritto e non scelto dall'elenco si perdeva senza
+  avviso. Ora ferma la registrazione.
+- **Preventivi, cambio del cliente**: cambiando il cliente, il preventivo restava nel progetto del cliente di prima, e
+  accettandolo risultava accettato quel progetto. Ora il programma lo dice subito e spiega come togliere il
+  collegamento.
+- **Preventivi, «Apri la commessa»**: le ore stimate scritte male aprivano la commessa con zero ore.
+- **Preventivi, offerta del fornitore**: in un foglio Excel o CSV la partita IVA scritta in una riga sopra la tabella
+  non faceva riconoscere il fornitore. Un ricarico scritto male non fermava «Aggiungi»: le righe entravano con quello di
+  prima.
+- **Acquisti, risposte dei fornitori**: uno sconto o dei giorni di consegna sbagliati davano un avviso generico senza
+  indicare il campo. Ora viene segnato il campo, con i limiti.
+- **Acquisti, solleciti**: i controlli sul giorno e sulla nota arrivavano dopo l'invio dell'email: il sollecito poteva
+  partire senza restare registrato. Ora si controlla prima di spedire.
+- **Acquisti, «Arrivato senza magazzino»**: una quantità negativa o più alta dell'ordinato veniva rifiutata con «quantità
+  non valida», senza indicare il campo né il limite.
+- **Acquisti, «Ordina il materiale» dal preventivo**: una quantità scritta male valeva zero e la voce restava fuori
+  dall'ordine senza avviso.
+- **Magazzino, carico da un documento**: il bordo rosso della quantità restava anche dopo averla corretta.
+- **Commesse, stati di avanzamento**: la data di un SAL accettava il futuro. Ora arriva fino a oggi.
+
+## 1.225.9 · 21 novembre 2026
+
+Ancora la prova sui comandi mai comparsi: le finestre interne di preventivi e vendite. Una correzione sulla contabilità.
+
+> **Dopo l'aggiornamento**: importando lo storico delle vendite, una fattura con la data precedente all'inizio della
+> contabilità e segnata «già incassata» resta fuori dai conti insieme al suo incasso. Prima l'incasso poteva entrare in
+> prima nota da solo.
+
+**Correzioni**
+
+- **Storico delle vendite e contabilità**: una fattura di prima dell'inizio della contabilità, importata «già
+  incassata» con la scadenza dopo l'inizio, metteva in prima nota l'incasso senza la fattura: il cliente risultava a
+  credito senza rate aperte. Ora l'incasso prende la data della fattura e resta fuori dai conti con lei.
+- **Guida**: aggiornato il capitolo sullo storico delle vendite.
+
+## 1.225.8 · 21 novembre 2026
+
+Le importazioni da file, provate una per una: clienti, attività, commesse, personale, mezzi, dispositivi del
+monitoraggio, preventivi, ordini, fatture storiche, listino, listini dei fornitori, password, estratti conto. Ogni
+elenco è stato esportato e riletto, poi importato con testi lunghissimi, date e numeri impossibili.
+
+> **Dopo l'aggiornamento**: nelle anteprime delle importazioni una data che non esiste (come il 31 febbraio) viene
+> segnalata sulla riga. Un valore troppo lungo o scritto male non fa più rifiutare la riga dopo l'anteprima: la riga
+> entra e il valore finisce nelle note, tra le cose «Da controllare».
+
+**Novità**
+
+- **Importazione dei clienti**: dall'anteprima il tasto «Le colonne» riporta alla scelta delle colonne con le scelte
+  già fatte. Se un file Excel ha altri fogli non letti, l'anteprima lo dice.
+- **Guida**: aggiornati i capitoli sulle importazioni, sull'estratto conto e sui listini dei fornitori.
+
+**Correzioni**
+
+- **Date che non esistono**: nelle importazioni da foglio una data impossibile veniva accettata nell'anteprima. Ora
+  viene segnalata. In personale, mezzi e preventivi alcune date sbagliate sparivano senza lasciare traccia.
+- **Righe date per buone e poi rifiutate**: in attività, commesse, personale, mezzi, dispositivi, preventivi, ordini e
+  fatture storiche un titolo troppo lungo, un telefono, dei chilometri o uno sconto scritti male passavano l'anteprima e
+  venivano rifiutati dopo. Ora o lo dice l'anteprima, o la riga entra con il valore tra le cose «Da controllare».
+- **Importazione dei clienti**: con le colonne non importate messe nelle note, i numeri di riga dei messaggi non
+  corrispondevano a quelli del foglio.
+- **Estratto conto**: una riga con una data inesistente entrava nei totali mostrati e poi veniva scartata. Ora è un
+  errore sulla riga e resta fuori dai totali. Nell'abbinamento un importo a zero o negativo viene segnato.
+- **Listino**: i messaggi indicavano la riga con un numero più basso di uno.
+- **Listini dei fornitori**: con il nome del listino cancellato l'importazione partiva lo stesso.
+- **Scadenze**: lo scadenzario esportato non veniva riletto dall'importazione.
+- **Password**: nell'importazione le voci scelte senza nome ora vengono segnate.
+
 ## 1.225.7 · 21 novembre 2026
 
 L'ultima parte della prova a tappeto. Ogni funzione del server (sono 1.277) è stata chiamata direttamente, senza passare

@@ -23,7 +23,7 @@ Dalla 1.225.0 **Stampa** (in **⋯ Altro**) stampa gli articoli caricati nell'el
    - le **righe non lette**, con il numero di riga e il motivo; si saltano e il resto si importa;
    - i primi articoli, per controllare prezzi e descrizioni.
 3. **Produttore, fornitore e sconti**:
-   - il nome del listino;
+   - il nome del listino (serve: se lo cancelli viene chiesto di nuovo);
    - il **produttore**: è già proposto quello con la stessa sigla METEL o partita IVA. Se non c'è, si crea con il nome proposto dalla descrizione del listino (lo puoi correggere), con la sua cartella in Documenti;
    - il **fornitore** dell'anagrafica: è già proposto quello con la stessa partita IVA. Chi può creare clienti lo crea anche al volo, con il ruolo Fornitore e la partita IVA del listino;
    - su quale prezzo si applicano gli sconti: al rivenditore oppure al pubblico. Se il prezzo scelto manca per un articolo, si usa l'altro;

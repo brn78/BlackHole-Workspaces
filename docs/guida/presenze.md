@@ -143,6 +143,8 @@ Si gestiscono in **⋯ Altro → Modelli di conteggio** della linguetta Report, 
 
 **A chi valgono**: il predefinito vale per tutti; con **Assegna** un modello vale da un giorno per tutta l'azienda o per una persona (quella della persona vale prima). Così si cambia modello nel tempo senza toccare i mesi prima. In **Per** il campo vuoto vuol dire tutta l'azienda; per una persona sola si scrive il nome, la mansione o il reparto e la si sceglie dall'elenco (dalla 1.202.2, prima una tendina): un nome scritto e non scelto non si assegna.
 
+Dalla 1.225.11 ogni numero del modello ha i suoi **limiti** (la giornata da 1 a 16 ore, le maggiorazioni da 0 a 300, i minuti interi…): un valore fuori misura o un campo lasciato vuoto ferma **Salva** e si segna proprio quel campo, con i limiti scritti nel messaggio. Il giorno di un'assegnazione deve avere un anno sensato. I due modelli di serie nascono una volta sola: prima, aprendo il report per la prima volta, potevano comparire **doppi** (due «Giornaliero 8 ore», tutti e due predefiniti); i doppioni identici, mai cambiati e mai assegnati, si tolgono da soli al primo avvio.
+
 ## <a id="presenze-impostazioni"></a>Impostazioni
 
 Dalla 1.155.7 le regole delle presenze stanno in **Impostazioni → Telegram e presenze**, accanto al bot che le applica, in riquadri: posizione e privacy, sedi e cantieri, ore e attività, viaggio, chiusura dell'attività, reperibilità; ognuno si salva con il suo **Salva**, in fondo al riquadro. Il pulsante **Impostazioni** della pagina Presenze porta lì l'amministratore; chi gestisce le presenze senza essere amministratore le trova nella finestra della pagina, negli stessi gruppi, e chi le vede soltanto le legge in **Regole**.

@@ -6,7 +6,7 @@
 
 ## <a id="comunicazioni-nuova"></a>Scrivere e pubblicare
 
-1. Premi **Nuova comunicazione** e scegli il **tipo**: un avviso (Avviso, Comunicato, Circolare) o una riunione (Riunione, Assemblea, Convocazione). Per una riunione scrivi giorno, ora d'inizio e, se vuoi, di fine, il luogo, il link della videochiamata e l'ordine del giorno, un punto per riga.
+1. Premi **Nuova comunicazione** e scegli il **tipo**: un avviso (Avviso, Comunicato, Circolare) o una riunione (Riunione, Assemblea, Convocazione). Per una riunione scrivi giorno, ora d'inizio e, se vuoi, di fine, il luogo, il link della videochiamata e l'ordine del giorno, un punto per riga. Giorno e ora sono obbligatori, la fine viene dopo l'inizio e il link comincia con https://: se qualcosa non va, **Pubblica** si ferma subito e segna il campo (dalla 1.225.11; prima lo si scopriva dopo la conferma).
 2. Scrivi il **titolo** e il **testo**: arriva così com'è nella bacheca, nell'email e su Telegram. Gli indirizzi web diventano link.
 3. Scegli **a chi**: sotto compare il riepilogo, per esempio *«Il reparto Cantiere: la ricevono 12 persone, per email 10 (2 senza indirizzo), su Telegram 4 (8 senza il bot), con la campanella 6»*. **Vedi chi** mostra le persone una per una, con i canali che hanno.
 4. Scegli **come arriva** (email e Telegram si possono spuntare solo se sono accesi nelle [impostazioni](impostazioni.md)) e **che cosa chiedi**: la **presa visione** (la conferma di averla letta) e, per le riunioni, **«Ci sarò / Non ci sarò»**.

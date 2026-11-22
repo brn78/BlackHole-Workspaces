@@ -83,7 +83,7 @@ Dalla 1.165.0 la linguetta **Materiale** mostra il materiale movimentato per la 
 
 - Un **modello** raccoglie le attività tipo di un lavoro che si ripete (un'installazione, un sito, una pratica): **⋯ Altro → Modelli di commessa** (dalla 1.159.0) li elenca nel pannello a destra, con «Nuovo modello», l'importazione, l'esportazione e la stampa, e un clic apre la pagina del modello, con le sue attività tipo, che si creano e si modificano come le altre. Le date sono **giorni dall'inizio della commessa** (*Inizio: giorno 0*, *Scadenza: giorno 5*). **Nuovo modello** ne crea uno vuoto.
 - **Usa** (o **Nuova commessa → da un modello**) chiede codice, nome, cliente, responsabile e data di inizio, e crea la commessa con tutte le attività: i giorni diventano date vere e ogni attività prende un numero nuovo. Puoi copiare i membri del modello e mantenere le persone assegnate (in una commessa riservata, solo quelle che la vedono).
-- **Salva come modello**, nel menu **⋯** della pagina di una commessa, crea un modello da una commessa riuscita: le date diventano giorni dall'inizio; commenti, ore e file non si copiano.
+- **Salva come modello**, nel menu **⋯** della pagina di una commessa, crea un modello da una commessa riuscita: le date diventano giorni dall'inizio; commenti, ore e file non si copiano. Il **codice** scritto nella finestra è quello del modello (se è già usato lo dice), **Copia i membri** e **Mantieni le persone assegnate alle attività** fanno quello che dicono (dalla 1.225.12: prima il modello prendeva sempre il codice successivo, con i membri e con le persone, qualunque cosa si scegliesse).
 - Le attività dei modelli si vedono solo dal modello: non compaiono nella pagina Attività, nella ricerca né nella Home, non si condividono e non hanno ore né file.
 - I modelli ci sono per chi può creare commesse o gestirle tutte; i modelli li crea e li modifica chi può **Gestire tutte le commesse**.
 
@@ -111,7 +111,7 @@ La scheda **Economia** della pagina Commesse elenca le commesse con ricavo e cos
 
 La linguetta **SAL** della pagina della commessa (dalla 1.163.0, per chi ha **Budget e consuntivo delle commesse**) è lo **stato di avanzamento lavori**: l'ufficio tecnico scrive a che punto sono i lavori e l'amministrazione lo trova da fatturare. In alto il **valore della commessa** (l'imponibile dei suoi [preventivi accettati](preventivi.md)), il **fatturato** (fatture emesse meno note di credito, acconti compresi) e l'avanzamento dell'ultimo SAL.
 
-1. **Nuovo SAL**: la percentuale raggiunta (oltre quella dell'ultimo SAL, al massimo 100), la data e i lavori eseguiti. Sotto si legge subito quanto andrà da fatturare.
+1. **Nuovo SAL**: la percentuale raggiunta (oltre quella dell'ultimo SAL, al massimo 100), la data (fino a oggi: un SAL dice i lavori già fatti, mai nel futuro) e i lavori eseguiti. Sotto si legge subito quanto andrà da fatturare.
 2. L'importo è **valore × percentuale meno il già fatturato**: al 30 % di una commessa da 100.000 € con un acconto di 10.000 € già fatturato, il SAL vale 20.000 €. Si calcola a oggi, così un acconto fatturato nel frattempo si toglie da solo.
 3. Il SAL va in [Fatturazione → Da fatturare](vendite.md#vendite-fatture), nella parte **SAL delle commesse**: **Fattura** prepara la fattura in bozza con la riga «SAL n. … al …%», divisa tra le aliquote IVA come nei preventivi. All'emissione il SAL risulta **fatturato** con il numero della fattura; riportandola in bozza torna da fatturare.
 

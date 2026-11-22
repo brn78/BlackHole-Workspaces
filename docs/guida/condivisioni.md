@@ -24,6 +24,8 @@ Il link usa l'**indirizzo pubblico** della piattaforma (Impostazioni → Accesso
 
 Con **Accetta file**, chi apre il link a una cartella trova **Carica file** e un riquadro in cui trascinarli. La prima volta scrive il suo nome (il browser lo ricorda). I file finiscono nella cartella aperta, con autore «nome (tramite link)» e una nota nella revisione; un nome già usato diventa «nome (2)», così nessun file viene sostituito. A chi ha creato il link arriva una [notifica](notifiche.md) per ogni file: un clic lo apre in Documenti. Al massimo 2 GB per file e 20 GB in tutto per ogni link. Per accettare file, il link deve condividere una cartella in cui puoi caricare tu.
 
+Con un link **non si mandano programmi né file di comandi** (dalla 1.225.14): *.exe*, *.msi*, *.bat*, *.cmd*, *.ps1*, *.vbs*, *.js*, *.lnk*, *.dll* e gli altri tipi che Windows avvia con un doppio clic. Chi usa il link è una persona di fuori, senza utenza, e il file arriverebbe nei Documenti con accanto il nome di chi ha creato il link. La pagina lo dice appena si sceglie il file e consiglia di metterlo in un archivio **.zip**, che invece passa. Dentro il programma nulla cambia: chi ha un'utenza continua a caricare nei Documenti installatori e script.
+
 ## <a id="condivisioni-impianto"></a>La documentazione dell'impianto e il QR code
 
 Nella pagina di un [impianto](impianti.md), **Condividi** crea un link alla sua documentazione, da mandare al cliente o da stampare come **etichetta con il QR code** da attaccare alla centrale o al quadro: chi la inquadra con il telefono trova tutto senza chiedere. Nella finestra scegli che cosa mostra:

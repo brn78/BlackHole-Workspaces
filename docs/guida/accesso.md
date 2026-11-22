@@ -22,6 +22,8 @@ Inserisci **nome utente o email** e password. L'opzione **Mantieni l'accesso su 
 
 Se è attiva sul tuo account, dopo la password viene chiesto il **codice a 6 cifre** dell'app di autenticazione sul telefono (Google Authenticator, Microsoft Authenticator e simili). Senza telefono puoi usare uno dei **codici di recupero** ricevuti all'attivazione: ognuno vale una volta sola. Puoi anche scegliere di **non ricevere più la richiesta su quel browser** per il periodo stabilito dall'amministratore. Si attiva e si gestisce da [Profilo e sicurezza](profilo.md).
 
+Il codice **parte da solo alla sesta cifra** (dalla 1.225.14), scritto o incollato: non serve premere **Verifica**. Lo stesso vale quando attivi la verifica, al primo accesso o dal profilo. Se il codice è sbagliato il campo si svuota e lo riscrivi; lo stesso codice scritto due volte di fila aspetta il pulsante. Su un PC condiviso togli la spunta **Non chiedere più il codice su questo browser prima** di scrivere il codice, perché alla sesta cifra l'accesso è già fatto.
+
 ## <a id="accesso-obblighi"></a>Cambio password e attivazione obbligatori
 
 L'amministratore o una policy possono richiedere di **scegliere una nuova password** (primo accesso, password scaduta) o di **attivare la verifica in due passaggi**. In quel caso, dopo la password, la pagina di accesso ti guida nel passaggio richiesto: finché non lo completi la piattaforma non si apre. Quando scegli la nuova password, sotto il campo di conferma compare subito se le due password coincidono.

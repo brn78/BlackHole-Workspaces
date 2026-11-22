@@ -4,6 +4,40 @@ Il setup di ogni versione è nella pagina [Releases](https://github.com/brn78/Bl
 Per aggiornare basta **Scarica e installa** in *Sistema → Impostazioni → Aggiornamento del programma* (dalla 1.136.0),
 oppure caricare il setup nello stesso riquadro o eseguirlo sul server: dati, account e impostazioni restano.
 
+## 1.225.14 · 22 novembre 2026
+
+Finita la prova di ogni comando, sono stati ripresi i punti che erano rimasti aperti: quattro sono sistemati qui. In
+più, il codice della verifica in due passaggi ora parte da solo.
+
+> **Dopo l'aggiornamento**: all'accesso con la verifica in due passaggi il codice parte da solo alla sesta cifra, senza
+> premere «Verifica»: su un PC condiviso la spunta «Non chiedere più il codice su questo browser» va tolta prima di
+> scrivere il codice. Con un link di condivisione che accetta file non si possono più mandare programmi né file di
+> comandi (.exe, .bat, .ps1 e simili): vanno messi in un archivio .zip. Una richiesta d'offerta ordinata solo in parte
+> resta aperta, e diventa «Ordinata» quando tutte le righe sono in un ordine.
+
+**Novità**
+
+- **Codice a 6 cifre che parte da solo**: nel secondo passaggio dell'accesso, e quando si attiva la verifica in due
+  passaggi (al primo accesso o dal profilo), appena la sesta cifra è scritta o incollata il codice viene inviato. Se è
+  sbagliato il campo si svuota e si riscrive; lo stesso codice scritto due volte di fila aspetta il pulsante. Per
+  disattivare la verifica serve ancora il pulsante.
+
+**Correzioni**
+
+- **Saldo dopo una nota di credito scritta a mano**: il saldo dal preventivo teneva conto solo delle note di credito
+  nate dalle righe dell'acconto. Una nota di credito scritta a mano sull'acconto, con righe sue, non contava, e il saldo
+  toglieva ancora l'acconto intero. Ora il suo importo si toglie dall'acconto, aliquota per aliquota, al centesimo.
+- **Richiesta d'offerta ordinata in parte**: ordinando anche una sola riga la richiesta diventava «Ordinata» e per le
+  altre non si poteva più aprire il confronto. Ora resta aperta finché ha righe da ordinare; in «Confronta e ordina» si
+  scelgono le righe rimaste, quelle già ordinate compaiono in fondo con il numero del loro ordine e non si possono
+  ordinare due volte.
+- **Link che accettano file**: chi apre il link da fuori non può più caricare programmi e file di comandi, cioè i tipi
+  che Windows avvia con un doppio clic. La pagina lo dice appena si sceglie il file e consiglia l'archivio .zip. Per gli
+  utenti del programma, nei Documenti, non cambia nulla.
+- **Dati dimostrativi**: gli indirizzi email e i siti delle schede di esempio ora stanno tutti sotto «.example», il nome
+  riservato agli esempi, così una prova di invio non può arrivare a un indirizzo che esiste davvero.
+- **Guida**: aggiornati i capitoli su accesso, condivisioni, acquisti e vendite.
+
 ## 1.225.13 · 21 novembre 2026
 
 Ancora la prova sui comandi che nei giri precedenti non erano mai comparsi sullo schermo: la chiusura del mese delle
